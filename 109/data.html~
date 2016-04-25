@@ -1,0 +1,268 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><title>Data Table</title></head><body>
+<h2><span class="normaltext"><font color="#ff8c00" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Forward Neutral Pion Transverse Single Spin Asymmetries in p+p Collisions at &radic;s=200 GeV</font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><br>B.I. Abelev et al, submitted to Phys. Rev. Lett. <a href="http://arxiv.org/abs/0801.2990"> [arXiv:0801.2990]</a> </font></span></h2>
+<hr>
+
+<h2>
+Figure 1 </h2>(<a href="Fig1.png">.png </a>&nbsp;&nbsp;<a href="Fig1.eps">eps </a>)&nbsp;&nbsp;Correlation between pion longitudinal momentum scaled by &radic;s/2 (x<sub>F</sub>) and transverse momentum (p<sub>T</sub>) for all events.  Bins in x<sub>F</sub> used in Figs. 2 and 4 are indicated by the vertical lines. There is a strong correlation between x<sub>F</sub> and p<sub>T</sub> at a single pseudorapidity (&eta;).
+
+<br>
+<br>
+
+<h2>
+Figure 2 </h2>(<a href="Fig2.png">.png </a>&nbsp;&nbsp;<a href="Fig2.eps">eps </a>)&nbsp;&nbsp;Transverse single spin asymmetries in x<sub>F</sub> bins (see Fig. 1) at two different pseudorapidities (&lt;&eta;&gt;).  Statistical errors are indicated for each point.  Systematic errors are given by the shaded band, excluding normalization uncertainty.  The Sivers and twist-3 calculations are described in the text.  The inset shows examples of the spin-sorted di-photon invariant mass distributions.  The vertical lines mark the &pi;<sup>0</sup> mass.
+<br>
+<br>
+<h3> A<sub>N</sub>(x<sub>F</sub>) </h3>
+<br>
+
+<table border="1">
+  <tbody><tr>
+    <th>E<sub>bin</sub></th>
+    <th colspan="4">&lt;&eta;&gt;=3.7</th>
+    <th colspan="4">&lt;&eta;&gt;=3.3</th>
+  </tr>
+    <th>[GeV]</th>
+    <th>&lt;x<sub>F</sub>&gt;</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+    <th>&lt;x<sub>F</sub>&gt;</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+  </tr>
+
+<tr>
+ <td>18-22</td><td>     </td><td>       </td><td>       </td><td>      </td><td>0.201</td><td>0.00087</td><td>0.00130</td><td>0.0019</td> </tr>
+<tr>
+ <td>22-25</td><td>0.237</td><td>0.00571</td><td>0.00579</td><td>0.0063</td><td>0.234</td><td>0.00213</td><td>0.00157</td><td>0.0006</td> </tr>
+<tr>
+ <td>25-30</td><td>0.283</td><td>0.00192</td><td>0.00122</td><td>0.0004</td><td>0.270</td><td>0.01021</td><td>0.00174</td><td>0.0009</td> </tr>
+<tr>
+ <td>30-35</td><td>0.322</td><td>0.00909</td><td>0.00093</td><td>0.0004</td><td>0.320</td><td>0.02726</td><td>0.00315</td><td>0.0011</td> </tr>
+<tr>
+ <td>35-40</td><td>0.371</td><td>0.02343</td><td>0.00144</td><td>0.0004</td><td>0.370</td><td>0.03917</td><td>0.00579</td><td>0.0019</td> </tr>
+<tr>
+ <td>40-47</td><td>0.427</td><td>0.03859</td><td>0.00228</td><td>0.0008</td><td>0.425</td><td>0.05333</td><td>0.01015</td><td>0.0004</td> </tr>
+<tr>
+ <td>47-56</td><td>0.501</td><td>0.06916</td><td>0.00478</td><td>0.0004</td><td>0.499</td><td>0.05989</td><td>0.02630</td><td>0.0073</td> </tr>
+<tr>
+ <td>56-80</td><td>0.598</td><td>0.10345</td><td>0.01369</td><td>0.0051</td><td>     </td><td>       </td><td>       </td><td>      </td> </tr>
+
+</tbody></table>
+<br>
+<br>
+<h3> A<sub>N</sub>(-x<sub>F</sub>) </h3>
+<br>
+
+<table border="1">
+  <tbody><tr>
+    <th>E<sub>bin</sub></th>
+    <th colspan="4">&lt;&eta;&gt;=3.7</th>
+    <th colspan="4">&lt;&eta;&gt;=3.3</th>
+  </tr>
+    <th>[GeV]</th>
+    <th>&lt;x<sub>F</sub>&gt;</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+    <th>&lt;x<sub>F</sub>&gt;</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+  </tr>
+
+<tr>
+ <td>18-22</td><td>      </td><td>       </td><td>       </td><td>      </td><td>-0.201</td><td>-0.00039</td><td>0.00127</td><td>0.0020</td> </tr>
+<tr>
+ <td>22-25</td><td>-0.237</td><td>0.00538</td><td>0.00538</td><td>0.0067</td><td>-0.234</td><td> 0.00032</td><td>0.00153</td><td>0.0005</td> </tr>
+<tr>
+ <td>25-30</td><td>-0.283</td><td>0.00123</td><td>0.00123</td><td>0.0013</td><td>-0.270</td><td> 0.00229</td><td>0.00170</td><td>0.0011</td> </tr>
+<tr>
+ <td>30-35</td><td>-0.322</td><td>0.00095</td><td>0.00095</td><td>0.0004</td><td>-0.320</td><td>-0.00454</td><td>0.00307</td><td>0.0007</td> </tr>
+<tr>
+ <td>35-40</td><td>-0.371</td><td>0.00147</td><td>0.00147</td><td>0.0004</td><td>-0.370</td><td> 0.00390</td><td>0.00566</td><td>0.0021</td> </tr>
+<tr>
+ <td>40-47</td><td>-0.427</td><td>0.00233</td><td>0.00233</td><td>0.0009</td><td>-0.425</td><td>-0.01457</td><td>0.00990</td><td>0.0027</td> </tr>
+<tr>
+ <td>47-56</td><td>-0.501</td><td>0.00489</td><td>0.00489</td><td>0.0014</td><td>-0.499</td><td> 0.01008</td><td>0.02574</td><td>0.0122</td> </tr>
+<tr>
+ <td>56-80</td><td>-0.598</td><td>0.01405</td><td>0.01405</td><td>0.0068</td><td>      </td><td>       </td><td>       </td><td>      </td> </tr>
+
+</tbody></table>
+
+
+
+<h2>
+Figure 3 </h2>(<a href="Fig3.png">.png </a>&nbsp;&nbsp;<a href="Fig3.eps">eps </a>)&nbsp;&nbsp;Transverse single spin asymmetries versus &pi;<sup>0</sup> transverse momentum (p<sub>T</sub>) for events with scaled &pi;<sup>0</sup> longitudinal momentum |x<sub>F</sub>| &gt; 0.4.  Errors are as described for Fig. 2.
+
+
+<br>
+<br>
+<h3> A<sub>N</sub>(p<sub>T</sub>) for |x<sub>F</sub>| &gt; 0.4 </h3>
+<br>
+
+<table border="1">
+  <tbody><tr>
+    <th>p<sub>T</sub></th>
+    <th colspan="3">x<sub>F</sub>&nbsp;&gt;&nbsp;0.4</th>
+    <th colspan="3">x<sub>F</sub>&nbsp;&lt;&nbsp;-0.4</th>
+  </tr>
+    <th>[GeV/c]</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+  </tr>
+
+<tr>
+ <td>1.283</td><td>0.05070</td><td>0.01460</td><td>0.0056</td><td>-0.00751</td><td>0.01682</td><td>0.0028</td> </tr>
+<tr>
+ <td>1.500</td><td>0.03062</td><td>0.01249</td><td>0.0042</td><td>-0.01051</td><td>0.01403</td><td>0.0019</td> </tr>
+<tr>
+ <td>1.713</td><td>0.02595</td><td>0.00543</td><td>0.0009</td><td> 0.00005</td><td>0.00561</td><td>0.0010</td> </tr>
+<tr>
+ <td>1.901</td><td>0.03816</td><td>0.00376</td><td>0.0010</td><td> 0.00205</td><td>0.00386</td><td>0.0013</td> </tr>
+<tr>
+ <td>2.095</td><td>0.04785</td><td>0.00401</td><td>0.0008</td><td> 0.00374</td><td>0.00411</td><td>0.0007</td> </tr>
+<tr>
+ <td>2.293</td><td>0.05675</td><td>0.00512</td><td>0.0004</td><td>-0.00417</td><td>0.00524</td><td>0.0024</td> </tr>
+<tr>
+ <td>2.531</td><td>0.06055</td><td>0.00599</td><td>0.0004</td><td>-0.00128</td><td>0.00612</td><td>0.0038</td> </tr>
+<tr>
+ <td>2.902</td><td>0.06240</td><td>0.00774</td><td>0.0012</td><td>-0.01195</td><td>0.00780</td><td>0.0021</td> </tr>
+<tr>
+ <td>3.528</td><td>0.05538</td><td>0.01231</td><td>0.0031</td><td>-0.01428</td><td>0.01213</td><td>0.0025</td> </tr>
+
+</tbody></table>
+
+
+
+
+
+<h2>
+Figure 4</h2>(<a href="Fig4.png">.png </a>&nbsp;&nbsp;<a href="Fig4.eps">eps </a>)&nbsp;&nbsp;Transverse single spin asymmetries versus &pi;<sup>0</sup> transverse momentum (p<sub>T</sub>) in fixed x<sub>F</sub> bins (see Fig. 1).  Errors are as described for Fig. 2.  The Sivers and twist-3 calculations are described in the text.
+
+<br>
+<br>
+<h3> A<sub>N</sub>(p<sub>T</sub>) in x<sub>F</sub> bins </h3>
+<br>
+
+<table border="1">
+  <tbody>
+<tr>
+    <th>p<sub>T</sub></th>
+    <th colspan="3">0.25 &lt; x<sub>F</sub> &lt; 0.30, &lt;x<sub>F</sub>&gt;=0.28</th>
+  </tr>
+    <th>[GeV/c]</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+  </tr>
+<tr>
+ <td>0.9551</td><td>0.00598</td><td>0.00445</td><td>0.0051</td>
+<tr>
+ <td>1.2645</td><td>0.00122</td><td>0.00145</td><td>0.0008</td>
+<tr>
+ <td>1.6118</td><td>0.00559</td><td>0.00184</td><td>0.0019</td>
+<tr>
+ <td>2.0959</td><td>0.00954</td><td>0.00216</td><td>0.0004</td>
+<tr>
+ <td>2.5249</td><td>0.02110</td><td>0.00738</td><td>0.0035</td>
+<tr>
+    <th>p<sub>T</sub></th>
+    <th colspan="3">0.30 &lt; x<sub>F</sub> &lt; 0.35, &lt;x<sub>F</sub>&gt;=0.32</th>
+  </tr>
+    <th>[GeV/c]</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+  </tr>
+<tr>
+ <td>1.0571</td><td>0.01380</td><td>0.00501</td><td>0.0004</td>
+<tr>
+ <td>1.4669</td><td>0.00826</td><td>0.00101</td><td>0.0004</td>
+<tr>
+ <td>1.8728</td><td>0.01229</td><td>0.00221</td><td>0.0004</td>
+<tr>
+ <td>2.4107</td><td>0.03089</td><td>0.00379</td><td>0.0004</td>
+<tr>
+ <td>2.8514</td><td>0.03401</td><td>0.00937</td><td>0.0016</td>
+<tr>
+    <th>p<sub>T</sub></th>
+    <th colspan="3">0.35 &lt; x<sub>F</sub> &lt; 0.40, &lt;x<sub>F</sub>&gt;=0.37</th>
+  </tr>
+    <th>[GeV/c]</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+  </tr>
+<tr>
+ <td>1.2912</td><td>0.00817</td><td>0.00441</td><td>0.0028</td>
+<tr>
+ <td>1.6959</td><td>0.02016</td><td>0.00174</td><td>0.0004</td>
+<tr>
+ <td>2.0779</td><td>0.03596</td><td>0.00290</td><td>0.0006</td>
+<tr>
+ <td>2.6443</td><td>0.03959</td><td>0.00582</td><td>0.0007</td>
+<tr>
+ <td>3.1814</td><td>0.03685</td><td>0.01383</td><td>0.0029</td>
+<tr>
+    <th>p<sub>T</sub></th>
+    <th colspan="3">0.40 &lt; x<sub>F</sub> &lt; 0.47, &lt;x<sub>F</sub>&gt;=0.43</th>
+  </tr>
+    <th>[GeV/c]</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+  </tr>
+<tr>
+ <td>1.5516</td><td>0.02623</td><td>0.00480</td><td>0.0004</td>
+<tr>
+ <td>1.9819</td><td>0.04036</td><td>0.00292</td><td>0.0011</td>
+<tr>
+ <td>2.4307</td><td>0.04523</td><td>0.00474</td><td>0.0010</td>
+<tr>
+ <td>3.2374</td><td>0.06155</td><td>0.01102</td><td>0.0020</td>
+<tr>
+    <th>p<sub>T</sub></th>
+    <th colspan="3">0.47 &lt; x<sub>F</sub> &lt; 0.56, &lt;x<sub>F</sub>&gt;=0.50</th>
+  </tr>
+    <th>[GeV/c]</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+  </tr>
+<tr>
+ <td>1.7029</td><td>0.07517</td><td>0.01347</td><td>0.0004</td>
+<tr>
+ <td>2.2041</td><td>0.06459</td><td>0.00640</td><td>0.0004</td>
+<tr>
+ <td>2.5861</td><td>0.07055</td><td>0.00854</td><td>0.0004</td>
+<tr>
+ <td>3.3166</td><td>0.08877</td><td>0.01598</td><td>0.0023</td>
+<tr>
+    <th>p<sub>T</sub></th>
+    <th colspan="3">0.56 &lt; x<sub>F</sub> &lt; 0.80, &lt;x<sub>F</sub>&gt;=0.60</th>
+  </tr>
+    <th>[GeV/c]</th>
+    <th>A<sub>N</sub></th>
+    <th>&delta;A<sub>N</sub>-stat</th>
+    <th>&delta;A<sub>N</sub>-syst</th>
+  </tr>
+<tr>
+ <td>2.2962</td><td>0.08020</td><td>0.01911</td><td>0.0056</td>
+<tr>
+ <td>2.8710</td><td>0.11799</td><td>0.02392</td><td>0.0036</td>
+<tr>
+ <td>3.5122</td><td>0.09162</td><td>0.03986</td><td>0.0114</td>
+
+</tbody></table>
+
+
+
+
+</body></html>

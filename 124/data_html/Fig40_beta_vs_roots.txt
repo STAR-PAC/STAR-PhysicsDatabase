@@ -1,0 +1,33 @@
+Compilation of average flow velocity vs sqrt(s_nn):
+error = total error
+
+FOPI:
+sqrt(s_nn)[GeV]	<beta>	error
+  1.94	0.204	0.011
+  1.98	0.263	0.014
+  2.05	0.334	0.017
+
+EOS:
+sqrt(s_nn)[GeV]	<beta>	error
+  1.98	0.190	0.030
+  2.05	0.220	0.070
+  2.14	0.260	0.040
+  2.23	0.300	0.040
+  2.31	0.320	0.050
+  2.37	0.320	0.040
+
+E866:
+sqrt(s_nn)[GeV]	<beta>	error
+  4.80	0.390	0.050
+
+NA49:
+sqrt(s_nn)[GeV]	<beta>	error
+  8.80	0.450	0.020
+ 12.30	0.470	0.020
+ 17.30	0.480	0.020
+
+STAR:
+sqrt(s_nn)[GeV]	<beta>	error
+ 62.00	0.554	0.018
+130.00	0.567	0.020
+200.00	0.592	0.051

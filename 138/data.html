@@ -1,0 +1,2228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Data points</title>
+<style type="text/css">
+<!--
+.style2 {
+	color: #FF0000;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.style3 {font-family: Geneva, Arial, Helvetica, sans-serif}
+.style4 {
+	color: #FF9900;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.style5 {
+	color: #0000FF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+</head>
+
+<body>
+<h1 class="style3 style4">Neutral Pion Production in Au+Au Collisions at $\sqrt{s_{NN}}$ = 200 GeV; Phys. Rev. C 80 (2009) 044905</h1>
+<hr>
+<p class="style3 style5">Figure 1. The di-photon invariant
+  mass distributions using EMC-TPC method in 0-20\% Au+Au collisions
+at $\sqrt{s_{NN}}$ = 200 GeV.</p>
+<p class="style3 style3 style3 style3">double emctpc_lowpt_minv[50]={0.005, 0.015, 0.025, 0.035, 0.045, 0.055, 0.065, 0.075, 0.085, 0.095, 0.105, 0.115, 0.125, 0.135, 0.145, 0.155, 0.165, 0.175, 0.185, 0.195, 0.205, 0.215, 0.225, 0.235, 0.245, 0.255, 0.265, 0.275, 0.285, 0.295, 0.305, 0.315, 0.325, 0.335, 0.345, 0.355, 0.365, 0.375, 0.385, 0.395, 0.405, 0.415, 0.425, 0.435, 0.445, 0.455, 0.465, 0.475, 0.485, 0.495};<br>
+double emctpc_lowpt_same[50]={3017.0000, 8798.0000, 14270.0000, 19145.0000, 24827.0000, 30333.0000, 35702.0000, 40936.0000, 46392.0000, 51851.0000, 57624.0000, 63175.0000, 69404.0000, 74621.0000, 79763.0000, 83385.0000, 86860.0000, 90916.0000, 94276.0000, 99301.0000, 102485.0000, 106460.0000, 109814.0000, 112964.0000, 117123.0000, 119795.0000, 123088.0000, 125931.0000, 128972.0000, 131286.0000, 134388.0000, 137049.0000, 138722.0000, 140893.0000, 142727.0000, 144742.0000, 146940.0000, 148828.0000, 150282.0000, 151299.0000, 153312.0000, 154841.0000, 156021.0000, 157101.0000, 158255.0000, 158498.0000, 160108.0000, 161966.0000, 162369.0000, 164064.0000};<br>
+double emctpc_lowpt_same_err[50]={54.9272, 93.7977, 119.4571, 138.3655, 157.5659, 174.1637, 188.9497, 202.3265, 215.3880, 227.7081, 240.0500, 251.3464, 263.4464, 273.1684, 282.4234, 288.7646, 294.7202, 301.5228, 307.0440, 315.1206, 320.1328, 326.2821, 331.3820, 336.1012, 342.2324, 346.1141, 350.8390, 354.8676, 359.1267, 362.3341, 366.5897, 370.2013, 372.4540, 375.3572, 377.7923, 380.4497, 383.3275, 385.7823, 387.6622, 388.9717, 391.5508, 393.4984, 394.9949, 396.3597, 397.8128, 398.1181, 400.1350, 402.4500, 402.9504, 405.0481};</p>
+<p class="style3 style3 style3 style3">double emctpc_lowpt_mix[50]={2731.9720, 8304.0340, 13705.9100, 19203.8900, 24461.6100, 30192.8500, 35441.5600, 41218.8400, 46677.7800, 52161.7500, 57260.3000, 62767.2900, 67837.8000, 72855.2600, 77563.3800, 82215.4500, 87567.2700, 91387.4200, 95756.1800, 100163.0000, 104071.2000, 107994.5000, 110986.7000, 115258.4000, 118545.0000, 121561.3000, 124926.9000, 127431.6000, 130484.0000, 132863.5000, 135898.8000, 137690.8000, 140011.3000, 141745.2000, 144259.9000, 145763.6000, 146839.8000, 148998.1000, 151066.4000, 152094.5000, 153791.3000, 155038.7000, 155981.7000, 158039.9000, 158836.8000, 159899.0000, 160961.1000, 161699.9000, 162768.1000, 165286.8000};<br>
+  double emctpc_lowpt_mix_err[50]={52.2967, 91.1761, 117.1360, 138.6536, 156.4872, 173.8555, 188.3618, 203.1348, 216.1680, 228.5138, 239.4215, 250.6704, 260.5987, 270.0641, 278.6537, 286.8885, 296.0788, 302.4681, 309.6134, 316.6576, 322.7763, 328.8041, 333.3281, 339.6821, 344.4910, 348.8462, 353.6424, 357.1700, 361.4223, 364.7030, 368.8453, 371.2691, 374.3846, 376.6956, 380.0225, 381.9978, 383.4054, 386.2129, 388.8841, 390.2052, 392.3759, 393.9639, 395.1602, 397.7588, 398.7603, 400.0914, 401.4180, 402.3382, 403.6649, 406.7762};</p>
+<p class="style3 style3 style3 style3">double emctpc_lowpt_mix_subtracted[50]={369.8700, 751.8500, 989.7300, 537.4900, 1125.0500, 1077.8000, 1361.0900, 997.2200, 1163.8100, 1309.1500, 2141.9400, 2356.9700, 3672.9200, 4028.2800, 4608.3700, 3722.7800, 2012.1600, 2366.6400, 1493.5600, 2248.6200, 1645.7400, 1819.3100, 2273.9800, 1284.9900, 2259.4800, 2008.8700, 2040.7300, 2456.7900, 2540.2600, 2548.5700, 2709.5300, 3634.2300, 3058.7700, 3549.7300, 2947.0900, 3505.1500, 4660.4000, 4457.0800, 3907.0600, 3927.8700, 4296.7200, 4617.1000, 4883.3600, 3969.0400, 4350.9200, 3564.7500, 4145.5800, 5287.7200, 4655.7300, 3910.2100};<br>
+  double emctpc_lowpt_mix_subtracted_err[50]={74.7310, 128.8517, 164.7782, 192.8582, 218.6730, 242.3026, 262.7027, 282.2705, 300.4386, 317.6108, 333.8287, 349.5261, 364.9153, 378.2802, 390.7211, 400.8208, 411.2936, 420.4865, 429.2726, 439.8202, 447.5479, 456.0279, 462.7395, 470.4175, 478.0592, 483.7846, 490.4119, 495.6823, 501.6082, 506.1238, 511.9728, 516.1989, 519.9186, 523.5609, 527.5543, 530.7935, 533.8082, 537.4642, 540.6160, 542.4472, 545.7626, 548.2319, 550.1132, 552.8463, 554.5647, 555.6827, 558.0247, 560.3070, 561.5611, 565.1665};</p>
+<p class="style3 style3 style3 style3">double emctpc_highpt_minv[25]={0.01, 0.03, 0.05, 0.07, 0.09, 0.11, 0.13, 0.15, 0.17, 0.19, 0.21, 0.23, 0.25, 0.27, 0.29, 0.31, 0.33, 0.35, 0.37, 0.39, 0.41, 0.43, 0.45, 0.47, 0.49};<br>
+  double emctpc_highpt_same[25]={3.0000, 4.0000, 5.0000, 4.0000, 4.0000, 12.0000, 19.0000, 24.0000, 17.0000, 8.0000, 6.0000, 7.0000, 12.0000, 14.0000, 12.0000, 11.0000, 13.0000, 15.0000, 19.0000, 23.0000, 19.0000, 21.0000, 16.0000, 21.0000, 25.0000};<br>
+  double emctpc_highpt_same_err[25]={1.7321, 2.0000, 2.2361, 2.0000, 2.0000, 3.4641, 4.3589, 4.8990, 4.1231, 2.8284, 2.4495, 2.6458, 3.4641, 3.7417, 3.4641, 3.3166, 3.6056, 3.8730, 4.3589, 4.7958, 4.3589, 4.5826, 4.0000, 4.5826, 5.0000};</p>
+<p class="style3 style3 style3 style3">double emctpc_highpt_mix[25]={0.4004, 1.6018, 0.4004, 4.4049, 5.6062, 6.0067, 3.6040, 7.2080, 9.6106, 6.8075, 7.6084, 10.8120, 11.2124, 9.2102, 11.2124, 13.6151, 15.2169, 15.2169, 14.4160, 20.0222, 13.2146, 19.6217, 18.8209, 20.4226, 16.8186};<br>
+  double emctpc_highpt_mix_err[25]={0.4004, 0.8009, 0.4004, 1.3281, 1.4983, 1.5509, 1.2013, 1.6989, 1.9618, 1.6511, 1.7455, 2.0808, 2.1189, 1.9205, 2.1189, 2.3350, 2.4685, 2.4685, 2.4027, 2.8316, 2.3004, 2.8031, 2.7453, 2.8597, 2.5952};</p>
+<p class="style3 style3 style3 style3">double emctpc_highpt_mix_subtracted[25]={2.6082, 2.4328, 4.6082, -0.3099, -1.4853, 6.1229, 15.4737, 16.9474, 7.5966, 1.3393, -1.4444, -3.5788, 1.0294, 4.9884, 1.0294, -2.3215, -1.8887, 0.1113, 4.8949, 3.4096, 6.0703, 1.8014, -2.4150, 1.0178, 8.5440};<br>
+  double emctpc_highpt_mix_subtracted_err[25]={1.7758, 2.1480, 2.2701, 2.3851, 2.4798, 3.7819, 4.5146, 5.1733, 4.5480, 3.2573, 2.9861, 3.3384, 4.0371, 4.1870, 4.0371, 4.0273, 4.3398, 4.5644, 4.9524, 5.5386, 4.9057, 5.3406, 4.8182, 5.3693, 5.6078};</p>
+<p class="style3 style3 style3 style3">&nbsp;</p>
+<hr>
+<p class="style3 style5">Figure 2. The di-photon invariant
+  mass distributions using EMC-EMC method in 0-20\% Au+Au collisions
+at $\sqrt{s_{NN}}$ = 200 GeV.</p>
+<p class="style3 style3 style3 style3">double emcemc_minv[25]={0.01, 0.03, 0.05, 0.07, 0.09, 0.11, 0.13, 0.15, 0.17, 0.19, 0.21, 0.23, 0.25, 0.27, 0.29, 0.31, 0.33, 0.35, 0.37, 0.39, 0.41, 0.43, 0.45, 0.47, 0.49};<br>
+double emcemc_same[25]={0.0000, 0.0000, 0.0000, 2.0000, 6.0000, 9.0000, 36.0000, 32.0000, 21.0000, 15.0000, 11.0000, 13.0000, 10.0000, 6.0000, 6.0000, 10.0000, 6.0000, 9.0000, 8.0000, 13.0000, 10.0000, 6.0000, 5.0000, 8.0000, 6.0000};<br>
+double emcemc_same_err[25]={0.0000, 0.0000, 0.0000, 1.4142, 2.4495, 3.0000, 6.0000, 5.6569, 4.5826, 3.8730, 3.3166, 3.6056, 3.1623, 2.4495, 2.4495, 3.1623, 2.4495, 3.0000, 2.8284, 3.6056, 3.1623, 2.4495, 2.2361, 2.8284, 2.4495};</p>
+<p class="style3 style3 style3 style3">double emcemc_mix[25]={0.4800, 0.0000, 1.4400, 0.4800, 1.9200, 1.9200, 3.3600, 2.4000, 3.3600, 0.9600, 3.8400, 4.3200, 4.8000, 4.8000, 5.2800, 3.8400, 3.8400, 5.7600, 4.8000, 4.8000, 7.6800, 3.8400, 6.7200, 4.8000, 4.8000};<br>
+  double emcemc_mix_err[25]={0.4800, 0.0000, 0.8314, 0.4800, 0.9600, 0.9600, 1.2700, 1.0733, 1.2700, 0.6788, 1.3576, 1.4400, 1.5179, 1.5179, 1.5920, 1.3576, 1.3576, 1.6628, 1.5179, 1.5179, 1.9200, 1.3576, 1.7960, 1.5179, 1.5179};</p>
+<p class="style3 style3 style3 style3">double emcemc_mix_subtracted[25]={-0.4800, 0.0000, -1.4400, 1.5200, 4.0800, 7.0800, 32.6400, 29.6000, 17.6400, 14.0400, 7.1600, 8.6800, 5.2000, 1.2000, 0.7200, 6.1600, 2.1600, 3.2400, 3.2000, 8.2000, 2.3200, 2.1600, -1.7200, 3.2000, 1.2000};<br>
+  double emcemc_mix_subtracted_err[25]={0.4800, 0.0000, 0.8314, 1.4935, 2.6309, 3.1499, 6.1329, 5.7578, 4.7553, 3.9320, 3.5837, 3.8825, 3.5077, 2.8817, 2.9214, 3.4414, 2.8006, 3.4300, 3.2100, 3.9120, 3.6995, 2.8006, 2.8680, 3.2100, 2.8817};</p>
+<p class="style3 style3 style3 style3">&nbsp;</p>
+<p class="style3 style3 style3 style3"></p>
+<hr>
+<p class="style3 style5">Figure 3. The $\pi^0$ invariant mass
+  peak position and peak width as a function of $p_T$ in
+0-80\% Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.</p>
+<p class="style3 style3 style3 style3">Real data: </p>
+<table border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+  <tr>
+    <td colspan="5" class="style3 style3 style3 style3"><div align="center">EMC-TPC method in MB events</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3 style3 style3"><div align="center">pT (GeV/c)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak position (MeV/c^2)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak width (MeV/c^2)</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.05 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">134.7960 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.9368 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">21.4697 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.1652 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.35 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">135.5496 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.7975 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">20.3047 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.0127 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.75 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">136.7136 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.6617 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">20.5880 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.7588 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">2.25 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">139.8163 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.9648 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">21.3521 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.1931 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">3.00 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">140.7748 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.0979 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">25.1913 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.4120 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">4.25 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">144.6925 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.1645 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">25.5433 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.3000 </div></td>
+  </tr>
+  <tr>
+    <td colspan="5" class="style3 style3 style3 style3"><div align="center">EMC-TPC method in HT events</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3 style3 style3"><div align="center">pT (GeV/c)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak position (MeV/c^2)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak width (MeV/c^2)</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">4.25 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">139.5101 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.4455 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">15.0360 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 3.2337 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">6.00 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">138.2163 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.5959 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">17.3115 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.5424 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">8.00 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">136.0849 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.8933 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">18.2682 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.5762 </div></td>
+  </tr>
+  <tr>
+    <td colspan="5" class="style3 style3 style3 style3"><div align="center">EMC-EMC method in HT events</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3 style3 style3"><div align="center">pT (GeV/c)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak position (MeV/c^2)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak width (MeV/c^2)</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">4.25 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">122.0800 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.8878 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">29.6390 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 4.6376 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">6.00 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">137.4543 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.9326 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">29.7175 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.1494 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">8.00 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">144.5430 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.3704 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">29.4913 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.5504 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">10.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">147.3247 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.4024 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">26.1715 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.4616 </div></td>
+  </tr>
+</table>
+<p class="style3 style3 style3 style3">Simulation:</p>
+<table border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+  <tr>
+    <td colspan="5" class="style3 style3 style3 style3"><div align="center">EMC-TPC method in MB events</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3 style3 style3"><div align="center">pT (GeV/c)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak position (MeV/c^2)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak width (MeV/c^2)</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">129.4965 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.7246 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">22.1428 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.5098 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">2.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">132.3203 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.3121 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">24.8594 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.1628 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">3.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">133.0462 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.3542 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">27.4856 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.1358 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">4.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">134.2332 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.0402 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">35.3214 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.0163 </div></td>
+  </tr>
+  <tr>
+    <td colspan="5" class="style3 style3 style3 style3"><div align="center">EMC-TPC method in HT events</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3 style3 style3"><div align="center">pT (GeV/c)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak position (MeV/c^2)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak width (MeV/c^2)</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">4.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">129.9684 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 3.0718 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">15.879 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.835 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">5.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">128.9311 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.4417 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">15.000 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 3.306 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">6.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">129.2342 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.9332 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">15.000 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.226 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">7.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">130.9894 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.0008 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">16.754 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.948 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">8.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">130.7059 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.0989 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">17.547 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 1.074 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">9.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">130.8475 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.9857 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">16.795 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.856 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">11.00 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">129.7853 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.7963 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">18.991 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.711 </div></td>
+  </tr>
+  <tr>
+    <td colspan="5" class="style3 style3 style3 style3"><div align="center">EMC-EMC method in HT events</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3 style3 style3"><div align="center">pT (GeV/c)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak position (MeV/c^2)</div></td>
+    <td colspan="2" class="style3 style3 style3 style3"><div align="center">Peak width (MeV/c^2)</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">4.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">120.0000 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.3193 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">23.0481 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 2.0082 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">5.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">121.1505 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.9468 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">23.3873 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.9109 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">6.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">126.3694 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.5166 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">20.8612 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.5422 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">7.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">129.6810 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.4088 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">20.8651 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.4344 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">8.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">132.0213 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.3765 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">20.9522 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.3873 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">9.50 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">134.2460 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.3675 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">20.6322 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.3475 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">11.00 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">138.4282 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.2422 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">20.2189 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center"> 0.2212 </div></td>
+  </tr>
+</table>
+<p class="style3 style3 style3 style3">&nbsp; </p>
+<hr>
+<p class="style3 style5">Figure 4. Photon conversion point radius
+  distributions  in Au+Au collisions
+  at $\sqrt{s_{NN}}$ = 200 GeV.
+  Conversion probability correction factor for $\pi^0$ as a function
+of $p_T$.</p>
+<p class="style3 style3 style3 style3">Conversion point radius distributions:</p>
+<p class="style3 style3 style3 style3">double r[130]={0.50, 1.50, 2.50, 3.50, 4.50, 5.50, 6.50, 7.50, 8.50, 9.50, 10.50, 11.50, 12.50, 13.50, 14.50, 15.50, 16.50, 17.50, 18.50, 19.50, 20.50, 21.50, 22.50, 23.50, 24.50, 25.50, 26.50, 27.50, 28.50, 29.50, 30.50, 31.50, 32.50, 33.50, 34.50, 35.50, 36.50, 37.50, 38.50, 39.50, 40.50, 41.50, 42.50, 43.50, 44.50, 45.50, 46.50, 47.50, 48.50, 49.50, 50.50, 51.50, 52.50, 53.50, 54.50, 55.50, 56.50, 57.50, 58.50, 59.50, 60.50, 61.50, 62.50, 63.50, 64.50, 65.50, 66.50, 67.50, 68.50, 69.50, 70.50, 71.50, 72.50, 73.50, 74.50, 75.50, 76.50, 77.50, 78.50, 79.50, 80.50, 81.50, 82.50, 83.50, 84.50, 85.50, 86.50, 87.50, 88.50, 89.50, 90.50, 91.50, 92.50, 93.50, 94.50, 95.50, 96.50, 97.50, 98.50, 99.50, 100.50, 101.50, 102.50, 103.50, 104.50, 105.50, 106.50, 107.50, 108.50, 109.50, 110.50, 111.50, 112.50, 113.50, 114.50, 115.50, 116.50, 117.50, 118.50, 119.50, 120.50, 121.50, 122.50, 123.50, 124.50, 125.50, 126.50, 127.50, 128.50, 129.50};<br>
+  double nconversion_data[130]={102.000, 575.000, 1706.000, 3766.000, 7235.000, 13141.000, 22549.000, 33832.000, 44207.000, 55646.000, 72031.000, 84283.000, 88370.000, 101147.000, 124043.000, 118232.000, 80410.000, 47408.000, 31748.000, 25074.000, 20108.000, 22107.000, 30276.000, 38130.000, 37028.000, 28022.000, 17792.000, 10646.000, 6546.000, 4275.000, 4269.000, 5781.000, 4511.000, 2259.000, 1296.000, 1048.000, 935.000, 882.000, 872.000, 830.000, 933.000, 1091.000, 1829.000, 3037.000, 5664.000, 11770.000, 23076.000, 27403.000, 16458.000, 6281.000, 3203.000, 2553.000, 2272.000, 1961.000, 1666.000, 1499.000, 1399.000, 1315.000, 1319.000, 1314.000, 1070.000, 1110.000, 1178.000, 1209.000, 1210.000, 1040.000, 1104.000, 1117.000, 1132.000, 1137.000, 1038.000, 1102.000, 1090.000, 1091.000, 1076.000, 1032.000, 1083.000, 1131.000, 1208.000, 1077.000, 1097.000, 1089.000, 1150.000, 1109.000, 1116.000, 1082.000, 1103.000, 1118.000, 1145.000, 1044.000, 1090.000, 1194.000, 1114.000, 1151.000, 1029.000, 1011.000, 1087.000, 1121.000, 1204.000, 997.000, 1026.000, 1078.000, 1111.000, 1171.000, 1049.000, 1054.000, 1135.000, 1170.000, 1261.000, 1121.000, 1010.000, 1124.000, 1223.000, 1189.000, 1132.000, 964.000, 964.000, 881.000, 776.000, 805.000, 675.000, 619.000, 549.000, 500.000, 445.000, 353.000, 342.000, 289.000, 231.000, 242.000};<br>
+double nconversion_sim[130]={0.000, 56.675, 328.716, 1507.560, 3661.218, 6687.673, 12525.220, 20017.680, 24154.970, 26512.660, 36124.770, 43866.600, 39128.560, 42279.700, 56097.110, 57309.960, 34039.120, 17263.270, 12445.870, 11958.470, 9113.372, 7764.502, 12649.900, 15188.950, 14735.550, 10836.300, 6959.714, 5916.891, 6891.704, 8523.950, 4534.016, 1915.622, 850.128, 816.123, 646.097, 612.092, 634.762, 453.402, 476.072, 600.757, 555.417, 759.448, 1224.184, 2493.709, 8489.945, 23146.150, 28428.280, 16537.820, 4862.732, 2221.668, 1530.230, 1314.865, 1405.545, 1212.849, 1212.849, 1337.535, 1156.174, 1076.829, 1110.834, 1348.870, 770.783, 1167.509, 986.149, 1382.875, 1110.834, 997.484, 1042.824, 1167.509, 1258.189, 1269.524, 827.458, 997.484, 1303.530, 1076.829, 1076.829, 1042.824, 1076.829, 1088.164, 1314.865, 1133.504, 1008.819, 1235.519, 1054.159, 1110.834, 1099.499, 1065.494, 1042.824, 1110.834, 1122.169, 1008.819, 1144.839, 974.813, 1133.504, 1258.189, 1008.819, 1224.184, 1144.839, 1212.849, 1178.844, 1054.159, 1133.504, 1008.819, 1371.540, 1541.565, 997.484, 1201.514, 1088.164, 1167.509, 1416.880, 1235.519, 1303.530, 1246.854, 1246.854, 1598.241, 1326.200, 1235.519, 1178.844, 884.133, 895.468, 759.448, 714.107, 612.092, 714.107, 498.742, 374.056, 442.067, 532.747, 294.711, 294.711, 226.701};</p>
+<p class="style3 style3 style3 style3">Conversion probability correction factor: </p>
+<table border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+  <tr>
+    <td class="style3 style3 style3 style3"><div align="center">pT (GeV/c)</div></td>
+    <td class="style3 style3 style3 style3"><div align="center">Conversion probability correction factor</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">0.25 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.4398 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">0.60 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.5821 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">0.80 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.6558 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.05 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.7043 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.35 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.7358 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.75 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.7543 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">2.25 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.7672 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">3.00 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.7740 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">4.25 </div></td>
+    <td align="right" class="style3 style3 style3 style3"><div align="center">1.7808 </div></td>
+  </tr>
+</table>
+<p class="style3 style3 style3 style3">&nbsp;</p>
+<hr>
+<p class="style3 style5">Figure 5. The overall detection efficiency
+  of $\pi^0$  in 0-80\% Au+Au collisions at
+$\sqrt{s_{NN}}$ = 200 GeV.</p>
+<table border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+  <tr>
+    <td colspan="3" class="style3 style3 style3"><div align="center">EMC-TPC method in MB events</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3 style3"><div align="center">pT (GeV/c)</div></td>
+    <td colspan="2" class="style3 style3 style3"><div align="center">Efficiency</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">0.80 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">2.1508E-05</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 2.1509E-05</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">1.05 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">8.8974E-04</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 1.8560E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">1.35 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">4.3122E-03</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 6.6589E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">1.75 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">5.7117E-03</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 4.8346E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">2.25 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">9.2269E-03</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 6.2077E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">3.00 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">1.1444E-02</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 4.7465E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">4.25 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">1.1825E-02</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 3.7944E-04</div></td>
+  </tr>
+  <tr>
+    <td colspan="3" class="style3 style3 style3"><div align="center">EMC-TPC method in HT events</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3 style3"><div align="center">pT (GeV/c)</div></td>
+    <td colspan="2" class="style3 style3 style3"><div align="center">Efficiency</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">4.25 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">2.1232E-04</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 3.4003E-05</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">6.00 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">2.3206E-03</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 1.2542E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">8.00 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">6.2539E-03</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 2.4841E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">10.50 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">7.0893E-03</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 2.2526E-04</div></td>
+  </tr>
+  <tr>
+    <td colspan="3" class="style3 style3 style3"><div align="center">EMC-EMC method in HT events</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3 style3"><div align="center">pT (GeV/c)</div></td>
+    <td colspan="2" class="style3 style3 style3"><div align="center">Efficiency</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">4.25 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">2.4552E-04</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 1.5068E-05</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">6.00 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">1.1096E-02</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 2.0259E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">8.00 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">3.9987E-02</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 5.0332E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3 style3"><div align="center">10.50 </div></td>
+    <td align="right" class="style3 style3 style3"><div align="center">5.0388E-02</div></td>
+    <td align="right" class="style3 style3 style3"><div align="center"> 4.7180E-04</div></td>
+  </tr>
+</table>
+<p class="style3 style3 style3 style3">&nbsp;</p>
+<hr>
+<p class="style3 style5">Figure 6. Invariant yield of STAR $\pi^0$ as a
+function of $p_T$ at mid-rapidity in Au+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV.</p>
+<table border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center">EMC-TPC method in MB events</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center">0-12%</div></td>
+  </tr>
+  <tr>
+    <td width="63" class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td width="136" class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td width="137" class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td width="109" class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td width="105" class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td width="107" class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.033 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.133 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.167 </div></td>
+    <td align="right"><div align="center" class="style3">5.4251E+00</div></td>
+    <td align="right"><div align="center" class="style3">2.2772E+00</div></td>
+    <td align="right"><div align="center" class="style3">3.3585E+00</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.335 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.165 </div></td>
+    <td align="right"><div align="center" class="style3">4.1593E+00</div></td>
+    <td align="right"><div align="center" class="style3">1.2375E+00</div></td>
+    <td align="right"><div align="center" class="style3">2.9418E+00</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.713 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.213 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.287 </div></td>
+    <td align="right"><div align="center" class="style3">4.7001E-01</div></td>
+    <td align="right"><div align="center" class="style3">6.6031E-02</div></td>
+    <td align="right"><div align="center" class="style3">1.2020E-01</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">2.218 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.218 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.282 </div></td>
+    <td align="right"><div align="center" class="style3">7.2845E-02</div></td>
+    <td align="right"><div align="center" class="style3">8.1479E-03</div></td>
+    <td align="right"><div align="center" class="style3">2.2639E-02</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">2.894 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.394 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.606 </div></td>
+    <td align="right"><div align="center" class="style3">1.1662E-02</div></td>
+    <td align="right"><div align="center" class="style3">9.8879E-04</div></td>
+    <td align="right"><div align="center" class="style3">3.7671E-03</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">9.1676E-04</div></td>
+    <td align="right"><div align="center" class="style3">1.1001E-04</div></td>
+    <td align="right"><div align="center" class="style3">3.0877E-04</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">0-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.033 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.133 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.167 </div></td>
+    <td align="right"><div align="center" class="style3">3.6210E+00</div></td>
+    <td align="right"><div align="center" class="style3">7.9110E-01</div></td>
+    <td align="right"><div align="center" class="style3">1.5993E+00</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.335 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.165 </div></td>
+    <td align="right"><div align="center" class="style3">5.8193E-01</div></td>
+    <td align="right"><div align="center" class="style3">9.5296E-02</div></td>
+    <td align="right"><div align="center" class="style3">1.2268E-01</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.713 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.213 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.287 </div></td>
+    <td align="right"><div align="center" class="style3">2.1529E-01</div></td>
+    <td align="right"><div align="center" class="style3">2.0384E-02</div></td>
+    <td align="right"><div align="center" class="style3">6.2666E-02</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">2.218 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.218 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.282 </div></td>
+    <td align="right"><div align="center" class="style3">3.7551E-02</div></td>
+    <td align="right"><div align="center" class="style3">3.4216E-03</div></td>
+    <td align="right"><div align="center" class="style3">1.0671E-02</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">2.894 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.394 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.606 </div></td>
+    <td align="right"><div align="center" class="style3">6.8694E-03</div></td>
+    <td align="right"><div align="center" class="style3">5.4167E-04</div></td>
+    <td align="right"><div align="center" class="style3">1.8560E-03</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">4.2525E-04</div></td>
+    <td align="right"><div align="center" class="style3">5.0257E-05</div></td>
+    <td align="right"><div align="center" class="style3">1.2068E-04</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">0-20%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.033 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.133 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.167 </div></td>
+    <td align="right"><div align="center" class="style3">6.3946E+00</div></td>
+    <td align="right"><div align="center" class="style3">2.4017E+00</div></td>
+    <td align="right"><div align="center" class="style3">4.0541E+00</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.335 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.165 </div></td>
+    <td align="right"><div align="center" class="style3">1.2262E+00</div></td>
+    <td align="right"><div align="center" class="style3">3.2926E-01</div></td>
+    <td align="right"><div align="center" class="style3">4.1387E-01</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.713 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.213 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.287 </div></td>
+    <td align="right"><div align="center" class="style3">4.7380E-01</div></td>
+    <td align="right"><div align="center" class="style3">7.4139E-02</div></td>
+    <td align="right"><div align="center" class="style3">2.0908E-01</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">2.218 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.218 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.282 </div></td>
+    <td align="right"><div align="center" class="style3">6.2632E-02</div></td>
+    <td align="right"><div align="center" class="style3">1.1196E-02</div></td>
+    <td align="right"><div align="center" class="style3">2.2204E-02</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">2.894 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.394 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.606 </div></td>
+    <td align="right"><div align="center" class="style3">1.3309E-02</div></td>
+    <td align="right"><div align="center" class="style3">1.7793E-03</div></td>
+    <td align="right"><div align="center" class="style3">5.5951E-03</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">7.7915E-04</div></td>
+    <td align="right"><div align="center" class="style3">1.9319E-04</div></td>
+    <td align="right"><div align="center" class="style3">2.9584E-04</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">20-40%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.033 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.133 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.167 </div></td>
+    <td align="right"><div align="center" class="style3">4.9638E+00</div></td>
+    <td align="right"><div align="center" class="style3">2.5340E+00</div></td>
+    <td align="right"><div align="center" class="style3">2.3912E+00</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.335 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.165 </div></td>
+    <td align="right"><div align="center" class="style3">7.7064E-01</div></td>
+    <td align="right"><div align="center" class="style3">2.4046E-01</div></td>
+    <td align="right"><div align="center" class="style3">2.0503E-01</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.713 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.213 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.287 </div></td>
+    <td align="right"><div align="center" class="style3">2.0010E-01</div></td>
+    <td align="right"><div align="center" class="style3">3.2967E-02</div></td>
+    <td align="right"><div align="center" class="style3">4.3806E-02</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">2.218 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.218 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.282 </div></td>
+    <td align="right"><div align="center" class="style3">4.6685E-02</div></td>
+    <td align="right"><div align="center" class="style3">7.3498E-03</div></td>
+    <td align="right"><div align="center" class="style3">1.6182E-02</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">2.894 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.394 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.606 </div></td>
+    <td align="right"><div align="center" class="style3">1.0200E-02</div></td>
+    <td align="right"><div align="center" class="style3">1.4883E-03</div></td>
+    <td align="right"><div align="center" class="style3">2.2997E-03</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">6.2053E-04</div></td>
+    <td align="right"><div align="center" class="style3">1.1285E-04</div></td>
+    <td align="right"><div align="center" class="style3">1.6583E-04</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">40-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.033 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.133 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.167 </div></td>
+    <td align="right"><div align="center" class="style3">9.0973E-01</div></td>
+    <td align="right"><div align="center" class="style3">2.9353E-01</div></td>
+    <td align="right"><div align="center" class="style3">4.9741E-01</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.335 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.165 </div></td>
+    <td align="right"><div align="center" class="style3">1.4654E-01</div></td>
+    <td align="right"><div align="center" class="style3">4.1393E-02</div></td>
+    <td align="right"><div align="center" class="style3">4.9179E-02</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.713 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.213 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.287 </div></td>
+    <td align="right"><div align="center" class="style3">9.7469E-02</div></td>
+    <td align="right"><div align="center" class="style3">1.9112E-02</div></td>
+    <td align="right"><div align="center" class="style3">4.2644E-02</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">2.218 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.218 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.282 </div></td>
+    <td align="right"><div align="center" class="style3">1.8480E-02</div></td>
+    <td align="right"><div align="center" class="style3">3.4354E-03</div></td>
+    <td align="right"><div align="center" class="style3">6.8070E-03</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">2.894 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.394 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.606 </div></td>
+    <td align="right"><div align="center" class="style3">2.1623E-03</div></td>
+    <td align="right"><div align="center" class="style3">2.5218E-04</div></td>
+    <td align="right"><div align="center" class="style3">6.0624E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">1.7695E-04</div></td>
+    <td align="right"><div align="center" class="style3">2.3185E-05</div></td>
+    <td align="right"><div align="center" class="style3">3.2210E-05</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">EMC-TPC method in HT events</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">0-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">2.3843E-04</div></td>
+    <td align="right"><div align="center" class="style3">5.1352E-05</div></td>
+    <td align="right"><div align="center" class="style3">1.0994E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">5.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.256 </div></td>
+    <td align="right"><div align="center" class="style3">1.9762E-05</div></td>
+    <td align="right"><div align="center" class="style3">1.8814E-06</div></td>
+    <td align="right"><div align="center" class="style3">6.2105E-06</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">7.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.207 </div></td>
+    <td align="right"><div align="center" class="style3">1.4627E-06</div></td>
+    <td align="right"><div align="center" class="style3">2.0180E-07</div></td>
+    <td align="right"><div align="center" class="style3">3.6089E-07</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">0-20%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">9.7621E-04</div></td>
+    <td align="right"><div align="center" class="style3">2.9446E-04</div></td>
+    <td align="right"><div align="center" class="style3">4.6383E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">5.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.256 </div></td>
+    <td align="right"><div align="center" class="style3">4.6504E-05</div></td>
+    <td align="right"><div align="center" class="style3">7.8276E-06</div></td>
+    <td align="right"><div align="center" class="style3">1.7204E-05</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">7.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.207 </div></td>
+    <td align="right"><div align="center" class="style3">2.6140E-06</div></td>
+    <td align="right"><div align="center" class="style3">5.7057E-07</div></td>
+    <td align="right"><div align="center" class="style3">8.1681E-07</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">20-40%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">1.9737E-04</div></td>
+    <td align="right"><div align="center" class="style3">7.7386E-05</div></td>
+    <td align="right"><div align="center" class="style3">9.1925E-05</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">5.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.256 </div></td>
+    <td align="right"><div align="center" class="style3">2.1340E-05</div></td>
+    <td align="right"><div align="center" class="style3">3.5182E-06</div></td>
+    <td align="right"><div align="center" class="style3">5.6410E-06</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">7.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.207 </div></td>
+    <td align="right"><div align="center" class="style3">1.7360E-06</div></td>
+    <td align="right"><div align="center" class="style3">4.2342E-07</div></td>
+    <td align="right"><div align="center" class="style3">6.4084E-07</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">40-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">9.3766E-05</div></td>
+    <td align="right"><div align="center" class="style3">3.7525E-05</div></td>
+    <td align="right"><div align="center" class="style3">4.5521E-05</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">5.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.256 </div></td>
+    <td align="right"><div align="center" class="style3">7.5767E-06</div></td>
+    <td align="right"><div align="center" class="style3">1.3736E-06</div></td>
+    <td align="right"><div align="center" class="style3">3.6261E-06</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">7.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.207 </div></td>
+    <td align="right"><div align="center" class="style3">7.0445E-07</div></td>
+    <td align="right"><div align="center" class="style3">1.8120E-07</div></td>
+    <td align="right"><div align="center" class="style3">1.9446E-07</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">EMC-EMC method in HT events</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">0-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">4.2185E-04</div></td>
+    <td align="right"><div align="center" class="style3">9.9704E-05</div></td>
+    <td align="right"><div align="center" class="style3">1.9603E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">5.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.256 </div></td>
+    <td align="right"><div align="center" class="style3">2.6884E-05</div></td>
+    <td align="right"><div align="center" class="style3">9.4105E-07</div></td>
+    <td align="right"><div align="center" class="style3">8.6053E-06</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">7.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.207 </div></td>
+    <td align="right"><div align="center" class="style3">1.8328E-06</div></td>
+    <td align="right"><div align="center" class="style3">7.8500E-08</div></td>
+    <td align="right"><div align="center" class="style3">6.3228E-07</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">10.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.865 </div></td>
+    <td align="right"><div align="center" class="style3">2.0927E-07</div></td>
+    <td align="right"><div align="center" class="style3">1.5964E-08</div></td>
+    <td align="right"><div align="center" class="style3">7.5674E-08</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">0-20%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">7.8813E-04</div></td>
+    <td align="right"><div align="center" class="style3">4.1859E-04</div></td>
+    <td align="right"><div align="center" class="style3">4.0867E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">5.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.256 </div></td>
+    <td align="right"><div align="center" class="style3">6.2221E-05</div></td>
+    <td align="right"><div align="center" class="style3">6.1721E-06</div></td>
+    <td align="right"><div align="center" class="style3">1.0646E-05</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">7.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.207 </div></td>
+    <td align="right"><div align="center" class="style3">3.8178E-06</div></td>
+    <td align="right"><div align="center" class="style3">2.7941E-07</div></td>
+    <td align="right"><div align="center" class="style3">1.2096E-06</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">10.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.865 </div></td>
+    <td align="right"><div align="center" class="style3">4.0509E-07</div></td>
+    <td align="right"><div align="center" class="style3">5.2326E-08</div></td>
+    <td align="right"><div align="center" class="style3">1.6832E-07</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">20-40%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">4.9421E-04</div></td>
+    <td align="right"><div align="center" class="style3">2.3960E-04</div></td>
+    <td align="right"><div align="center" class="style3">2.7601E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">5.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.256 </div></td>
+    <td align="right"><div align="center" class="style3">2.6681E-05</div></td>
+    <td align="right"><div align="center" class="style3">1.6507E-06</div></td>
+    <td align="right"><div align="center" class="style3">1.1107E-05</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">7.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.207 </div></td>
+    <td align="right"><div align="center" class="style3">1.7925E-06</div></td>
+    <td align="right"><div align="center" class="style3">1.4089E-07</div></td>
+    <td align="right"><div align="center" class="style3">6.1744E-07</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">10.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.865 </div></td>
+    <td align="right"><div align="center" class="style3">2.5994E-07</div></td>
+    <td align="right"><div align="center" class="style3">3.2799E-08</div></td>
+    <td align="right"><div align="center" class="style3">1.0144E-07</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3 style3"><div align="center" class="style3">40-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3 style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Yield ((GeV/c)^-2)</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3 style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">4.063 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.563 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.937 </div></td>
+    <td align="right"><div align="center" class="style3">2.6830E-04</div></td>
+    <td align="right"><div align="center" class="style3">5.2465E-05</div></td>
+    <td align="right"><div align="center" class="style3">1.5222E-04</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">5.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.744 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.256 </div></td>
+    <td align="right"><div align="center" class="style3">8.4697E-06</div></td>
+    <td align="right"><div align="center" class="style3">5.0227E-07</div></td>
+    <td align="right"><div align="center" class="style3">2.3629E-06</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">7.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">0.793 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.207 </div></td>
+    <td align="right"><div align="center" class="style3">7.8225E-07</div></td>
+    <td align="right"><div align="center" class="style3">6.5573E-08</div></td>
+    <td align="right"><div align="center" class="style3">2.5270E-07</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3 style3"><div align="center" class="style3">10.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.135 </div></td>
+    <td align="right" class="style3 style3"><div align="center" class="style3">1.865 </div></td>
+    <td align="right"><div align="center" class="style3">8.2401E-08</div></td>
+    <td align="right"><div align="center" class="style3">1.2243E-08</div></td>
+    <td align="right"><div align="center" class="style3">2.9104E-08</div></td>
+  </tr>
+</table>
+<p class="style3 style3 style3 style3">&nbsp;</p>
+<hr>
+<p class="style3 style5">Figure 7. The ratios of STAR $\pi^0$ spectra
+  over $\pi^\pm$ from STAR 
+  and $\pi^0$ from PHENIX  as a
+  function of $p_T$  in Au+Au
+collisions at $\sqrt{s_{NN}}$ = 200 GeV.</p>
+<table border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+  <tr>
+    <td colspan="6" class="style3"><div align="center">Ratio over STAR charged pion</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center">0-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Ratio</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">1.1364 </div></td>
+    <td align="right"><div align="center" class="style3">0.2483 </div></td>
+    <td align="right"><div align="center" class="style3">0.5019 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.5901 </div></td>
+    <td align="right"><div align="center" class="style3">0.0966 </div></td>
+    <td align="right"><div align="center" class="style3">0.1244 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">0.8299 </div></td>
+    <td align="right"><div align="center" class="style3">0.0786 </div></td>
+    <td align="right"><div align="center" class="style3">0.2416 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.7148 </div></td>
+    <td align="right"><div align="center" class="style3">0.0651 </div></td>
+    <td align="right"><div align="center" class="style3">0.2031 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">0.8526 </div></td>
+    <td align="right"><div align="center" class="style3">0.0672 </div></td>
+    <td align="right"><div align="center" class="style3">0.2304 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.7346 </div></td>
+    <td align="right"><div align="center" class="style3">0.0710 </div></td>
+    <td align="right"><div align="center" class="style3">0.1639 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">0.9405 </div></td>
+    <td align="right"><div align="center" class="style3">0.0310 </div></td>
+    <td align="right"><div align="center" class="style3">0.2751 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.7800 </div></td>
+    <td align="right"><div align="center" class="style3">0.0320 </div></td>
+    <td align="right"><div align="center" class="style3">0.2502 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.7771 </div></td>
+    <td align="right"><div align="center" class="style3">0.0593 </div></td>
+    <td align="right"><div align="center" class="style3">0.2810 </div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">0-20%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Ratio</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">0.8636 </div></td>
+    <td align="right"><div align="center" class="style3">0.3244 </div></td>
+    <td align="right"><div align="center" class="style3">0.5475 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.5370 </div></td>
+    <td align="right"><div align="center" class="style3">0.1442 </div></td>
+    <td align="right"><div align="center" class="style3">0.1812 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">0.7969 </div></td>
+    <td align="right"><div align="center" class="style3">0.1247 </div></td>
+    <td align="right"><div align="center" class="style3">0.3517 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.5309 </div></td>
+    <td align="right"><div align="center" class="style3">0.0949 </div></td>
+    <td align="right"><div align="center" class="style3">0.1882 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">0.7608 </div></td>
+    <td align="right"><div align="center" class="style3">0.1017 </div></td>
+    <td align="right"><div align="center" class="style3">0.3199 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.7910 </div></td>
+    <td align="right"><div align="center" class="style3">0.1434 </div></td>
+    <td align="right"><div align="center" class="style3">0.2161 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">1.0949 </div></td>
+    <td align="right"><div align="center" class="style3">0.0942 </div></td>
+    <td align="right"><div align="center" class="style3">0.1706 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.7856 </div></td>
+    <td align="right"><div align="center" class="style3">0.0548 </div></td>
+    <td align="right"><div align="center" class="style3">0.2318 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.6995 </div></td>
+    <td align="right"><div align="center" class="style3">0.0904 </div></td>
+    <td align="right"><div align="center" class="style3">0.2907 </div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">20-40%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Ratio</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">1.4233 </div></td>
+    <td align="right"><div align="center" class="style3">0.7266 </div></td>
+    <td align="right"><div align="center" class="style3">0.6857 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.7075 </div></td>
+    <td align="right"><div align="center" class="style3">0.2208 </div></td>
+    <td align="right"><div align="center" class="style3">0.1882 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">0.6907 </div></td>
+    <td align="right"><div align="center" class="style3">0.1138 </div></td>
+    <td align="right"><div align="center" class="style3">0.1512 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.7847 </div></td>
+    <td align="right"><div align="center" class="style3">0.1235 </div></td>
+    <td align="right"><div align="center" class="style3">0.2720 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">1.0988 </div></td>
+    <td align="right"><div align="center" class="style3">0.1603 </div></td>
+    <td align="right"><div align="center" class="style3">0.2477 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.8633 </div></td>
+    <td align="right"><div align="center" class="style3">0.1402 </div></td>
+    <td align="right"><div align="center" class="style3">0.2021 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">0.7861 </div></td>
+    <td align="right"><div align="center" class="style3">0.0456 </div></td>
+    <td align="right"><div align="center" class="style3">0.2949 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.6465 </div></td>
+    <td align="right"><div align="center" class="style3">0.0484 </div></td>
+    <td align="right"><div align="center" class="style3">0.2035 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.8055 </div></td>
+    <td align="right"><div align="center" class="style3">0.1016 </div></td>
+    <td align="right"><div align="center" class="style3">0.3143 </div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">40-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Ratio</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">1.0042 </div></td>
+    <td align="right"><div align="center" class="style3">0.3240 </div></td>
+    <td align="right"><div align="center" class="style3">0.5491 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.5249 </div></td>
+    <td align="right"><div align="center" class="style3">0.1483 </div></td>
+    <td align="right"><div align="center" class="style3">0.1761 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">1.3104 </div></td>
+    <td align="right"><div align="center" class="style3">0.2570 </div></td>
+    <td align="right"><div align="center" class="style3">0.5733 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">1.1830 </div></td>
+    <td align="right"><div align="center" class="style3">0.2199 </div></td>
+    <td align="right"><div align="center" class="style3">0.4357 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">0.8429 </div></td>
+    <td align="right"><div align="center" class="style3">0.0983 </div></td>
+    <td align="right"><div align="center" class="style3">0.2363 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">1.0199 </div></td>
+    <td align="right"><div align="center" class="style3">0.1104 </div></td>
+    <td align="right"><div align="center" class="style3">0.2511 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">0.7588 </div></td>
+    <td align="right"><div align="center" class="style3">0.0428 </div></td>
+    <td align="right"><div align="center" class="style3">0.1958 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.8470 </div></td>
+    <td align="right"><div align="center" class="style3">0.0675 </div></td>
+    <td align="right"><div align="center" class="style3">0.2506 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.7775 </div></td>
+    <td align="right"><div align="center" class="style3">0.1155 </div></td>
+    <td align="right"><div align="center" class="style3">0.2746 </div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">Ratio over PHENIX pi0</div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">0-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Ratio</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">1.4169 </div></td>
+    <td align="right"><div align="center" class="style3">0.3096 </div></td>
+    <td align="right"><div align="center" class="style3">0.6258 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.7338 </div></td>
+    <td align="right"><div align="center" class="style3">0.1202 </div></td>
+    <td align="right"><div align="center" class="style3">0.1547 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">1.0270 </div></td>
+    <td align="right"><div align="center" class="style3">0.0972 </div></td>
+    <td align="right"><div align="center" class="style3">0.2990 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.8775 </div></td>
+    <td align="right"><div align="center" class="style3">0.0800 </div></td>
+    <td align="right"><div align="center" class="style3">0.2494 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">1.0339 </div></td>
+    <td align="right"><div align="center" class="style3">0.0815 </div></td>
+    <td align="right"><div align="center" class="style3">0.2793 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.8708 </div></td>
+    <td align="right"><div align="center" class="style3">0.0841 </div></td>
+    <td align="right"><div align="center" class="style3">0.1942 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">1.0682 </div></td>
+    <td align="right"><div align="center" class="style3">0.0352 </div></td>
+    <td align="right"><div align="center" class="style3">0.3125 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.9186 </div></td>
+    <td align="right"><div align="center" class="style3">0.0376 </div></td>
+    <td align="right"><div align="center" class="style3">0.2947 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.9491 </div></td>
+    <td align="right"><div align="center" class="style3">0.0724 </div></td>
+    <td align="right"><div align="center" class="style3">0.3432 </div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">0-20%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Ratio</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">1.0609 </div></td>
+    <td align="right"><div align="center" class="style3">0.3985 </div></td>
+    <td align="right"><div align="center" class="style3">0.6726 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.6539 </div></td>
+    <td align="right"><div align="center" class="style3">0.1756 </div></td>
+    <td align="right"><div align="center" class="style3">0.2207 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">0.9604 </div></td>
+    <td align="right"><div align="center" class="style3">0.1503 </div></td>
+    <td align="right"><div align="center" class="style3">0.4238 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.6316 </div></td>
+    <td align="right"><div align="center" class="style3">0.1129 </div></td>
+    <td align="right"><div align="center" class="style3">0.2239 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">0.8909 </div></td>
+    <td align="right"><div align="center" class="style3">0.1191 </div></td>
+    <td align="right"><div align="center" class="style3">0.3745 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.9040 </div></td>
+    <td align="right"><div align="center" class="style3">0.1639 </div></td>
+    <td align="right"><div align="center" class="style3">0.2470 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">1.1719 </div></td>
+    <td align="right"><div align="center" class="style3">0.1008 </div></td>
+    <td align="right"><div align="center" class="style3">0.1825 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.9597 </div></td>
+    <td align="right"><div align="center" class="style3">0.0669 </div></td>
+    <td align="right"><div align="center" class="style3">0.2832 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.9622 </div></td>
+    <td align="right"><div align="center" class="style3">0.1243 </div></td>
+    <td align="right"><div align="center" class="style3">0.3998 </div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">20-40%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Ratio</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">1.7596 </div></td>
+    <td align="right"><div align="center" class="style3">0.8983 </div></td>
+    <td align="right"><div align="center" class="style3">0.8476 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.8769 </div></td>
+    <td align="right"><div align="center" class="style3">0.2736 </div></td>
+    <td align="right"><div align="center" class="style3">0.2333 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">0.8539 </div></td>
+    <td align="right"><div align="center" class="style3">0.1407 </div></td>
+    <td align="right"><div align="center" class="style3">0.1869 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.9605 </div></td>
+    <td align="right"><div align="center" class="style3">0.1512 </div></td>
+    <td align="right"><div align="center" class="style3">0.3329 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">1.3179 </div></td>
+    <td align="right"><div align="center" class="style3">0.1923 </div></td>
+    <td align="right"><div align="center" class="style3">0.2971 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.9919 </div></td>
+    <td align="right"><div align="center" class="style3">0.1611 </div></td>
+    <td align="right"><div align="center" class="style3">0.2322 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">0.8705 </div></td>
+    <td align="right"><div align="center" class="style3">0.0505 </div></td>
+    <td align="right"><div align="center" class="style3">0.3265 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.7047 </div></td>
+    <td align="right"><div align="center" class="style3">0.0527 </div></td>
+    <td align="right"><div align="center" class="style3">0.2218 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.8674 </div></td>
+    <td align="right"><div align="center" class="style3">0.1094 </div></td>
+    <td align="right"><div align="center" class="style3">0.3385 </div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">40-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Ratio</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">1.3829 </div></td>
+    <td align="right"><div align="center" class="style3">0.4462 </div></td>
+    <td align="right"><div align="center" class="style3">0.7561 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.7122 </div></td>
+    <td align="right"><div align="center" class="style3">0.2012 </div></td>
+    <td align="right"><div align="center" class="style3">0.2390 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">1.7542 </div></td>
+    <td align="right"><div align="center" class="style3">0.3440 </div></td>
+    <td align="right"><div align="center" class="style3">0.7675 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">1.5640 </div></td>
+    <td align="right"><div align="center" class="style3">0.2907 </div></td>
+    <td align="right"><div align="center" class="style3">0.5761 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">1.1031 </div></td>
+    <td align="right"><div align="center" class="style3">0.1287 </div></td>
+    <td align="right"><div align="center" class="style3">0.3093 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">1.3243 </div></td>
+    <td align="right"><div align="center" class="style3">0.1434 </div></td>
+    <td align="right"><div align="center" class="style3">0.3261 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">0.9382 </div></td>
+    <td align="right"><div align="center" class="style3">0.0529 </div></td>
+    <td align="right"><div align="center" class="style3">0.2421 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">1.0492 </div></td>
+    <td align="right"><div align="center" class="style3">0.0837 </div></td>
+    <td align="right"><div align="center" class="style3">0.3104 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">1.1021 </div></td>
+    <td align="right"><div align="center" class="style3">0.1637 </div></td>
+    <td align="right"><div align="center" class="style3">0.3893 </div></td>
+  </tr>
+</table>
+<p class="style3 style3 style3 style3">&nbsp;</p>
+<hr>
+<p class="style3 style5">Figure 8. The nuclear modification factor
+  $R_{CP}$ as a function of $p_T$ of STAR $\pi^0$  in Au+Au collisions at
+$\sqrt{s_{NN}}$ = 200 GeV.</p>
+<table border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">0-20%/40-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Rcp</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">0.5260 </div></td>
+    <td align="right"><div align="center" class="style3">0.2604 </div></td>
+    <td align="right"><div align="center" class="style3">0.3709 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.6261 </div></td>
+    <td align="right"><div align="center" class="style3">0.2440 </div></td>
+    <td align="right"><div align="center" class="style3">0.2411 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">0.3637 </div></td>
+    <td align="right"><div align="center" class="style3">0.0912 </div></td>
+    <td align="right"><div align="center" class="style3">0.1562 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.2536 </div></td>
+    <td align="right"><div align="center" class="style3">0.0654 </div></td>
+    <td align="right"><div align="center" class="style3">0.1029 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">0.4606 </div></td>
+    <td align="right"><div align="center" class="style3">0.0817 </div></td>
+    <td align="right"><div align="center" class="style3">0.1790 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.3221 </div></td>
+    <td align="right"><div align="center" class="style3">0.0680 </div></td>
+    <td align="right"><div align="center" class="style3">0.0919 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">0.5192 </div></td>
+    <td align="right"><div align="center" class="style3">0.0534 </div></td>
+    <td align="right"><div align="center" class="style3">0.0449 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.3570 </div></td>
+    <td align="right"><div align="center" class="style3">0.0378 </div></td>
+    <td align="right"><div align="center" class="style3">0.0394 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.3678 </div></td>
+    <td align="right"><div align="center" class="style3">0.0724 </div></td>
+    <td align="right"><div align="center" class="style3">0.0436 </div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">20-40%/40-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Rcp</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">1.0615 </div></td>
+    <td align="right"><div align="center" class="style3">0.6411 </div></td>
+    <td align="right"><div align="center" class="style3">0.6132 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">1.0231 </div></td>
+    <td align="right"><div align="center" class="style3">0.4306 </div></td>
+    <td align="right"><div align="center" class="style3">0.3121 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">0.3994 </div></td>
+    <td align="right"><div align="center" class="style3">0.1023 </div></td>
+    <td align="right"><div align="center" class="style3">0.0811 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.4915 </div></td>
+    <td align="right"><div align="center" class="style3">0.1197 </div></td>
+    <td align="right"><div align="center" class="style3">0.1839 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">0.9177 </div></td>
+    <td align="right"><div align="center" class="style3">0.1714 </div></td>
+    <td align="right"><div align="center" class="style3">0.1915 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.5320 </div></td>
+    <td align="right"><div align="center" class="style3">0.1038 </div></td>
+    <td align="right"><div align="center" class="style3">0.1332 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">0.6039 </div></td>
+    <td align="right"><div align="center" class="style3">0.0489 </div></td>
+    <td align="right"><div align="center" class="style3">0.0587 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.4488 </div></td>
+    <td align="right"><div align="center" class="style3">0.0491 </div></td>
+    <td align="right"><div align="center" class="style3">0.0417 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.6137 </div></td>
+    <td align="right"><div align="center" class="style3">0.1196 </div></td>
+    <td align="right"><div align="center" class="style3">0.1067 </div></td>
+  </tr>
+</table>
+<p class="style3 style3 style3 style3">&nbsp;</p>
+<hr>
+<p class="style3 style5">Figure 9. The nuclear modification factor
+  $R_{AA}$ as a function of $p_T$ of STAR $\pi^0$  in Au+Au collisions at
+$\sqrt{s_{NN}}$ = 200 GeV.</p>
+<table border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">0-20%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Raa</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">0.3173 </div></td>
+    <td align="right"><div align="center" class="style3">0.1195 </div></td>
+    <td align="right"><div align="center" class="style3">0.2020 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.2156 </div></td>
+    <td align="right"><div align="center" class="style3">0.0584 </div></td>
+    <td align="right"><div align="center" class="style3">0.0738 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">0.3327 </div></td>
+    <td align="right"><div align="center" class="style3">0.0580 </div></td>
+    <td align="right"><div align="center" class="style3">0.1481 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.2158 </div></td>
+    <td align="right"><div align="center" class="style3">0.0449 </div></td>
+    <td align="right"><div align="center" class="style3">0.0847 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">0.2754 </div></td>
+    <td align="right"><div align="center" class="style3">0.0369 </div></td>
+    <td align="right"><div align="center" class="style3">0.1186 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.2127 </div></td>
+    <td align="right"><div align="center" class="style3">0.0390 </div></td>
+    <td align="right"><div align="center" class="style3">0.0613 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">0.2464 </div></td>
+    <td align="right"><div align="center" class="style3">0.0293 </div></td>
+    <td align="right"><div align="center" class="style3">0.0446 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.2011 </div></td>
+    <td align="right"><div align="center" class="style3">0.0615 </div></td>
+    <td align="right"><div align="center" class="style3">0.0621 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.2026 </div></td>
+    <td align="right"><div align="center" class="style3">0.0873 </div></td>
+    <td align="right"><div align="center" class="style3">0.0862 </div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">20-40%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Raa</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">0.6404 </div></td>
+    <td align="right"><div align="center" class="style3">0.3274 </div></td>
+    <td align="right"><div align="center" class="style3">0.3106 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.3524 </div></td>
+    <td align="right"><div align="center" class="style3">0.1107 </div></td>
+    <td align="right"><div align="center" class="style3">0.0958 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">0.3653 </div></td>
+    <td align="right"><div align="center" class="style3">0.0664 </div></td>
+    <td align="right"><div align="center" class="style3">0.0828 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.4182 </div></td>
+    <td align="right"><div align="center" class="style3">0.0795 </div></td>
+    <td align="right"><div align="center" class="style3">0.1611 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">0.5488 </div></td>
+    <td align="right"><div align="center" class="style3">0.0802 </div></td>
+    <td align="right"><div align="center" class="style3">0.1337 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.3514 </div></td>
+    <td align="right"><div align="center" class="style3">0.0578 </div></td>
+    <td align="right"><div align="center" class="style3">0.0883 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">0.2865 </div></td>
+    <td align="right"><div align="center" class="style3">0.0288 </div></td>
+    <td align="right"><div align="center" class="style3">0.1107 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.2528 </div></td>
+    <td align="right"><div align="center" class="style3">0.0776 </div></td>
+    <td align="right"><div align="center" class="style3">0.0829 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.3380 </div></td>
+    <td align="right"><div align="center" class="style3">0.1454 </div></td>
+    <td align="right"><div align="center" class="style3">0.1355 </div></td>
+  </tr>
+  <tr>
+    <td colspan="6" class="style3"><div align="center" class="style3">40-80%</div></td>
+  </tr>
+  <tr>
+    <td class="style3"><div align="center" class="style3">pT (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT low bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">pT high bound (GeV/c)</div></td>
+    <td class="style3"><div align="center" class="style3">Raa</div></td>
+    <td class="style3"><div align="center" class="style3">Stat error</div></td>
+    <td class="style3"><div align="center" class="style3">Syst error</div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.033</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.133</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.167</div></td>
+    <td align="right"><div align="center" class="style3">0.6033 </div></td>
+    <td align="right"><div align="center" class="style3">0.1954 </div></td>
+    <td align="right"><div align="center" class="style3">0.3316 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.335</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.165</div></td>
+    <td align="right"><div align="center" class="style3">0.3444 </div></td>
+    <td align="right"><div align="center" class="style3">0.0980 </div></td>
+    <td align="right"><div align="center" class="style3">0.1172 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">1.713</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.213</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.287</div></td>
+    <td align="right"><div align="center" class="style3">0.9147 </div></td>
+    <td align="right"><div align="center" class="style3">0.1927 </div></td>
+    <td align="right"><div align="center" class="style3">0.4037 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.218</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.282</div></td>
+    <td align="right"><div align="center" class="style3">0.8508 </div></td>
+    <td align="right"><div align="center" class="style3">0.1824 </div></td>
+    <td align="right"><div align="center" class="style3">0.3445 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">2.894</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.394</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.606</div></td>
+    <td align="right"><div align="center" class="style3">0.5980 </div></td>
+    <td align="right"><div align="center" class="style3">0.0700 </div></td>
+    <td align="right"><div align="center" class="style3">0.1765 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">4.063</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.563</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.937</div></td>
+    <td align="right"><div align="center" class="style3">0.6604 </div></td>
+    <td align="right"><div align="center" class="style3">0.0737 </div></td>
+    <td align="right"><div align="center" class="style3">0.1736 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">5.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.744</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.256</div></td>
+    <td align="right"><div align="center" class="style3">0.4745 </div></td>
+    <td align="right"><div align="center" class="style3">0.0473 </div></td>
+    <td align="right"><div align="center" class="style3">0.1300 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">7.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">0.793</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.207</div></td>
+    <td align="right"><div align="center" class="style3">0.5633 </div></td>
+    <td align="right"><div align="center" class="style3">0.1737 </div></td>
+    <td align="right"><div align="center" class="style3">0.1745 </div></td>
+  </tr>
+  <tr>
+    <td align="right" class="style3"><div align="center" class="style3">10.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.135</div></td>
+    <td align="right" class="style3"><div align="center" class="style3">1.865</div></td>
+    <td align="right"><div align="center" class="style3">0.5508 </div></td>
+    <td align="right"><div align="center" class="style3">0.2408 </div></td>
+    <td align="right"><div align="center" class="style3">0.2010 </div></td>
+  </tr>
+</table>
+<p class="style3 style3 style3 style3">&nbsp;</p>
+<hr>
+<p align="justify" class="style2 style3 style3 style3 style3 style3 style3 style3">For any questions please contact STAR Physics Analysis Coordinator <a href="mailto:bedanga@rcf.rhic.bnl.gov">Bedangadas Mohanty</a>
+</p>
+<p class="style3 style3 style3 style3">&nbsp;</p>
+</body>
+</html>

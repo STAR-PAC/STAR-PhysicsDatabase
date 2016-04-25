@@ -1,0 +1,342 @@
+<html>
+  <head>
+	  <title>Measurement of longitudinal spin asymmetries for weak boson production in polarized proton-proton collisions at RHIC</title>
+  </head>
+  <body leftmargin="40" topmargin="20">
+	  <h2 align="center">Measurement of longitudinal spin asymmetries for weak boson<br> production in polarized proton-proton collisions at RHIC</h2>
+	  <h4>    Submitted to Phys. Rev. Lett.
+		  <br> arXiv: <a href="http://arxiv.org/abs/1404.6880">1404.6880</a>
+		  <br> STAR run 2011 + 2012 pp510 data
+		  <br> Luminosity = 9 + 77 pb<sup>-1</sup>
+		  <br> Beam polarization = 0.49 (2011), 0.56 (2012)  
+	  </h4>
+    <hr>
+    <p>
+    <h3><a href="fig/Fig4.png" >Figure 4</a>: Longitudinal single-spin asymmetry A<sub>L</sub> for W production as a function of lepton pseudorapidity. </h3>
+    <!-- <b>&ensp;&ensp; p+p &rarr; W<sup>+/-</sup> &rarr; e<sup>+/-</sup> + &nu;</b>
+    <br> &radic;s=510GeV &ensp;  25 &lt;E<sub>T</sub><sup>e</sup>&lt;50 GeV -->
+    <br><br>
+    <b>STAR W+ A<sub>L</sub> </b>
+    <table border="1" text-align="center">
+	  <tr>
+	    <th>Eta avr</th>
+	    <th>Eta rms</th>
+	    <th>asym avr value</th>
+	    <th>Asym low limit</th>
+	    <th>Asym up limit</th>
+	    <th>Asym avr error</th>
+    </tr>
+    <tr>
+	    <td align="center">-1.18</td>
+	    <td align="center">0.17</td>
+	    <td align="center">0.009</td>
+	    <td align="center">-0.223</td>
+	    <td align="center">0.249</td>
+	    <td align="center">0.241</td>
+    </tr>
+     <tr>
+	    <td align="center">-0.72</td>
+	    <td align="center">0.15</td>
+	    <td align="center">-0.239</td>
+	    <td align="center">-0.296</td>
+	    <td align="center">-0.181</td>
+	    <td align="center">0.057</td>
+    </tr>
+     <tr>
+	    <td align="center">-0.25</td>
+	    <td align="center">0.14</td>
+	    <td align="center">-0.343</td>
+	    <td align="center">-0.389</td>
+	    <td align="center">-0.298</td>
+	    <td align="center">0.045</td>
+    </tr>
+     <tr>
+	    <td align="center">0.25</td>
+	    <td align="center">0.14</td>
+	    <td align="center">-0.429</td>
+	    <td align="center">-0.475</td>
+	    <td align="center">-0.384</td>
+	    <td align="center">0.045</td>
+    </tr>
+     <tr>
+	    <td align="center">0.72</td>
+	    <td align="center">0.15</td>
+	    <td align="center">-0.472</td>
+	    <td align="center">-0.528</td>
+	    <td align="center">-0.416</td>
+	    <td align="center">0.056</td>
+    </tr>
+     <tr>
+	    <td align="center">1.18</td>
+	    <td align="center">0.17</td>
+	    <td align="center">-0.649</td>
+	    <td align="center">-0.863</td>
+	    <td align="center">-0.426</td>
+	    <td align="center">0.218</td>
+    </tr>
+    </table>
+  
+    <br>
+ 
+    <b>STAR W- A<sub>L</sub> </b>
+    <table border="1">
+	  <tr>
+	    <th>Eta avr</th>
+	    <th>Eta rms</th>
+	    <th>asym avr value</th>
+	    <th>Asym low limit</th>
+	    <th>Asym up limit</th>
+	    <th>Asym avr error</th>
+    </tr>
+    <tr>
+	    <td align="center">-1.22</td>
+	    <td align="center">0.16</td>
+	    <td align="center">0.195</td>
+	    <td align="center">-0.045</td>
+	    <td align="center">0.431</td>
+	    <td align="center">0.238</td>
+    </tr>
+     <tr>
+	    <td align="center">-0.76</td>
+	    <td align="center">0.15</td>
+	    <td align="center">0.247</td>
+	    <td align="center">0.148</td>
+	    <td align="center">0.347</td>
+	    <td align="center">0.100</td>
+    </tr>
+     <tr>
+	    <td align="center">-0.26</td>
+	    <td align="center">0.15</td>
+	    <td align="center">0.280</td>
+	    <td align="center">0.176</td>
+	    <td align="center">0.383</td>
+	    <td align="center">0.104</td>
+    </tr>
+     <tr>
+	    <td align="center">0.26</td>
+	    <td align="center">0.15</td>
+	    <td align="center">0.202</td>
+	    <td align="center">0.097</td>
+	    <td align="center">0.305</td>
+	    <td align="center">0.104</td>
+    </tr>
+     <tr>
+	    <td align="center">0.76</td>
+	    <td align="center">0.15</td>
+	    <td align="center">0.391</td>
+	    <td align="center">0.292</td>
+	    <td align="center">0.490</td>
+	    <td align="center">0.099</td>
+    </tr>
+     <tr>
+	    <td align="center">1.22</td>
+	    <td align="center">0.16</td>
+	    <td align="center">0.182</td>
+	    <td align="center">-0.069</td>
+	    <td align="center">0.425</td>
+	    <td align="center">0.247</td>
+    </tr>
+    </table>
+
+    <br>
+
+    Relative luminosity uncertainty: 0.007
+    <br> Beam polarizatoin scale uncertainty: 3.4%
+    <br><br>
+    <b>Theory: W<sup>+/-</sup> A<sub>L</sub></b>
+    <table border="1" text-align="center">
+	  <tr>
+	    <th>Eta avr</th>
+	    <th>W+ DSSV08 RHICBOS</th>
+	    <th>W+ DSSV08 CHE NLO</th>
+	    <th>W+ LSS10 CHE NLO</th>
+	    <th>W- DSSV08 RHICBOS</th>
+	    <th>W- DSSV08 CHE NLO</th>
+	    <th>W- LSS10 CHE NLO</th>
+    </tr>
+    <tr>
+	    <td align="center">-1.75</td>
+	    <td align="center">-0.186</td>
+	    <td align="center">-0.173</td>
+	    <td align="center">-0.145</td>
+	    <td align="center">0.003</td>
+	    <td align="center">0.013</td>
+	    <td align="center">0.070</td>
+    </tr>
+     <tr>
+	    <td align="center">-1.25</td>
+	    <td align="center">-0.236</td>
+	    <td align="center">-0.225</td>
+	    <td align="center">-0.195</td>
+	    <td align="center">-0.011</td>
+	    <td align="center">0.000</td>
+	    <td align="center">0.082</td>
+    </tr>
+     <tr>
+	    <td align="center">-0.75</td>
+	    <td align="center">-0.280</td>
+	    <td align="center">-0.267</td>
+	    <td align="center">-0.239</td>
+	    <td align="center">-0.011</td>
+	    <td align="center">-0.003</td>
+	    <td align="center">0.096</td>
+    </tr>
+     <tr>
+	    <td align="center">-0.25</td>
+	    <td align="center">-0.327</td>
+	    <td align="center">-0.316</td>
+	    <td align="center">-0.286</td>
+	    <td align="center">0.040</td>
+	    <td align="center">0.043</td>
+	    <td align="center">0.132</td>
+    </tr>
+     <tr>
+	    <td align="center">0.25</td>
+	    <td align="center">-0.378</td>
+	    <td align="center">-0.369</td>
+	    <td align="center">-0.353</td>
+	    <td align="center">0.161</td>
+	    <td align="center">0.159</td>
+	    <td align="center">0.225</td>
+    </tr>
+     <tr>
+	    <td align="center">0.75</td>
+	    <td align="center">-0.418</td>
+	    <td align="center">-0.419</td>
+	    <td align="center">-0.412</td>
+	    <td align="center">0.286</td>
+	    <td align="center">0.281</td>
+	    <td align="center">0.350</td>
+    </tr>
+     <tr>
+	    <td align="center">1.25</td>
+	    <td align="center">-0.447</td>
+	    <td align="center">-0.467</td>
+	    <td align="center">-0.477</td>
+	    <td align="center">0.379</td>
+	    <td align="center">0.382</td>
+	    <td align="center">0.468</td>
+    </tr>
+     <tr>
+	    <td align="center">1.75</td>
+	    <td align="center">-0.507</td>
+	    <td align="center">-0.522</td>
+	    <td align="center">-0.558</td>
+	    <td align="center">0.447</td>
+	    <td align="center">0.450</td>
+	    <td align="center">0.583</td>
+    </tr>
+    </table>
+    <br>
+   <p>
+
+   <br><br>
+
+   <h3><a href="fig/Fig5.png">Figure 5</a>: Longitudinal double-spin asymmetry A<sub>LL</sub> for W production as a function of lepton pseudorapidity. </h3>
+    <!-- <b>&ensp;&ensp; p+p &rarr; W<sup>+/-</sup> &rarr; e<sup>+/-</sup> + &nu;</b>
+    <br> &radic;s=510GeV &ensp;  25 &lt;E<sub>T</sub><sup>e</sup>&lt;50 GeV -->
+    <br><br>
+    <b>STAR W+ A<sub>LL</sub> </b>
+    <table border="1">
+	  <tr>
+	    <th>Eta avr</th>
+	    <th>Eta rms</th>
+	    <th>asym avr value</th>
+	    <th>Asym low limit</th>
+	    <th>Asym up limit</th>
+	    <th>Asym avr error</th>
+    </tr>
+    <tr>
+	    <td align="center">0.25</td>
+	    <td align="center">0.14</td>
+	    <td align="center">-0.053</td>
+	    <td align="center">-0.137</td>
+	    <td align="center">0.031</td>
+	    <td align="center">0.084</td>
+    </tr>
+     <tr>
+	    <td align="center">0.72</td>
+	    <td align="center">0.15</td>
+	    <td align="center">0.134</td>
+	    <td align="center">0.029</td>
+	    <td align="center">0.238</td>
+	    <td align="center">0.104</td>
+    </tr>
+     <tr>
+	    <td align="center">1.18</td>
+	    <td align="center">0.17</td>
+	    <td align="center">0.088</td>
+	    <td align="center">-0.341</td>
+	    <td align="center">0.514</td>
+	    <td align="center">0.428</td>
+    </tr>
+    </table>
+ 
+    <br>
+
+    <b>STAR W- A<sub>LL</sub> </b>
+    <table border="1">
+	  <tr>
+	    <th>Eta avr</th>
+	    <th>Eta rms</th>
+	    <th>asym avr value</th>
+	    <th>Asym low limit</th>
+	    <th>Asym up limit</th>
+	    <th>Asym avr error</th>
+    </tr>
+    <tr>
+	    <td align="center">0.26</td>
+	    <td align="center">0.15</td>
+	    <td align="center">-0.207</td>
+	    <td align="center">-0.394</td>
+	    <td align="center">-0.018</td>
+	    <td align="center">0.188</td>
+    </tr>
+     <tr>
+	    <td align="center">0.76</td>
+	    <td align="center">0.15</td>
+	    <td align="center">0.168</td>
+	    <td align="center">-0.015</td>
+	    <td align="center">0.348</td>
+	    <td align="center">0.181</td>
+    </tr>
+     <tr>
+	    <td align="center">1.22</td>
+	    <td align="center">0.16</td>
+	    <td align="center">-0.169</td>
+	    <td align="center">-0.588</td>
+	    <td align="center">0.253</td>
+	    <td align="center">0.421</td>
+    </tr>
+    </table>
+
+    <br>
+
+   Beam polarizatoin scale uncertainty: 6.5% 
+   <br><br>
+   <b>Theory: W<sup>+/-</sup> A<sub>LL</sub></b>
+    <table border="1">
+	  <tr>
+	    <th>Eta avr</th>
+	    <th>W+ DSSV08 CHE NLO</th>
+	    <th>W- DSSV08 CHE NLO</th>
+    </tr>
+    <tr>
+	    <td align="center">0.25</td>
+	    <td align="center">0.077</td>
+	    <td align="center">-0.018</td>
+    </tr>
+     <tr>
+	    <td align="center">0.75</td>
+	    <td align="center">0.073</td>
+	    <td align="center">-0.011</td>
+    </tr>
+     <tr>
+	    <td align="center">1.25</td>
+	    <td align="center">0.069</td>
+	    <td align="center">-0.002</td>
+    </tr>
+    </table> 
+
+  </body>
+</html>

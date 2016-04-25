@@ -1,0 +1,46 @@
+Compilation of chemical freeze-out temperature vs baryon chemical potential:
+error = total error
+
+Andronic et al.:
+muB[MeV]	stat.error	syst.error	Tchem[MeV]	stat.error	+syst.error	-syst.error
+760.0	 20.0	 23.0	 64.0	  1.0	 10.0	 -2.0
+670.0	 16.0	 20.0	 78.0	  2.0	 12.0	 -3.0
+615.0	  8.0	 19.0	 86.0	  2.0	 13.0	 -3.0
+580.0	 11.0	 17.0	 93.0	  3.0	 14.0	 -3.0
+537.0	 10.0	 12.0	124.0	  3.0	  7.0	 -7.0
+403.0	 18.0	 32.0	156.0	  4.0	 11.0	-11.0
+298.0	 19.0	 33.0	154.0	  6.0	 12.0	-12.0
+240.0	 18.0	 24.0	160.0	  5.0	 19.0	-12.0
+ 38.0	 11.0	 11.0	165.5	  5.5	  6.0	 -6.0
+ 20.0	  4.0	  7.0	160.5	  2.0	  6.0	 -6.0
+
+SIS:
+muB[MeV]	error	Tchem[MeV]	error
+825.0	  8.0	 49.0	  3.0
+720.0	 30.0	 70.0	 10.0
+810.0	 12.0	 52.0	  4.0
+808.0	  5.0	 54.0	  2.0
+
+AGS 4.8 GeV:
+muB[MeV]	error	Tchem[MeV]	+error	-error
+540.0	  7.0	125.0	  3.0	 -6.0
+540.0	  7.0	125.0	  3.0	 -6.0
+
+SPS:
+muB[MeV]	error	Tchem[MeV]	error
+410.0	 30.0	143.0	  5.0
+266.0	  9.0	168.0	  5.0
+292.0	 12.0	153.0	  5.0
+377.0	 11.0	146.0	  4.0
+410.0	 18.0	142.0	  4.0
+470.0	 13.0	134.0	  5.0
+
+STAR Au+Au:
+muB[MeV]	error	Tchem[MeV]	+error	-error
+ 62.7	  6.0	154.4	  9.9	 -6.6
+ 29.0	  4.6	154.2	  9.7	 -5.8
+ 22.0	  4.4	159.3	  5.8	 -5.8
+
+STAR pp 200 GeV:
+muB[MeV]	error	Tchem[MeV]	error
+  8.9	  3.8	157.5	  3.6

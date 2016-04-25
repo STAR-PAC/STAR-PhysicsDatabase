@@ -1,0 +1,943 @@
+<!DOCTYPE html PUBLIC "-/>
+<html>
+<head>
+  <title>Suppression of &upsih; Production in d+Au and Au+Au Collisions at &radic;s_NN = 200 GeV</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+    $(function() {
+      $('#menu a').click(function() {
+
+        var $el = $(this); //el = element
+        var index = $('#menu a').index(this);
+        var current = $('#menu').find('a.current');
+
+        //only change tabs if we clicked a non-current one
+        if($('#menu a').index(current) !== index) {
+
+          current.removeClass('current');
+          $el.addClass('current');
+
+        //also change status and visibility if panes
+          $('.data_pane.current')
+            .hide()
+            .removeClass('current');
+          $('.data_pane:eq('+index+')')
+            .fadeIn()
+            .addClass('current');
+        }
+      });
+      
+      //$('#4a').load("AuAu10All_10Cent0_counts_table.html");
+    });
+  </script>
+</head>
+<body>
+
+<h1>Suppression of &upsih; Production in d+Au and Au+Au Collisions at <span style="white-space: nowrap; font-size:larger">&radic;<span style="border-top:solid;">&nbsp;s<sub>NN</sub>&nbsp;</span></span> = 200 GeV</h1>
+
+  <ul id="menu">
+    <li> <a href="javascript:void(0);" class = "current">Fig. 1</a></li>
+    <li> <a href="javascript:void(0);" >Fig. 2</a></li>
+    <li> <a href="javascript:void(0);" >Fig. 3</a></li>
+    <li> <a href="javascript:void(0);" >Fig. 4</a></li>
+    <li> <a href="javascript:void(0);" >Fig. 5</a></li>
+    <li> <a href="javascript:void(0);" >Fig. 6</a></li>
+    <li> <a href="javascript:void(0);" >Fig. 7</a></li>
+  </ul>
+
+  <div id="data">
+    <div class="data_pane current" id="Fig1">
+
+        <img src="Fig1a.png"> <br>
+        <div style="width:400px;text-align:center" class="center"><a href="Fig1a.pdf">pdf</a> | <a href="Fig1a.eps">eps</a> | <a href="Fig1a.png">gif</a></div>
+        <table border="1" class="center">
+        <tr>
+        <th>Mass bin (GeV/c<sup>2</sup>)</th>
+        <th>Like-sign counts</th>
+        <th>Unlike-sign counts</th>
+        </tr>
+        <tr>
+        <td>7.6-7.8</td>
+        <td>4</td>
+        <td>8</td>
+        </tr>
+        <tr>
+        <td>7.8-8</td>
+        <td>0</td>
+        <td>10</td>
+        </tr>
+        <tr>
+        <td>8-8.2</td>
+        <td>3</td>
+        <td>4</td>
+        </tr>
+        <tr>
+        <td>8.2-8.4</td>
+        <td>0</td>
+        <td>4</td>
+        </tr>
+        <tr>
+        <td>8.4-8.6</td>
+        <td>4</td>
+        <td>13</td>
+        </tr>
+        <tr>
+        <td>8.6-8.8</td>
+        <td>4</td>
+        <td>6</td>
+        </tr>
+        <tr>
+        <td>8.8-9</td>
+        <td>1</td>
+        <td>21</td>
+        </tr>
+        <tr>
+        <td>9-9.2</td>
+        <td>0</td>
+        <td>25</td>
+        </tr>
+        <tr>
+        <td>9.2-9.4</td>
+        <td>2</td>
+        <td>43</td>
+        </tr>
+        <tr>
+        <td>9.4-9.6</td>
+        <td>4</td>
+        <td>51</td>
+        </tr>
+        <tr>
+        <td>9.6-9.8</td>
+        <td>7</td>
+        <td>34</td>
+        </tr>
+        <tr>
+        <td>9.8-10</td>
+        <td>2</td>
+        <td>35</td>
+        </tr>
+        <tr>
+        <td>10-10.2</td>
+        <td>5</td>
+        <td>32</td>
+        </tr>
+        <tr>
+        <td>10.2-10.4</td>
+        <td>5</td>
+        <td>36</td>
+        </tr>
+        <tr>
+        <td>10.4-10.6</td>
+        <td>5</td>
+        <td>11</td>
+        </tr>
+        <tr>
+        <td>10.6-10.8</td>
+        <td>5</td>
+        <td>13</td>
+        </tr>
+        <tr>
+        <td>10.8-11</td>
+        <td>6</td>
+        <td>14</td>
+        </tr>
+        <tr>
+        <td>11-11.2</td>
+        <td>2</td>
+        <td>13</td>
+        </tr>
+        <tr>
+        <td>11.2-11.4</td>
+        <td>4</td>
+        <td>12</td>
+        </tr>
+        <tr>
+        <td>11.4-11.6</td>
+        <td>3</td>
+        <td>4</td>
+        </tr>
+        <tr>
+        <td>11.6-11.8</td>
+        <td>4</td>
+        <td>14</td>
+        </tr>
+        <tr>
+        <td>11.8-12</td>
+        <td>2</td>
+        <td>8</td>
+        </tr>
+        <tr>
+        <td>12-12.2</td>
+        <td>1</td>
+        <td>5</td>
+        </tr>
+        <tr>
+        <td>12.2-12.4</td>
+        <td>5</td>
+        <td>18</td>
+        </tr>
+        <tr>
+        <td>12.4-12.6</td>
+        <td>4</td>
+        <td>8</td>
+        </tr>
+        <tr>
+        <td>12.6-12.8</td>
+        <td>1</td>
+        <td>6</td>
+        </tr>
+        <tr>
+        <td>12.8-13</td>
+        <td>3</td>
+        <td>4</td>
+        </tr>
+        <tr>
+        <td>13-13.2</td>
+        <td>1</td>
+        <td>3</td>
+        </tr>
+        <tr>
+        <td>13.2-13.4</td>
+        <td>0</td>
+        <td>11</td>
+        </tr>
+        <tr>
+        <td>13.4-13.6</td>
+        <td>3</td>
+        <td>7</td>
+        </tr>
+        </table>
+
+
+        <img src="Fig1b.png"> <br>
+        <div style="width:400px;text-align:center" class="center"><a href="Fig1b.pdf">pdf</a> | <a href="Fig1b.eps">eps</a> | <a href="Fig1b.png">gif</a></div>
+        <table border="1" class="center">
+        <tr>
+        <th>Mass bin (GeV/c<sup>2</sup>)</th>
+        <th>Like-sign counts</th>
+        <th>Unlike-sign counts</th>
+        </tr>
+        <tr>
+        <td>7.6-7.8</td>
+        <td>2</td>
+        <td>5</td>
+        </tr>
+        <tr>
+        <td>7.8-8</td>
+        <td>0</td>
+        <td>2</td>
+        </tr>
+        <tr>
+        <td>8-8.2</td>
+        <td>0</td>
+        <td>5</td>
+        </tr>
+        <tr>
+        <td>8.2-8.4</td>
+        <td>2</td>
+        <td>3</td>
+        </tr>
+        <tr>
+        <td>8.4-8.6</td>
+        <td>2</td>
+        <td>10</td>
+        </tr>
+        <tr>
+        <td>8.6-8.8</td>
+        <td>2</td>
+        <td>8</td>
+        </tr>
+        <tr>
+        <td>8.8-9</td>
+        <td>0</td>
+        <td>8</td>
+        </tr>
+        <tr>
+        <td>9-9.2</td>
+        <td>2</td>
+        <td>13</td>
+        </tr>
+        <tr>
+        <td>9.2-9.4</td>
+        <td>0</td>
+        <td>22</td>
+        </tr>
+        <tr>
+        <td>9.4-9.6</td>
+        <td>4</td>
+        <td>15</td>
+        </tr>
+        <tr>
+        <td>9.6-9.8</td>
+        <td>4</td>
+        <td>10</td>
+        </tr>
+        <tr>
+        <td>9.8-10</td>
+        <td>2</td>
+        <td>9</td>
+        </tr>
+        <tr>
+        <td>10-10.2</td>
+        <td>2</td>
+        <td>9</td>
+        </tr>
+        <tr>
+        <td>10.2-10.4</td>
+        <td>0</td>
+        <td>9</td>
+        </tr>
+        <tr>
+        <td>10.4-10.6</td>
+        <td>2</td>
+        <td>3</td>
+        </tr>
+        <tr>
+        <td>10.6-10.8</td>
+        <td>4</td>
+        <td>6</td>
+        </tr>
+        <tr>
+        <td>10.8-11</td>
+        <td>3</td>
+        <td>5</td>
+        </tr>
+        <tr>
+        <td>11-11.2</td>
+        <td>1</td>
+        <td>8</td>
+        </tr>
+        <tr>
+        <td>11.2-11.4</td>
+        <td>0</td>
+        <td>2</td>
+        </tr>
+        <tr>
+        <td>11.4-11.6</td>
+        <td>0</td>
+        <td>6</td>
+        </tr>
+        <tr>
+        <td>11.6-11.8</td>
+        <td>1</td>
+        <td>3</td>
+        </tr>
+        <tr>
+        <td>11.8-12</td>
+        <td>1</td>
+        <td>3</td>
+        </tr>
+        <tr>
+        <td>12-12.2</td>
+        <td>1</td>
+        <td>3</td>
+        </tr>
+        <tr>
+        <td>12.2-12.4</td>
+        <td>1</td>
+        <td>1</td>
+        </tr>
+        <tr>
+        <td>12.4-12.6</td>
+        <td>3</td>
+        <td>5</td>
+        </tr>
+        <tr>
+        <td>12.6-12.8</td>
+        <td>2</td>
+        <td>0</td>
+        </tr>
+        <tr>
+        <td>12.8-13</td>
+        <td>2</td>
+        <td>4</td>
+        </tr>
+        <tr>
+        <td>13-13.2</td>
+        <td>1</td>
+        <td>3</td>
+        </tr>
+        <tr>
+        <td>13.2-13.4</td>
+        <td>1</td>
+        <td>6</td>
+        </tr>
+        <tr>
+        <td>13.4-13.6</td>
+        <td>0</td>
+        <td>5</td>
+        </tr>
+        </table>
+    </div>
+    <div class="data_pane" id="Fig2">
+        <img src="Fig2a.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig2a.pdf">pdf</a> | <a href="Fig2a.eps">eps</a> | <a href="Fig2a.png">gif</a></div>
+        <table border="1" class="center">
+        <tr>
+        <th>Rapidity</th>
+        <th>d&sigma;/dy</th>
+        <th>Statistical Error</th>
+        <th>Systematic Error</th>
+        </tr>
+        <tr>
+            <td colspan="4"><i>STAR p+p</i></td>
+        </tr>
+        <tr>
+          <td>|y|&lt;0.5</td>
+          <td>64 pb</td>
+          <td>10</td>
+          <td>+14, -12</td>
+        </tr>
+        <tr>
+          <td>0.5&lt;|y|&lt;1.0</td>
+          <td>58 pb</td>
+          <td>12</td>
+          <td>+12, -11</td>
+        </tr>
+        <tr>
+            <td colspan="4"><i>STAR d+Au</i></td>
+        </tr>
+        <tr>
+          <td>-1.0&lt;y&lt;-0.5</td>
+          <td>19 nb</td>
+          <td>9</td>
+          <td>&plusmn;3</td>
+        </tr>
+        <tr>
+          <td>|y|&lt;0.5</td>
+          <td>12.2 nb</td>
+          <td>3.4</td>
+          <td>+2.1, -1.9</td>
+        </tr>
+        <tr>
+          <td>0.5&lt;y&lt;1.0</td>
+          <td>32 nb</td>
+          <td>7</td>
+          <td>+6, -5</td>
+        </tr>
+        <tr>
+            <td colspan="4"><i>PHENIX</i> data: <a href="http://arxiv.org/abs/1211.4017">http://arxiv.org/abs/1211.4017</a></td>
+        </tr>
+        </table>
+        <br>
+
+        <img src="Fig2b.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig2b.pdf">pdf</a> | <a href="Fig2b.eps">eps</a> | <a href="Fig2b.png">gif</a></div>
+        <table border="1" class="center">
+        <tr>
+            <th>Rapidity</th>
+            <th>R<sub>dAu</sub></th>
+            <th>Statistical Error</th>
+            <th>Systematic Error</th>
+        </tr>
+        <tr>
+          <td>-1.0&lt;y&lt;-0.5</td>
+          <td>0.84</td>
+          <td>0.44</td>
+          <td>&plusmn;0.03</td>
+        </tr>
+        <tr>
+          <td>|y|&lt;0.5</td>
+          <td>0.48</td>
+          <td>0.15</td>
+          <td>&plusmn;0.02</td>
+        </tr>
+        <tr>
+          <td>0.5&lt;y&lt;1.0</td>
+          <td>1.42</td>
+          <td>0.44</td>
+          <td>&plusmn;0.05</td>
+        </tr>
+        <tr>
+          <td colspan="4"><i>p+p</i> systematic uncertainty: +0.11, -0.12</td>
+        </tr>
+        <tr>
+          <td colspan="4"><i>PHENIX</i> data: <a href="http://arxiv.org/abs/1211.4017">http://arxiv.org/abs/1211.4017</a></td>
+        </tr>
+        </table>
+    </div>
+    <div class="data_pane" id="Fig3">
+        <img src="Fig3a.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig3a.pdf">pdf</a> | <a href="Fig3a.eps">eps</a> | <a href="Fig3a.png">gif</a></div>
+        <table border="1" class="center">
+        <tr>
+          <th>Mass Number</th>
+          <th>(&sigma;<sub>dA</sub>/2)/(A&sigma;<sub>pp</sub>)</th>
+          <th>Systematic Error</th>
+        </tr>
+        <tr>
+          <td>197</td>
+          <td>0.83&plusmn;0.18</td>
+          <td>+11, -13</td>
+        </tr>
+        <tr>
+            <td colspan="3">E772 data: <a href="http://arxiv.org/abs/nucl-th/0007027">http://arxiv.org/abs/nucl-th/0007027</a></td>
+        </tr>
+        </table>
+
+
+        <img src="Fig3b.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig3b.pdf">pdf</a> | <a href="Fig3b.eps">eps</a> | <a href="Fig3b.png">gif</a></div>
+        <table border="1" class="center">
+        <tr>
+          <th>x<sub>F</sub></th>
+          <th>States</th>
+          <th>&alpha;</th>
+          <th>Systematic Error</th>
+        </tr>
+        <tr>
+          <td rowspan="2">-0.11&mdash;-0.05</td>
+          <td>1S+2S+3S</td>
+          <td>0.97&plusmn;0.09</td>
+          <td>&plusmn;0.02</td>
+        </tr>
+        <tr>
+          <td>1S</td>
+          <td>0.95&plusmn;0.08</td>
+          <td>&plusmn;0.02</td>
+        </tr>
+        <tr>
+          <td rowspan="2">-0.05&mdash;0.05</td>
+          <td>1S+2S+3S</td>
+          <td>0.88&plusmn;0.05</td>
+          <td>&plusmn;0.02</td>
+        </tr>
+        <tr>
+          <td>1S</td>
+          <td>0.92&plusmn;0.05</td>
+          <td>&plusmn;0.02</td>
+        </tr>
+        <tr>
+          <td rowspan="2">0.05&mdash;0.11</td>
+          <td>1S+2S+3S</td>
+          <td>1.06&plusmn;0.05</td>
+          <td>&plusmn;0.02</td>
+        </tr>
+        <tr>
+          <td>1S</td>
+          <td>1.05&plusmn;0.05</td>
+          <td>+0.02, -0.03</td>
+        </tr>
+        <tr>
+            <td colspan="3">E772 data: <a href="http://arxiv.org/abs/nucl-th/0007027">http://arxiv.org/abs/nucl-th/0007027</a></td>
+        </tr>
+        </table>
+    </div>
+    <div class="data_pane" id="Fig4">
+        <img src="Fig4a.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig4a.pdf">pdf</a> | <a href="Fig4a.eps">eps</a> | <a href="Fig4a.png">gif</a></div>
+        <table border="1" class="center">
+        <tr>
+        <th>Mass bin (GeV/c<sup>2</sup>)</th>
+        <th>Like-sign counts</th>
+        <th>Unlike-sign counts</th>
+        </tr>
+        <tr>
+        <td>8-8.2</td>
+        <td>34</td>
+        <td>41</td>
+        </tr>
+        <tr>
+        <td>8.2-8.4</td>
+        <td>42</td>
+        <td>37</td>
+        </tr>
+        <tr>
+        <td>8.4-8.6</td>
+        <td>22</td>
+        <td>31</td>
+        </tr>
+        <tr>
+        <td>8.6-8.8</td>
+        <td>23</td>
+        <td>29</td>
+        </tr>
+        <tr>
+        <td>8.8-9</td>
+        <td>23</td>
+        <td>22</td>
+        </tr>
+        <tr>
+        <td>9-9.2</td>
+        <td>18</td>
+        <td>34</td>
+        </tr>
+        <tr>
+        <td>9.2-9.4</td>
+        <td>14</td>
+        <td>35</td>
+        </tr>
+        <tr>
+        <td>9.4-9.6</td>
+        <td>21</td>
+        <td>34</td>
+        </tr>
+        <tr>
+        <td>9.6-9.8</td>
+        <td>12</td>
+        <td>29</td>
+        </tr>
+        <tr>
+        <td>9.8-10</td>
+        <td>7</td>
+        <td>16</td>
+        </tr>
+        <tr>
+        <td>10-10.2</td>
+        <td>10</td>
+        <td>11</td>
+        </tr>
+        <tr>
+        <td>10.2-10.4</td>
+        <td>12</td>
+        <td>11</td>
+        </tr>
+        <tr>
+        <td>10.4-10.6</td>
+        <td>10</td>
+        <td>9</td>
+        </tr>
+        <tr>
+        <td>10.6-10.8</td>
+        <td>7</td>
+        <td>5</td>
+        </tr>
+        <tr>
+        <td>10.8-11</td>
+        <td>3</td>
+        <td>10</td>
+        </tr>
+        <tr>
+        <td>11-11.2</td>
+        <td>7</td>
+        <td>10</td>
+        </tr>
+        <tr>
+        <td>11.2-11.4</td>
+        <td>6</td>
+        <td>3</td>
+        </tr>
+        <tr>
+        <td>11.4-11.6</td>
+        <td>5</td>
+        <td>5</td>
+        </tr>
+        <tr>
+        <td>11.6-11.8</td>
+        <td>1</td>
+        <td>8</td>
+        </tr>
+        <tr>
+        <td>11.8-12</td>
+        <td>3</td>
+        <td>7</td>
+        </tr>
+        <tr>
+        <td>12-12.2</td>
+        <td>5</td>
+        <td>6</td>
+        </tr>
+        <tr>
+        <td>12.2-12.4</td>
+        <td>1</td>
+        <td>3</td>
+        </tr>
+        </table>
+
+
+        <img src="Fig4b.png"> <br>
+        <div style="width:400px;text-align:center" class="center"><a href="Fig4b.pdf">pdf</a> | <a href="Fig4b.eps">eps</a> | <a href="Fig4b.png">gif</a></div>
+        <table border="1" class="center">
+        <tr>
+        <th>Mass bin (GeV/c<sup>2</sup>)</th>
+        <th>Like-sign counts</th>
+        <th>Unlike-sign counts</th>
+        </tr>
+        <tr>
+        <td>8-8.2</td>
+        <td>131</td>
+        <td>125</td>
+        </tr>
+        <tr>
+        <td>8.2-8.4</td>
+        <td>115</td>
+        <td>85</td>
+        </tr>
+        <tr>
+        <td>8.4-8.6</td>
+        <td>81</td>
+        <td>84</td>
+        </tr>
+        <tr>
+        <td>8.6-8.8</td>
+        <td>53</td>
+        <td>59</td>
+        </tr>
+        <tr>
+        <td>8.8-9</td>
+        <td>45</td>
+        <td>72</td>
+        </tr>
+        <tr>
+        <td>9-9.2</td>
+        <td>37</td>
+        <td>80</td>
+        </tr>
+        <tr>
+        <td>9.2-9.4</td>
+        <td>35</td>
+        <td>83</td>
+        </tr>
+        <tr>
+        <td>9.4-9.6</td>
+        <td>39</td>
+        <td>71</td>
+        </tr>
+        <tr>
+        <td>9.6-9.8</td>
+        <td>36</td>
+        <td>60</td>
+        </tr>
+        <tr>
+        <td>9.8-10</td>
+        <td>31</td>
+        <td>42</td>
+        </tr>
+        <tr>
+        <td>10-10.2</td>
+        <td>32</td>
+        <td>27</td>
+        </tr>
+        <tr>
+        <td>10.2-10.4</td>
+        <td>24</td>
+        <td>30</td>
+        </tr>
+        <tr>
+        <td>10.4-10.6</td>
+        <td>12</td>
+        <td>15</td>
+        </tr>
+        <tr>
+        <td>10.6-10.8</td>
+        <td>14</td>
+        <td>24</td>
+        </tr>
+        <tr>
+        <td>10.8-11</td>
+        <td>18</td>
+        <td>12</td>
+        </tr>
+        <tr>
+        <td>11-11.2</td>
+        <td>14</td>
+        <td>13</td>
+        </tr>
+        <tr>
+        <td>11.2-11.4</td>
+        <td>8</td>
+        <td>18</td>
+        </tr>
+        <tr>
+        <td>11.4-11.6</td>
+        <td>12</td>
+        <td>19</td>
+        </tr>
+        <tr>
+        <td>11.6-11.8</td>
+        <td>10</td>
+        <td>10</td>
+        </tr>
+        <tr>
+        <td>11.8-12</td>
+        <td>4</td>
+        <td>15</td>
+        </tr>
+        <tr>
+        <td>12-12.2</td>
+        <td>7</td>
+        <td>7</td>
+        </tr>
+        <tr>
+        <td>12.2-12.4</td>
+        <td>9</td>
+        <td>13</td>
+        </tr>
+        </table>
+        
+
+        <img src="Fig4c.png"> <br>
+        <div style="width:400px;text-align:center" class="center"><a href="Fig4c.pdf">pdf</a> | <a href="Fig4c.eps">eps</a> | <a href="Fig4c.png">gif</a></div>
+        <table border="1" class="center">
+        <tr>
+        <th>Mass bin (GeV/c<sup>2</sup>)</th>
+        <th>Like-sign counts</th>
+        <th>Unlike-sign counts</th>
+        </tr>
+        <tr>
+        <td>8-8.2</td>
+        <td>87</td>
+        <td>143</td>
+        </tr>
+        <tr>
+        <td>8.2-8.4</td>
+        <td>71</td>
+        <td>91</td>
+        </tr>
+        <tr>
+        <td>8.4-8.6</td>
+        <td>81</td>
+        <td>89</td>
+        </tr>
+        <tr>
+        <td>8.6-8.8</td>
+        <td>69</td>
+        <td>72</td>
+        </tr>
+        <tr>
+        <td>8.8-9</td>
+        <td>70</td>
+        <td>64</td>
+        </tr>
+        <tr>
+        <td>9-9.2</td>
+        <td>46</td>
+        <td>53</td>
+        </tr>
+        <tr>
+        <td>9.2-9.4</td>
+        <td>37</td>
+        <td>57</td>
+        </tr>
+        <tr>
+        <td>9.4-9.6</td>
+        <td>29</td>
+        <td>61</td>
+        </tr>
+        <tr>
+        <td>9.6-9.8</td>
+        <td>29</td>
+        <td>53</td>
+        </tr>
+        <tr>
+        <td>9.8-10</td>
+        <td>24</td>
+        <td>34</td>
+        </tr>
+        <tr>
+        <td>10-10.2</td>
+        <td>25</td>
+        <td>28</td>
+        </tr>
+        <tr>
+        <td>10.2-10.4</td>
+        <td>14</td>
+        <td>19</td>
+        </tr>
+        <tr>
+        <td>10.4-10.6</td>
+        <td>16</td>
+        <td>12</td>
+        </tr>
+        <tr>
+        <td>10.6-10.8</td>
+        <td>15</td>
+        <td>19</td>
+        </tr>
+        <tr>
+        <td>10.8-11</td>
+        <td>8</td>
+        <td>16</td>
+        </tr>
+        <tr>
+        <td>11-11.2</td>
+        <td>9</td>
+        <td>16</td>
+        </tr>
+        <tr>
+        <td>11.2-11.4</td>
+        <td>11</td>
+        <td>12</td>
+        </tr>
+        <tr>
+        <td>11.4-11.6</td>
+        <td>5</td>
+        <td>11</td>
+        </tr>
+        <tr>
+        <td>11.6-11.8</td>
+        <td>7</td>
+        <td>6</td>
+        </tr>
+        <tr>
+        <td>11.8-12</td>
+        <td>8</td>
+        <td>6</td>
+        </tr>
+        <tr>
+        <td>12-12.2</td>
+        <td>5</td>
+        <td>10</td>
+        </tr>
+        <tr>
+        <td>12.2-12.4</td>
+        <td>5</td>
+        <td>5</td>
+        </tr>
+        </table>
+    </div>
+    <div class="data_pane" id="Fig5">
+        <img src="Fig5a.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig5a.pdf">pdf</a> | <a href="Fig5a.eps">eps</a> | <a href="Fig5a.png">gif</a></div>
+        <img src="Fig5b.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig5b.pdf">pdf</a> | <a href="Fig5b.eps">eps</a> | <a href="Fig5b.png">gif</a></div>
+        <img src="Fig5c.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig5c.pdf">pdf</a> | <a href="Fig5c.eps">eps</a> | <a href="Fig5c.png">gif</a></div>
+        <br>
+        <div style="width:340px;text-align:left;" class="center">Values in Table III of the paper.</div>
+    </div>
+    <div class="data_pane" id="Fig6">
+        <img src="Fig6.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig6.pdf">pdf</a> | <a href="Fig6.eps">eps</a> | <a href="Fig6.png">gif</a></div>
+        <br>
+        <table border="1" class="center">
+        <tr>
+          <th>Particle</th>
+          <th>Binding Energy</th>
+          <th>R<sub>AA</sub></th>
+          <th>Systematic Error</th>
+        </tr>
+        <tr>
+          <td>J/&psi;</td>
+          <td>0.633 GeV/c<sup>2</sup></td>
+          <td>0.64&plusmn;0.14</td>
+          <td>&plusmn;0.03</td>
+        </tr>
+        <tr>
+          <td>&upsih;(1S)</td>
+          <td>1.098 GeV/c<sup>2</sup></td>
+          <td>0.66&plusmn;0.14</td>
+          <td>+0.09, -0.10</td>
+        </tr>
+        <tr>
+          <td>&upsih;(2S+3S)</td>
+          <td>Low Edge: 0.20<br>Arrow: 0.40<br>Upper Edge: 0.54</td>
+          <td>0.32 (95% Lim.)</td>
+          <td>+0.04, -0.05</td>
+        </tr>
+        <tr>
+          <td colspan="4">High-pT J/&psi; data: <a href="http://arxiv.org/abs/1208.2736">http://arxiv.org/abs/1208.2736</a></td>
+        </tr>
+        </table>
+    </div>
+    <div class="data_pane" id="Fig7">
+        <img src="Fig7a.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig7a.pdf">pdf</a> | <a href="Fig7a.eps">eps</a> | <a href="Fig7a.png">gif</a></div>
+        <br>
+        <img src="Fig7b.png"> <br>
+        <div style="width:400px;text-align:center;" class="center"><a href="Fig7b.pdf">pdf</a> | <a href="Fig7b.eps">eps</a> | <a href="Fig7b.png">gif</a></div>
+    </div>
+  </div>
+</body>
+</html>
