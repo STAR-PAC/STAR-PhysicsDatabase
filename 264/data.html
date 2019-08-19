@@ -1,0 +1,2594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1348.17">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 20.0px Menlo; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Menlo; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.0px Menlo; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 9.3px Menlo; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none; font-variant-ligatures: no-common-ligatures}
+    span.s2 {font: 13.3px Menlo; font-kerning: none; font-variant-ligatures: no-common-ligatures}
+    span.s3 {font-kerning: none}
+    span.s4 {font: 14.0px Menlo; font-kerning: none; font-variant-ligatures: no-common-ligatures}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 503.0px; height: 30.0px; background-color: #ebebeb; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td2 {width: 90.0px; height: 13.0px; background-color: #ebebeb; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td3 {width: 94.0px; height: 13.0px; background-color: #ebebeb; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td4 {width: 95.0px; height: 13.0px; background-color: #ebebeb; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td5 {width: 90.0px; height: 16.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td6 {width: 94.0px; height: 16.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td7 {width: 95.0px; height: 16.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td8 {width: 90.0px; height: 16.0px; background-color: #c9e1da; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td9 {width: 94.0px; height: 16.0px; background-color: #c9e1da; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td10 {width: 95.0px; height: 16.0px; background-color: #c9e1da; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td11 {width: 90.0px; height: 15.0px; background-color: #c9e1da; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td12 {width: 94.0px; height: 15.0px; background-color: #c9e1da; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td13 {width: 95.0px; height: 15.0px; background-color: #c9e1da; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td14 {width: 90.0px; height: 15.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td15 {width: 94.0px; height: 15.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td16 {width: 95.0px; height: 15.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td17 {width: 503.0px; height: 44.0px; background-color: #ebebeb; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td18 {width: 90.0px; height: 16.0px; background-color: #ebebeb; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td19 {width: 94.0px; height: 16.0px; background-color: #ebebeb; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td20 {width: 95.0px; height: 16.0px; background-color: #ebebeb; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td21 {width: 503.0px; height: 40.0px; background-color: #ebebeb; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td22 {width: 503.0px; height: 16.0px; background-color: #c9e1da; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td23 {width: 90.0px; height: 32.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td24 {width: 94.0px; height: 32.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td25 {width: 95.0px; height: 32.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td26 {width: 503.0px; height: 15.0px; background-color: #c9e1da; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td27 {width: 90.0px; height: 44.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td28 {width: 94.0px; height: 44.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td29 {width: 95.0px; height: 44.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td30 {width: 90.0px; height: 39.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td31 {width: 94.0px; height: 39.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td32 {width: 95.0px; height: 39.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td33 {width: 90.0px; height: 46.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td34 {width: 94.0px; height: 46.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+    td.td35 {width: 95.0px; height: 46.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #929292 #929292 #929292 #929292; padding: 4.0px 4.0px 4.0px 4.0px}
+  </style>
+</head>
+<body>
+<p class="p1"><br></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td colspan="5" valign="middle" class="td1">
+        <p class="p2"><span class="s1">Fig 2: C</span><span class="s2"><sub>123 </sub></span><span class="s1">(Δη)</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s3">Δη</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p3"><span class="s3">C123(Δη12)</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p3"><span class="s3">ErrC123(Δη12)</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p3"><span class="s3">C123(Δη13)</span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p3"><span class="s3">ErrC123(Δη13)</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.075</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.41608</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.139722</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">7.22668</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.189321</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">0.125</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.16262</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.14113</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">5.23272</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.191285</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.175</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.04334</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.14295</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">4.54452</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.193933</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.225</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">1.09324</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">0.144914</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p4"><span class="s1">3.8179</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">0.19666</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.275</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.08491</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.146951</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">2.82194</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.199608</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">0.325</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.0143</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.149146</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">2.8741</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.202542</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">0.375</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.882166</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.151417</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p4"><span class="s1">2.92339</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.205756</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">0.425</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.969305</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.153757</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">2.2984</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.209142</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.475</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.937722</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.156189</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">2.00343</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.212551</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">0.525</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.37068</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.158795</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">1.82678</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.216317</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">0.575</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">1.13476</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.161549</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p4"><span class="s1">1.73035</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.220241</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">0.625</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.3997</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.16443</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">1.24544</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.224285</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.675</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.912138</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.167465</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">0.853075</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.228591</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">0.725</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.48756</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.170611</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">0.748698</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.233134</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">0.775</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">1.41994</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.174002</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p4"><span class="s1">-0.368344</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.237891</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">0.825</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.3335</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.177506</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-0.402603</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.243042</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.875</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.4071</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.181153</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">-0.56649</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.248323</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">0.925</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.56069</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.185181</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-0.8484</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.254061</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">0.975</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">1.15285</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.189365</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p4"><span class="s1">-1.40473</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.260051</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.025</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.27383</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.194062</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-1.33485</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.266828</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.075</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.78806</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.199314</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">-1.61598</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.273969</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.125</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.49778</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.204959</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-2.3668</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.28181</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">1.175</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.828921</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.211226</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p4"><span class="s1">-3.12476</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.290381</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.225</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.18555</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.218026</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-2.84233</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.299873</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.275</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.36425</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.225722</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">-3.23417</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.31036</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.325</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.968238</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.234194</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-3.5064</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.322117</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">1.375</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">1.27238</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.243938</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p4"><span class="s1">-3.41767</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.335597</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.425</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.59245</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.255043</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-3.96781</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.35086</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.475</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.15398</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.267829</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">-3.86668</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.368356</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.525</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.803481</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.282552</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-3.73749</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.388941</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">1.575</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.765528</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.300366</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p4"><span class="s1">-4.68598</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.413608</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.625</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.821783</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.321812</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-4.88477</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.442856</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.675</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.804314</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.348552</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">-4.77769</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.479842</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.725</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.757674</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.383394</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-5.06513</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.527992</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">1.775</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.896877</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.431051</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p4"><span class="s1">-3.79219</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.593952</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.825</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.264737</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.501538</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-3.52385</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.691265</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.875</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.894343</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.619139</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">-6.14539</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">0.854384</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.925</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">-0.81759</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">0.861092</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p4"><span class="s1">-4.63184</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">1.18959</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">1.975</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">0.546108</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">1.74976</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p4"><span class="s1">-2.55047</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">2.42562</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="5" valign="middle" class="td17">
+        <p class="p2"><span class="s1">Fig 2: C</span><span class="s2"><sub>224 </sub></span><span class="s1">(Δη)</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td18">
+        <p class="p3"><span class="s3">Δη</span></p>
+      </td>
+      <td valign="middle" class="td19">
+        <p class="p3"><span class="s3">C224(Δη12)</span></p>
+      </td>
+      <td valign="middle" class="td19">
+        <p class="p3"><span class="s3">ErrC224(Δη12)</span></p>
+      </td>
+      <td valign="middle" class="td20">
+        <p class="p3"><span class="s3">C224(Δη13)</span></p>
+      </td>
+      <td valign="middle" class="td19">
+        <p class="p3"><span class="s3">ErrC224(Δη13)</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.075</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">32.2725</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.19936</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">36.5522</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.203516</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.125</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">32.0729</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.201375</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">34.8051</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.20559</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.175</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.9306</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.203743</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">33.5831</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.208133</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.225</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">32.2182</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.206546</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">33.1002</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.210999</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.275</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.7273</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.209229</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">32.8201</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.213864</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.325</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">31.542</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.212168</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">32.7725</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.216894</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.375</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.4232</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.215172</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">32.1838</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.22007</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.425</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">31.8038</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.21835</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">32.2323</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.223343</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.475</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.9178</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.221541</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">32.1286</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.226775</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.525</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">31.7965</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.225178</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">32.2062</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.230415</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.575</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.7256</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.228759</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">31.4045</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.234118</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.625</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">31.8645</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.23256</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">31.2232</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.238117</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.675</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">32.2059</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.236545</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">31.1593</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.242266</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.725</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">32.156</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.240744</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">31.2915</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.24645</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.775</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.9373</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.24513</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">31.4072</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.251061</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.825</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">31.8205</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.249765</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">31.0675</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.255782</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.875</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.7908</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.254614</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">30.7317</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.26084</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">0.925</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">31.9818</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.259579</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">29.9593</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.26592</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">0.975</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.6932</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.265078</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">30.3979</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.271334</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.025</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">31.4847</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.271314</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">30.13</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.277734</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">1.075</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.5097</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.278335</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">29.8078</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.285273</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.125</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">31.5261</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.286299</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">29.3256</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.293359</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">1.175</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.7177</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.294643</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">29.1312</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.302029</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.225</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">31.1448</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.303914</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">28.774</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.311838</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">1.275</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.3524</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.314491</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">28.8658</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.322793</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.325</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">31.0181</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.326258</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">28.3741</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.334911</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">1.375</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.199</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.339485</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">28.6397</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.34871</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.425</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">30.4724</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.35451</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">28.1122</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.36447</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">1.475</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">31.0643</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.372081</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">28.4341</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.382796</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.525</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">30.5514</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.392466</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">27.78</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.403895</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">1.575</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">30.2334</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.416686</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">27.9261</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.429119</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">1.625</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">30.4486</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.446001</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">27.713</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.459579</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">1.675</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">30.5123</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.482885</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">27.7058</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.497749</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">1.725</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">29.4162</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">0.530673</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">26.9776</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">0.547316</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.775</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">29.2936</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">0.595963</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">25.9431</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">0.615219</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">1.825</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">30.1669</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">0.692457</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">26.8812</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">0.715262</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.875</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">28.16</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">0.853801</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">26.8833</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">0.882742</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">1.925</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p4"><span class="s1">27.5081</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">1.18475</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">26.6599</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">1.22566</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">1.975</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p4"><span class="s1">28.6801</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">2.39767</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">24.7828</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">2.47249</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="5" valign="middle" class="td21">
+        <p class="p2"><span class="s1">Fig 3 : C</span><span class="s2"><sub>m,n,m+n </sub></span><span class="s1">x(N</span><span class="s2"><sub>part</sub></span><span class="s1">)</span><span class="s2"><sup>2</sup></span><span class="s1"> vs N</span><span class="s2"><sub>part</sub></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="5" valign="middle" class="td22">
+        <p class="p4"><span class="s1">Fig.3 (a)</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td23">
+        <p class="p4"><span class="s1">Npart</span></p>
+      </td>
+      <td valign="middle" class="td24">
+        <p class="p7"><span class="s4">C</span><span class="s1"><sub>112</sub></span><span class="s4"> x(N</span><span class="s1"><sub>part</sub></span><span class="s4">)</span><span class="s1"><sup>2</sup></span></p>
+      </td>
+      <td valign="middle" class="td24">
+        <p class="p4"><span class="s1">statErr</span></p>
+      </td>
+      <td valign="middle" class="td25">
+        <p class="p4"><span class="s1">sysErr</span></p>
+      </td>
+      <td valign="middle" class="td24">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">350.6</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">-76.1248</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">2.22104</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">28.9321</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">298.6</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">-70.2515</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">2.23016</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">10.5357</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">234.3</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">-106.867</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.78469</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">12.8855</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">167.6</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">-136.886</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">1.75401</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">13.5987</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">117.1</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">-120.429</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.67049</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">5.83668</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">78.3</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">-78.7624</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">1.39951</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">3.15089</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">49.3</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">-32.6636</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.49231</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">6.79966</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">28.8</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">-10.5312</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">1.07973</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">7.03417</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">15.7</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">4.31227</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.0916</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">6.06992</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="5" valign="middle" class="td26">
+        <p class="p4"><span class="s1">Fig.3 (b)</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td23">
+        <p class="p4"><span class="s1">Npart</span></p>
+      </td>
+      <td valign="middle" class="td24">
+        <p class="p7"><span class="s4">C</span><span class="s1"><sub>123</sub></span><span class="s4"> x(N</span><span class="s1"><sub>part</sub></span><span class="s4">)</span><span class="s1"><sup>2</sup></span></p>
+      </td>
+      <td valign="middle" class="td24">
+        <p class="p4"><span class="s1">statErr</span></p>
+      </td>
+      <td valign="middle" class="td25">
+        <p class="p4"><span class="s1">sysErr</span></p>
+      </td>
+      <td valign="middle" class="td24">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">350.6</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">-31.9772</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.60902</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">8.41441</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">298.6</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">-13.6952</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">1.64362</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">13.9133</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">234.3</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">11.8561</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.31145</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">9.25006</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">167.6</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">33.119</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">1.27483</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">13.0519</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">117.1</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">34.3318</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.19985</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">9.66529</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">78.3</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">29.1509</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.993933</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">10.4712</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">49.3</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">12.488</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.05569</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">6.11113</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">28.8</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">6.78264</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.761429</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">2.47218</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">15.7</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.13423</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.772094</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">2.67074</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="5" valign="middle" class="td26">
+        <p class="p4"><span class="s1">Fig.3 (c)</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td27">
+        <p class="p4"><span class="s1">Npart</span></p>
+      </td>
+      <td valign="middle" class="td28">
+        <p class="p7"><span class="s4">C</span><span class="s1"><sub>224</sub></span><span class="s4"> x(N</span><span class="s1"><sub>part</sub></span><span class="s4">)</span><span class="s1"><sup>2</sup></span></p>
+      </td>
+      <td valign="middle" class="td28">
+        <p class="p4"><span class="s1">statErr</span></p>
+      </td>
+      <td valign="middle" class="td29">
+        <p class="p4"><span class="s1">sysErr</span></p>
+      </td>
+      <td valign="middle" class="td28">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">350.6</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">127.761</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">2.47799</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">37.4187</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">298.6</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">375.618</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">2.80408</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">38.6169</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">234.3</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">749.628</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">2.42453</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">37.815</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">167.6</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">890.122</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">2.41308</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">55.4084</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">117.1</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">662.341</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">2.17265</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">35.1597</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">78.3</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">339.213</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">1.68981</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">35.3842</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">49.3</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">129.767</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">1.64989</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">18.548</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">28.8</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">40.3033</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">1.13244</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">4.7101</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">15.7</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">17.8698</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">1.11744</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">2.57109</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="5" valign="middle" class="td22">
+        <p class="p4"><span class="s1">Fig.3 (d)</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td30">
+        <p class="p4"><span class="s1">Npart</span></p>
+      </td>
+      <td valign="middle" class="td31">
+        <p class="p7"><span class="s4">C</span><span class="s1"><sub>235</sub></span><span class="s4"> x(N</span><span class="s1"><sub>part</sub></span><span class="s4">)</span><span class="s1"><sup>2</sup></span></p>
+      </td>
+      <td valign="middle" class="td31">
+        <p class="p4"><span class="s1">statErr</span></p>
+      </td>
+      <td valign="middle" class="td32">
+        <p class="p4"><span class="s1">sysErr</span></p>
+      </td>
+      <td valign="middle" class="td31">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">350.6</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">37.5406</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">1.57778</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">12.5873</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">298.6</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">87.1092</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">1.62496</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">28.82</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">234.3</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">126.06</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">1.2975</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">18.4233</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">167.6</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">116.92</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">1.25716</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">15.7847</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">117.1</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">78.1446</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">1.18218</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">11.6204</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">78.3</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">40.9998</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">0.980333</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">4.72487</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">49.3</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">16.0468</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">1.03787</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">5.08432</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p4"><span class="s1">28.8</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">7.77314</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p5"><span class="s1">0.754544</span></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p5"><span class="s1">3.60641</span></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td8">
+        <p class="p4"><span class="s1">15.7</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">3.8205</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p5"><span class="s1">0.767862</span></p>
+      </td>
+      <td valign="middle" class="td10">
+        <p class="p5"><span class="s1">4.15858</span></p>
+      </td>
+      <td valign="middle" class="td9">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td14">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td16">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td15">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="5" valign="middle" class="td22">
+        <p class="p4"><span class="s1">Fig.3 (e)</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td27">
+        <p class="p4"><span class="s1">Npart</span></p>
+      </td>
+      <td valign="middle" class="td28">
+        <p class="p7"><span class="s4">C</span><span class="s1"><sub>246</sub></span><span class="s4"> x(N</span><span class="s1"><sub>part</sub></span><span class="s4">)</span><span class="s1"><sup>2</sup></span></p>
+      </td>
+      <td valign="middle" class="td28">
+        <p class="p4"><span class="s1">statErr</span></p>
+      </td>
+      <td valign="middle" class="td29">
+        <p class="p4"><span class="s1">sysErr</span></p>
+      </td>
+      <td valign="middle" class="td28">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">350.6</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">6.85441</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.51861</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">4.41888</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">298.6</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">18.4036</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">1.55514</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">12.5978</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">234.3</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">22.4149</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.24578</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">8.23898</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">167.6</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">24.6556</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">1.21932</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">5.34705</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">117.1</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">27.1621</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.15953</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">5.83251</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">78.3</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">15.4713</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.969175</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">4.55679</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">49.3</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">9.97094</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">1.03248</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">4.99612</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">28.8</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">6.71057</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p5"><span class="s1">0.752349</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p5"><span class="s1">3.65918</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">15.7</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">2.51868</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p5"><span class="s1">0.76831</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p5"><span class="s1">2.50641</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p6"><br></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="5" valign="middle" class="td26">
+        <p class="p4"><span class="s1">Fig.3 (f)</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td33">
+        <p class="p4"><span class="s1">Npart</span></p>
+      </td>
+      <td valign="middle" class="td34">
+        <p class="p7"><span class="s4">C</span><span class="s1"><sub>336</sub></span><span class="s4"> x(N</span><span class="s1"><sub>part</sub></span><span class="s4">)</span><span class="s1"><sup>2</sup></span></p>
+      </td>
+      <td valign="middle" class="td34">
+        <p class="p4"><span class="s1">statErr</span></p>
+      </td>
+      <td valign="middle" class="td35">
+        <p class="p4"><span class="s1">sysErr</span></p>
+      </td>
+      <td valign="middle" class="td34">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">350.6</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">18.6581</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">2.02047</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p4"><span class="s1">10.729</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">298.6</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">21.5479</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.88138</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">6.07086</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">234.3</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">16.9598</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">1.36522</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p4"><span class="s1">6.32051</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">167.6</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">14.2123</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.27932</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">3.77329</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">117.1</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">9.19063</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">1.26138</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p4"><span class="s1">6.33707</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">78.3</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">4.36038</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.12579</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">5.00763</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">49.3</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">6.79201</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">1.30931</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p4"><span class="s1">8.5515</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p4"><span class="s1">28.8</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">-0.21441</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p4"><span class="s1">1.00334</span></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p4"><span class="s1">7.46666</span></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td11">
+        <p class="p4"><span class="s1">15.7</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">0.610824</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p4"><span class="s1">1.05574</span></p>
+      </td>
+      <td valign="middle" class="td13">
+        <p class="p4"><span class="s1">2.90289</span></p>
+      </td>
+      <td valign="middle" class="td12">
+        <p class="p6"><br></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+</body>
+</html>

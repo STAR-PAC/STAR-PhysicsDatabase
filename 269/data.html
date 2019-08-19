@@ -1,0 +1,8765 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
+  font-family: octicons-anchor;
+  src: url(https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.woff) format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .markdown-body {
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+
+pre {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .plan-price-unit {
+  color: #767676;
+  font-weight: normal;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .plan-choice {
+  padding: 15px;
+  padding-left: 40px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  font-weight: normal;
+  background-color: #fafafa;
+}
+
+.markdown-body .plan-choice.open {
+  background-color: #fff;
+}
+
+.markdown-body .plan-choice.open .plan-choice-seat-breakdown {
+  display: block;
+}
+
+.markdown-body .plan-choice-free {
+  border-radius: 3px 3px 0 0;
+}
+
+.markdown-body .plan-choice-paid {
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+
+.markdown-body .plan-choice-radio {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
+
+.markdown-body .plan-choice-exp {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.markdown-body .plan-choice-seat-breakdown {
+  margin-top: 10px;
+  display: none;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
+
+@media print {
+  body .markdown-body {
+    padding: 0;
+    border: none;
+  }
+}
+</style><title>tables_all</title></head><body><article class="markdown-body"><p>Ncoll unc. 62.4 : 0.428681<br>
+Ncoll unc. 39.0 : 0.430205<br>
+Ncoll unc. 27.0 : 0.462593<br>
+Ncoll unc. 19.6 : 0.396941<br>
+Ncoll unc. 14.5 : 0.381283<br>
+Ncoll unc. 11.5 : 0.441269<br>
+Ncoll unc. 7.7  : 0.362127<br>
+(These are the global uncertainties in Figure 1 and 2)</p>
+<h1>
+<a id="user-content-figure-1" class="anchor" href="#figure-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Figure 1</h1>
+<h2>
+<a id="user-content-auau--624-gev" class="anchor" href="#auau--624-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 62.4 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.55</td>
+<td>0.557895</td>
+<td>0.000221093</td>
+<td>0.0493384</td>
+</tr>
+<tr>
+<td>0.55 - 0.6</td>
+<td>0.568379</td>
+<td>0.000242195</td>
+<td>0.0493585</td>
+</tr>
+<tr>
+<td>0.6 - 0.65</td>
+<td>0.580295</td>
+<td>0.000266675</td>
+<td>0.0496761</td>
+</tr>
+<tr>
+<td>0.65 - 0.7</td>
+<td>0.59191</td>
+<td>0.000293659</td>
+<td>0.0500904</td>
+</tr>
+<tr>
+<td>0.7 - 0.75</td>
+<td>0.606959</td>
+<td>0.000325809</td>
+<td>0.0508828</td>
+</tr>
+<tr>
+<td>0.75 - 0.8</td>
+<td>0.623246</td>
+<td>0.000362239</td>
+<td>0.0518417</td>
+</tr>
+<tr>
+<td>0.8 - 0.85</td>
+<td>0.639142</td>
+<td>0.00040195</td>
+<td>0.0528163</td>
+</tr>
+<tr>
+<td>0.85 - 0.9</td>
+<td>0.654833</td>
+<td>0.000445752</td>
+<td>0.0538118</td>
+</tr>
+<tr>
+<td>0.9 - 0.95</td>
+<td>0.669904</td>
+<td>0.000493199</td>
+<td>0.0547873</td>
+</tr>
+<tr>
+<td>0.95 - 1</td>
+<td>0.686095</td>
+<td>0.000546829</td>
+<td>0.0558792</td>
+</tr>
+<tr>
+<td>1 - 1.05</td>
+<td>0.704904</td>
+<td>0.000608719</td>
+<td>0.0572036</td>
+</tr>
+<tr>
+<td>1.05 - 1.1</td>
+<td>0.723011</td>
+<td>0.000675712</td>
+<td>0.0584864</td>
+</tr>
+<tr>
+<td>1.1 - 1.15</td>
+<td>0.739276</td>
+<td>0.000746743</td>
+<td>0.0596339</td>
+</tr>
+<tr>
+<td>1.15 - 1.2</td>
+<td>0.757036</td>
+<td>0.000826457</td>
+<td>0.0609135</td>
+</tr>
+<tr>
+<td>1.2 - 1.25</td>
+<td>0.770733</td>
+<td>0.000907638</td>
+<td>0.0618765</td>
+</tr>
+<tr>
+<td>1.25 - 1.3</td>
+<td>0.78565</td>
+<td>0.00099853</td>
+<td>0.0629469</td>
+</tr>
+<tr>
+<td>1.3 - 1.35</td>
+<td>0.799076</td>
+<td>0.00109508</td>
+<td>0.0639059</td>
+</tr>
+<tr>
+<td>1.35 - 1.4</td>
+<td>0.811736</td>
+<td>0.00119974</td>
+<td>0.0648112</td>
+</tr>
+<tr>
+<td>1.4 - 1.45</td>
+<td>0.821222</td>
+<td>0.00130706</td>
+<td>0.0654698</td>
+</tr>
+<tr>
+<td>1.45 - 1.5</td>
+<td>0.833295</td>
+<td>0.00142897</td>
+<td>0.066341</td>
+</tr>
+<tr>
+<td>1.5 - 1.55</td>
+<td>0.84319</td>
+<td>0.00155749</td>
+<td>0.0670441</td>
+</tr>
+<tr>
+<td>1.55 - 1.6</td>
+<td>0.849057</td>
+<td>0.00168732</td>
+<td>0.0674323</td>
+</tr>
+<tr>
+<td>1.6 - 1.65</td>
+<td>0.857227</td>
+<td>0.00183434</td>
+<td>0.0680084</td>
+</tr>
+<tr>
+<td>1.65 - 1.7</td>
+<td>0.862267</td>
+<td>0.00198275</td>
+<td>0.0683407</td>
+</tr>
+<tr>
+<td>1.7 - 1.75</td>
+<td>0.868649</td>
+<td>0.00214968</td>
+<td>0.0687834</td>
+</tr>
+<tr>
+<td>1.75 - 1.8</td>
+<td>0.867845</td>
+<td>0.0023049</td>
+<td>0.0686612</td>
+</tr>
+<tr>
+<td>1.8 - 1.85</td>
+<td>0.873616</td>
+<td>0.00249705</td>
+<td>0.069063</td>
+</tr>
+<tr>
+<td>1.85 - 1.9</td>
+<td>0.877938</td>
+<td>0.0027027</td>
+<td>0.0693534</td>
+</tr>
+<tr>
+<td>1.9 - 1.95</td>
+<td>0.878452</td>
+<td>0.00290013</td>
+<td>0.0693459</td>
+</tr>
+<tr>
+<td>1.95 - 2</td>
+<td>0.874662</td>
+<td>0.00309464</td>
+<td>0.069002</td>
+</tr>
+<tr>
+<td>2 - 2.1</td>
+<td>0.877475</td>
+<td>0.00243284</td>
+<td>0.0691818</td>
+</tr>
+<tr>
+<td>2.1 - 2.2</td>
+<td>0.868103</td>
+<td>0.00276581</td>
+<td>0.068367</td>
+</tr>
+<tr>
+<td>2.2 - 2.3</td>
+<td>0.863538</td>
+<td>0.00316435</td>
+<td>0.0679404</td>
+</tr>
+<tr>
+<td>2.3 - 2.4</td>
+<td>0.854042</td>
+<td>0.00359239</td>
+<td>0.0671341</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.839428</td>
+<td>0.00296991</td>
+<td>0.0659331</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.812198</td>
+<td>0.00375289</td>
+<td>0.0637074</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.776567</td>
+<td>0.00463893</td>
+<td>0.0608438</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.724124</td>
+<td>0.00406365</td>
+<td>0.0566812</td>
+</tr>
+<tr>
+<td>3.5 - 4</td>
+<td>0.645998</td>
+<td>0.00662598</td>
+<td>0.0504744</td>
+</tr>
+<tr>
+<td>4 - 4.5</td>
+<td>0.584086</td>
+<td>0.0104851</td>
+<td>0.0455787</td>
+</tr>
+<tr>
+<td>4.5 - 5</td>
+<td>0.508306</td>
+<td>0.0152108</td>
+<td>0.0396279</td>
+</tr>
+<tr>
+<td>5 - 5.5</td>
+<td>0.502184</td>
+<td>0.0254963</td>
+<td>0.0391223</td>
+</tr>
+<tr>
+<td>5.5 - 6</td>
+<td>0.471107</td>
+<td>0.0376836</td>
+<td>0.0366805</td>
+</tr>
+<tr>
+<td>6 - 6.5</td>
+<td>0.503745</td>
+<td>0.0632003</td>
+<td>0.0392037</td>
+</tr>
+<tr>
+<td>6.5 - 7</td>
+<td>0.342841</td>
+<td>0.0560693</td>
+<td>0.0266714</td>
+</tr>
+<tr>
+<td>7 - 7.5</td>
+<td>0.353282</td>
+<td>0.0874521</td>
+<td>0.0274751</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-auau--390-gev" class="anchor" href="#auau--390-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 39.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.55</td>
+<td>0.559988</td>
+<td>0.000165593</td>
+<td>0.0488966</td>
+</tr>
+<tr>
+<td>0.55 - 0.6</td>
+<td>0.57269</td>
+<td>0.000182779</td>
+<td>0.0494253</td>
+</tr>
+<tr>
+<td>0.6 - 0.65</td>
+<td>0.585793</td>
+<td>0.000202091</td>
+<td>0.0501013</td>
+</tr>
+<tr>
+<td>0.65 - 0.7</td>
+<td>0.599595</td>
+<td>0.000223916</td>
+<td>0.0509168</td>
+</tr>
+<tr>
+<td>0.7 - 0.75</td>
+<td>0.614776</td>
+<td>0.00024878</td>
+<td>0.0519069</td>
+</tr>
+<tr>
+<td>0.75 - 0.8</td>
+<td>0.631156</td>
+<td>0.000276881</td>
+<td>0.0530403</td>
+</tr>
+<tr>
+<td>0.8 - 0.85</td>
+<td>0.648068</td>
+<td>0.000308373</td>
+<td>0.0542503</td>
+</tr>
+<tr>
+<td>0.85 - 0.9</td>
+<td>0.665169</td>
+<td>0.00034335</td>
+<td>0.0555009</td>
+</tr>
+<tr>
+<td>0.9 - 0.95</td>
+<td>0.680818</td>
+<td>0.000381002</td>
+<td>0.0566504</td>
+</tr>
+<tr>
+<td>0.95 - 1</td>
+<td>0.699739</td>
+<td>0.000425101</td>
+<td>0.0580879</td>
+</tr>
+<tr>
+<td>1 - 1.05</td>
+<td>0.71842</td>
+<td>0.000473846</td>
+<td>0.0595179</td>
+</tr>
+<tr>
+<td>1.05 - 1.1</td>
+<td>0.738522</td>
+<td>0.000528718</td>
+<td>0.0610757</td>
+</tr>
+<tr>
+<td>1.1 - 1.15</td>
+<td>0.75839</td>
+<td>0.000588915</td>
+<td>0.0626225</td>
+</tr>
+<tr>
+<td>1.15 - 1.2</td>
+<td>0.776715</td>
+<td>0.000653664</td>
+<td>0.0640491</td>
+</tr>
+<tr>
+<td>1.2 - 1.25</td>
+<td>0.794895</td>
+<td>0.000724492</td>
+<td>0.06547</td>
+</tr>
+<tr>
+<td>1.25 - 1.3</td>
+<td>0.809754</td>
+<td>0.000798265</td>
+<td>0.0666231</td>
+</tr>
+<tr>
+<td>1.3 - 1.35</td>
+<td>0.826496</td>
+<td>0.000882031</td>
+<td>0.0679362</td>
+</tr>
+<tr>
+<td>1.35 - 1.4</td>
+<td>0.839421</td>
+<td>0.000967916</td>
+<td>0.0689399</td>
+</tr>
+<tr>
+<td>1.4 - 1.45</td>
+<td>0.854494</td>
+<td>0.00106599</td>
+<td>0.0701242</td>
+</tr>
+<tr>
+<td>1.45 - 1.5</td>
+<td>0.866101</td>
+<td>0.00116778</td>
+<td>0.0710276</td>
+</tr>
+<tr>
+<td>1.5 - 1.55</td>
+<td>0.87847</td>
+<td>0.00128018</td>
+<td>0.0719968</td>
+</tr>
+<tr>
+<td>1.55 - 1.6</td>
+<td>0.889568</td>
+<td>0.00140154</td>
+<td>0.0728648</td>
+</tr>
+<tr>
+<td>1.6 - 1.65</td>
+<td>0.901173</td>
+<td>0.00153503</td>
+<td>0.0737769</td>
+</tr>
+<tr>
+<td>1.65 - 1.7</td>
+<td>0.909118</td>
+<td>0.00167245</td>
+<td>0.0743919</td>
+</tr>
+<tr>
+<td>1.7 - 1.75</td>
+<td>0.917678</td>
+<td>0.00182446</td>
+<td>0.0750595</td>
+</tr>
+<tr>
+<td>1.75 - 1.8</td>
+<td>0.925552</td>
+<td>0.00198795</td>
+<td>0.0756731</td>
+</tr>
+<tr>
+<td>1.8 - 1.85</td>
+<td>0.932268</td>
+<td>0.00216136</td>
+<td>0.0761939</td>
+</tr>
+<tr>
+<td>1.85 - 1.9</td>
+<td>0.939305</td>
+<td>0.00235298</td>
+<td>0.0767426</td>
+</tr>
+<tr>
+<td>1.9 - 1.95</td>
+<td>0.942608</td>
+<td>0.00254751</td>
+<td>0.0769881</td>
+</tr>
+<tr>
+<td>1.95 - 2</td>
+<td>0.949373</td>
+<td>0.00277196</td>
+<td>0.0775177</td>
+</tr>
+<tr>
+<td>2 - 2.1</td>
+<td>0.949291</td>
+<td>0.0021787</td>
+<td>0.0774897</td>
+</tr>
+<tr>
+<td>2.1 - 2.2</td>
+<td>0.955628</td>
+<td>0.00255506</td>
+<td>0.0779684</td>
+</tr>
+<tr>
+<td>2.2 - 2.3</td>
+<td>0.955125</td>
+<td>0.00296497</td>
+<td>0.0778938</td>
+</tr>
+<tr>
+<td>2.3 - 2.4</td>
+<td>0.949487</td>
+<td>0.00341664</td>
+<td>0.0774045</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.950212</td>
+<td>0.00292824</td>
+<td>0.0774376</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.932179</td>
+<td>0.00383709</td>
+<td>0.0759251</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.913363</td>
+<td>0.00500089</td>
+<td>0.0743587</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.885134</td>
+<td>0.00476148</td>
+<td>0.0720337</td>
+</tr>
+<tr>
+<td>3.5 - 4</td>
+<td>0.842179</td>
+<td>0.00896379</td>
+<td>0.0684913</td>
+</tr>
+<tr>
+<td>4 - 4.5</td>
+<td>0.771191</td>
+<td>0.0154439</td>
+<td>0.0626898</td>
+</tr>
+<tr>
+<td>4.5 - 5</td>
+<td>0.706584</td>
+<td>0.0259228</td>
+<td>0.0574196</td>
+</tr>
+<tr>
+<td>5 - 5.5</td>
+<td>0.795198</td>
+<td>0.0559228</td>
+<td>0.0646057</td>
+</tr>
+<tr>
+<td>5.5 - 6</td>
+<td>0.751272</td>
+<td>0.0926784</td>
+<td>0.0610262</td>
+</tr>
+<tr>
+<td>6 - 6.5</td>
+<td>0.735452</td>
+<td>0.15136</td>
+<td>0.059733</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-auau--270-gev" class="anchor" href="#auau--270-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 27.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.55</td>
+<td>0.590412</td>
+<td>0.000301786</td>
+<td>0.0531457</td>
+</tr>
+<tr>
+<td>0.55 - 0.6</td>
+<td>0.603353</td>
+<td>0.000332821</td>
+<td>0.0537496</td>
+</tr>
+<tr>
+<td>0.6 - 0.65</td>
+<td>0.616878</td>
+<td>0.00036818</td>
+<td>0.054535</td>
+</tr>
+<tr>
+<td>0.65 - 0.7</td>
+<td>0.630806</td>
+<td>0.000408116</td>
+<td>0.0554438</td>
+</tr>
+<tr>
+<td>0.7 - 0.75</td>
+<td>0.647826</td>
+<td>0.000455273</td>
+<td>0.0566852</td>
+</tr>
+<tr>
+<td>0.75 - 0.8</td>
+<td>0.666961</td>
+<td>0.000509476</td>
+<td>0.0581539</td>
+</tr>
+<tr>
+<td>0.8 - 0.85</td>
+<td>0.686517</td>
+<td>0.000570221</td>
+<td>0.0596902</td>
+</tr>
+<tr>
+<td>0.85 - 0.9</td>
+<td>0.70707</td>
+<td>0.000638995</td>
+<td>0.0613366</td>
+</tr>
+<tr>
+<td>0.9 - 0.95</td>
+<td>0.727403</td>
+<td>0.000714932</td>
+<td>0.0629819</td>
+</tr>
+<tr>
+<td>0.95 - 1</td>
+<td>0.747785</td>
+<td>0.00079952</td>
+<td>0.0646457</td>
+</tr>
+<tr>
+<td>1 - 1.05</td>
+<td>0.771465</td>
+<td>0.000898505</td>
+<td>0.0666055</td>
+</tr>
+<tr>
+<td>1.05 - 1.1</td>
+<td>0.796569</td>
+<td>0.00101107</td>
+<td>0.0686967</td>
+</tr>
+<tr>
+<td>1.1 - 1.15</td>
+<td>0.816825</td>
+<td>0.00112641</td>
+<td>0.0703771</td>
+</tr>
+<tr>
+<td>1.15 - 1.2</td>
+<td>0.840159</td>
+<td>0.0012607</td>
+<td>0.0723288</td>
+</tr>
+<tr>
+<td>1.2 - 1.25</td>
+<td>0.862233</td>
+<td>0.0014047</td>
+<td>0.0741771</td>
+</tr>
+<tr>
+<td>1.25 - 1.3</td>
+<td>0.886953</td>
+<td>0.00157299</td>
+<td>0.0762571</td>
+</tr>
+<tr>
+<td>1.3 - 1.35</td>
+<td>0.905607</td>
+<td>0.00174171</td>
+<td>0.0778195</td>
+</tr>
+<tr>
+<td>1.35 - 1.4</td>
+<td>0.927536</td>
+<td>0.00193793</td>
+<td>0.0796664</td>
+</tr>
+<tr>
+<td>1.4 - 1.45</td>
+<td>0.944114</td>
+<td>0.00213908</td>
+<td>0.0810566</td>
+</tr>
+<tr>
+<td>1.45 - 1.5</td>
+<td>0.963452</td>
+<td>0.00236966</td>
+<td>0.0826864</td>
+</tr>
+<tr>
+<td>1.5 - 1.55</td>
+<td>0.981971</td>
+<td>0.00262233</td>
+<td>0.0842481</td>
+</tr>
+<tr>
+<td>1.55 - 1.6</td>
+<td>0.999482</td>
+<td>0.00289708</td>
+<td>0.0857253</td>
+</tr>
+<tr>
+<td>1.6 - 1.65</td>
+<td>1.01536</td>
+<td>0.00319678</td>
+<td>0.0870638</td>
+</tr>
+<tr>
+<td>1.65 - 1.7</td>
+<td>1.02526</td>
+<td>0.00349366</td>
+<td>0.087892</td>
+</tr>
+<tr>
+<td>1.7 - 1.75</td>
+<td>1.03811</td>
+<td>0.00383969</td>
+<td>0.0889746</td>
+</tr>
+<tr>
+<td>1.75 - 1.8</td>
+<td>1.05588</td>
+<td>0.00424018</td>
+<td>0.0904803</td>
+</tr>
+<tr>
+<td>1.8 - 1.85</td>
+<td>1.06324</td>
+<td>0.00462321</td>
+<td>0.0910945</td>
+</tr>
+<tr>
+<td>1.85 - 1.9</td>
+<td>1.07172</td>
+<td>0.00505393</td>
+<td>0.0918061</td>
+</tr>
+<tr>
+<td>1.9 - 1.95</td>
+<td>1.09099</td>
+<td>0.00559755</td>
+<td>0.0934428</td>
+</tr>
+<tr>
+<td>1.95 - 2</td>
+<td>1.1053</td>
+<td>0.00615344</td>
+<td>0.0946559</td>
+</tr>
+<tr>
+<td>2 - 2.1</td>
+<td>1.10737</td>
+<td>0.00487495</td>
+<td>0.0948217</td>
+</tr>
+<tr>
+<td>2.1 - 2.2</td>
+<td>1.14286</td>
+<td>0.00594869</td>
+<td>0.0978389</td>
+</tr>
+<tr>
+<td>2.2 - 2.3</td>
+<td>1.12855</td>
+<td>0.00682766</td>
+<td>0.0965962</td>
+</tr>
+<tr>
+<td>2.3 - 2.4</td>
+<td>1.14603</td>
+<td>0.00817351</td>
+<td>0.0980761</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.15955</td>
+<td>0.00721526</td>
+<td>0.0992193</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.17304</td>
+<td>0.0100181</td>
+<td>0.100351</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.17911</td>
+<td>0.0137959</td>
+<td>0.100853</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.19801</td>
+<td>0.014464</td>
+<td>0.102455</td>
+</tr>
+<tr>
+<td>3.5 - 4</td>
+<td>1.2193</td>
+<td>0.0315019</td>
+<td>0.104251</td>
+</tr>
+<tr>
+<td>4 - 4.5</td>
+<td>1.13658</td>
+<td>0.0600979</td>
+<td>0.0971636</td>
+</tr>
+<tr>
+<td>4.5 - 5</td>
+<td>1.26567</td>
+<td>0.139663</td>
+<td>0.108189</td>
+</tr>
+<tr>
+<td>5 - 5.5</td>
+<td>0.875118</td>
+<td>0.168903</td>
+<td>0.0747994</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-auau--196-gev" class="anchor" href="#auau--196-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 19.6 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.55</td>
+<td>0.578352</td>
+<td>0.000432144</td>
+<td>0.0544041</td>
+</tr>
+<tr>
+<td>0.55 - 0.6</td>
+<td>0.592197</td>
+<td>0.000477917</td>
+<td>0.0550862</td>
+</tr>
+<tr>
+<td>0.6 - 0.65</td>
+<td>0.60606</td>
+<td>0.00052956</td>
+<td>0.0559049</td>
+</tr>
+<tr>
+<td>0.65 - 0.7</td>
+<td>0.620899</td>
+<td>0.000588556</td>
+<td>0.0569065</td>
+</tr>
+<tr>
+<td>0.7 - 0.75</td>
+<td>0.641371</td>
+<td>0.000662009</td>
+<td>0.0584878</td>
+</tr>
+<tr>
+<td>0.75 - 0.8</td>
+<td>0.663477</td>
+<td>0.000745858</td>
+<td>0.0602619</td>
+</tr>
+<tr>
+<td>0.8 - 0.85</td>
+<td>0.687143</td>
+<td>0.000841979</td>
+<td>0.0622099</td>
+</tr>
+<tr>
+<td>0.85 - 0.9</td>
+<td>0.707275</td>
+<td>0.000942668</td>
+<td>0.0638631</td>
+</tr>
+<tr>
+<td>0.9 - 0.95</td>
+<td>0.732786</td>
+<td>0.00106577</td>
+<td>0.0660216</td>
+</tr>
+<tr>
+<td>0.95 - 1</td>
+<td>0.757375</td>
+<td>0.00120029</td>
+<td>0.0681119</td>
+</tr>
+<tr>
+<td>1 - 1.05</td>
+<td>0.782046</td>
+<td>0.00135182</td>
+<td>0.0702215</td>
+</tr>
+<tr>
+<td>1.05 - 1.1</td>
+<td>0.813002</td>
+<td>0.00153625</td>
+<td>0.0729048</td>
+</tr>
+<tr>
+<td>1.1 - 1.15</td>
+<td>0.842579</td>
+<td>0.00173807</td>
+<td>0.0754713</td>
+</tr>
+<tr>
+<td>1.15 - 1.2</td>
+<td>0.869916</td>
+<td>0.00195641</td>
+<td>0.0778436</td>
+</tr>
+<tr>
+<td>1.2 - 1.25</td>
+<td>0.89448</td>
+<td>0.00218932</td>
+<td>0.0799734</td>
+</tr>
+<tr>
+<td>1.25 - 1.3</td>
+<td>0.921799</td>
+<td>0.00245742</td>
+<td>0.0823544</td>
+</tr>
+<tr>
+<td>1.3 - 1.35</td>
+<td>0.95009</td>
+<td>0.00276274</td>
+<td>0.0848262</td>
+</tr>
+<tr>
+<td>1.35 - 1.4</td>
+<td>0.980562</td>
+<td>0.0031124</td>
+<td>0.087496</td>
+</tr>
+<tr>
+<td>1.4 - 1.45</td>
+<td>1.00665</td>
+<td>0.00347823</td>
+<td>0.0897775</td>
+</tr>
+<tr>
+<td>1.45 - 1.5</td>
+<td>1.02902</td>
+<td>0.00386847</td>
+<td>0.0917303</td>
+</tr>
+<tr>
+<td>1.5 - 1.55</td>
+<td>1.04382</td>
+<td>0.00425831</td>
+<td>0.0930112</td>
+</tr>
+<tr>
+<td>1.55 - 1.6</td>
+<td>1.08148</td>
+<td>0.0048379</td>
+<td>0.0963316</td>
+</tr>
+<tr>
+<td>1.6 - 1.65</td>
+<td>1.09684</td>
+<td>0.0053361</td>
+<td>0.0976668</td>
+</tr>
+<tr>
+<td>1.65 - 1.7</td>
+<td>1.12488</td>
+<td>0.00596449</td>
+<td>0.100134</td>
+</tr>
+<tr>
+<td>1.7 - 1.75</td>
+<td>1.14027</td>
+<td>0.00656746</td>
+<td>0.101476</td>
+</tr>
+<tr>
+<td>1.75 - 1.8</td>
+<td>1.16228</td>
+<td>0.00729239</td>
+<td>0.103409</td>
+</tr>
+<tr>
+<td>1.8 - 1.85</td>
+<td>1.19878</td>
+<td>0.0082559</td>
+<td>0.106632</td>
+</tr>
+<tr>
+<td>1.85 - 1.9</td>
+<td>1.20813</td>
+<td>0.00903268</td>
+<td>0.107441</td>
+</tr>
+<tr>
+<td>1.9 - 1.95</td>
+<td>1.2193</td>
+<td>0.00990555</td>
+<td>0.108414</td>
+</tr>
+<tr>
+<td>1.95 - 2</td>
+<td>1.25569</td>
+<td>0.0111661</td>
+<td>0.111629</td>
+</tr>
+<tr>
+<td>2 - 2.1</td>
+<td>1.27073</td>
+<td>0.00902365</td>
+<td>0.112949</td>
+</tr>
+<tr>
+<td>2.1 - 2.2</td>
+<td>1.32297</td>
+<td>0.0111894</td>
+<td>0.117558</td>
+</tr>
+<tr>
+<td>2.2 - 2.3</td>
+<td>1.33218</td>
+<td>0.0133013</td>
+<td>0.118347</td>
+</tr>
+<tr>
+<td>2.3 - 2.4</td>
+<td>1.38186</td>
+<td>0.0164569</td>
+<td>0.122734</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.41588</td>
+<td>0.0149848</td>
+<td>0.125732</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.45599</td>
+<td>0.0215865</td>
+<td>0.129254</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.54795</td>
+<td>0.0325303</td>
+<td>0.137385</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.64272</td>
+<td>0.0375997</td>
+<td>0.145769</td>
+</tr>
+<tr>
+<td>3.5 - 4</td>
+<td>1.7743</td>
+<td>0.0931873</td>
+<td>0.157392</td>
+</tr>
+<tr>
+<td>4 - 4.5</td>
+<td>2.11027</td>
+<td>0.261014</td>
+<td>0.187155</td>
+</tr>
+<tr>
+<td>4.5 - 5</td>
+<td>1.8449</td>
+<td>0.50213</td>
+<td>0.163597</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-auau--145-gev" class="anchor" href="#auau--145-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 14.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.55</td>
+<td>0.573619</td>
+<td>0.000542545</td>
+<td>0.0582948</td>
+</tr>
+<tr>
+<td>0.55 - 0.6</td>
+<td>0.586296</td>
+<td>0.000598161</td>
+<td>0.0586026</td>
+</tr>
+<tr>
+<td>0.6 - 0.65</td>
+<td>0.603901</td>
+<td>0.00066811</td>
+<td>0.0596193</td>
+</tr>
+<tr>
+<td>0.65 - 0.7</td>
+<td>0.623965</td>
+<td>0.000750409</td>
+<td>0.0610202</td>
+</tr>
+<tr>
+<td>0.7 - 0.75</td>
+<td>0.646427</td>
+<td>0.000844219</td>
+<td>0.0627529</td>
+</tr>
+<tr>
+<td>0.75 - 0.8</td>
+<td>0.669504</td>
+<td>0.000954682</td>
+<td>0.0646149</td>
+</tr>
+<tr>
+<td>0.8 - 0.85</td>
+<td>0.693516</td>
+<td>0.00107713</td>
+<td>0.0666187</td>
+</tr>
+<tr>
+<td>0.85 - 0.9</td>
+<td>0.719783</td>
+<td>0.00121889</td>
+<td>0.0688779</td>
+</tr>
+<tr>
+<td>0.9 - 0.95</td>
+<td>0.746202</td>
+<td>0.00137953</td>
+<td>0.071181</td>
+</tr>
+<tr>
+<td>0.95 - 1</td>
+<td>0.775113</td>
+<td>0.00156591</td>
+<td>0.0737447</td>
+</tr>
+<tr>
+<td>1 - 1.05</td>
+<td>0.807681</td>
+<td>0.00178439</td>
+<td>0.0766734</td>
+</tr>
+<tr>
+<td>1.05 - 1.1</td>
+<td>0.839945</td>
+<td>0.00203182</td>
+<td>0.0795868</td>
+</tr>
+<tr>
+<td>1.1 - 1.15</td>
+<td>0.876925</td>
+<td>0.0023205</td>
+<td>0.0829575</td>
+</tr>
+<tr>
+<td>1.15 - 1.2</td>
+<td>0.913247</td>
+<td>0.00264187</td>
+<td>0.0862743</td>
+</tr>
+<tr>
+<td>1.2 - 1.25</td>
+<td>0.945392</td>
+<td>0.00298221</td>
+<td>0.0892041</td>
+</tr>
+<tr>
+<td>1.25 - 1.3</td>
+<td>0.984036</td>
+<td>0.00340255</td>
+<td>0.0927535</td>
+</tr>
+<tr>
+<td>1.3 - 1.35</td>
+<td>1.01385</td>
+<td>0.00382316</td>
+<td>0.095476</td>
+</tr>
+<tr>
+<td>1.35 - 1.4</td>
+<td>1.04975</td>
+<td>0.0043298</td>
+<td>0.0987772</td>
+</tr>
+<tr>
+<td>1.4 - 1.45</td>
+<td>1.07531</td>
+<td>0.00482666</td>
+<td>0.101111</td>
+</tr>
+<tr>
+<td>1.45 - 1.5</td>
+<td>1.12365</td>
+<td>0.0055355</td>
+<td>0.105589</td>
+</tr>
+<tr>
+<td>1.5 - 1.55</td>
+<td>1.15853</td>
+<td>0.00623656</td>
+<td>0.108805</td>
+</tr>
+<tr>
+<td>1.55 - 1.6</td>
+<td>1.18693</td>
+<td>0.00698089</td>
+<td>0.111416</td>
+</tr>
+<tr>
+<td>1.6 - 1.65</td>
+<td>1.21966</td>
+<td>0.00784641</td>
+<td>0.114435</td>
+</tr>
+<tr>
+<td>1.65 - 1.7</td>
+<td>1.25207</td>
+<td>0.00878601</td>
+<td>0.117428</td>
+</tr>
+<tr>
+<td>1.7 - 1.75</td>
+<td>1.27404</td>
+<td>0.00976616</td>
+<td>0.119444</td>
+</tr>
+<tr>
+<td>1.75 - 1.8</td>
+<td>1.343</td>
+<td>0.0113927</td>
+<td>0.125867</td>
+</tr>
+<tr>
+<td>1.8 - 1.85</td>
+<td>1.35822</td>
+<td>0.0125069</td>
+<td>0.127254</td>
+</tr>
+<tr>
+<td>1.85 - 1.9</td>
+<td>1.38996</td>
+<td>0.0140218</td>
+<td>0.130192</td>
+</tr>
+<tr>
+<td>1.9 - 1.95</td>
+<td>1.41119</td>
+<td>0.0155479</td>
+<td>0.132146</td>
+</tr>
+<tr>
+<td>1.95 - 2</td>
+<td>1.47797</td>
+<td>0.0179811</td>
+<td>0.138367</td>
+</tr>
+<tr>
+<td>2 - 2.1</td>
+<td>1.5016</td>
+<td>0.0146468</td>
+<td>0.140549</td>
+</tr>
+<tr>
+<td>2.1 - 2.2</td>
+<td>1.60015</td>
+<td>0.0189189</td>
+<td>0.149716</td>
+</tr>
+<tr>
+<td>2.2 - 2.3</td>
+<td>1.6683</td>
+<td>0.0235261</td>
+<td>0.156041</td>
+</tr>
+<tr>
+<td>2.3 - 2.4</td>
+<td>1.72544</td>
+<td>0.0292218</td>
+<td>0.16134</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.84702</td>
+<td>0.0286169</td>
+<td>0.172667</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.99305</td>
+<td>0.0445777</td>
+<td>0.186244</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>2.18792</td>
+<td>0.0711674</td>
+<td>0.20439</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>2.45015</td>
+<td>0.0904479</td>
+<td>0.228831</td>
+</tr>
+<tr>
+<td>3.5 - 4</td>
+<td>2.73857</td>
+<td>0.249374</td>
+<td>0.255659</td>
+</tr>
+<tr>
+<td>4 - 4.5</td>
+<td>4.54746</td>
+<td>1.1789</td>
+<td>0.424417</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-auau--115-gev" class="anchor" href="#auau--115-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 11.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.55</td>
+<td>0.578192</td>
+<td>0.000756494</td>
+<td>0.058592</td>
+</tr>
+<tr>
+<td>0.55 - 0.6</td>
+<td>0.593884</td>
+<td>0.000841294</td>
+<td>0.0590965</td>
+</tr>
+<tr>
+<td>0.6 - 0.65</td>
+<td>0.610344</td>
+<td>0.000935969</td>
+<td>0.0599115</td>
+</tr>
+<tr>
+<td>0.65 - 0.7</td>
+<td>0.631018</td>
+<td>0.00105143</td>
+<td>0.0612963</td>
+</tr>
+<tr>
+<td>0.7 - 0.75</td>
+<td>0.654627</td>
+<td>0.00118644</td>
+<td>0.0630719</td>
+</tr>
+<tr>
+<td>0.75 - 0.8</td>
+<td>0.681795</td>
+<td>0.00134597</td>
+<td>0.0652638</td>
+</tr>
+<tr>
+<td>0.8 - 0.85</td>
+<td>0.712034</td>
+<td>0.00153236</td>
+<td>0.0678015</td>
+</tr>
+<tr>
+<td>0.85 - 0.9</td>
+<td>0.739145</td>
+<td>0.00173211</td>
+<td>0.0700816</td>
+</tr>
+<tr>
+<td>0.9 - 0.95</td>
+<td>0.773958</td>
+<td>0.00198065</td>
+<td>0.0731222</td>
+</tr>
+<tr>
+<td>0.95 - 1</td>
+<td>0.80444</td>
+<td>0.00224594</td>
+<td>0.0757766</td>
+</tr>
+<tr>
+<td>1 - 1.05</td>
+<td>0.846894</td>
+<td>0.00259286</td>
+<td>0.0795759</td>
+</tr>
+<tr>
+<td>1.05 - 1.1</td>
+<td>0.88341</td>
+<td>0.00295758</td>
+<td>0.08283</td>
+</tr>
+<tr>
+<td>1.1 - 1.15</td>
+<td>0.922649</td>
+<td>0.00337549</td>
+<td>0.0863508</td>
+</tr>
+<tr>
+<td>1.15 - 1.2</td>
+<td>0.964949</td>
+<td>0.00386555</td>
+<td>0.0901669</td>
+</tr>
+<tr>
+<td>1.2 - 1.25</td>
+<td>1.00785</td>
+<td>0.0044174</td>
+<td>0.0940465</td>
+</tr>
+<tr>
+<td>1.25 - 1.3</td>
+<td>1.04907</td>
+<td>0.00502575</td>
+<td>0.0977749</td>
+</tr>
+<tr>
+<td>1.3 - 1.35</td>
+<td>1.09226</td>
+<td>0.00572889</td>
+<td>0.101693</td>
+</tr>
+<tr>
+<td>1.35 - 1.4</td>
+<td>1.13603</td>
+<td>0.00652009</td>
+<td>0.105669</td>
+</tr>
+<tr>
+<td>1.4 - 1.45</td>
+<td>1.1738</td>
+<td>0.00735542</td>
+<td>0.109092</td>
+</tr>
+<tr>
+<td>1.45 - 1.5</td>
+<td>1.21479</td>
+<td>0.00833578</td>
+<td>0.112817</td>
+</tr>
+<tr>
+<td>1.5 - 1.55</td>
+<td>1.26831</td>
+<td>0.00954773</td>
+<td>0.11771</td>
+</tr>
+<tr>
+<td>1.55 - 1.6</td>
+<td>1.32163</td>
+<td>0.0109303</td>
+<td>0.122585</td>
+</tr>
+<tr>
+<td>1.6 - 1.65</td>
+<td>1.34879</td>
+<td>0.0122003</td>
+<td>0.125037</td>
+</tr>
+<tr>
+<td>1.65 - 1.7</td>
+<td>1.42648</td>
+<td>0.0142604</td>
+<td>0.132175</td>
+</tr>
+<tr>
+<td>1.7 - 1.75</td>
+<td>1.45841</td>
+<td>0.0159453</td>
+<td>0.135074</td>
+</tr>
+<tr>
+<td>1.75 - 1.8</td>
+<td>1.50626</td>
+<td>0.0180951</td>
+<td>0.139451</td>
+</tr>
+<tr>
+<td>1.8 - 1.85</td>
+<td>1.52125</td>
+<td>0.0198067</td>
+<td>0.140787</td>
+</tr>
+<tr>
+<td>1.85 - 1.9</td>
+<td>1.62795</td>
+<td>0.0237444</td>
+<td>0.150611</td>
+</tr>
+<tr>
+<td>1.9 - 1.95</td>
+<td>1.68583</td>
+<td>0.027084</td>
+<td>0.155918</td>
+</tr>
+<tr>
+<td>1.95 - 2</td>
+<td>1.78224</td>
+<td>0.0317659</td>
+<td>0.164787</td>
+</tr>
+<tr>
+<td>2 - 2.1</td>
+<td>1.8556</td>
+<td>0.0267643</td>
+<td>0.171526</td>
+</tr>
+<tr>
+<td>2.1 - 2.2</td>
+<td>1.87018</td>
+<td>0.0319828</td>
+<td>0.172794</td>
+</tr>
+<tr>
+<td>2.2 - 2.3</td>
+<td>1.96543</td>
+<td>0.0407206</td>
+<td>0.181523</td>
+</tr>
+<tr>
+<td>2.3 - 2.4</td>
+<td>2.18269</td>
+<td>0.0558119</td>
+<td>0.201519</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>2.32898</td>
+<td>0.0546037</td>
+<td>0.214961</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>2.76586</td>
+<td>0.0983036</td>
+<td>0.255159</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>3.44637</td>
+<td>0.18948</td>
+<td>0.317816</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>3.56074</td>
+<td>0.217216</td>
+<td>0.328262</td>
+</tr>
+<tr>
+<td>3.5 - 4</td>
+<td>5.65202</td>
+<td>0.957288</td>
+<td>0.520774</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-auau--77-gev" class="anchor" href="#auau--77-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 7.7 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.55</td>
+<td>0.563289</td>
+<td>0.00157039</td>
+<td>0.0555117</td>
+</tr>
+<tr>
+<td>0.55 - 0.6</td>
+<td>0.58333</td>
+<td>0.00175804</td>
+<td>0.0571169</td>
+</tr>
+<tr>
+<td>0.6 - 0.65</td>
+<td>0.607245</td>
+<td>0.00198298</td>
+<td>0.0591875</td>
+</tr>
+<tr>
+<td>0.65 - 0.7</td>
+<td>0.629258</td>
+<td>0.00221714</td>
+<td>0.0611288</td>
+</tr>
+<tr>
+<td>0.7 - 0.75</td>
+<td>0.666555</td>
+<td>0.00256142</td>
+<td>0.0645898</td>
+</tr>
+<tr>
+<td>0.75 - 0.8</td>
+<td>0.694207</td>
+<td>0.00288273</td>
+<td>0.06714</td>
+</tr>
+<tr>
+<td>0.8 - 0.85</td>
+<td>0.739436</td>
+<td>0.00335864</td>
+<td>0.0714065</td>
+</tr>
+<tr>
+<td>0.85 - 0.9</td>
+<td>0.776396</td>
+<td>0.00383588</td>
+<td>0.0748856</td>
+</tr>
+<tr>
+<td>0.9 - 0.95</td>
+<td>0.822167</td>
+<td>0.00443213</td>
+<td>0.0792232</td>
+</tr>
+<tr>
+<td>0.95 - 1</td>
+<td>0.868355</td>
+<td>0.00510858</td>
+<td>0.0836071</td>
+</tr>
+<tr>
+<td>1 - 1.05</td>
+<td>0.914992</td>
+<td>0.00589178</td>
+<td>0.0880391</td>
+</tr>
+<tr>
+<td>1.05 - 1.1</td>
+<td>0.970371</td>
+<td>0.00682596</td>
+<td>0.0933156</td>
+</tr>
+<tr>
+<td>1.1 - 1.15</td>
+<td>1.01809</td>
+<td>0.00781107</td>
+<td>0.0978589</td>
+</tr>
+<tr>
+<td>1.15 - 1.2</td>
+<td>1.10629</td>
+<td>0.00939699</td>
+<td>0.106294</td>
+</tr>
+<tr>
+<td>1.2 - 1.25</td>
+<td>1.14302</td>
+<td>0.0105478</td>
+<td>0.109785</td>
+</tr>
+<tr>
+<td>1.25 - 1.3</td>
+<td>1.21675</td>
+<td>0.012361</td>
+<td>0.116831</td>
+</tr>
+<tr>
+<td>1.3 - 1.35</td>
+<td>1.28426</td>
+<td>0.0143068</td>
+<td>0.123281</td>
+</tr>
+<tr>
+<td>1.35 - 1.4</td>
+<td>1.34135</td>
+<td>0.0163769</td>
+<td>0.128732</td>
+</tr>
+<tr>
+<td>1.4 - 1.45</td>
+<td>1.4206</td>
+<td>0.019146</td>
+<td>0.136311</td>
+</tr>
+<tr>
+<td>1.45 - 1.5</td>
+<td>1.47908</td>
+<td>0.0219021</td>
+<td>0.141896</td>
+</tr>
+<tr>
+<td>1.5 - 1.55</td>
+<td>1.50742</td>
+<td>0.0241762</td>
+<td>0.144592</td>
+</tr>
+<tr>
+<td>1.55 - 1.6</td>
+<td>1.646</td>
+<td>0.0294834</td>
+<td>0.157862</td>
+</tr>
+<tr>
+<td>1.6 - 1.65</td>
+<td>1.71422</td>
+<td>0.0339251</td>
+<td>0.164384</td>
+</tr>
+<tr>
+<td>1.65 - 1.7</td>
+<td>1.76351</td>
+<td>0.0380225</td>
+<td>0.16909</td>
+</tr>
+<tr>
+<td>1.7 - 1.75</td>
+<td>1.87126</td>
+<td>0.0448906</td>
+<td>0.179403</td>
+</tr>
+<tr>
+<td>1.75 - 1.8</td>
+<td>2.04175</td>
+<td>0.0548267</td>
+<td>0.19573</td>
+</tr>
+<tr>
+<td>1.8 - 1.85</td>
+<td>2.02938</td>
+<td>0.0591965</td>
+<td>0.194527</td>
+</tr>
+<tr>
+<td>1.85 - 1.9</td>
+<td>2.20205</td>
+<td>0.0720403</td>
+<td>0.211062</td>
+</tr>
+<tr>
+<td>1.9 - 1.95</td>
+<td>2.25534</td>
+<td>0.080984</td>
+<td>0.216154</td>
+</tr>
+<tr>
+<td>1.95 - 2</td>
+<td>2.45312</td>
+<td>0.0992403</td>
+<td>0.235094</td>
+</tr>
+<tr>
+<td>2 - 2.1</td>
+<td>2.67553</td>
+<td>0.0898369</td>
+<td>0.256393</td>
+</tr>
+<tr>
+<td>2.1 - 2.2</td>
+<td>3.04778</td>
+<td>0.128173</td>
+<td>0.292033</td>
+</tr>
+<tr>
+<td>2.2 - 2.3</td>
+<td>3.19408</td>
+<td>0.160934</td>
+<td>0.306022</td>
+</tr>
+<tr>
+<td>2.3 - 2.4</td>
+<td>3.11878</td>
+<td>0.185308</td>
+<td>0.298785</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>3.86409</td>
+<td>0.22572</td>
+<td>0.370161</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>4.63455</td>
+<td>0.412711</td>
+<td>0.443916</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>6.34377</td>
+<td>0.913397</td>
+<td>0.607577</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>8.72031</td>
+<td>1.62747</td>
+<td>0.83513</td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-figure-2" class="anchor" href="#figure-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Figure 2</h1>
+<h2>
+<a id="user-content-pi-plus-auau--624-gev" class="anchor" href="#pi-plus-auau--624-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi plus Au+Au @ 62.4 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.536014</td>
+<td>0.000208294</td>
+<td>0.0322369</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.556729</td>
+<td>0.000277748</td>
+<td>0.0377041</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.59282</td>
+<td>0.000387473</td>
+<td>0.0513505</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.638746</td>
+<td>0.000550633</td>
+<td>0.0608276</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.642221</td>
+<td>0.000723036</td>
+<td>0.0576687</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.665681</td>
+<td>0.0009563</td>
+<td>0.0669269</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.723757</td>
+<td>0.00131025</td>
+<td>0.0646932</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.733298</td>
+<td>0.00166858</td>
+<td>0.0772109</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.746321</td>
+<td>0.0021453</td>
+<td>0.0798797</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.721408</td>
+<td>0.0026786</td>
+<td>0.0910345</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.681025</td>
+<td>0.00319788</td>
+<td>0.0845341</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.735109</td>
+<td>0.00429967</td>
+<td>0.0795376</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.694185</td>
+<td>0.00489888</td>
+<td>0.0843841</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.668718</td>
+<td>0.00568263</td>
+<td>0.0840509</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.640112</td>
+<td>0.00637771</td>
+<td>0.0800329</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.648274</td>
+<td>0.00584787</td>
+<td>0.0742204</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.55518</td>
+<td>0.00680091</td>
+<td>0.0676932</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.610136</td>
+<td>0.0106894</td>
+<td>0.0654854</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.576075</td>
+<td>0.014232</td>
+<td>0.0918669</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.612284</td>
+<td>0.0203389</td>
+<td>0.0862069</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.502487</td>
+<td>0.0181832</td>
+<td>0.0856542</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.476206</td>
+<td>0.027556</td>
+<td>0.048315</td>
+</tr>
+<tr>
+<td>4.5 - 5</td>
+<td>0.425149</td>
+<td>0.107745</td>
+<td>0.0322479</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-plus-auau--390-gev" class="anchor" href="#pi-plus-auau--390-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi plus Au+Au @ 39.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.553974</td>
+<td>0.000168387</td>
+<td>0.0476587</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.567276</td>
+<td>0.00022413</td>
+<td>0.0491049</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.602407</td>
+<td>0.000313751</td>
+<td>0.0524284</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.626707</td>
+<td>0.000430171</td>
+<td>0.0539647</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.667779</td>
+<td>0.000596532</td>
+<td>0.0594115</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.668265</td>
+<td>0.000750454</td>
+<td>0.0752151</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.683591</td>
+<td>0.000992571</td>
+<td>0.0593727</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.759373</td>
+<td>0.00139296</td>
+<td>0.0804495</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.706583</td>
+<td>0.00164479</td>
+<td>0.0902581</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.674793</td>
+<td>0.00203314</td>
+<td>0.0974974</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.736031</td>
+<td>0.00280367</td>
+<td>0.101369</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.729945</td>
+<td>0.0035001</td>
+<td>0.0809019</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.718108</td>
+<td>0.00419637</td>
+<td>0.0909129</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.756706</td>
+<td>0.0053152</td>
+<td>0.089879</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.671981</td>
+<td>0.0056903</td>
+<td>0.0846243</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.68829</td>
+<td>0.00528637</td>
+<td>0.102355</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.688341</td>
+<td>0.00755107</td>
+<td>0.0891724</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.687623</td>
+<td>0.0106633</td>
+<td>0.101777</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.651019</td>
+<td>0.0149073</td>
+<td>0.0920886</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.624906</td>
+<td>0.0204843</td>
+<td>0.0910672</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.660282</td>
+<td>0.0221749</td>
+<td>0.078181</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.609487</td>
+<td>0.0433144</td>
+<td>0.0685205</td>
+</tr>
+<tr>
+<td>4.5 - 5</td>
+<td>0.463302</td>
+<td>0.136589</td>
+<td>0.0544807</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-plus-auau--270-gev" class="anchor" href="#pi-plus-auau--270-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi plus Au+Au @ 27.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.591023</td>
+<td>0.00031078</td>
+<td>0.0469377</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.619178</td>
+<td>0.000421335</td>
+<td>0.0450167</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.647127</td>
+<td>0.000585744</td>
+<td>0.0528768</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.694754</td>
+<td>0.000838058</td>
+<td>0.063107</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.690883</td>
+<td>0.0010932</td>
+<td>0.0681999</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.703337</td>
+<td>0.0014428</td>
+<td>0.060188</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.767071</td>
+<td>0.00203757</td>
+<td>0.0773788</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.724403</td>
+<td>0.0024148</td>
+<td>0.083961</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.819069</td>
+<td>0.00351072</td>
+<td>0.0906818</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.832761</td>
+<td>0.00461716</td>
+<td>0.103208</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.811324</td>
+<td>0.00570564</td>
+<td>0.105172</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.743398</td>
+<td>0.00646919</td>
+<td>0.0791343</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.791742</td>
+<td>0.00863345</td>
+<td>0.119412</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.794211</td>
+<td>0.0102323</td>
+<td>0.124081</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.747808</td>
+<td>0.0119218</td>
+<td>0.0886752</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.838786</td>
+<td>0.0123496</td>
+<td>0.132923</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.798565</td>
+<td>0.0175193</td>
+<td>0.0813703</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.824421</td>
+<td>0.0262563</td>
+<td>0.105676</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.677788</td>
+<td>0.0301772</td>
+<td>0.0968578</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.76356</td>
+<td>0.0511198</td>
+<td>0.0844385</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.811031</td>
+<td>0.0611416</td>
+<td>0.101288</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.880328</td>
+<td>0.165967</td>
+<td>0.113868</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-plus-auau--196-gev" class="anchor" href="#pi-plus-auau--196-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi plus Au+Au @ 19.6 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.551574</td>
+<td>0.00043694</td>
+<td>0.0420951</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.561431</td>
+<td>0.000580744</td>
+<td>0.0407617</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.579334</td>
+<td>0.000798882</td>
+<td>0.0495356</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.647898</td>
+<td>0.00119258</td>
+<td>0.0610462</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.679913</td>
+<td>0.00166996</td>
+<td>0.0726542</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.732905</td>
+<td>0.00231972</td>
+<td>0.0722335</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.728997</td>
+<td>0.00304411</td>
+<td>0.0720882</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.777423</td>
+<td>0.00419824</td>
+<td>0.0916169</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.755652</td>
+<td>0.00521827</td>
+<td>0.0931668</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.824558</td>
+<td>0.00761148</td>
+<td>0.116126</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.842163</td>
+<td>0.00999517</td>
+<td>0.128413</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.832181</td>
+<td>0.0123242</td>
+<td>0.119512</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.845397</td>
+<td>0.0157998</td>
+<td>0.125767</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.831206</td>
+<td>0.0187957</td>
+<td>0.104662</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.835005</td>
+<td>0.0244143</td>
+<td>0.10653</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.848694</td>
+<td>0.0226415</td>
+<td>0.125074</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.844955</td>
+<td>0.0330801</td>
+<td>0.107079</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.888075</td>
+<td>0.0558024</td>
+<td>0.102113</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.908718</td>
+<td>0.0806825</td>
+<td>0.12729</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.933286</td>
+<td>0.145491</td>
+<td>0.157727</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.29275</td>
+<td>0.247734</td>
+<td>0.192457</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-plus-auau--145-gev" class="anchor" href="#pi-plus-auau--145-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi plus Au+Au @ 14.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.569608</td>
+<td>0.000166502</td>
+<td>0.0554444</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.602168</td>
+<td>0.000232368</td>
+<td>0.0615581</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.636895</td>
+<td>0.000323246</td>
+<td>0.0593633</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.668821</td>
+<td>0.000455877</td>
+<td>0.0708132</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.707363</td>
+<td>0.000649457</td>
+<td>0.0758003</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.734406</td>
+<td>0.000881481</td>
+<td>0.0795393</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.774313</td>
+<td>0.00120868</td>
+<td>0.0783597</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.809325</td>
+<td>0.00165322</td>
+<td>0.102859</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.837693</td>
+<td>0.00224776</td>
+<td>0.120169</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.874838</td>
+<td>0.00310191</td>
+<td>0.116782</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.883046</td>
+<td>0.00414643</td>
+<td>0.108917</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.938194</td>
+<td>0.00578791</td>
+<td>0.122005</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.947106</td>
+<td>0.00738475</td>
+<td>0.127302</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.999536</td>
+<td>0.00987672</td>
+<td>0.121487</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.02548</td>
+<td>0.0125913</td>
+<td>0.13357</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.01026</td>
+<td>0.0159328</td>
+<td>0.120078</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.12124</td>
+<td>0.0281006</td>
+<td>0.122401</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.25287</td>
+<td>0.0473978</td>
+<td>0.155546</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.08482</td>
+<td>0.0532368</td>
+<td>0.176244</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.07906</td>
+<td>0.0883828</td>
+<td>0.188497</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-plus-auau--115-gev" class="anchor" href="#pi-plus-auau--115-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi plus Au+Au @ 11.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.560235</td>
+<td>0.000822363</td>
+<td>0.0399231</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.581856</td>
+<td>0.00112474</td>
+<td>0.0515929</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.641819</td>
+<td>0.00166622</td>
+<td>0.0660299</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.639695</td>
+<td>0.00221932</td>
+<td>0.0472974</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.713652</td>
+<td>0.00331511</td>
+<td>0.0742481</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.736687</td>
+<td>0.00455538</td>
+<td>0.0741247</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.766324</td>
+<td>0.00601581</td>
+<td>0.0855366</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.81082</td>
+<td>0.00858982</td>
+<td>0.106442</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.816437</td>
+<td>0.0113947</td>
+<td>0.0953318</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.883824</td>
+<td>0.0162105</td>
+<td>0.121616</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.910608</td>
+<td>0.0226933</td>
+<td>0.138774</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.886318</td>
+<td>0.0235344</td>
+<td>0.12364</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.03265</td>
+<td>0.0436436</td>
+<td>0.160735</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.13878</td>
+<td>0.0603722</td>
+<td>0.164946</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.18331</td>
+<td>0.0793091</td>
+<td>0.185895</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.25282</td>
+<td>0.0873474</td>
+<td>0.194194</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.66537</td>
+<td>0.191333</td>
+<td>0.231061</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.30922</td>
+<td>0.190025</td>
+<td>0.220923</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-plus-auau--77-gev" class="anchor" href="#pi-plus-auau--77-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi plus Au+Au @ 7.7 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.558612</td>
+<td>0.00121106</td>
+<td>0.0452232</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.578933</td>
+<td>0.00168236</td>
+<td>0.0457644</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.653864</td>
+<td>0.00256456</td>
+<td>0.053513</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.693302</td>
+<td>0.00369647</td>
+<td>0.0620585</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.751189</td>
+<td>0.00529224</td>
+<td>0.0651779</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.789912</td>
+<td>0.00760481</td>
+<td>0.0737714</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.831758</td>
+<td>0.0108638</td>
+<td>0.0909407</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.935539</td>
+<td>0.0161203</td>
+<td>0.126105</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.00991</td>
+<td>0.0242616</td>
+<td>0.143428</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.08061</td>
+<td>0.0359352</td>
+<td>0.179178</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.21701</td>
+<td>0.0546535</td>
+<td>0.162949</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.29423</td>
+<td>0.0701125</td>
+<td>0.194363</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.17608</td>
+<td>0.0656155</td>
+<td>0.185862</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.42976</td>
+<td>0.12938</td>
+<td>0.254966</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.99163</td>
+<td>0.240094</td>
+<td>0.313477</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>2.87691</td>
+<td>0.494578</td>
+<td>0.467472</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-minus-auau--624-gev" class="anchor" href="#pi-minus-auau--624-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi minus Au+Au @ 62.4 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.532433</td>
+<td>0.000206681</td>
+<td>0.0357558</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.574176</td>
+<td>0.000285541</td>
+<td>0.0460178</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.601094</td>
+<td>0.000393693</td>
+<td>0.0535948</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.626632</td>
+<td>0.000537021</td>
+<td>0.0448765</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.623985</td>
+<td>0.000701452</td>
+<td>0.0641154</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.668556</td>
+<td>0.000917918</td>
+<td>0.0582561</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.689242</td>
+<td>0.00122979</td>
+<td>0.0661437</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.677395</td>
+<td>0.00148054</td>
+<td>0.0611633</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.678564</td>
+<td>0.00193721</td>
+<td>0.0633488</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.687114</td>
+<td>0.00245185</td>
+<td>0.0659702</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.712569</td>
+<td>0.00319604</td>
+<td>0.07073</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.668749</td>
+<td>0.00364541</td>
+<td>0.0687693</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.672743</td>
+<td>0.00447708</td>
+<td>0.0633685</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.699603</td>
+<td>0.00564498</td>
+<td>0.0693137</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.68626</td>
+<td>0.00674298</td>
+<td>0.0742338</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.642921</td>
+<td>0.00552774</td>
+<td>0.0760827</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.65642</td>
+<td>0.00809264</td>
+<td>0.0716991</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.621679</td>
+<td>0.0105354</td>
+<td>0.055939</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.559613</td>
+<td>0.0130215</td>
+<td>0.0629354</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.558626</td>
+<td>0.0169609</td>
+<td>0.0583058</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.507145</td>
+<td>0.0143251</td>
+<td>0.044401</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.511144</td>
+<td>0.0302028</td>
+<td>0.0480693</td>
+</tr>
+<tr>
+<td>4.5 - 5</td>
+<td>0.372858</td>
+<td>0.0700591</td>
+<td>0.0308291</td>
+</tr>
+<tr>
+<td>5 - 5.7</td>
+<td>0.352094</td>
+<td>0.0994316</td>
+<td>0.0314826</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-minus-auau--390-gev" class="anchor" href="#pi-minus-auau--390-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi minus Au+Au @ 39.0 GeV.</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.543932</td>
+<td>0.000164619</td>
+<td>0.0467339</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.57324</td>
+<td>0.000224882</td>
+<td>0.052913</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.576169</td>
+<td>0.000297881</td>
+<td>0.0513127</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.643996</td>
+<td>0.000437885</td>
+<td>0.0540541</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.652658</td>
+<td>0.000583885</td>
+<td>0.0751163</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.668735</td>
+<td>0.000768041</td>
+<td>0.0671229</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.707715</td>
+<td>0.00101695</td>
+<td>0.0656091</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.665505</td>
+<td>0.00121163</td>
+<td>0.0626633</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.723936</td>
+<td>0.00165903</td>
+<td>0.0882251</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.737315</td>
+<td>0.00209797</td>
+<td>0.0761494</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.672089</td>
+<td>0.00241091</td>
+<td>0.0748444</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.721944</td>
+<td>0.00318292</td>
+<td>0.0719203</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.701226</td>
+<td>0.00372997</td>
+<td>0.067557</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.698868</td>
+<td>0.00454192</td>
+<td>0.0873029</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.682911</td>
+<td>0.00542788</td>
+<td>0.0959108</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.666562</td>
+<td>0.00491062</td>
+<td>0.0774124</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.66929</td>
+<td>0.00702683</td>
+<td>0.0761754</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.70663</td>
+<td>0.0110239</td>
+<td>0.0654603</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.59684</td>
+<td>0.0124145</td>
+<td>0.0451839</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.556345</td>
+<td>0.0171861</td>
+<td>0.0661977</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.631881</td>
+<td>0.0209586</td>
+<td>0.0669116</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.548548</td>
+<td>0.029199</td>
+<td>0.055846</td>
+</tr>
+<tr>
+<td>4.5 - 5</td>
+<td>0.539943</td>
+<td>0.13424</td>
+<td>0.0389927</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-minus-auau--270-gev" class="anchor" href="#pi-minus-auau--270-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi minus Au+Au @ 27.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.574014</td>
+<td>0.000297924</td>
+<td>0.046304</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.613804</td>
+<td>0.000413768</td>
+<td>0.0509638</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.634679</td>
+<td>0.000561577</td>
+<td>0.0487289</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.658979</td>
+<td>0.000777228</td>
+<td>0.0542364</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.673702</td>
+<td>0.00103239</td>
+<td>0.0565252</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.709621</td>
+<td>0.00141558</td>
+<td>0.0690447</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.691405</td>
+<td>0.0017362</td>
+<td>0.0653935</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.763883</td>
+<td>0.00242042</td>
+<td>0.0794111</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.737817</td>
+<td>0.0029587</td>
+<td>0.07374</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.765051</td>
+<td>0.0039126</td>
+<td>0.0866598</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.75246</td>
+<td>0.00477606</td>
+<td>0.0650929</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.761446</td>
+<td>0.00595478</td>
+<td>0.0811463</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.772131</td>
+<td>0.00755473</td>
+<td>0.0982114</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.77435</td>
+<td>0.0091442</td>
+<td>0.070922</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.762924</td>
+<td>0.0109952</td>
+<td>0.0744205</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.749119</td>
+<td>0.0100833</td>
+<td>0.0898503</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.791522</td>
+<td>0.015566</td>
+<td>0.0863531</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.756986</td>
+<td>0.0218126</td>
+<td>0.0869721</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.753853</td>
+<td>0.0310317</td>
+<td>0.076612</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.674405</td>
+<td>0.0396966</td>
+<td>0.0603636</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.695502</td>
+<td>0.0417234</td>
+<td>0.0822168</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.619102</td>
+<td>0.0752905</td>
+<td>0.067697</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-minus-auau--196-gev" class="anchor" href="#pi-minus-auau--196-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi minus Au+Au @ 19.6 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.55911</td>
+<td>0.000432375</td>
+<td>0.0491136</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.572726</td>
+<td>0.000588512</td>
+<td>0.0454917</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.575059</td>
+<td>0.00077752</td>
+<td>0.0471239</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.64177</td>
+<td>0.00116318</td>
+<td>0.05803</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.666211</td>
+<td>0.0415112</td>
+<td>0.0592027</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.713062</td>
+<td>0.00221337</td>
+<td>0.0755115</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.706602</td>
+<td>0.00281132</td>
+<td>0.0658758</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.724234</td>
+<td>0.00367612</td>
+<td>0.0731428</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.758432</td>
+<td>0.00495952</td>
+<td>0.0751979</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.7598</td>
+<td>0.00631106</td>
+<td>0.075761</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.756827</td>
+<td>0.00792648</td>
+<td>0.081015</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.77766</td>
+<td>0.0100962</td>
+<td>0.0824139</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.803351</td>
+<td>0.012951</td>
+<td>0.0673532</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.790775</td>
+<td>0.0161507</td>
+<td>0.0898831</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.796181</td>
+<td>0.0194353</td>
+<td>0.0964597</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.777151</td>
+<td>0.0185777</td>
+<td>0.0879158</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.800984</td>
+<td>0.0281117</td>
+<td>0.0921934</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.838952</td>
+<td>0.0447266</td>
+<td>0.105644</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.938483</td>
+<td>0.0715338</td>
+<td>0.0839063</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.02981</td>
+<td>0.125158</td>
+<td>0.0907957</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.922106</td>
+<td>0.106194</td>
+<td>0.0975983</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-minus-auau--145-gev" class="anchor" href="#pi-minus-auau--145-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi minus Au+Au @ 14.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.552625</td>
+<td>0.000157733</td>
+<td>0.0481738</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.588414</td>
+<td>0.000221343</td>
+<td>0.0550547</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.611577</td>
+<td>0.000299964</td>
+<td>0.062101</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.632481</td>
+<td>0.0004099</td>
+<td>0.0598544</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.668976</td>
+<td>0.000570705</td>
+<td>0.0567136</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.702073</td>
+<td>0.000786482</td>
+<td>0.0726013</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.736197</td>
+<td>0.00107473</td>
+<td>0.0693014</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.767806</td>
+<td>0.00143104</td>
+<td>0.0757029</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.788965</td>
+<td>0.00187888</td>
+<td>0.0820006</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.801923</td>
+<td>0.00243568</td>
+<td>0.0750719</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.836388</td>
+<td>0.00326319</td>
+<td>0.0901199</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.872221</td>
+<td>0.00435861</td>
+<td>0.0932425</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.880649</td>
+<td>0.00556027</td>
+<td>0.0912826</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.907121</td>
+<td>0.00726559</td>
+<td>0.10037</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.956181</td>
+<td>0.00983844</td>
+<td>0.0922334</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.978178</td>
+<td>0.0133417</td>
+<td>0.105868</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.12844</td>
+<td>0.0234324</td>
+<td>0.124661</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.10993</td>
+<td>0.034047</td>
+<td>0.124127</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.01549</td>
+<td>0.0459458</td>
+<td>0.106046</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-minus-auau--115-gev" class="anchor" href="#pi-minus-auau--115-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi minus Au+Au @ 11.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.547091</td>
+<td>0.000741228</td>
+<td>0.0444172</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.579478</td>
+<td>0.00109721</td>
+<td>0.0510338</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.596349</td>
+<td>0.00148515</td>
+<td>0.0578067</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.615081</td>
+<td>0.00205497</td>
+<td>0.0548604</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.662395</td>
+<td>0.0029513</td>
+<td>0.0560857</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.697089</td>
+<td>0.0041161</td>
+<td>0.0736883</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.760901</td>
+<td>0.00574993</td>
+<td>0.061139</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.743348</td>
+<td>0.00717864</td>
+<td>0.0717318</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.806443</td>
+<td>0.0100258</td>
+<td>0.0803495</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.864106</td>
+<td>0.0145835</td>
+<td>0.0756544</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.89812</td>
+<td>0.0184712</td>
+<td>0.0881878</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.900985</td>
+<td>0.0238708</td>
+<td>0.101167</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.951757</td>
+<td>0.0317361</td>
+<td>0.0844724</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.02115</td>
+<td>0.0451143</td>
+<td>0.097824</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.03451</td>
+<td>0.0547052</td>
+<td>0.102038</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.09834</td>
+<td>0.060164</td>
+<td>0.114536</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.15253</td>
+<td>0.0982003</td>
+<td>0.0954051</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.42628</td>
+<td>0.175581</td>
+<td>0.128398</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-pi-minus-auau--77-gev" class="anchor" href="#pi-minus-auau--77-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pi minus Au+Au @ 7.7 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.532381</td>
+<td>0.000939751</td>
+<td>0.0354617</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.576842</td>
+<td>0.00153214</td>
+<td>0.0380938</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.625121</td>
+<td>0.00221929</td>
+<td>0.0509011</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.63901</td>
+<td>0.00321306</td>
+<td>0.0483514</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.704414</td>
+<td>0.081387</td>
+<td>0.0628236</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.753032</td>
+<td>0.00645196</td>
+<td>0.0728432</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.793099</td>
+<td>0.0091715</td>
+<td>0.0852685</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.872918</td>
+<td>0.0131876</td>
+<td>0.0739936</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.936281</td>
+<td>0.0193698</td>
+<td>0.079414</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.06275</td>
+<td>0.0279528</td>
+<td>0.0867454</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.0367</td>
+<td>0.035747</td>
+<td>0.0962302</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.09897</td>
+<td>0.0495992</td>
+<td>0.0911224</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.45682</td>
+<td>0.0989827</td>
+<td>0.163993</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.86663</td>
+<td>0.191204</td>
+<td>0.163644</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.73557</td>
+<td>0.175986</td>
+<td>0.127309</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.7236</td>
+<td>0.198829</td>
+<td>0.160345</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-plus-auau--624-gev" class="anchor" href="#kaon-plus-auau--624-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon plus Au+Au @ 62.4 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.675325</td>
+<td>0.00072763</td>
+<td>0.0442224</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.734256</td>
+<td>0.000929737</td>
+<td>0.0875616</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.774059</td>
+<td>0.00129749</td>
+<td>0.105437</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.824778</td>
+<td>0.00177999</td>
+<td>0.149579</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.864523</td>
+<td>0.00242178</td>
+<td>0.125056</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.92835</td>
+<td>0.003176</td>
+<td>0.174392</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.903742</td>
+<td>0.00297533</td>
+<td>0.138069</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.971667</td>
+<td>0.00438204</td>
+<td>0.133264</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.999575</td>
+<td>0.00556316</td>
+<td>0.16847</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.916394</td>
+<td>0.00559524</td>
+<td>0.122012</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.968642</td>
+<td>0.0072864</td>
+<td>0.139531</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.942254</td>
+<td>0.00896635</td>
+<td>0.140352</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.861557</td>
+<td>0.00956178</td>
+<td>0.137325</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.909956</td>
+<td>0.0126116</td>
+<td>0.137654</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.872693</td>
+<td>0.0170555</td>
+<td>0.135796</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.832584</td>
+<td>0.0129972</td>
+<td>0.0923569</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.822145</td>
+<td>0.018946</td>
+<td>0.130993</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.820551</td>
+<td>0.0290531</td>
+<td>0.194631</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.650002</td>
+<td>0.0398101</td>
+<td>0.219485</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.512318</td>
+<td>0.0410112</td>
+<td>0.126689</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.571857</td>
+<td>0.0594364</td>
+<td>0.196066</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.651994</td>
+<td>0.0806603</td>
+<td>0.20575</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-plus-auau--390-gev" class="anchor" href="#kaon-plus-auau--390-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon plus Au+Au @ 39.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.726887</td>
+<td>0.000608698</td>
+<td>0.0615563</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.816777</td>
+<td>0.000797093</td>
+<td>0.0795727</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.799055</td>
+<td>0.00101427</td>
+<td>0.111777</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.851672</td>
+<td>0.0013737</td>
+<td>0.124497</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.914466</td>
+<td>0.00196352</td>
+<td>0.122548</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.964151</td>
+<td>0.00240299</td>
+<td>0.163667</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.973768</td>
+<td>0.00279595</td>
+<td>0.133658</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.997377</td>
+<td>0.00379483</td>
+<td>0.131062</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.08978</td>
+<td>0.00478955</td>
+<td>0.164248</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.961966</td>
+<td>0.00516682</td>
+<td>0.152616</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.04653</td>
+<td>0.00674468</td>
+<td>0.129985</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.94467</td>
+<td>0.00776779</td>
+<td>0.104183</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.976793</td>
+<td>0.00954491</td>
+<td>0.158373</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.959884</td>
+<td>0.0115633</td>
+<td>0.10697</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.932495</td>
+<td>0.0138555</td>
+<td>0.142392</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.986655</td>
+<td>0.0134637</td>
+<td>0.128763</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.911412</td>
+<td>0.0188586</td>
+<td>0.168284</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.938643</td>
+<td>0.0291482</td>
+<td>0.183944</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.93348</td>
+<td>0.0461353</td>
+<td>0.191676</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.89305</td>
+<td>0.0779573</td>
+<td>0.296382</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.878417</td>
+<td>0.093972</td>
+<td>0.264263</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.796245</td>
+<td>0.148006</td>
+<td>0.306764</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-plus-auau--270-gev" class="anchor" href="#kaon-plus-auau--270-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon plus Au+Au @ 27.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.762531</td>
+<td>0.00109971</td>
+<td>0.0683556</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.7777</td>
+<td>0.00130791</td>
+<td>0.101554</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.884181</td>
+<td>0.0019988</td>
+<td>0.128996</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.956496</td>
+<td>0.00279924</td>
+<td>0.148819</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.980387</td>
+<td>0.00369528</td>
+<td>0.140884</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.998719</td>
+<td>0.00356092</td>
+<td>0.136371</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.06033</td>
+<td>0.00388245</td>
+<td>0.16394</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.0736</td>
+<td>0.00717502</td>
+<td>0.163076</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.05006</td>
+<td>0.0075619</td>
+<td>0.123518</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.14011</td>
+<td>0.010884</td>
+<td>0.164777</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.15215</td>
+<td>0.0129526</td>
+<td>0.162455</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.15038</td>
+<td>0.0158037</td>
+<td>0.161126</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.10719</td>
+<td>0.019012</td>
+<td>0.170044</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.15036</td>
+<td>0.0241628</td>
+<td>0.174805</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.12446</td>
+<td>0.0285633</td>
+<td>0.148794</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.07707</td>
+<td>0.0258209</td>
+<td>0.168039</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.1397</td>
+<td>0.0332508</td>
+<td>0.172001</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.08252</td>
+<td>0.0343496</td>
+<td>0.181683</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.2766</td>
+<td>0.0887765</td>
+<td>0.237957</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.09629</td>
+<td>0.11871</td>
+<td>0.288031</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.43282</td>
+<td>0.249205</td>
+<td>0.320153</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.841186</td>
+<td>0.308422</td>
+<td>0.235295</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-plus-auau--196-gev" class="anchor" href="#kaon-plus-auau--196-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon plus Au+Au @ 19.6 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.804205</td>
+<td>0.0017161</td>
+<td>0.0629917</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.830422</td>
+<td>0.0021091</td>
+<td>0.0814685</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.930001</td>
+<td>0.00314725</td>
+<td>0.104891</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.882427</td>
+<td>0.00347534</td>
+<td>0.151648</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.991274</td>
+<td>0.00592351</td>
+<td>0.138168</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.02913</td>
+<td>0.00754991</td>
+<td>0.164376</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.03467</td>
+<td>0.00870975</td>
+<td>0.155285</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.11019</td>
+<td>0.0120037</td>
+<td>0.181247</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.05321</td>
+<td>0.0138541</td>
+<td>0.148779</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.14299</td>
+<td>0.0179697</td>
+<td>0.139078</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.127</td>
+<td>0.0218859</td>
+<td>0.154721</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.27009</td>
+<td>0.0309993</td>
+<td>0.181998</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.30708</td>
+<td>0.0395903</td>
+<td>0.171592</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.5115</td>
+<td>0.060742</td>
+<td>0.28685</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.20744</td>
+<td>0.0571977</td>
+<td>0.17491</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.30784</td>
+<td>0.0640978</td>
+<td>0.200463</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.36692</td>
+<td>0.100295</td>
+<td>0.254423</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.448</td>
+<td>0.14979</td>
+<td>0.268965</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.55841</td>
+<td>0.273864</td>
+<td>0.425559</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.06448</td>
+<td>0.297267</td>
+<td>0.289959</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.34791</td>
+<td>0.609389</td>
+<td>0.44148</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-plus-auau--145-gev" class="anchor" href="#kaon-plus-auau--145-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon plus Au+Au @ 14.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.846196</td>
+<td>0.000505194</td>
+<td>0.0822543</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.926472</td>
+<td>0.000719143</td>
+<td>0.110093</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.999518</td>
+<td>0.00108005</td>
+<td>0.143431</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>1.07188</td>
+<td>0.00161154</td>
+<td>0.180811</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>1.13473</td>
+<td>0.00228947</td>
+<td>0.156528</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.20628</td>
+<td>0.00313428</td>
+<td>0.179575</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.22975</td>
+<td>0.00386342</td>
+<td>0.179757</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.27847</td>
+<td>0.00492588</td>
+<td>0.190176</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.30495</td>
+<td>0.0060189</td>
+<td>0.186741</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.3707</td>
+<td>0.00783842</td>
+<td>0.208347</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.36858</td>
+<td>0.0093175</td>
+<td>0.210168</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.37209</td>
+<td>0.0114531</td>
+<td>0.200109</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.4201</td>
+<td>0.0152464</td>
+<td>0.241905</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.42618</td>
+<td>0.0200048</td>
+<td>0.210463</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.48376</td>
+<td>0.0264781</td>
+<td>0.224473</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.65844</td>
+<td>0.039179</td>
+<td>0.285602</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.76742</td>
+<td>0.0787195</td>
+<td>0.271686</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>2.05913</td>
+<td>0.157583</td>
+<td>0.307225</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-plus-auau--115-gev" class="anchor" href="#kaon-plus-auau--115-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon plus Au+Au @ 11.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.897895</td>
+<td>0.00352314</td>
+<td>0.0827832</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.968319</td>
+<td>0.00465147</td>
+<td>0.0919726</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.946753</td>
+<td>0.00607532</td>
+<td>0.133198</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>1.11726</td>
+<td>0.00887694</td>
+<td>0.162939</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>1.08758</td>
+<td>0.0120822</td>
+<td>0.146001</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.15837</td>
+<td>0.0136158</td>
+<td>0.158803</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.36856</td>
+<td>0.0238233</td>
+<td>0.246336</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.37578</td>
+<td>0.0287607</td>
+<td>0.189721</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.47187</td>
+<td>0.038106</td>
+<td>0.223302</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.44283</td>
+<td>0.0439565</td>
+<td>0.238428</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.49597</td>
+<td>0.0566698</td>
+<td>0.215587</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.69303</td>
+<td>0.0835343</td>
+<td>0.275532</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.69741</td>
+<td>0.103804</td>
+<td>0.248505</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.74305</td>
+<td>0.138377</td>
+<td>0.263137</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.89576</td>
+<td>0.194713</td>
+<td>0.270597</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.50475</td>
+<td>0.145105</td>
+<td>0.275852</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.81511</td>
+<td>0.26625</td>
+<td>0.343168</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-plus-auau--77-gev" class="anchor" href="#kaon-plus-auau--77-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon plus Au+Au @ 7.7 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.981374</td>
+<td>0.00572609</td>
+<td>0.0874002</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>1.03337</td>
+<td>0.0073431</td>
+<td>0.0835476</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>1.2081</td>
+<td>0.00981241</td>
+<td>0.147081</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>1.23259</td>
+<td>0.0126031</td>
+<td>0.157998</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>1.29904</td>
+<td>0.0109114</td>
+<td>0.177657</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.55187</td>
+<td>0.0348333</td>
+<td>0.242204</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.48287</td>
+<td>0.0249861</td>
+<td>0.215833</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.57817</td>
+<td>0.0530927</td>
+<td>0.210658</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.70518</td>
+<td>0.0721621</td>
+<td>0.272447</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.87557</td>
+<td>0.103197</td>
+<td>0.261791</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>2.30063</td>
+<td>0.172578</td>
+<td>0.316866</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>3.18123</td>
+<td>0.299169</td>
+<td>0.97847</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>2.67862</td>
+<td>0.327291</td>
+<td>0.431775</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>2.76767</td>
+<td>0.432243</td>
+<td>0.433714</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-minus-auau--624-gev" class="anchor" href="#kaon-minus-auau--624-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon minus Au+Au @ 62.4 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.665827</td>
+<td>0.000773667</td>
+<td>0.048767</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.698031</td>
+<td>0.000953159</td>
+<td>0.0682879</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.759516</td>
+<td>0.00135618</td>
+<td>0.107683</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.81105</td>
+<td>0.00199452</td>
+<td>0.128751</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.821794</td>
+<td>0.00248341</td>
+<td>0.11935</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.889068</td>
+<td>0.00345589</td>
+<td>0.146101</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.91705</td>
+<td>0.0025217</td>
+<td>0.135718</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.838468</td>
+<td>0.00297582</td>
+<td>0.151067</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.955368</td>
+<td>0.00605564</td>
+<td>0.130808</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.978173</td>
+<td>0.00740413</td>
+<td>0.126411</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.93048</td>
+<td>0.00830951</td>
+<td>0.124268</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>0.928334</td>
+<td>0.00976651</td>
+<td>0.121641</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>0.956439</td>
+<td>0.0126785</td>
+<td>0.128828</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.92467</td>
+<td>0.0154389</td>
+<td>0.134591</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.887993</td>
+<td>0.01685</td>
+<td>0.126961</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.951111</td>
+<td>0.017797</td>
+<td>0.112642</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.86115</td>
+<td>0.0249063</td>
+<td>0.131125</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.835316</td>
+<td>0.0351595</td>
+<td>0.178824</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>0.709733</td>
+<td>0.0414378</td>
+<td>0.270036</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.926521</td>
+<td>0.0794992</td>
+<td>0.201518</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.701298</td>
+<td>0.0577114</td>
+<td>0.239454</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.628666</td>
+<td>0.0940267</td>
+<td>0.227272</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-minus-auau--390-gev" class="anchor" href="#kaon-minus-auau--390-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon minus Au+Au @ 39.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.678956</td>
+<td>0.000632076</td>
+<td>0.0497819</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.736333</td>
+<td>0.000818126</td>
+<td>0.0742347</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.768478</td>
+<td>0.00111506</td>
+<td>0.120143</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.917331</td>
+<td>0.00178042</td>
+<td>0.127523</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.85058</td>
+<td>0.00214393</td>
+<td>0.154466</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.902989</td>
+<td>0.00218785</td>
+<td>0.156081</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.980006</td>
+<td>0.00318166</td>
+<td>0.188246</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.933251</td>
+<td>0.00397134</td>
+<td>0.146945</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.04926</td>
+<td>0.00569813</td>
+<td>0.150267</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.93766</td>
+<td>0.00598123</td>
+<td>0.144594</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.956647</td>
+<td>0.007565</td>
+<td>0.16111</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.02299</td>
+<td>0.00953726</td>
+<td>0.147333</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.03073</td>
+<td>0.0132047</td>
+<td>0.140195</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>0.979367</td>
+<td>0.0144002</td>
+<td>0.133906</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>0.927454</td>
+<td>0.0164724</td>
+<td>0.120685</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>0.960647</td>
+<td>0.0169019</td>
+<td>0.151222</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>0.927352</td>
+<td>0.0239527</td>
+<td>0.163422</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>0.83351</td>
+<td>0.0343299</td>
+<td>0.126395</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.08768</td>
+<td>0.088721</td>
+<td>0.229223</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>0.900735</td>
+<td>0.0659083</td>
+<td>0.221269</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>0.697623</td>
+<td>0.0626256</td>
+<td>0.195988</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.723306</td>
+<td>0.147084</td>
+<td>0.278266</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-minus-auau--270-gev" class="anchor" href="#kaon-minus-auau--270-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon minus Au+Au @ 27.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.767454</td>
+<td>0.00127206</td>
+<td>0.0617365</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.704053</td>
+<td>0.0013521</td>
+<td>0.146522</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.800507</td>
+<td>0.0021126</td>
+<td>0.117075</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.906671</td>
+<td>0.00332544</td>
+<td>0.140086</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.986398</td>
+<td>0.00457177</td>
+<td>0.121347</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.94544</td>
+<td>0.00331938</td>
+<td>0.149331</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.982823</td>
+<td>0.00515623</td>
+<td>0.14495</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.04132</td>
+<td>0.00717579</td>
+<td>0.190896</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.13899</td>
+<td>0.0114994</td>
+<td>0.161966</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.06405</td>
+<td>0.0128322</td>
+<td>0.136479</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.06289</td>
+<td>0.0152659</td>
+<td>0.158508</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.16028</td>
+<td>0.0205615</td>
+<td>0.156894</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.10749</td>
+<td>0.0232371</td>
+<td>0.15734</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.06108</td>
+<td>0.0272417</td>
+<td>0.136917</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.20753</td>
+<td>0.040392</td>
+<td>0.14923</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.17769</td>
+<td>0.0351984</td>
+<td>0.227621</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.20564</td>
+<td>0.0575682</td>
+<td>0.175046</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.15667</td>
+<td>0.0836058</td>
+<td>0.154985</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.26608</td>
+<td>0.169411</td>
+<td>0.193241</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.82454</td>
+<td>0.433522</td>
+<td>0.410666</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.94558</td>
+<td>0.38689</td>
+<td>0.426363</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-minus-auau--196-gev" class="anchor" href="#kaon-minus-auau--196-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon minus Au+Au @ 19.6 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.759084</td>
+<td>0.0019643</td>
+<td>0.0560847</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.812085</td>
+<td>0.00250563</td>
+<td>0.100935</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.906112</td>
+<td>0.00378918</td>
+<td>0.135103</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>1.0101</td>
+<td>0.00587107</td>
+<td>0.300388</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.999705</td>
+<td>0.00686559</td>
+<td>0.257292</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.13818</td>
+<td>0.0100092</td>
+<td>0.164262</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.12449</td>
+<td>0.0107935</td>
+<td>0.182542</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.12739</td>
+<td>0.0150813</td>
+<td>0.181272</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.35753</td>
+<td>0.0234866</td>
+<td>0.211341</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.23729</td>
+<td>0.0267372</td>
+<td>0.189056</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.50503</td>
+<td>0.0442367</td>
+<td>0.273528</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.65212</td>
+<td>0.0603799</td>
+<td>0.217878</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.53639</td>
+<td>0.0696178</td>
+<td>0.187502</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.64948</td>
+<td>0.0863736</td>
+<td>0.256819</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.83781</td>
+<td>0.139198</td>
+<td>0.231008</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.64147</td>
+<td>0.116844</td>
+<td>0.226782</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.89664</td>
+<td>0.234875</td>
+<td>0.299846</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>2.04216</td>
+<td>0.363654</td>
+<td>0.423878</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-minus-auau--145-gev" class="anchor" href="#kaon-minus-auau--145-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon minus Au+Au @ 14.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.780626</td>
+<td>0.000588585</td>
+<td>0.0764287</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.848082</td>
+<td>0.000841432</td>
+<td>0.110365</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.93244</td>
+<td>0.00134336</td>
+<td>0.150182</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>1.0119</td>
+<td>0.00206356</td>
+<td>0.156551</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>1.0714</td>
+<td>0.00295575</td>
+<td>0.173566</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.13646</td>
+<td>0.00404223</td>
+<td>0.174944</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.19514</td>
+<td>0.00535939</td>
+<td>0.181032</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.27491</td>
+<td>0.00708579</td>
+<td>0.202273</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.26858</td>
+<td>0.00843506</td>
+<td>0.195229</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.30288</td>
+<td>0.0105389</td>
+<td>0.189328</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.30408</td>
+<td>0.0129397</td>
+<td>0.218709</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.41895</td>
+<td>0.0176507</td>
+<td>0.214217</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.49555</td>
+<td>0.0247434</td>
+<td>0.202915</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.56662</td>
+<td>0.0325885</td>
+<td>0.215198</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.54749</td>
+<td>0.0406623</td>
+<td>0.23945</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.76425</td>
+<td>0.0680372</td>
+<td>0.305184</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.72019</td>
+<td>0.0872595</td>
+<td>0.244816</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-minus-auau--115-gev" class="anchor" href="#kaon-minus-auau--115-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon minus Au+Au @ 11.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.818776</td>
+<td>0.00439987</td>
+<td>0.0694239</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.84296</td>
+<td>0.00559262</td>
+<td>0.0946376</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.908428</td>
+<td>0.00837556</td>
+<td>0.140493</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.968155</td>
+<td>0.0122168</td>
+<td>0.181451</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>1.0229</td>
+<td>0.0110778</td>
+<td>0.234034</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.08171</td>
+<td>0.0155211</td>
+<td>0.265142</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.22566</td>
+<td>0.0243276</td>
+<td>0.19933</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.40548</td>
+<td>0.0454766</td>
+<td>0.229534</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.33124</td>
+<td>0.0559439</td>
+<td>0.171265</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.52838</td>
+<td>0.0801256</td>
+<td>0.254177</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.59615</td>
+<td>0.0998887</td>
+<td>0.206035</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.63866</td>
+<td>0.13674</td>
+<td>0.248275</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>2.24892</td>
+<td>0.265344</td>
+<td>0.269514</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.92933</td>
+<td>0.280857</td>
+<td>0.229339</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>4.08128</td>
+<td>0.775853</td>
+<td>0.607126</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-kaon-minus-auau--77-gev" class="anchor" href="#kaon-minus-auau--77-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kaon minus Au+Au @ 7.7 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.92102</td>
+<td>0.00851552</td>
+<td>0.0936856</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>1.02709</td>
+<td>0.0119875</td>
+<td>0.154932</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>1.13141</td>
+<td>0.0192914</td>
+<td>0.225451</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>1.15534</td>
+<td>0.021216</td>
+<td>0.234662</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>1.2097</td>
+<td>0.0265871</td>
+<td>0.688854</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.57155</td>
+<td>0.0622966</td>
+<td>0.240937</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.65896</td>
+<td>0.02542</td>
+<td>0.230031</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>2.07544</td>
+<td>0.152736</td>
+<td>0.314754</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.74334</td>
+<td>0.11375</td>
+<td>0.415525</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.78117</td>
+<td>0.196171</td>
+<td>0.317908</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-proton-auau--624-gev" class="anchor" href="#proton-auau--624-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>proton Au+Au @ 62.4 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.38266</td>
+<td>0.000349253</td>
+<td>0.0240614</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.433827</td>
+<td>0.000527582</td>
+<td>0.0236736</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.517625</td>
+<td>0.000696885</td>
+<td>0.0439303</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.588029</td>
+<td>0.000892704</td>
+<td>0.0474645</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.6525</td>
+<td>0.00113654</td>
+<td>0.063765</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.768687</td>
+<td>0.00156001</td>
+<td>0.0579121</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.818142</td>
+<td>0.00200439</td>
+<td>0.107948</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.954183</td>
+<td>0.00288705</td>
+<td>0.110944</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.977892</td>
+<td>0.00366482</td>
+<td>0.114814</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.02754</td>
+<td>0.00492433</td>
+<td>0.130681</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.08294</td>
+<td>0.00624484</td>
+<td>0.136275</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.23306</td>
+<td>0.00862068</td>
+<td>0.197778</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.24672</td>
+<td>0.0102522</td>
+<td>0.175651</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.263</td>
+<td>0.0125327</td>
+<td>0.130138</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.31071</td>
+<td>0.0149725</td>
+<td>0.198552</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.3291</td>
+<td>0.0133932</td>
+<td>0.171792</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.3802</td>
+<td>0.0191826</td>
+<td>0.150149</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.42292</td>
+<td>0.0273947</td>
+<td>0.192918</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.34037</td>
+<td>0.0355318</td>
+<td>0.134236</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.23761</td>
+<td>0.0458112</td>
+<td>0.152692</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.17881</td>
+<td>0.0481637</td>
+<td>0.145339</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>1.09271</td>
+<td>0.100438</td>
+<td>0.151035</td>
+</tr>
+<tr>
+<td>4.5 - 5</td>
+<td>0.631448</td>
+<td>0.266556</td>
+<td>0.0902576</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-proton-auau--390-gev" class="anchor" href="#proton-auau--390-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>proton Au+Au @ 39.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.429853</td>
+<td>0.000349198</td>
+<td>0.0249263</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.471588</td>
+<td>0.000409063</td>
+<td>0.0222373</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.541374</td>
+<td>0.000522939</td>
+<td>0.0337105</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.621884</td>
+<td>0.000685206</td>
+<td>0.0378334</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.71241</td>
+<td>0.000912036</td>
+<td>0.0475324</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.795638</td>
+<td>0.00119357</td>
+<td>0.0611486</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.944078</td>
+<td>0.0016568</td>
+<td>0.0866116</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.987653</td>
+<td>0.00218679</td>
+<td>0.114712</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.09116</td>
+<td>0.0030203</td>
+<td>0.136531</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.13136</td>
+<td>0.00394499</td>
+<td>0.126533</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.20268</td>
+<td>0.00515189</td>
+<td>0.15504</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.30086</td>
+<td>0.00686191</td>
+<td>0.148597</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.32807</td>
+<td>0.00789387</td>
+<td>0.167212</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.4018</td>
+<td>0.0105236</td>
+<td>0.198185</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.38585</td>
+<td>0.0121625</td>
+<td>0.150252</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.44302</td>
+<td>0.0116755</td>
+<td>0.176264</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.48979</td>
+<td>0.0165568</td>
+<td>0.145385</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.45978</td>
+<td>0.0228669</td>
+<td>0.180002</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.48078</td>
+<td>0.033474</td>
+<td>0.201753</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.46443</td>
+<td>0.044248</td>
+<td>0.180389</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.30353</td>
+<td>0.045389</td>
+<td>0.168142</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>1.34472</td>
+<td>0.10745</td>
+<td>0.150386</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-proton-auau--270-gev" class="anchor" href="#proton-auau--270-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>proton Au+Au @ 27.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.476774</td>
+<td>0.000578048</td>
+<td>0.0217905</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.53753</td>
+<td>0.000716362</td>
+<td>0.0297822</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.633911</td>
+<td>0.000951377</td>
+<td>0.0412349</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.722195</td>
+<td>0.00124639</td>
+<td>0.0648792</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.850291</td>
+<td>0.00172215</td>
+<td>0.0709252</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.951185</td>
+<td>0.0022947</td>
+<td>0.0793928</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.03837</td>
+<td>0.00302803</td>
+<td>0.0805691</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.15324</td>
+<td>0.00409654</td>
+<td>0.134546</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.193</td>
+<td>0.00534779</td>
+<td>0.124447</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.39144</td>
+<td>0.00798951</td>
+<td>0.171962</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.3506</td>
+<td>0.00956107</td>
+<td>0.176524</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.49035</td>
+<td>0.0123684</td>
+<td>0.180619</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.53213</td>
+<td>0.0162687</td>
+<td>0.208424</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.48314</td>
+<td>0.0183701</td>
+<td>0.176692</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.54623</td>
+<td>0.0226983</td>
+<td>0.20504</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.62722</td>
+<td>0.0223054</td>
+<td>0.188312</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.71846</td>
+<td>0.0323155</td>
+<td>0.219404</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.63575</td>
+<td>0.0424384</td>
+<td>0.223579</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.67402</td>
+<td>0.0621358</td>
+<td>0.179484</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.75333</td>
+<td>0.0959242</td>
+<td>0.199327</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.77731</td>
+<td>0.111414</td>
+<td>0.162588</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>2.04198</td>
+<td>0.287476</td>
+<td>0.238056</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-proton-auau--196-gev" class="anchor" href="#proton-auau--196-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>proton Au+Au @ 19.6 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.509348</td>
+<td>0.000847123</td>
+<td>0.0253584</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.588969</td>
+<td>0.00106867</td>
+<td>0.0234212</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.652341</td>
+<td>0.00133952</td>
+<td>0.0380883</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.766449</td>
+<td>0.00178178</td>
+<td>0.060241</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.850948</td>
+<td>0.00238286</td>
+<td>0.0475077</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.94823</td>
+<td>0.00312186</td>
+<td>0.0704499</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.09504</td>
+<td>0.00445006</td>
+<td>0.0769569</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.1504</td>
+<td>0.00583463</td>
+<td>0.12575</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.28683</td>
+<td>0.00820331</td>
+<td>0.160039</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.35264</td>
+<td>0.0109203</td>
+<td>0.145725</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.47329</td>
+<td>0.0146813</td>
+<td>0.143387</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.58402</td>
+<td>0.0196841</td>
+<td>0.171526</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.50358</td>
+<td>0.0230097</td>
+<td>0.161889</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.68083</td>
+<td>0.0311561</td>
+<td>0.176934</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.6642</td>
+<td>0.0359523</td>
+<td>0.209163</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.83599</td>
+<td>0.037278</td>
+<td>0.217284</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.89011</td>
+<td>0.0557429</td>
+<td>0.183603</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.94088</td>
+<td>0.0825177</td>
+<td>0.267178</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.90846</td>
+<td>0.116354</td>
+<td>0.194025</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>2.05428</td>
+<td>0.196732</td>
+<td>0.204709</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>2.16874</td>
+<td>0.239108</td>
+<td>0.218456</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-proton-auau--145-gev" class="anchor" href="#proton-auau--145-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>proton Au+Au @ 14.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.497657</td>
+<td>0.000432395</td>
+<td>0.137535</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.580005</td>
+<td>0.000550234</td>
+<td>0.0675463</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.679905</td>
+<td>0.000761098</td>
+<td>0.0830856</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.786502</td>
+<td>0.000718691</td>
+<td>0.0842107</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.895548</td>
+<td>0.000959907</td>
+<td>0.111689</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.00331</td>
+<td>0.00126541</td>
+<td>0.0998334</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.12406</td>
+<td>0.00170463</td>
+<td>0.133319</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.26172</td>
+<td>0.00234614</td>
+<td>0.168603</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.37276</td>
+<td>0.00315892</td>
+<td>0.175362</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.49848</td>
+<td>0.00430804</td>
+<td>0.215009</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.61202</td>
+<td>0.00594078</td>
+<td>0.207421</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.67218</td>
+<td>0.007498</td>
+<td>0.200761</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.79172</td>
+<td>0.0098045</td>
+<td>0.224707</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.8399</td>
+<td>0.0121631</td>
+<td>0.23669</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.94119</td>
+<td>0.0153876</td>
+<td>0.253017</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>2.07489</td>
+<td>0.0215572</td>
+<td>0.272522</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>2.23559</td>
+<td>0.0339339</td>
+<td>0.274252</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>2.22365</td>
+<td>0.0442525</td>
+<td>0.250176</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>2.50524</td>
+<td>0.0812621</td>
+<td>0.30569</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>2.50052</td>
+<td>0.104969</td>
+<td>0.357388</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>2.74519</td>
+<td>0.210043</td>
+<td>0.392661</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-proton-auau--115-gev" class="anchor" href="#proton-auau--115-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>proton Au+Au @ 11.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.554153</td>
+<td>0.00139958</td>
+<td>0.0269204</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.670101</td>
+<td>0.00184265</td>
+<td>0.0440524</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.713689</td>
+<td>0.00222171</td>
+<td>0.0441458</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.842666</td>
+<td>0.00294086</td>
+<td>0.0647586</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.926835</td>
+<td>0.00397131</td>
+<td>0.0742494</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.05903</td>
+<td>0.00538671</td>
+<td>0.10457</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.22222</td>
+<td>0.00769721</td>
+<td>0.103496</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.26488</td>
+<td>0.00980098</td>
+<td>0.139396</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.55537</td>
+<td>0.0155245</td>
+<td>0.144766</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.56527</td>
+<td>0.0193056</td>
+<td>0.173481</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.68022</td>
+<td>0.02621</td>
+<td>0.229172</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.66918</td>
+<td>0.0315463</td>
+<td>0.158564</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.86138</td>
+<td>0.0441633</td>
+<td>0.224222</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.87236</td>
+<td>0.0520683</td>
+<td>0.183813</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>2.13667</td>
+<td>0.0733927</td>
+<td>0.21792</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>2.31453</td>
+<td>0.0754338</td>
+<td>0.267454</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>2.41346</td>
+<td>0.114374</td>
+<td>0.222992</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>2.40835</td>
+<td>0.167711</td>
+<td>0.231839</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>2.95963</td>
+<td>0.453541</td>
+<td>0.295151</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>3.66546</td>
+<td>0.105656</td>
+<td>0.247742</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-proton-auau--77-gev" class="anchor" href="#proton-auau--77-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>proton Au+Au @ 7.7 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.575264</td>
+<td>0.0016727</td>
+<td>0.0300131</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.660534</td>
+<td>0.00210584</td>
+<td>0.0387336</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.783225</td>
+<td>0.0028039</td>
+<td>0.0638949</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.866802</td>
+<td>0.00365975</td>
+<td>0.0726013</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>1.03344</td>
+<td>0.00522625</td>
+<td>0.0843641</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>1.14957</td>
+<td>0.00686666</td>
+<td>0.119595</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>1.2918</td>
+<td>0.00959217</td>
+<td>0.116361</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>1.33956</td>
+<td>0.0123146</td>
+<td>0.124967</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>1.58297</td>
+<td>0.0182159</td>
+<td>0.154376</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.68289</td>
+<td>0.0247034</td>
+<td>0.180302</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.85557</td>
+<td>0.0331442</td>
+<td>0.164272</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>2.01314</td>
+<td>0.0749667</td>
+<td>0.208991</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>2.23029</td>
+<td>0.0626531</td>
+<td>0.211636</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>2.14888</td>
+<td>0.0723714</td>
+<td>0.201216</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>2.48395</td>
+<td>0.0999001</td>
+<td>0.246592</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>2.95937</td>
+<td>0.124214</td>
+<td>0.229391</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>3.22584</td>
+<td>0.297071</td>
+<td>0.281794</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>4.04415</td>
+<td>0.409614</td>
+<td>0.42184</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-anti-proton-auau--624-gev" class="anchor" href="#anti-proton-auau--624-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Anti-Proton Au+Au @ 62.4 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.266448</td>
+<td>0.000350688</td>
+<td>0.0164813</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.318405</td>
+<td>0.000557778</td>
+<td>0.0245677</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.374326</td>
+<td>0.000714088</td>
+<td>0.028832</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.449433</td>
+<td>0.000965443</td>
+<td>0.0374978</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.507817</td>
+<td>0.00125376</td>
+<td>0.0436883</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.615345</td>
+<td>0.00176585</td>
+<td>0.0619415</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.731637</td>
+<td>0.00256621</td>
+<td>0.0704068</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.778273</td>
+<td>0.00340605</td>
+<td>0.0969953</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.904269</td>
+<td>0.00515907</td>
+<td>0.116746</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.955109</td>
+<td>0.00694141</td>
+<td>0.117429</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.0724</td>
+<td>0.00965067</td>
+<td>0.155826</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.0416</td>
+<td>0.00835237</td>
+<td>0.169671</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.14532</td>
+<td>0.00942406</td>
+<td>0.193915</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.1756</td>
+<td>0.0163158</td>
+<td>0.173242</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.27324</td>
+<td>0.0223015</td>
+<td>0.166041</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.27908</td>
+<td>0.0207276</td>
+<td>0.184227</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.35382</td>
+<td>0.0302442</td>
+<td>0.184736</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.3543</td>
+<td>0.0426751</td>
+<td>0.189695</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.30904</td>
+<td>0.0560634</td>
+<td>0.152009</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.47991</td>
+<td>0.0985202</td>
+<td>0.191488</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.32806</td>
+<td>0.0865275</td>
+<td>0.177585</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>0.94363</td>
+<td>0.147045</td>
+<td>0.169616</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-anti-proton-auau--390-gev" class="anchor" href="#anti-proton-auau--390-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Anti-Proton Au+Au @ 39.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.276803</td>
+<td>0.000346723</td>
+<td>0.019073</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.32471</td>
+<td>0.000468838</td>
+<td>0.0193774</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.373803</td>
+<td>0.000595911</td>
+<td>0.0285217</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.437686</td>
+<td>0.000792021</td>
+<td>0.0288871</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.534978</td>
+<td>0.00112536</td>
+<td>0.0471021</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.588259</td>
+<td>0.0014272</td>
+<td>0.0455437</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.690052</td>
+<td>0.00209291</td>
+<td>0.0741113</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.790227</td>
+<td>0.00305536</td>
+<td>0.0948743</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.902504</td>
+<td>0.004692</td>
+<td>0.122828</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.939516</td>
+<td>0.0059931</td>
+<td>0.136693</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>0.943414</td>
+<td>0.0069555</td>
+<td>0.124832</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.13434</td>
+<td>0.00873585</td>
+<td>0.167509</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.13517</td>
+<td>0.00863107</td>
+<td>0.240276</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.15337</td>
+<td>0.0139664</td>
+<td>0.178039</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.23974</td>
+<td>0.0210222</td>
+<td>0.179567</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.32964</td>
+<td>0.0208012</td>
+<td>0.223125</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.41148</td>
+<td>0.0315111</td>
+<td>0.184322</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.41262</td>
+<td>0.0451135</td>
+<td>0.219493</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.49077</td>
+<td>0.0708724</td>
+<td>0.231865</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>1.44111</td>
+<td>0.0965802</td>
+<td>0.189909</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.40573</td>
+<td>0.0986789</td>
+<td>0.198511</td>
+</tr>
+<tr>
+<td>3.5 - 4.5</td>
+<td>1.55064</td>
+<td>0.316668</td>
+<td>0.249025</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-anti-proton-auau--270-gev" class="anchor" href="#anti-proton-auau--270-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Anti-Proton Au+Au @ 27.0 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.270424</td>
+<td>0.00066144</td>
+<td>0.0110574</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.317378</td>
+<td>0.000798743</td>
+<td>0.015363</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.366257</td>
+<td>0.00108598</td>
+<td>0.0234615</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.447515</td>
+<td>0.00151573</td>
+<td>0.0370392</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.525328</td>
+<td>0.00208464</td>
+<td>0.0445035</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.607802</td>
+<td>0.00267375</td>
+<td>0.0608572</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.696526</td>
+<td>0.00387896</td>
+<td>0.0619601</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.732482</td>
+<td>0.00522649</td>
+<td>0.128555</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.867337</td>
+<td>0.00841338</td>
+<td>0.156954</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.967108</td>
+<td>0.0113067</td>
+<td>0.13316</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.04389</td>
+<td>0.0144925</td>
+<td>0.185293</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.11929</td>
+<td>0.014409</td>
+<td>0.167769</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.24517</td>
+<td>0.0247879</td>
+<td>0.192683</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.25304</td>
+<td>0.0237925</td>
+<td>0.188026</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.43777</td>
+<td>0.0490007</td>
+<td>0.225517</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.37435</td>
+<td>0.0440746</td>
+<td>0.214179</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.60198</td>
+<td>0.0751625</td>
+<td>0.232997</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>1.70944</td>
+<td>0.112172</td>
+<td>0.266481</td>
+</tr>
+<tr>
+<td>2.6 - 2.8</td>
+<td>1.71343</td>
+<td>0.170456</td>
+<td>0.257536</td>
+</tr>
+<tr>
+<td>2.8 - 3</td>
+<td>2.24711</td>
+<td>0.378908</td>
+<td>0.316683</td>
+</tr>
+<tr>
+<td>3 - 3.5</td>
+<td>1.73285</td>
+<td>0.28207</td>
+<td>0.258976</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-anti-proton-auau--196-gev" class="anchor" href="#anti-proton-auau--196-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Anti-Proton Au+Au @ 19.6 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.2445</td>
+<td>0.00103408</td>
+<td>0.0165696</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.29857</td>
+<td>0.00134083</td>
+<td>0.0127863</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.35498</td>
+<td>0.00178961</td>
+<td>0.0205783</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.419801</td>
+<td>0.00245343</td>
+<td>0.0239502</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.48828</td>
+<td>0.00335705</td>
+<td>0.0321825</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.578922</td>
+<td>0.004814</td>
+<td>0.061845</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.679177</td>
+<td>0.00702817</td>
+<td>0.0832345</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.72448</td>
+<td>0.0100474</td>
+<td>0.131611</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.934808</td>
+<td>0.018061</td>
+<td>0.12879</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>0.887384</td>
+<td>0.0196434</td>
+<td>0.139012</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.11986</td>
+<td>0.035253</td>
+<td>0.198826</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.10803</td>
+<td>0.0363103</td>
+<td>0.145149</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.19559</td>
+<td>0.0435319</td>
+<td>0.17623</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.31575</td>
+<td>0.0692441</td>
+<td>0.259797</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.52729</td>
+<td>0.101653</td>
+<td>0.267981</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>1.58905</td>
+<td>0.107699</td>
+<td>0.258236</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.99408</td>
+<td>0.202476</td>
+<td>0.264142</td>
+</tr>
+<tr>
+<td>2.4 - 2.6</td>
+<td>2.18809</td>
+<td>0.348226</td>
+<td>0.329145</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-anti-proton-auau--145-gev" class="anchor" href="#anti-proton-auau--145-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Anti-Proton Au+Au @ 14.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.186727</td>
+<td>0.000498368</td>
+<td>0.0458756</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.244188</td>
+<td>0.000718406</td>
+<td>0.0254207</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.313921</td>
+<td>0.00111486</td>
+<td>0.0392197</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.388259</td>
+<td>0.00106578</td>
+<td>0.053416</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.458888</td>
+<td>0.00146673</td>
+<td>0.0578546</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.561194</td>
+<td>0.00214859</td>
+<td>0.069684</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.665765</td>
+<td>0.00318756</td>
+<td>0.0898271</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.767169</td>
+<td>0.00486983</td>
+<td>0.114971</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.840491</td>
+<td>0.007136</td>
+<td>0.135795</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.00806</td>
+<td>0.0114803</td>
+<td>0.174464</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.21506</td>
+<td>0.0191636</td>
+<td>0.206483</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.29555</td>
+<td>0.0253002</td>
+<td>0.232086</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>1.3315</td>
+<td>0.0312081</td>
+<td>0.24123</td>
+</tr>
+<tr>
+<td>1.8 - 1.9</td>
+<td>1.54819</td>
+<td>0.0467573</td>
+<td>0.287046</td>
+</tr>
+<tr>
+<td>1.9 - 2</td>
+<td>1.61503</td>
+<td>0.0587071</td>
+<td>0.280858</td>
+</tr>
+<tr>
+<td>2 - 2.2</td>
+<td>2.15098</td>
+<td>0.115302</td>
+<td>0.383404</td>
+</tr>
+<tr>
+<td>2.2 - 2.4</td>
+<td>1.72293</td>
+<td>0.11769</td>
+<td>0.289253</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-anti-proton-auau--115-gev" class="anchor" href="#anti-proton-auau--115-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Anti-Proton Au+Au @ 11.5 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.217136</td>
+<td>0.00246547</td>
+<td>0.0135604</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.266549</td>
+<td>0.00311049</td>
+<td>0.014063</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.306991</td>
+<td>0.00342042</td>
+<td>0.0249714</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.360521</td>
+<td>0.00468513</td>
+<td>0.0527609</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.455584</td>
+<td>0.00839452</td>
+<td>0.0414428</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.553618</td>
+<td>0.013059</td>
+<td>0.0531675</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.621137</td>
+<td>0.0179801</td>
+<td>0.102765</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.746159</td>
+<td>0.0302862</td>
+<td>0.166652</td>
+</tr>
+<tr>
+<td>1.3 - 1.4</td>
+<td>0.861329</td>
+<td>0.0491007</td>
+<td>0.14299</td>
+</tr>
+<tr>
+<td>1.4 - 1.5</td>
+<td>1.27038</td>
+<td>0.0924934</td>
+<td>0.53792</td>
+</tr>
+<tr>
+<td>1.5 - 1.6</td>
+<td>1.19712</td>
+<td>0.0531193</td>
+<td>0.242509</td>
+</tr>
+<tr>
+<td>1.6 - 1.7</td>
+<td>1.27358</td>
+<td>0.143575</td>
+<td>0.206817</td>
+</tr>
+<tr>
+<td>1.7 - 1.8</td>
+<td>2.02483</td>
+<td>0.130559</td>
+<td>0.274504</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-anti-proton-auau--77-gev" class="anchor" href="#anti-proton-auau--77-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Anti-Proton Au+Au @ 7.7 GeV</h2>
+<table>
+<thead>
+<tr>
+<th>pT bin</th>
+<th>value</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5 - 0.6</td>
+<td>0.207034</td>
+<td>0.00572165</td>
+<td>0.0140551</td>
+</tr>
+<tr>
+<td>0.6 - 0.7</td>
+<td>0.336354</td>
+<td>0.0101645</td>
+<td>0.0534588</td>
+</tr>
+<tr>
+<td>0.7 - 0.8</td>
+<td>0.260056</td>
+<td>0.00797476</td>
+<td>0.0192395</td>
+</tr>
+<tr>
+<td>0.8 - 0.9</td>
+<td>0.382396</td>
+<td>0.0150704</td>
+<td>0.0400828</td>
+</tr>
+<tr>
+<td>0.9 - 1</td>
+<td>0.495311</td>
+<td>0.0228784</td>
+<td>0.0787776</td>
+</tr>
+<tr>
+<td>1 - 1.1</td>
+<td>0.608752</td>
+<td>0.0349556</td>
+<td>0.0809971</td>
+</tr>
+<tr>
+<td>1.1 - 1.2</td>
+<td>0.647343</td>
+<td>0.0497855</td>
+<td>0.11435</td>
+</tr>
+<tr>
+<td>1.2 - 1.3</td>
+<td>0.679419</td>
+<td>0.0663085</td>
+<td>0.188985</td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-figure-3" class="anchor" href="#figure-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Figure 3</h1>
+<h2>
+<a id="user-content-left-panel-30--pt--35-gevc" class="anchor" href="#left-panel-30--pt--35-gevc" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Left Panel: 3.0 &lt; pT &lt; 3.5 GeV/c</h2>
+<h3>
+<a id="user-content-auau--77-gev-1" class="anchor" href="#auau--77-gev-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 7.7 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20.222800</td>
+<td>1.000000</td>
+<td>0.001543</td>
+<td>0.328880</td>
+</tr>
+<tr>
+<td>58.394800</td>
+<td>3.496081</td>
+<td>0.001441</td>
+<td>0.790851</td>
+</tr>
+<tr>
+<td>134.436000</td>
+<td>6.191358</td>
+<td>0.001092</td>
+<td>0.733156</td>
+</tr>
+<tr>
+<td>226.220000</td>
+<td>7.867330</td>
+<td>0.001245</td>
+<td>0.593313</td>
+</tr>
+<tr>
+<td>290.417000</td>
+<td>8.356675</td>
+<td>0.001578</td>
+<td>0.575230</td>
+</tr>
+<tr>
+<td>337.414000</td>
+<td>8.720308</td>
+<td>0.001455</td>
+<td>0.565751</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--115-gev-1" class="anchor" href="#auau--115-gev-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 11.5 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20.122800</td>
+<td>1.000000</td>
+<td>0.000816</td>
+<td>0.409043</td>
+</tr>
+<tr>
+<td>58.456000</td>
+<td>2.086167</td>
+<td>0.000569</td>
+<td>0.453072</td>
+</tr>
+<tr>
+<td>134.893000</td>
+<td>3.108643</td>
+<td>0.000403</td>
+<td>0.344555</td>
+</tr>
+<tr>
+<td>226.010000</td>
+<td>3.436318</td>
+<td>0.000426</td>
+<td>0.252940</td>
+</tr>
+<tr>
+<td>290.638000</td>
+<td>3.511053</td>
+<td>0.000525</td>
+<td>0.228051</td>
+</tr>
+<tr>
+<td>338.222000</td>
+<td>3.560740</td>
+<td>0.000471</td>
+<td>0.212891</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--145-gev-1" class="anchor" href="#auau--145-gev-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 14.5 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19.483900</td>
+<td>1.000000</td>
+<td>0.000613</td>
+<td>0.350866</td>
+</tr>
+<tr>
+<td>56.782300</td>
+<td>1.806328</td>
+<td>0.000386</td>
+<td>0.393957</td>
+</tr>
+<tr>
+<td>132.922000</td>
+<td>2.422059</td>
+<td>0.000252</td>
+<td>0.287293</td>
+</tr>
+<tr>
+<td>225.593000</td>
+<td>2.552197</td>
+<td>0.000265</td>
+<td>0.191262</td>
+</tr>
+<tr>
+<td>289.130000</td>
+<td>2.488781</td>
+<td>0.000330</td>
+<td>0.157452</td>
+</tr>
+<tr>
+<td>337.893000</td>
+<td>2.450145</td>
+<td>0.000298</td>
+<td>0.133833</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--196-gev-1" class="anchor" href="#auau--196-gev-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 19.6 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19.907000</td>
+<td>1.000000</td>
+<td>0.000505</td>
+<td>0.366107</td>
+</tr>
+<tr>
+<td>57.660300</td>
+<td>1.507805</td>
+<td>0.000303</td>
+<td>0.322427</td>
+</tr>
+<tr>
+<td>133.348000</td>
+<td>1.764223</td>
+<td>0.000186</td>
+<td>0.206308</td>
+</tr>
+<tr>
+<td>224.913000</td>
+<td>1.757417</td>
+<td>0.000188</td>
+<td>0.127431</td>
+</tr>
+<tr>
+<td>289.220000</td>
+<td>1.684417</td>
+<td>0.000226</td>
+<td>0.098642</td>
+</tr>
+<tr>
+<td>338.048000</td>
+<td>1.642725</td>
+<td>0.000195</td>
+<td>0.082191</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--270-gev-1" class="anchor" href="#auau--270-gev-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 27.0 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20.466900</td>
+<td>1.000000</td>
+<td>0.000349</td>
+<td>0.431381</td>
+</tr>
+<tr>
+<td>61.151200</td>
+<td>1.298579</td>
+<td>0.000200</td>
+<td>0.297884</td>
+</tr>
+<tr>
+<td>139.645000</td>
+<td>1.369671</td>
+<td>0.000118</td>
+<td>0.160542</td>
+</tr>
+<tr>
+<td>233.646000</td>
+<td>1.299688</td>
+<td>0.000117</td>
+<td>0.091780</td>
+</tr>
+<tr>
+<td>299.260000</td>
+<td>1.205562</td>
+<td>0.000137</td>
+<td>0.068030</td>
+</tr>
+<tr>
+<td>343.266000</td>
+<td>1.198011</td>
+<td>0.000125</td>
+<td>0.056598</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--390-gev-1" class="anchor" href="#auau--390-gev-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 39.0 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20.033000</td>
+<td>1.000000</td>
+<td>0.000206</td>
+<td>0.400738</td>
+</tr>
+<tr>
+<td>59.225900</td>
+<td>1.160465</td>
+<td>0.000109</td>
+<td>0.257537</td>
+</tr>
+<tr>
+<td>137.028000</td>
+<td>1.133334</td>
+<td>0.000061</td>
+<td>0.129244</td>
+</tr>
+<tr>
+<td>229.772000</td>
+<td>1.023535</td>
+<td>0.000059</td>
+<td>0.069930</td>
+</tr>
+<tr>
+<td>293.879000</td>
+<td>0.937658</td>
+<td>0.000069</td>
+<td>0.050746</td>
+</tr>
+<tr>
+<td>341.655000</td>
+<td>0.885134</td>
+<td>0.000061</td>
+<td>0.040464</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--624-gev-1" class="anchor" href="#auau--624-gev-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 62.4 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19.789100</td>
+<td>1.000000</td>
+<td>0.000277</td>
+<td>0.401061</td>
+</tr>
+<tr>
+<td>60.382500</td>
+<td>1.057398</td>
+<td>0.000138</td>
+<td>0.233982</td>
+</tr>
+<tr>
+<td>139.095000</td>
+<td>0.969017</td>
+<td>0.000076</td>
+<td>0.107233</td>
+</tr>
+<tr>
+<td>232.150000</td>
+<td>0.853474</td>
+<td>0.000071</td>
+<td>0.053322</td>
+</tr>
+<tr>
+<td>296.577000</td>
+<td>0.769741</td>
+<td>0.000083</td>
+<td>0.037063</td>
+</tr>
+<tr>
+<td>344.472000</td>
+<td>0.724124</td>
+<td>0.000073</td>
+<td>0.027524</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--200-gev" class="anchor" href="#auau--200-gev" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 200 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>21.036900</td>
+<td>1.000000</td>
+<td>0.000147</td>
+<td>0.375051</td>
+</tr>
+<tr>
+<td>62.441800</td>
+<td>0.936885</td>
+<td>0.000061</td>
+<td>0.208896</td>
+</tr>
+<tr>
+<td>142.687000</td>
+<td>0.769654</td>
+<td>0.000030</td>
+<td>0.086403</td>
+</tr>
+<tr>
+<td>237.268000</td>
+<td>0.620718</td>
+<td>0.000026</td>
+<td>0.039879</td>
+</tr>
+<tr>
+<td>302.225000</td>
+<td>0.527827</td>
+<td>0.000029</td>
+<td>0.024890</td>
+</tr>
+<tr>
+<td>349.645000</td>
+<td>0.467903</td>
+<td>0.000025</td>
+<td>0.017785</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-right-panel-40--pt--45-gevc" class="anchor" href="#right-panel-40--pt--45-gevc" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Right Panel: 4.0 &lt; pT &lt; 4.5 GeV/c</h2>
+<h3>
+<a id="user-content-auau--145-gev-2" class="anchor" href="#auau--145-gev-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 14.5 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19.483900</td>
+<td>1.000000</td>
+<td>0.259040</td>
+<td>0.350861</td>
+</tr>
+<tr>
+<td>56.782300</td>
+<td>2.968009</td>
+<td>0.212113</td>
+<td>0.647291</td>
+</tr>
+<tr>
+<td>132.922000</td>
+<td>4.112832</td>
+<td>0.140477</td>
+<td>0.487766</td>
+</tr>
+<tr>
+<td>225.593000</td>
+<td>4.846911</td>
+<td>0.156351</td>
+<td>0.363048</td>
+</tr>
+<tr>
+<td>289.130000</td>
+<td>4.395721</td>
+<td>0.187703</td>
+<td>0.277872</td>
+</tr>
+<tr>
+<td>337.893000</td>
+<td>4.547463</td>
+<td>0.174098</td>
+<td>0.248091</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--196-gev-2" class="anchor" href="#auau--196-gev-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 19.6 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19.907000</td>
+<td>1.000000</td>
+<td>0.123467</td>
+<td>0.366104</td>
+</tr>
+<tr>
+<td>57.660300</td>
+<td>1.875102</td>
+<td>0.083654</td>
+<td>0.400959</td>
+</tr>
+<tr>
+<td>133.348000</td>
+<td>2.283261</td>
+<td>0.052508</td>
+<td>0.266974</td>
+</tr>
+<tr>
+<td>224.913000</td>
+<td>2.175613</td>
+<td>0.051812</td>
+<td>0.157696</td>
+</tr>
+<tr>
+<td>289.220000</td>
+<td>2.128422</td>
+<td>0.063043</td>
+<td>0.124558</td>
+</tr>
+<tr>
+<td>338.048000</td>
+<td>2.110268</td>
+<td>0.054716</td>
+<td>0.105465</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--270-gev-2" class="anchor" href="#auau--270-gev-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 27.0 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20.466900</td>
+<td>1.000000</td>
+<td>0.052692</td>
+<td>0.431378</td>
+</tr>
+<tr>
+<td>61.151200</td>
+<td>1.300038</td>
+<td>0.030136</td>
+<td>0.298211</td>
+</tr>
+<tr>
+<td>139.645000</td>
+<td>1.439214</td>
+<td>0.018250</td>
+<td>0.168676</td>
+</tr>
+<tr>
+<td>233.646000</td>
+<td>1.326468</td>
+<td>0.017845</td>
+<td>0.093647</td>
+</tr>
+<tr>
+<td>299.260000</td>
+<td>1.216121</td>
+<td>0.020803</td>
+<td>0.068599</td>
+</tr>
+<tr>
+<td>343.266000</td>
+<td>1.136581</td>
+<td>0.018342</td>
+<td>0.053667</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--390-gev-2" class="anchor" href="#auau--390-gev-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 39.0 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20.033000</td>
+<td>1.000000</td>
+<td>0.019909</td>
+<td>0.400726</td>
+</tr>
+<tr>
+<td>59.225900</td>
+<td>1.178030</td>
+<td>0.010596</td>
+<td>0.261412</td>
+</tr>
+<tr>
+<td>137.028000</td>
+<td>1.089006</td>
+<td>0.005799</td>
+<td>0.124154</td>
+</tr>
+<tr>
+<td>229.772000</td>
+<td>0.946528</td>
+<td>0.005495</td>
+<td>0.064627</td>
+</tr>
+<tr>
+<td>293.879000</td>
+<td>0.844505</td>
+<td>0.006326</td>
+<td>0.045665</td>
+</tr>
+<tr>
+<td>341.655000</td>
+<td>0.771191</td>
+<td>0.005496</td>
+<td>0.035217</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--624-gev-2" class="anchor" href="#auau--624-gev-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 62.4 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19.789100</td>
+<td>1.000000</td>
+<td>0.017818</td>
+<td>0.401021</td>
+</tr>
+<tr>
+<td>60.382500</td>
+<td>1.032255</td>
+<td>0.008769</td>
+<td>0.228359</td>
+</tr>
+<tr>
+<td>139.095000</td>
+<td>0.878524</td>
+<td>0.004633</td>
+<td>0.097160</td>
+</tr>
+<tr>
+<td>232.150000</td>
+<td>0.729095</td>
+<td>0.004242</td>
+<td>0.045506</td>
+</tr>
+<tr>
+<td>296.577000</td>
+<td>0.627579</td>
+<td>0.004799</td>
+<td>0.030186</td>
+</tr>
+<tr>
+<td>344.472000</td>
+<td>0.584086</td>
+<td>0.004186</td>
+<td>0.022176</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-auau--200-gev-1" class="anchor" href="#auau--200-gev-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Au+Au @ 200 GeV</h3>
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>y</th>
+<th>stat. unc.</th>
+<th>sys. unc.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>21.036900</td>
+<td>1.000000</td>
+<td>0.004952</td>
+<td>0.375008</td>
+</tr>
+<tr>
+<td>62.441800</td>
+<td>0.886677</td>
+<td>0.002015</td>
+<td>0.197651</td>
+</tr>
+<tr>
+<td>142.687000</td>
+<td>0.663548</td>
+<td>0.000946</td>
+<td>0.074447</td>
+</tr>
+<tr>
+<td>237.268000</td>
+<td>0.496202</td>
+<td>0.000797</td>
+<td>0.031849</td>
+</tr>
+<tr>
+<td>302.225000</td>
+<td>0.403024</td>
+<td>0.000848</td>
+<td>0.018984</td>
+</tr>
+<tr>
+<td>349.645000</td>
+<td>0.343002</td>
+<td>0.000709</td>
+<td>0.013023</td>
+</tr>
+</tbody>
+</table>
+</article></body></html>
