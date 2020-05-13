@@ -1,0 +1,470 @@
+---
+additional_resources:
+- description: Webpage with all figures and tables
+  location: https://drupal.star.bnl.gov/STAR/publications/measurement-inclusive-jpsi-suppression-auau-collisions-sqrtsnn-200-gev-through-dimuon-c
+- description: arXiv
+  location: https://arxiv.org/abs/1905.13669
+comment: J/PSI(1S) suppression has long been considered a sensitive signature of the
+  formation of the Quark-Gluon Plasma (QGP) in relativistic heavy-ion collisions.
+  In this letter, we present the first measurement of inclusive J/PSI(1S) production
+  at mid-rapidity through the dimuon decay channel in Au+Au collisions at \sqrtsNN\
+  = 200 GeV with the STAR experiment. These measurements became possible after the
+  installation of the Muon Telescope Detector was completed in 2014. The J/PSI(1S)
+  yields are measured in a wide transverse momentum (pT) range of 0.15 GeV/c to 12
+  GeV/c from central to peripheral collisions. They extend the kinematic reach of
+  previous measurements at RHIC with improved precision. In the 0-10% most central
+  collisions, the J/PSI(1S) yield is suppressed by a factor of approximately 3 for
+  pT > 5 GeV/c relative to that in p+p collisions scaled by the number of binary nucleon-nucleon
+  collisions. The J/PSI(1S) nuclear modification factor displays little dependence
+  on pT in all centrality bins. Model calculations can qualitatively describe the
+  data, providing further evidence for the color-screening effect experienced by J/PSI(1S)
+  mesons in the QGP.
+data_license:
+  description: The content can be shared and adapted but you must             give
+    appropriate credit and cannot restrict access to others.
+  name: cc-by-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+record_ids:
+- id: 1737650
+  type: inspire
+---
+additional_resources:
+- description: Image file
+  location: AuAu_JpsiInvYield.png
+- description: Thumbnail image file
+  location: thumb_AuAu_JpsiInvYield.png
+data_file: figure_3.0.0.yaml
+description: Invariant yield of inclusive J/PSI(1S) times branching ratio to the dimuon
+  decay in 0-80% Au+Au collisions at 200 GeV
+keywords:
+- name: observables
+  values:
+  - Invariant yield
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 3
+name: Figure 3.0.0
+---
+additional_resources:
+- description: Image file
+  location: AuAu_JpsiInvYield.png
+- description: Thumbnail image file
+  location: thumb_AuAu_JpsiInvYield.png
+data_file: figure_3.0.1.yaml
+description: Invariant yield of inclusive J/PSI(1S) times branching ratio to the dimuon
+  decay in 0-20% Au+Au collisions at 200 GeV
+keywords:
+- name: observables
+  values:
+  - Invariant yield
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 3
+name: Figure 3.0.1
+---
+additional_resources:
+- description: Image file
+  location: AuAu_JpsiInvYield.png
+- description: Thumbnail image file
+  location: thumb_AuAu_JpsiInvYield.png
+data_file: figure_3.0.2.yaml
+description: Invariant yield of inclusive J/PSI(1S) times branching ratio to the dimuon
+  decay in 20-40% Au+Au collisions at 200 GeV
+keywords:
+- name: observables
+  values:
+  - Invariant yield
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 3
+name: Figure 3.0.2
+---
+additional_resources:
+- description: Image file
+  location: AuAu_JpsiInvYield.png
+- description: Thumbnail image file
+  location: thumb_AuAu_JpsiInvYield.png
+data_file: figure_3.0.3.yaml
+description: Invariant yield of inclusive J/PSI(1S) times branching ratio to the dimuon
+  decay in 40-60% Au+Au collisions at 200 GeV
+keywords:
+- name: observables
+  values:
+  - Invariant yield
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 3
+name: Figure 3.0.3
+---
+additional_resources:
+- description: Image file
+  location: AuAu_JpsiInvYield.png
+- description: Thumbnail image file
+  location: thumb_AuAu_JpsiInvYield.png
+data_file: figure_3.0.4.yaml
+description: Invariant yield of inclusive J/PSI(1S) times branching ratio to the dimuon
+  decay in 60-80% Au+Au collisions at 200 GeV
+keywords:
+- name: observables
+  values:
+  - Invariant yield
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 3
+name: Figure 3.0.4
+---
+additional_resources:
+- description: Image file
+  location: AuAu_JpsiInvYield.png
+- description: Thumbnail image file
+  location: thumb_AuAu_JpsiInvYield.png
+data_file: figure_3.1.0.yaml
+description: Invariant yield of inclusive J/PSI(1S) times branching ratio to the dielectron
+  decay in 0-60% Au+Au collisions at 200 GeV
+keywords:
+- name: observables
+  values:
+  - Invariant yield
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 3
+name: Figure 3.1.0
+---
+additional_resources:
+- description: Image file
+  location: AuAu_JpsiInvYield.png
+- description: Thumbnail image file
+  location: thumb_AuAu_JpsiInvYield.png
+data_file: figure_3.1.1.yaml
+description: Invariant yield of inclusive J/PSI(1S) times branching ratio to the dielectron
+  decay in 0-20% Au+Au collisions at 200 GeV
+keywords:
+- name: observables
+  values:
+  - Invariant yield
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 3
+name: Figure 3.1.1
+---
+additional_resources:
+- description: Image file
+  location: AuAu_JpsiInvYield.png
+- description: Thumbnail image file
+  location: thumb_AuAu_JpsiInvYield.png
+data_file: figure_3.1.2.yaml
+description: Invariant yield of inclusive J/PSI(1S) times branching ratio to the dielectron
+  decay in 20-40% Au+Au collisions at 200 GeV
+keywords:
+- name: observables
+  values:
+  - Invariant yield
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 3
+name: Figure 3.1.2
+---
+additional_resources:
+- description: Image file
+  location: AuAu_JpsiInvYield.png
+- description: Thumbnail image file
+  location: thumb_AuAu_JpsiInvYield.png
+data_file: figure_3.1.3.yaml
+description: Invariant yield of inclusive J/PSI(1S) times branching ratio to the dielectron
+  decay in 40-60% Au+Au collisions at 200 GeV
+keywords:
+- name: observables
+  values:
+  - Invariant yield
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 3
+name: Figure 3.1.3
+---
+additional_resources:
+- description: Image file
+  location: AuAu_JpsiInvYield.png
+- description: Thumbnail image file
+  location: thumb_AuAu_JpsiInvYield.png
+data_file: figure_3.2.0.yaml
+description: Invariant yield of inclusive J/PSI(1S) times branching ratio in p+p collisions
+  at 200 GeV. A 10% global uncertainty is not shown.
+keywords:
+- name: observables
+  values:
+  - Invariant yield
+- name: reactions
+  values:
+  - P P --> J/PSI(1S) + X
+location: Data from Figure 3
+name: Figure 3.2.0
+---
+additional_resources:
+- description: Image file
+  location: Run14_JpsiRaaPt_dimuon.png
+- description: Thumbnail image file
+  location: thumb_Run14_JpsiRaaPt_dimuon.png
+data_file: figure_4.0.0.yaml
+description: Inclusive J/PSI(1S) RAA vs. pT measured via the dimuon channel in 0-80%
+  Au+Au collisions at 200 GeV. A global uncertainty of 12.2% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 4
+name: Figure 4.0.0
+---
+additional_resources:
+- description: Image file
+  location: Run14_JpsiRaaPt_dimuon.png
+- description: Thumbnail image file
+  location: thumb_Run14_JpsiRaaPt_dimuon.png
+data_file: figure_4.0.1.yaml
+description: Inclusive J/PSI(1S) RAA vs. pT measured via the dimuon channel in 0-20%
+  Au+Au collisions at 200 GeV. A global uncertainty of 10.7% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 4
+name: Figure 4.0.1
+---
+additional_resources:
+- description: Image file
+  location: Run14_JpsiRaaPt_dimuon.png
+- description: Thumbnail image file
+  location: thumb_Run14_JpsiRaaPt_dimuon.png
+data_file: figure_4.0.2.yaml
+description: Inclusive J/PSI(1S) RAA vs. pT measured via the dimuon channel in 20-40%
+  Au+Au collisions at 200 GeV. A global uncertainty of 14.5% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 4
+name: Figure 4.0.2
+---
+additional_resources:
+- description: Image file
+  location: Run14_JpsiRaaPt_dimuon.png
+- description: Thumbnail image file
+  location: thumb_Run14_JpsiRaaPt_dimuon.png
+data_file: figure_4.0.3.yaml
+description: Inclusive J/PSI(1S) RAA vs. pT measured via the dimuon channel in 40-60%
+  Au+Au collisions at 200 GeV. A global uncertainty of 24.1% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 4
+name: Figure 4.0.3
+---
+additional_resources:
+- description: Image file
+  location: Run14_JpsiRaaPt_dimuon.png
+- description: Thumbnail image file
+  location: thumb_Run14_JpsiRaaPt_dimuon.png
+data_file: figure_4.0.4.yaml
+description: Inclusive J/PSI(1S) RAA vs. pT measured via the dimuon channel in 60-80%
+  Au+Au collisions at 200 GeV. A global uncertainty of 38.6% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 4
+name: Figure 4.0.4
+---
+additional_resources:
+- description: Image file
+  location: Run14_JpsiRaaPt_dimuon.png
+- description: Thumbnail image file
+  location: thumb_Run14_JpsiRaaPt_dimuon.png
+data_file: figure_4.1.0.yaml
+description: Inclusive J/PSI(1S) RAA vs. pT measured via the dielectron channel in
+  0-60% Au+Au collisions at 200 GeV. A global uncertainty of 12.1% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 4
+name: Figure 4.1.0
+---
+additional_resources:
+- description: Image file
+  location: Run14_JpsiRaaPt_dimuon.png
+- description: Thumbnail image file
+  location: thumb_Run14_JpsiRaaPt_dimuon.png
+data_file: figure_4.1.1.yaml
+description: Inclusive J/PSI(1S) RAA vs. pT measured via the dielectron channel in
+  0-20% Au+Au collisions at 200 GeV. A global uncertainty of 10.7% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 4
+name: Figure 4.1.1
+---
+additional_resources:
+- description: Image file
+  location: Run14_JpsiRaaPt_dimuon.png
+- description: Thumbnail image file
+  location: thumb_Run14_JpsiRaaPt_dimuon.png
+data_file: figure_4.1.2.yaml
+description: Inclusive J/PSI(1S) RAA vs. pT measured via the dielectron channel in
+  20-40% Au+Au collisions at 200 GeV. A global uncertainty of 14.5% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 4
+name: Figure 4.1.2
+---
+additional_resources:
+- description: Image file
+  location: Run14_JpsiRaaPt_dimuon.png
+- description: Thumbnail image file
+  location: thumb_Run14_JpsiRaaPt_dimuon.png
+data_file: figure_4.1.3.yaml
+description: Inclusive J/PSI(1S) RAA vs. pT measured via the dielectron channel in
+  40-60% Au+Au collisions at 200 GeV. A global uncertainty of 24.1% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 4
+name: Figure 4.1.3
+---
+additional_resources:
+- description: Image file
+  location: JpsiRaaVsNpart_Pt0-15_RHICvsLHC.png
+- description: Thumbnail image file
+  location: thumb_JpsiRaaVsNpart_Pt0-15_RHICvsLHC.png
+data_file: figure_5.0.0.yaml
+description: Inclusive J/PSI(1S) RAA vs. centrality measured via the dimuon channel
+  for pT > 0 GeV/c. The pp uncertainty of 14.3% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 5
+name: Figure 5.0.0
+---
+additional_resources:
+- description: Image file
+  location: JpsiRaaVsNpart_Pt0-15_RHICvsLHC.png
+- description: Thumbnail image file
+  location: thumb_JpsiRaaVsNpart_Pt0-15_RHICvsLHC.png
+data_file: figure_5.0.0.ncollerr.yaml
+description: Relative error on Ncoll as a function of centrality for measurement of
+  J/PSI(1S) RAA with pT > 0 GeV/c via the dimuon channel.
+keywords:
+- name: observables
+  values:
+  - Relative Ncoll error
+location: Data from Figure 5
+name: Figure 5.0.0.NCollErr
+---
+additional_resources:
+- description: Image file
+  location: JpsiRaaVsNpart_Pt5-15_RHICvsLHC.png
+- description: Thumbnail image file
+  location: thumb_JpsiRaaVsNpart_Pt5-15_RHICvsLHC.png
+data_file: figure_5.0.1.yaml
+description: Inclusive J/PSI(1S) RAA vs. centrality measured via the dimuon channel
+  for pT > 5 GeV/c. The pp uncertainty of 15.0% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 5
+name: Figure 5.0.1
+---
+additional_resources:
+- description: Image file
+  location: JpsiRaaVsNpart_Pt5-15_RHICvsLHC.png
+- description: Thumbnail image file
+  location: thumb_JpsiRaaVsNpart_Pt5-15_RHICvsLHC.png
+data_file: figure_5.0.1.ncollerr.yaml
+description: Relative error on Ncoll as a function of centrality for measurement of
+  J/PSI(1S) RAA with pT > 5 GeV/c via the dimuon channel.
+keywords:
+- name: observables
+  values:
+  - Relative Ncoll error
+location: Data from Figure 5
+name: Figure 5.0.1.NCollErr
+---
+additional_resources:
+- description: Image file
+  location: JpsiRaaVsNpart_Pt0-15_RHICvsLHC.png
+- description: Thumbnail image file
+  location: thumb_JpsiRaaVsNpart_Pt0-15_RHICvsLHC.png
+data_file: figure_5.1.0.yaml
+description: Inclusive J/PSI(1S) RAA vs. centrality measured via the dielectron channel
+  for pT > 5 GeV/c. The pp uncertainty of 15.0% is not shown.
+keywords:
+- name: observables
+  values:
+  - Nuclear modification factor
+- name: reactions
+  values:
+  - AU AU --> J/PSI(1S) + X
+location: Data from Figure 5
+name: Figure 5.1.0
+---
+additional_resources:
+- description: Image file
+  location: JpsiRaaVsNpart_Pt0-15_RHICvsLHC.png
+- description: Thumbnail image file
+  location: thumb_JpsiRaaVsNpart_Pt0-15_RHICvsLHC.png
+data_file: figure_5.1.0.ncollerr.yaml
+description: Relative error on Ncoll as a function of centrality for measurement of
+  J/PSI(1S) RAA with pT > 0 GeV/c via the dielectron channel.
+keywords:
+- name: observables
+  values:
+  - Relative Ncoll error
+location: Data from Figure 5
+name: Figure 5.1.0.NCollErr

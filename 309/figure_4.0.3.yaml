@@ -1,0 +1,73 @@
+dependent_variables:
+- header:
+    name: RAA
+  values:
+  - errors:
+    - label: statistical errors
+      symerror: 0.071381
+    - label: systematic uncertainties
+      symerror: 0.13831
+    value: 0.68363
+  - errors:
+    - label: statistical errors
+      symerror: 0.053887
+    - label: systematic uncertainties
+      symerror: 0.10152
+    value: 0.50302
+  - errors:
+    - label: statistical errors
+      symerror: 0.056232
+    - label: systematic uncertainties
+      symerror: 0.11084
+    value: 0.60831
+  - errors:
+    - label: statistical errors
+      symerror: 0.073313
+    - label: systematic uncertainties
+      symerror: 0.14725
+    value: 0.83245
+  - errors:
+    - label: statistical errors
+      symerror: 0.097356
+    - label: systematic uncertainties
+      symerror: 0.14565
+    value: 0.80862
+  - errors:
+    - label: statistical errors
+      symerror: 0.12633
+    - label: systematic uncertainties
+      symerror: 0.16269
+    value: 0.87729
+  - errors:
+    - label: statistical errors
+      symerror: 0.11807
+    - label: systematic uncertainties
+      symerror: 0.11168
+    value: 0.611
+  - errors:
+    - label: statistical errors
+      symerror: 0.37034
+    - label: systematic uncertainties
+      symerror: 0.25295
+    value: 1.1784
+independent_variables:
+- header:
+    name: pT
+    units: GeV/c
+  values:
+  - high: 1.0
+    low: 0.15
+  - high: 2.0
+    low: 1.0
+  - high: 3.0
+    low: 2.0
+  - high: 4.0
+    low: 3.0
+  - high: 5.0
+    low: 4.0
+  - high: 6.0
+    low: 5.0
+  - high: 8.0
+    low: 6.0
+  - high: 10.0
+    low: 8.0

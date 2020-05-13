@@ -1,0 +1,33 @@
+dependent_variables:
+- header:
+    name: Rel. Err.
+  values:
+  - errors:
+    - label: systematic uncertainties
+      symerror: 0.0279
+    value: 1.0
+  - errors:
+    - label: systematic uncertainties
+      symerror: 0.0508
+    value: 1.0
+  - errors:
+    - label: systematic uncertainties
+      symerror: 0.0882
+    value: 1.0
+  - errors:
+    - label: systematic uncertainties
+      symerror: 0.1349
+    value: 1.0
+  - errors:
+    - label: systematic uncertainties
+      symerror: 0.2191
+    value: 1.0
+independent_variables:
+- header:
+    name: Npart
+  values:
+  - value: 325.5
+  - value: 237.3
+  - value: 169.0
+  - value: 116.7
+  - value: 62.4

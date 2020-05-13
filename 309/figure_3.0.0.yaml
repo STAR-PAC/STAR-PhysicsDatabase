@@ -1,0 +1,73 @@
+dependent_variables:
+- header:
+    name: Br * 1/2PI * d^{2}N/pTdpTdeta
+    units: (GeV/c)^{-2}
+  values:
+  - errors:
+    - label: statistical errors
+      symerror: 1.0659e-06
+    - label: systematic uncertainties
+      symerror: 2.2456e-06
+    value: 1.2494e-05
+  - errors:
+    - label: statistical errors
+      symerror: 3.3444e-07
+    - label: systematic uncertainties
+      symerror: 8.8756e-07
+    value: 5.3766e-06
+  - errors:
+    - label: statistical errors
+      symerror: 9.9942e-08
+    - label: systematic uncertainties
+      symerror: 3.3774e-07
+    value: 2.1806e-06
+  - errors:
+    - label: statistical errors
+      symerror: 2.7148e-08
+    - label: systematic uncertainties
+      symerror: 7.9428e-08
+    value: 5.0265e-07
+  - errors:
+    - label: statistical errors
+      symerror: 7.5946e-09
+    - label: systematic uncertainties
+      symerror: 2.1329e-08
+    value: 1.4549e-07
+  - errors:
+    - label: statistical errors
+      symerror: 2.7116e-09
+    - label: systematic uncertainties
+      symerror: 5.2417e-09
+    value: 3.6695e-08
+  - errors:
+    - label: statistical errors
+      symerror: 5.3354e-10
+    - label: systematic uncertainties
+      symerror: 1.1347e-09
+    value: 7.0356e-09
+  - errors:
+    - label: statistical errors
+      symerror: 1.2151e-10
+    - label: systematic uncertainties
+      symerror: 1.2414e-10
+    value: 7.9966e-10
+  - errors:
+    - label: statistical errors
+      symerror: 1.5804e-11
+    - label: systematic uncertainties
+      symerror: 1.4099e-11
+    value: 6.7223e-11
+independent_variables:
+- header:
+    name: pT
+    units: GeV/c
+  values:
+  - value: 0.5328
+  - value: 1.6025
+  - value: 2.4813
+  - value: 3.4594
+  - value: 4.4532
+  - value: 5.4528
+  - value: 6.8269
+  - value: 8.8473
+  - value: 11.779

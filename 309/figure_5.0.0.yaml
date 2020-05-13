@@ -1,0 +1,64 @@
+dependent_variables:
+- header:
+    name: RAA
+  values:
+  - errors:
+    - label: statistical errors
+      symerror: 0.0275
+    - label: systematic uncertainties
+      symerror: 0.0639
+    value: 0.3614
+  - errors:
+    - label: statistical errors
+      symerror: 0.0298
+    - label: systematic uncertainties
+      symerror: 0.0757
+    value: 0.4757
+  - errors:
+    - label: statistical errors
+      symerror: 0.0297
+    - label: systematic uncertainties
+      symerror: 0.0833
+    value: 0.5167
+  - errors:
+    - label: statistical errors
+      symerror: 0.0312
+    - label: systematic uncertainties
+      symerror: 0.0866
+    value: 0.5339
+  - errors:
+    - label: statistical errors
+      symerror: 0.0337
+    - label: systematic uncertainties
+      symerror: 0.0906
+    value: 0.5853
+  - errors:
+    - label: statistical errors
+      symerror: 0.0375
+    - label: systematic uncertainties
+      symerror: 0.1102
+    value: 0.6788
+  - errors:
+    - label: statistical errors
+      symerror: 0.0468
+    - label: systematic uncertainties
+      symerror: 0.1278
+    value: 0.6842
+  - errors:
+    - label: statistical errors
+      symerror: 0.0694
+    - label: systematic uncertainties
+      symerror: 0.1812
+    value: 0.9712
+independent_variables:
+- header:
+    name: Npart
+  values:
+  - value: 325.5
+  - value: 237.3
+  - value: 169.0
+  - value: 116.7
+  - value: 76.9
+  - value: 47.8
+  - value: 27.4
+  - value: 14.4
