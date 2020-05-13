@@ -1,0 +1,329 @@
+dependent_variables:
+- header:
+    name: $d\sigma/dt$
+    units: $mb/GeV^{2}$
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  values:
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.8
+    - asymerror:
+        minus: -4.25
+        plus: 4.07
+      label: Full systematic uncertainties
+    value: 77.1
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.77
+    - asymerror:
+        minus: -4.15
+        plus: 3.95
+      label: Full systematic uncertainties
+    value: 74.31
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.75
+    - asymerror:
+        minus: -4.05
+        plus: 3.84
+      label: Full systematic uncertainties
+    value: 71.58
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.73
+    - asymerror:
+        minus: -3.96
+        plus: 3.73
+      label: Full systematic uncertainties
+    value: 68.54
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.72
+    - asymerror:
+        minus: -3.86
+        plus: 3.62
+      label: Full systematic uncertainties
+    value: 66.61
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.71
+    - asymerror:
+        minus: -3.77
+        plus: 3.51
+      label: Full systematic uncertainties
+    value: 64.85
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.7
+    - asymerror:
+        minus: -3.68
+        plus: 3.41
+      label: Full systematic uncertainties
+    value: 62.81
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.68
+    - asymerror:
+        minus: -3.59
+        plus: 3.31
+      label: Full systematic uncertainties
+    value: 60.41
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.67
+    - asymerror:
+        minus: -3.5
+        plus: 3.22
+      label: Full systematic uncertainties
+    value: 58.52
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.66
+    - asymerror:
+        minus: -3.41
+        plus: 3.12
+      label: Full systematic uncertainties
+    value: 56.13
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.64
+    - asymerror:
+        minus: -3.33
+        plus: 3.03
+      label: Full systematic uncertainties
+    value: 53.89
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.63
+    - asymerror:
+        minus: -3.25
+        plus: 2.94
+      label: Full systematic uncertainties
+    value: 52.56
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.62
+    - asymerror:
+        minus: -3.17
+        plus: 2.86
+      label: Full systematic uncertainties
+    value: 50.46
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.61
+    - asymerror:
+        minus: -3.09
+        plus: 2.77
+      label: Full systematic uncertainties
+    value: 48.68
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.6
+    - asymerror:
+        minus: -3.01
+        plus: 2.69
+      label: Full systematic uncertainties
+    value: 47.18
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.59
+    - asymerror:
+        minus: -2.93
+        plus: 2.61
+      label: Full systematic uncertainties
+    value: 46.22
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.57
+    - asymerror:
+        minus: -2.86
+        plus: 2.54
+      label: Full systematic uncertainties
+    value: 43.62
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.57
+    - asymerror:
+        minus: -2.78
+        plus: 2.46
+      label: Full systematic uncertainties
+    value: 42.39
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.56
+    - asymerror:
+        minus: -2.71
+        plus: 2.39
+      label: Full systematic uncertainties
+    value: 40.96
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.55
+    - asymerror:
+        minus: -2.64
+        plus: 2.32
+      label: Full systematic uncertainties
+    value: 39.57
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.54
+    - asymerror:
+        minus: -2.57
+        plus: 2.25
+      label: Full systematic uncertainties
+    value: 38.19
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.53
+    - asymerror:
+        minus: -2.51
+        plus: 2.18
+      label: Full systematic uncertainties
+    value: 36.9
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.51
+    - asymerror:
+        minus: -2.44
+        plus: 2.12
+      label: Full systematic uncertainties
+    value: 34.54
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.52
+    - asymerror:
+        minus: -2.38
+        plus: 2.06
+      label: Full systematic uncertainties
+    value: 34.26
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.51
+    - asymerror:
+        minus: -2.32
+        plus: 1.99
+      label: Full systematic uncertainties
+    value: 33.04
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.5
+    - asymerror:
+        minus: -2.26
+        plus: 1.93
+      label: Full systematic uncertainties
+    value: 31.84
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.5
+    - asymerror:
+        minus: -2.2
+        plus: 1.88
+      label: Full systematic uncertainties
+    value: 30.6
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.49
+    - asymerror:
+        minus: -2.14
+        plus: 1.82
+      label: Full systematic uncertainties
+    value: 29.11
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.5
+    - asymerror:
+        minus: -2.08
+        plus: 1.77
+      label: Full systematic uncertainties
+    value: 28.44
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.5
+    - asymerror:
+        minus: -2.03
+        plus: 1.71
+      label: Full systematic uncertainties
+    value: 27.3
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.49
+    - asymerror:
+        minus: -1.97
+        plus: 1.66
+      label: Full systematic uncertainties
+    value: 25.63
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.5
+    - asymerror:
+        minus: -1.92
+        plus: 1.61
+      label: Full systematic uncertainties
+    value: 25.08
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.51
+    - asymerror:
+        minus: -1.87
+        plus: 1.57
+      label: Full systematic uncertainties
+    value: 23.89
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.52
+    - asymerror:
+        minus: -1.82
+        plus: 1.52
+      label: Full systematic uncertainties
+    value: 23.05
+  - errors:
+    - label: Statistical uncertainties
+      symerror: 0.54
+    - asymerror:
+        minus: -1.77
+        plus: 1.47
+      label: Full systematic uncertainties
+    value: 22.08
+independent_variables:
+- header:
+    name: '|t|'
+    units: $GeV^{2}$
+  values:
+  - value: 0.04875
+  - value: 0.05125
+  - value: 0.05375
+  - value: 0.05625
+  - value: 0.05875
+  - value: 0.06125
+  - value: 0.06375
+  - value: 0.06625
+  - value: 0.06875
+  - value: 0.07125
+  - value: 0.07375
+  - value: 0.07625
+  - value: 0.07875
+  - value: 0.08125
+  - value: 0.08375
+  - value: 0.08625
+  - value: 0.08875
+  - value: 0.09125
+  - value: 0.09375
+  - value: 0.09625
+  - value: 0.09875
+  - value: 0.10125
+  - value: 0.10375
+  - value: 0.10625
+  - value: 0.10875
+  - value: 0.11125
+  - value: 0.11375
+  - value: 0.11625
+  - value: 0.11875
+  - value: 0.12125
+  - value: 0.12375
+  - value: 0.12625
+  - value: 0.12875
+  - value: 0.13125
+  - value: 0.13375

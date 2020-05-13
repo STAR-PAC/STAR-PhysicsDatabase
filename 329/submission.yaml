@@ -1,0 +1,105 @@
+---
+comment: We report results on the total and elastic cross sections in proton-proton
+  collisions at $\sqrt{s}=200$~GeV obtained with the Roman Pot setup of the STAR experimentat
+  the Relativistic Heavy Ion Collider (RHIC).The elastic differential cross section
+  was measured in the squared four-momentum transfer range $0.045 \leq -t \leq 0.135$~GeV$^2$.The
+  value of the exponential slope parameter $B$ of the elastic differential cross section
+  $d\sigma/dt \sim e^{-Bt}$ in the measured $-t$ rangewas found to be $B = 14.32 \pm
+  0.09 (stat.)^{\scriptstyle +0.13}_{\scriptstyle -0.28} (syst.)$~GeV$^{-2}$. The
+  total cross section $\sigma_{tot}$, obtained from extrapolation of the $d\sigma/dt$
+  to the optical point at $-t = 0$, is $\sigma_{tot} = 54.67 \pm 0.21 (stat.) ^{\scriptstyle
+  +1.28}_{\scriptstyle -1.38} (syst.)$ mb.We also present the values of the elastic
+  cross section $\sigma_{el} = 10.85 \pm 0.03 (stat.) ^{\scriptstyle +0.49}_{\scriptstyle
+  -0.41}(syst.)$ mb,the elastic cross section integrated within the STAR $t$-range  $\sigma^{det}_{el}
+  = 4.05 \pm 0.01 (stat.) ^{\scriptstyle+0.18}_{\scriptstyle -0.17}(syst.)$ mb, and
+  theinelastic cross section $\sigma_{inel} = 43.82 \pm 0.21  (stat.) ^{\scriptstyle
+  +1.37}_{\scriptstyle -1.44} (syst.)$ mb.The results are compared with the world
+  data.
+data_license:
+  description: The content can be shared and adapted but you must             give
+    appropriate credit and cannot restrict access to others.
+  name: cc-by-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+---
+additional_resources:
+- description: Image file
+  location: Fig5.png
+- description: Thumbnail image file
+  location: thumb_Fig5.png
+data_file: figure_5.yaml
+description: The proton-proton elastic differential cross-section $d\sigma_{el}/dt$
+  in the t-range 0.045<|t|<0.135 $GeV^{2}$ at sqrt(s) = 200 GeV.
+keywords:
+- name: reactions
+  values:
+  - P P --> P P
+- name: observables
+  values:
+  - DSIG/DT
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Proton-Proton Elastic Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Example location
+name: Figure 5
+---
+additional_resources:
+- description: Image file
+  location: Fig6.png
+- description: Thumbnail image file
+  location: thumb_Fig6.png
+data_file: b_slope.yaml
+description: The B-slope of the exponential fit A*exp(-B*|t|) to the single differential
+  proton-proton elastic cross-section in the t-range 0.045<|t|<0.135 GeV**2 at sqrt(s)
+  = 200 GeV.
+keywords:
+- name: reactions
+  values:
+  - P P --> P P
+- name: observables
+  values:
+  - SLOPE
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Proton-Proton Elastic Cross Section
+  - Proton-Proton Total Cross Section
+  - Proton-Proton Elastic Scattering
+  - Single Differential Cross Section
+  - Slope
+location: Example location
+name: B_slope
+---
+additional_resources:
+- description: Image file
+  location: Fig7.png
+- description: Thumbnail image file
+  location: thumb_Fig7.png
+data_file: cross-sections.yaml
+description: The total, elastic and inelastic cross-sections for proton-proton scattering
+  at sqrt(s)=200 GeV, the elastic cross-section measured in the t-range 0.045<|t|<0.135
+  GeV^2 and  the value of the differential cross-section extrapolated to |t| = 0.
+keywords:
+- name: reactions
+  values:
+  - P P --> P P
+- name: observables
+  values:
+  - SIG
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Proton-Proton Elastic Cross Section
+  - Proton-Proton Total Cross Section
+  - Proton-Proton Elastic Scattering
+  - Single Differential Cross Section
+location: Example location
+name: Cross-Sections

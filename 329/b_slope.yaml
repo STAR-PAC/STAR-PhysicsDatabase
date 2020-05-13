@@ -1,0 +1,14 @@
+dependent_variables:
+- header:
+    name: B
+    units: $GeV^{-2}$
+  values:
+  - errors:
+    - label: Statistical uncertainty
+      symerror: 0.09
+    - asymerror:
+        minus: -0.28
+        plus: 0.13
+      label: Systematic beam tilt
+    value: 14.32
+independent_variables: []
