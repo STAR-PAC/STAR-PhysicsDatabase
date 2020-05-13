@@ -1,0 +1,72 @@
+dependent_variables:
+- header: {name: AntiLambda/K0S}
+  qualifiers:
+  - {name: Centrality, value: 40-60%}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0025}
+    value: 0.1485
+  - errors:
+    - {label: stat, symerror: 0.0023}
+    value: 0.2014
+  - errors:
+    - {label: stat, symerror: 0.003}
+    value: 0.2796
+  - errors:
+    - {label: stat, symerror: 0.0039}
+    value: 0.3708
+  - errors:
+    - {label: stat, symerror: 0.0049}
+    value: 0.4512
+  - errors:
+    - {label: stat, symerror: 0.006}
+    value: 0.5151
+  - errors:
+    - {label: stat, symerror: 0.007}
+    value: 0.5586
+  - errors:
+    - {label: stat, symerror: 0.0081}
+    value: 0.6035
+  - errors:
+    - {label: stat, symerror: 0.0075}
+    value: 0.6062
+  - errors:
+    - {label: stat, symerror: 0.0089}
+    value: 0.6064
+  - errors:
+    - {label: stat, symerror: 0.0096}
+    value: 0.5731
+  - errors:
+    - {label: stat, symerror: 0.014}
+    value: 0.523
+  - errors:
+    - {label: stat, symerror: 0.017}
+    value: 0.428
+  - errors:
+    - {label: stat, symerror: 0.028}
+    value: 0.359
+  - errors:
+    - {label: stat, symerror: 0.054}
+    value: 0.36
+  - errors:
+    - {label: stat, symerror: 0.08}
+    value: 0.214
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {value: 0.5002}
+  - {value: 0.6983}
+  - {value: 0.8972}
+  - {value: 1.0963}
+  - {value: 1.2957}
+  - {value: 1.4953}
+  - {value: 1.6949}
+  - {value: 1.8947}
+  - {value: 2.1372}
+  - {value: 2.4372}
+  - {value: 2.7775}
+  - {value: 3.1779}
+  - {value: 3.6166}
+  - {value: 4.1176}
+  - {value: 4.6553}
+  - {value: 5.3866}

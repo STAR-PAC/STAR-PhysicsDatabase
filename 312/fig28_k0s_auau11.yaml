@@ -1,0 +1,78 @@
+dependent_variables:
+- header: {name: Rcp}
+  qualifiers:
+  - {name: particles, value: K0S}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.028}
+    - {label: sys, symerror: 0.052}
+    value: 0.677
+  - errors:
+    - {label: stat, symerror: 0.019}
+    - {label: sys, symerror: 0.04}
+    value: 0.757
+  - errors:
+    - {label: stat, symerror: 0.017}
+    - {label: sys, symerror: 0.038}
+    value: 0.832
+  - errors:
+    - {label: stat, symerror: 0.019}
+    - {label: sys, symerror: 0.038}
+    value: 0.983
+  - errors:
+    - {label: stat, symerror: 0.021}
+    - {label: sys, symerror: 0.042}
+    value: 1.01
+  - errors:
+    - {label: stat, symerror: 0.024}
+    - {label: sys, symerror: 0.036}
+    value: 1.061
+  - errors:
+    - {label: stat, symerror: 0.029}
+    - {label: sys, symerror: 0.044}
+    value: 1.105
+  - errors:
+    - {label: stat, symerror: 0.038}
+    - {label: sys, symerror: 0.047}
+    value: 1.215
+  - errors:
+    - {label: stat, symerror: 0.046}
+    - {label: sys, symerror: 0.05}
+    value: 1.232
+  - errors:
+    - {label: stat, symerror: 0.053}
+    - {label: sys, symerror: 0.041}
+    value: 1.288
+  - errors:
+    - {label: stat, symerror: 0.085}
+    - {label: sys, symerror: 0.042}
+    value: 1.276
+  - errors:
+    - {label: stat, symerror: 0.16}
+    - {label: sys, symerror: 0.06}
+    value: 1.51
+  - errors:
+    - {label: stat, symerror: 0.48}
+    - {label: sys, symerror: 0.07}
+    value: 1.95
+  - errors:
+    - {label: stat, symerror: 1.0}
+    - {label: sys, symerror: 0.1}
+    value: 2.5
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {value: 0.3004}
+  - {value: 0.4966}
+  - {value: 0.6949}
+  - {value: 0.8941}
+  - {value: 1.0937}
+  - {value: 1.2934}
+  - {value: 1.4933}
+  - {value: 1.6933}
+  - {value: 1.8932}
+  - {value: 2.1347}
+  - {value: 2.4346}
+  - {value: 2.7727}
+  - {value: 3.1726}
+  - {value: 3.6075}

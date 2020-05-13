@@ -1,0 +1,43 @@
+dependent_variables:
+- header: {name: dN/dy}
+  qualifiers:
+  - {name: particles, value: Lambda}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.004}
+    - {label: sys, symerror: 0.028}
+    value: 0.348
+  - errors:
+    - {label: stat, symerror: 0.013}
+    - {label: sys, symerror: 0.084}
+    value: 1.578
+  - errors:
+    - {label: stat, symerror: 0.03}
+    - {label: sys, symerror: 0.19}
+    value: 3.56
+  - errors:
+    - {label: stat, symerror: 0.03}
+    - {label: sys, symerror: 0.25}
+    value: 5.61
+  - errors:
+    - {label: stat, symerror: 0.04}
+    - {label: sys, symerror: 0.41}
+    value: 8.52
+  - errors:
+    - {label: stat, symerror: 0.08}
+    - {label: sys, symerror: 0.65}
+    value: 11.68
+  - errors:
+    - {label: stat, symerror: 0.08}
+    - {label: sys, symerror: 0.78}
+    value: 14.17
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.1}
+  - {value: 58.5}
+  - {value: 110.0}
+  - {value: 159.6}
+  - {value: 226.0}
+  - {value: 290.6}
+  - {value: 338.2}

@@ -1,0 +1,38 @@
+dependent_variables:
+- header: {name: dN/dy}
+  qualifiers:
+  - {name: particles, value: Phi}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0016}
+    - {label: sys, symerror: 0.0082}
+    value: 0.0483
+  - errors:
+    - {label: stat, symerror: 0.005}
+    - {label: sys, symerror: 0.04}
+    value: 0.222
+  - errors:
+    - {label: stat, symerror: 0.013}
+    - {label: sys, symerror: 0.087}
+    value: 0.499
+  - errors:
+    - {label: stat, symerror: 0.02}
+    - {label: sys, symerror: 0.13}
+    value: 0.81
+  - errors:
+    - {label: stat, symerror: 0.03}
+    - {label: sys, symerror: 0.2}
+    value: 1.22
+  - errors:
+    - {label: stat, symerror: 0.04}
+    - {label: sys, symerror: 0.26}
+    value: 1.72
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.1}
+  - {value: 58.5}
+  - {value: 110.0}
+  - {value: 159.6}
+  - {value: 226.0}
+  - {value: 313.7}

@@ -1,0 +1,93 @@
+dependent_variables:
+- header: {name: Rcp}
+  qualifiers:
+  - {name: particles, value: K0S}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.008}
+    - {label: sys, symerror: 0.043}
+    value: 0.566
+  - errors:
+    - {label: stat, symerror: 0.006}
+    - {label: sys, symerror: 0.036}
+    value: 0.675
+  - errors:
+    - {label: stat, symerror: 0.005}
+    - {label: sys, symerror: 0.035}
+    value: 0.763
+  - errors:
+    - {label: stat, symerror: 0.005}
+    - {label: sys, symerror: 0.031}
+    value: 0.821
+  - errors:
+    - {label: stat, symerror: 0.006}
+    - {label: sys, symerror: 0.037}
+    value: 0.873
+  - errors:
+    - {label: stat, symerror: 0.007}
+    - {label: sys, symerror: 0.03}
+    value: 0.884
+  - errors:
+    - {label: stat, symerror: 0.008}
+    - {label: sys, symerror: 0.036}
+    value: 0.888
+  - errors:
+    - {label: stat, symerror: 0.009}
+    - {label: sys, symerror: 0.034}
+    value: 0.883
+  - errors:
+    - {label: stat, symerror: 0.01}
+    - {label: sys, symerror: 0.036}
+    value: 0.876
+  - errors:
+    - {label: stat, symerror: 0.009}
+    - {label: sys, symerror: 0.027}
+    value: 0.848
+  - errors:
+    - {label: stat, symerror: 0.011}
+    - {label: sys, symerror: 0.026}
+    value: 0.79
+  - errors:
+    - {label: stat, symerror: 0.013}
+    - {label: sys, symerror: 0.032}
+    value: 0.763
+  - errors:
+    - {label: stat, symerror: 0.018}
+    - {label: sys, symerror: 0.027}
+    value: 0.718
+  - errors:
+    - {label: stat, symerror: 0.026}
+    - {label: sys, symerror: 0.027}
+    value: 0.699
+  - errors:
+    - {label: stat, symerror: 0.043}
+    - {label: sys, symerror: 0.024}
+    value: 0.627
+  - errors:
+    - {label: stat, symerror: 0.086}
+    - {label: sys, symerror: 0.024}
+    value: 0.642
+  - errors:
+    - {label: stat, symerror: 0.18}
+    - {label: sys, symerror: 0.03}
+    value: 0.69
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {value: 0.3006}
+  - {value: 0.4968}
+  - {value: 0.6953}
+  - {value: 0.8945}
+  - {value: 1.0942}
+  - {value: 1.294}
+  - {value: 1.4939}
+  - {value: 1.6939}
+  - {value: 1.894}
+  - {value: 2.1364}
+  - {value: 2.4364}
+  - {value: 2.7771}
+  - {value: 3.1783}
+  - {value: 3.6181}
+  - {value: 4.12}
+  - {value: 4.6597}
+  - {value: 5.3998}

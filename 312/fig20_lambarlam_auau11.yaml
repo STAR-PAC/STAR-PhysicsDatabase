@@ -1,0 +1,43 @@
+dependent_variables:
+- header: {name: Bbar/B}
+  qualifiers:
+  - {name: particles, value: AntiLambda/Lambda}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0024}
+    - {label: sys, symerror: 0.0021}
+    value: 0.1063
+  - errors:
+    - {label: stat, symerror: 0.0013}
+    - {label: sys, symerror: 0.002}
+    value: 0.0835
+  - errors:
+    - {label: stat, symerror: 0.001}
+    - {label: sys, symerror: 0.0018}
+    value: 0.0672
+  - errors:
+    - {label: stat, symerror: 0.0007}
+    - {label: sys, symerror: 0.0018}
+    value: 0.0593
+  - errors:
+    - {label: stat, symerror: 0.0006}
+    - {label: sys, symerror: 0.0019}
+    value: 0.0518
+  - errors:
+    - {label: stat, symerror: 0.0007}
+    - {label: sys, symerror: 0.0018}
+    value: 0.0455
+  - errors:
+    - {label: stat, symerror: 0.0007}
+    - {label: sys, symerror: 0.0017}
+    value: 0.0465
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.1}
+  - {value: 58.5}
+  - {value: 110.0}
+  - {value: 159.6}
+  - {value: 226.0}
+  - {value: 290.6}
+  - {value: 338.2}

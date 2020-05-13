@@ -1,0 +1,18 @@
+dependent_variables:
+- header: {name: Bbar/B}
+  qualifiers:
+  - {name: particles, value: AntiOmega+/Omega-}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.037}
+    - {label: sys, symerror: 0.016}
+    value: 0.327
+  - errors:
+    - {label: stat, symerror: 0.09}
+    - {label: sys, symerror: 0.022}
+    value: 0.433
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 122.5}
+  - {value: 313.7}

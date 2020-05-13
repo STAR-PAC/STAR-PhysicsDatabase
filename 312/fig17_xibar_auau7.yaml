@@ -1,0 +1,43 @@
+dependent_variables:
+- header: {name: dN/dy}
+  qualifiers:
+  - {name: particles, value: AntiXi+}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.00032}
+    - {label: sys, symerror: 0.0001}
+    value: 0.00142
+  - errors:
+    - {label: stat, symerror: 0.00063}
+    - {label: sys, symerror: 0.00046}
+    value: 0.00683
+  - errors:
+    - {label: stat, symerror: 0.0011}
+    - {label: sys, symerror: 0.0013}
+    value: 0.0157
+  - errors:
+    - {label: stat, symerror: 0.0015}
+    - {label: sys, symerror: 0.0018}
+    value: 0.0218
+  - errors:
+    - {label: stat, symerror: 0.0019}
+    - {label: sys, symerror: 0.0026}
+    value: 0.035
+  - errors:
+    - {label: stat, symerror: 0.0035}
+    - {label: sys, symerror: 0.0046}
+    value: 0.0526
+  - errors:
+    - {label: stat, symerror: 0.0044}
+    - {label: sys, symerror: 0.0068}
+    value: 0.0657
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.2}
+  - {value: 58.4}
+  - {value: 109.9}
+  - {value: 160.2}
+  - {value: 226.2}
+  - {value: 290.4}
+  - {value: 337.4}

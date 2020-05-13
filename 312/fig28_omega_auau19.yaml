@@ -1,0 +1,28 @@
+dependent_variables:
+- header: {name: Rcp}
+  qualifiers:
+  - {name: particles, value: Omega-+AntiOmega+}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.32}
+    value: 1.49
+  - errors:
+    - {label: stat, symerror: 0.22}
+    value: 1.58
+  - errors:
+    - {label: stat, symerror: 0.25}
+    value: 1.84
+  - errors:
+    - {label: stat, symerror: 0.31}
+    value: 1.95
+  - errors:
+    - {label: stat, symerror: 0.64}
+    value: 2.73
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {value: 1.012}
+  - {value: 1.3954}
+  - {value: 1.7895}
+  - {value: 2.1864}
+  - {value: 2.5846}

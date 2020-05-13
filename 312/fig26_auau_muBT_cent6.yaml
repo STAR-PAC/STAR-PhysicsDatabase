@@ -1,0 +1,28 @@
+dependent_variables:
+- header: {name: mu_B/T or mu_S/T}
+  qualifiers:
+  - {name: mu_type/T, value: mu_B/T}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.077}
+    value: 2.943
+  - errors:
+    - {label: stat, symerror: 0.042}
+    value: 2.047
+  - errors:
+    - {label: stat, symerror: 0.027}
+    value: 1.255
+  - errors:
+    - {label: stat, symerror: 0.022}
+    value: 0.966
+  - errors:
+    - {label: stat, symerror: 0.028}
+    value: 0.715
+independent_variables:
+- header: {name: sqrt(s_NN), units: GeV}
+  values:
+  - {value: 7.7}
+  - {value: 11.5}
+  - {value: 19.6}
+  - {value: 27}
+  - {value: 39}

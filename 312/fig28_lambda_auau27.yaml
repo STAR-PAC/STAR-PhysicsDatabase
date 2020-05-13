@@ -1,0 +1,88 @@
+dependent_variables:
+- header: {name: Rcp}
+  qualifiers:
+  - {name: particles, value: Lambda+AntiLambda}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.01}
+    - {label: sys, symerror: 0.025}
+    value: 0.551
+  - errors:
+    - {label: stat, symerror: 0.007}
+    - {label: sys, symerror: 0.034}
+    value: 0.657
+  - errors:
+    - {label: stat, symerror: 0.008}
+    - {label: sys, symerror: 0.028}
+    value: 0.768
+  - errors:
+    - {label: stat, symerror: 0.008}
+    - {label: sys, symerror: 0.033}
+    value: 0.892
+  - errors:
+    - {label: stat, symerror: 0.01}
+    - {label: sys, symerror: 0.045}
+    value: 1.002
+  - errors:
+    - {label: stat, symerror: 0.011}
+    - {label: sys, symerror: 0.036}
+    value: 1.093
+  - errors:
+    - {label: stat, symerror: 0.013}
+    - {label: sys, symerror: 0.051}
+    value: 1.193
+  - errors:
+    - {label: stat, symerror: 0.015}
+    - {label: sys, symerror: 0.057}
+    value: 1.246
+  - errors:
+    - {label: stat, symerror: 0.014}
+    - {label: sys, symerror: 0.058}
+    value: 1.31
+  - errors:
+    - {label: stat, symerror: 0.016}
+    - {label: sys, symerror: 0.056}
+    value: 1.348
+  - errors:
+    - {label: stat, symerror: 0.018}
+    - {label: sys, symerror: 0.054}
+    value: 1.313
+  - errors:
+    - {label: stat, symerror: 0.028}
+    - {label: sys, symerror: 0.054}
+    value: 1.293
+  - errors:
+    - {label: stat, symerror: 0.041}
+    - {label: sys, symerror: 0.047}
+    value: 1.129
+  - errors:
+    - {label: stat, symerror: 0.085}
+    - {label: sys, symerror: 0.045}
+    value: 1.093
+  - errors:
+    - {label: stat, symerror: 0.23}
+    - {label: sys, symerror: 0.05}
+    value: 1.17
+  - errors:
+    - {label: stat, symerror: 0.4}
+    - {label: sys, symerror: 0.06}
+    value: 1.42
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {value: 0.5018}
+  - {value: 0.7002}
+  - {value: 0.8988}
+  - {value: 1.0978}
+  - {value: 1.2969}
+  - {value: 1.4962}
+  - {value: 1.6957}
+  - {value: 1.8952}
+  - {value: 2.1371}
+  - {value: 2.437}
+  - {value: 2.7769}
+  - {value: 3.1772}
+  - {value: 3.6153}
+  - {value: 4.1161}
+  - {value: 4.6529}
+  - {value: 5.3799}

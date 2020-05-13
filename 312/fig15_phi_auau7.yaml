@@ -1,0 +1,38 @@
+dependent_variables:
+- header: {name: <mT>-m0, units: GeV^2/c^2}
+  qualifiers:
+  - {name: particles, value: Phi}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0177}
+    - {label: sys, symerror: 0.0093}
+    value: 0.2106
+  - errors:
+    - {label: stat, symerror: 0.0112}
+    - {label: sys, symerror: 0.0049}
+    value: 0.2494
+  - errors:
+    - {label: stat, symerror: 0.0179}
+    - {label: sys, symerror: 0.009}
+    value: 0.2742
+  - errors:
+    - {label: stat, symerror: 0.0094}
+    - {label: sys, symerror: 0.0098}
+    value: 0.2751
+  - errors:
+    - {label: stat, symerror: 0.0107}
+    - {label: sys, symerror: 0.0092}
+    value: 0.2975
+  - errors:
+    - {label: stat, symerror: 0.0172}
+    - {label: sys, symerror: 0.0067}
+    value: 0.3273
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.2}
+  - {value: 58.4}
+  - {value: 109.9}
+  - {value: 160.2}
+  - {value: 226.2}
+  - {value: 313.3}

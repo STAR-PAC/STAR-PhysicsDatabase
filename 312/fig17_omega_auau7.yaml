@@ -1,0 +1,13 @@
+dependent_variables:
+- header: {name: dN/dy}
+  qualifiers:
+  - {name: particles, value: Omega-}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0048}
+    - {label: sys, symerror: 0.0043}
+    value: 0.0271
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 153.8}

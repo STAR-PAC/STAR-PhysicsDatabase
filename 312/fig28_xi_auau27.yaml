@@ -1,0 +1,53 @@
+dependent_variables:
+- header: {name: Rcp}
+  qualifiers:
+  - {name: particles, value: Xi-+AntiXi+}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.02}
+    - {label: sys, symerror: 0.083}
+    value: 0.865
+  - errors:
+    - {label: stat, symerror: 0.018}
+    - {label: sys, symerror: 0.068}
+    value: 1.047
+  - errors:
+    - {label: stat, symerror: 0.02}
+    - {label: sys, symerror: 0.079}
+    value: 1.25
+  - errors:
+    - {label: stat, symerror: 0.024}
+    - {label: sys, symerror: 0.094}
+    value: 1.441
+  - errors:
+    - {label: stat, symerror: 0.03}
+    - {label: sys, symerror: 0.11}
+    value: 1.56
+  - errors:
+    - {label: stat, symerror: 0.03}
+    - {label: sys, symerror: 0.13}
+    value: 1.65
+  - errors:
+    - {label: stat, symerror: 0.05}
+    - {label: sys, symerror: 0.12}
+    value: 1.68
+  - errors:
+    - {label: stat, symerror: 0.12}
+    - {label: sys, symerror: 0.1}
+    value: 1.49
+  - errors:
+    - {label: stat, symerror: 0.33}
+    - {label: sys, symerror: 0.11}
+    value: 1.55
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {value: 0.7996}
+  - {value: 1.1456}
+  - {value: 1.443}
+  - {value: 1.7411}
+  - {value: 2.0398}
+  - {value: 2.3793}
+  - {value: 2.8525}
+  - {value: 3.5161}
+  - {value: 4.3724}

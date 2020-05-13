@@ -1,0 +1,73 @@
+dependent_variables:
+- header: {name: d^2N/(2*pi*Nevt*pT*dy*dpT), units: c^2/GeV^2}
+  qualifiers:
+  - {name: Centrality, value: 40-60%}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.00197}
+    - {label: sys, symerror: 0.00406}
+    value: 0.04848
+  - errors:
+    - {label: stat, symerror: 0.0008}
+    - {label: sys, symerror: 0.00153}
+    value: 0.02733
+  - errors:
+    - {label: stat, symerror: 0.000426}
+    - {label: sys, symerror: 0.000753}
+    value: 0.016467
+  - errors:
+    - {label: stat, symerror: 0.000238}
+    - {label: sys, symerror: 0.000526}
+    value: 0.009143
+  - errors:
+    - {label: stat, symerror: 0.00014}
+    - {label: sys, symerror: 0.000173}
+    value: 0.004849
+  - errors:
+    - {label: stat, symerror: 7.52e-05}
+    - {label: sys, symerror: 7.04e-05}
+    value: 0.0022199
+  - errors:
+    - {label: stat, symerror: 4.32e-05}
+    - {label: sys, symerror: 3.76e-05}
+    value: 0.0010177
+  - errors:
+    - {label: stat, symerror: 2.53e-05}
+    - {label: sys, symerror: 2.13e-05}
+    value: 0.0004924
+  - errors:
+    - {label: stat, symerror: 1.03e-05}
+    - {label: sys, symerror: 7.5e-06}
+    value: 0.0001955
+  - errors:
+    - {label: stat, symerror: 4.69e-06}
+    - {label: sys, symerror: 2.32e-06}
+    value: 5.107e-05
+  - errors:
+    - {label: stat, symerror: 1.82e-06}
+    - {label: sys, symerror: 5.4e-07}
+    value: 1.238e-05
+  - errors:
+    - {label: stat, symerror: 8.65e-07}
+    - {label: sys, symerror: 7.5e-08}
+    value: 1.628e-06
+  - errors:
+    - {label: stat, symerror: 2.58e-07}
+    - {label: sys, symerror: 2.5e-08}
+    value: 5.07e-07
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {high: 0.6, low: 0.4, value: 0.4998}
+  - {high: 0.8, low: 0.6, value: 0.6979}
+  - {high: 1.0, low: 0.8, value: 0.8965}
+  - {high: 1.2, low: 1.0, value: 1.0955}
+  - {high: 1.4, low: 1.2, value: 1.2948}
+  - {high: 1.6, low: 1.4, value: 1.4943}
+  - {high: 1.8, low: 1.6, value: 1.694}
+  - {high: 2.0, low: 1.8, value: 1.8937}
+  - {high: 2.3, low: 2.0, value: 2.1353}
+  - {high: 2.6, low: 2.3, value: 2.4349}
+  - {high: 3.0, low: 2.6, value: 2.7727}
+  - {high: 3.4, low: 3.0, value: 3.1722}
+  - {high: 3.9, low: 3.4, value: 3.6064}

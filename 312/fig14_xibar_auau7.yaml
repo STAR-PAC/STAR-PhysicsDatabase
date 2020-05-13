@@ -1,0 +1,43 @@
+dependent_variables:
+- header: {name: <mT>-m0, units: GeV^2/c^2}
+  qualifiers:
+  - {name: particles, value: AntiXi+}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.033}
+    - {label: sys, symerror: 0.004}
+    value: 0.213
+  - errors:
+    - {label: stat, symerror: 0.015}
+    - {label: sys, symerror: 0.005}
+    value: 0.245
+  - errors:
+    - {label: stat, symerror: 0.012}
+    - {label: sys, symerror: 0.012}
+    value: 0.285
+  - errors:
+    - {label: stat, symerror: 0.012}
+    - {label: sys, symerror: 0.013}
+    value: 0.323
+  - errors:
+    - {label: stat, symerror: 0.011}
+    - {label: sys, symerror: 0.011}
+    value: 0.34
+  - errors:
+    - {label: stat, symerror: 0.013}
+    - {label: sys, symerror: 0.017}
+    value: 0.344
+  - errors:
+    - {label: stat, symerror: 0.013}
+    - {label: sys, symerror: 0.022}
+    value: 0.349
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.2}
+  - {value: 58.4}
+  - {value: 109.9}
+  - {value: 160.2}
+  - {value: 226.2}
+  - {value: 290.4}
+  - {value: 337.4}

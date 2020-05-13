@@ -1,0 +1,4406 @@
+additional_resources:
+- {description: web page with auxiliary material, location: 'https://drupal.star.bnl.gov/STAR/publications/strange-hadron-production-auau-collisions-sqrtsnn-77-115-196-27-and-39-gev'}
+hepdata_doi: 10.17182/hepdata.94313.v1
+---
+data_file: fig5_k0s_auau7_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 7.7 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t1
+---
+data_file: fig5_k0s_auau7_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 7.7 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t2
+---
+data_file: fig5_k0s_auau7_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 7.7 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t3
+---
+data_file: fig5_k0s_auau7_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 7.7 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t4
+---
+data_file: fig5_k0s_auau7_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 7.7 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t5
+---
+data_file: fig5_k0s_auau7_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 7.7 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t6
+---
+data_file: fig5_k0s_auau7_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 7.7 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t7
+---
+data_file: fig5_k0s_auau11_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 11.5 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t8
+---
+data_file: fig5_k0s_auau11_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 11.5 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t9
+---
+data_file: fig5_k0s_auau11_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 11.5 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t10
+---
+data_file: fig5_k0s_auau11_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 11.5 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t11
+---
+data_file: fig5_k0s_auau11_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 11.5 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t12
+---
+data_file: fig5_k0s_auau11_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 11.5 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t13
+---
+data_file: fig5_k0s_auau11_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 11.5 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t14
+---
+data_file: fig5_k0s_auau19_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 19.6 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t15
+---
+data_file: fig5_k0s_auau19_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 19.6 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t16
+---
+data_file: fig5_k0s_auau19_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 19.6 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t17
+---
+data_file: fig5_k0s_auau19_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 19.6 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t18
+---
+data_file: fig5_k0s_auau19_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 19.6 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t19
+---
+data_file: fig5_k0s_auau19_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 19.6 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t20
+---
+data_file: fig5_k0s_auau19_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 19.6 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t21
+---
+data_file: fig5_k0s_auau27_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 27 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t22
+---
+data_file: fig5_k0s_auau27_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 27 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t23
+---
+data_file: fig5_k0s_auau27_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 27 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t24
+---
+data_file: fig5_k0s_auau27_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 27 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t25
+---
+data_file: fig5_k0s_auau27_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 27 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t26
+---
+data_file: fig5_k0s_auau27_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 27 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t27
+---
+data_file: fig5_k0s_auau27_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 27 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t28
+---
+data_file: fig5_k0s_auau39_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 39 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t29
+---
+data_file: fig5_k0s_auau39_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 39 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t30
+---
+data_file: fig5_k0s_auau39_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 39 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t31
+---
+data_file: fig5_k0s_auau39_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 39 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t32
+---
+data_file: fig5_k0s_auau39_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 39 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t33
+---
+data_file: fig5_k0s_auau39_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 39 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t34
+---
+data_file: fig5_k0s_auau39_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 5
+name: K0S pT spectrum, Au+Au 39 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t35
+---
+data_file: fig6_lambda_auau7_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 7.7 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t36
+---
+data_file: fig6_lambda_auau7_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 7.7 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t37
+---
+data_file: fig6_lambda_auau7_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 7.7 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t38
+---
+data_file: fig6_lambda_auau7_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 7.7 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t39
+---
+data_file: fig6_lambda_auau7_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 7.7 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t40
+---
+data_file: fig6_lambda_auau7_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 7.7 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t41
+---
+data_file: fig6_lambda_auau7_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 7.7 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t42
+---
+data_file: fig6_lambda_auau11_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 11.5 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t43
+---
+data_file: fig6_lambda_auau11_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 11.5 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t44
+---
+data_file: fig6_lambda_auau11_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 11.5 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t45
+---
+data_file: fig6_lambda_auau11_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 11.5 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t46
+---
+data_file: fig6_lambda_auau11_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 11.5 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t47
+---
+data_file: fig6_lambda_auau11_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 11.5 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t48
+---
+data_file: fig6_lambda_auau11_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 11.5 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t49
+---
+data_file: fig6_lambda_auau19_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 19.6 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t50
+---
+data_file: fig6_lambda_auau19_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 19.6 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t51
+---
+data_file: fig6_lambda_auau19_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 19.6 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t52
+---
+data_file: fig6_lambda_auau19_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 19.6 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t53
+---
+data_file: fig6_lambda_auau19_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 19.6 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t54
+---
+data_file: fig6_lambda_auau19_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 19.6 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t55
+---
+data_file: fig6_lambda_auau19_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 19.6 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t56
+---
+data_file: fig6_lambda_auau27_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 27 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t57
+---
+data_file: fig6_lambda_auau27_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 27 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t58
+---
+data_file: fig6_lambda_auau27_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 27 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t59
+---
+data_file: fig6_lambda_auau27_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 27 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t60
+---
+data_file: fig6_lambda_auau27_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 27 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t61
+---
+data_file: fig6_lambda_auau27_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 27 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t62
+---
+data_file: fig6_lambda_auau27_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 27 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t63
+---
+data_file: fig6_lambda_auau39_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 39 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t64
+---
+data_file: fig6_lambda_auau39_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 39 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t65
+---
+data_file: fig6_lambda_auau39_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 39 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t66
+---
+data_file: fig6_lambda_auau39_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 39 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t67
+---
+data_file: fig6_lambda_auau39_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 39 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t68
+---
+data_file: fig6_lambda_auau39_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 39 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t69
+---
+data_file: fig6_lambda_auau39_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 6
+name: Lambda pT spectrum, Au+Au 39 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t70
+---
+data_file: fig7_lambdabar_auau7_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 7.7 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t71
+---
+data_file: fig7_lambdabar_auau7_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 7.7 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t72
+---
+data_file: fig7_lambdabar_auau7_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 7.7 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t73
+---
+data_file: fig7_lambdabar_auau7_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 7.7 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t74
+---
+data_file: fig7_lambdabar_auau7_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 7.7 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t75
+---
+data_file: fig7_lambdabar_auau7_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 7.7 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t76
+---
+data_file: fig7_lambdabar_auau7_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 7.7 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t77
+---
+data_file: fig7_lambdabar_auau11_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 11.5 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t78
+---
+data_file: fig7_lambdabar_auau11_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 11.5 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t79
+---
+data_file: fig7_lambdabar_auau11_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 11.5 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t80
+---
+data_file: fig7_lambdabar_auau11_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 11.5 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t81
+---
+data_file: fig7_lambdabar_auau11_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 11.5 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t82
+---
+data_file: fig7_lambdabar_auau11_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 11.5 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t83
+---
+data_file: fig7_lambdabar_auau11_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 11.5 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t84
+---
+data_file: fig7_lambdabar_auau19_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 19.6 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t85
+---
+data_file: fig7_lambdabar_auau19_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 19.6 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t86
+---
+data_file: fig7_lambdabar_auau19_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 19.6 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t87
+---
+data_file: fig7_lambdabar_auau19_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 19.6 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t88
+---
+data_file: fig7_lambdabar_auau19_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 19.6 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t89
+---
+data_file: fig7_lambdabar_auau19_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 19.6 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t90
+---
+data_file: fig7_lambdabar_auau19_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 19.6 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t91
+---
+data_file: fig7_lambdabar_auau27_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 27 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t92
+---
+data_file: fig7_lambdabar_auau27_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 27 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t93
+---
+data_file: fig7_lambdabar_auau27_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 27 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t94
+---
+data_file: fig7_lambdabar_auau27_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 27 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t95
+---
+data_file: fig7_lambdabar_auau27_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 27 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t96
+---
+data_file: fig7_lambdabar_auau27_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 27 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t97
+---
+data_file: fig7_lambdabar_auau27_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 27 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t98
+---
+data_file: fig7_lambdabar_auau39_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 39 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t99
+---
+data_file: fig7_lambdabar_auau39_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 39 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t100
+---
+data_file: fig7_lambdabar_auau39_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 39 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t101
+---
+data_file: fig7_lambdabar_auau39_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 39 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t102
+---
+data_file: fig7_lambdabar_auau39_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 39 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t103
+---
+data_file: fig7_lambdabar_auau39_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 39 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t104
+---
+data_file: fig7_lambdabar_auau39_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 7
+name: AntiLambda pT spectrum, Au+Au 39 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t105
+---
+data_file: fig8_xi_auau7_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 7.7 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t106
+---
+data_file: fig8_xi_auau7_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 7.7 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t107
+---
+data_file: fig8_xi_auau7_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 7.7 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t108
+---
+data_file: fig8_xi_auau7_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 7.7 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t109
+---
+data_file: fig8_xi_auau7_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 7.7 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t110
+---
+data_file: fig8_xi_auau7_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 7.7 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t111
+---
+data_file: fig8_xi_auau7_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 7.7 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t112
+---
+data_file: fig8_xi_auau11_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 11.5 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t113
+---
+data_file: fig8_xi_auau11_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 11.5 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t114
+---
+data_file: fig8_xi_auau11_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 11.5 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t115
+---
+data_file: fig8_xi_auau11_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 11.5 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t116
+---
+data_file: fig8_xi_auau11_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 11.5 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t117
+---
+data_file: fig8_xi_auau11_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 11.5 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t118
+---
+data_file: fig8_xi_auau11_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 11.5 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t119
+---
+data_file: fig8_xi_auau19_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 19.6 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t120
+---
+data_file: fig8_xi_auau19_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 19.6 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t121
+---
+data_file: fig8_xi_auau19_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 19.6 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t122
+---
+data_file: fig8_xi_auau19_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 19.6 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t123
+---
+data_file: fig8_xi_auau19_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 19.6 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t124
+---
+data_file: fig8_xi_auau19_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 19.6 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t125
+---
+data_file: fig8_xi_auau19_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 19.6 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t126
+---
+data_file: fig8_xi_auau27_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 27 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t127
+---
+data_file: fig8_xi_auau27_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 27 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t128
+---
+data_file: fig8_xi_auau27_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 27 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t129
+---
+data_file: fig8_xi_auau27_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 27 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t130
+---
+data_file: fig8_xi_auau27_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 27 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t131
+---
+data_file: fig8_xi_auau27_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 27 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t132
+---
+data_file: fig8_xi_auau27_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 27 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t133
+---
+data_file: fig8_xi_auau39_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 39 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t134
+---
+data_file: fig8_xi_auau39_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 39 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t135
+---
+data_file: fig8_xi_auau39_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 39 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t136
+---
+data_file: fig8_xi_auau39_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 39 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t137
+---
+data_file: fig8_xi_auau39_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 39 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t138
+---
+data_file: fig8_xi_auau39_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 39 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t139
+---
+data_file: fig8_xi_auau39_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 8
+name: Xi- pT spectrum, Au+Au 39 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t140
+---
+data_file: fig9_xibar_auau7_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 7.7 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t141
+---
+data_file: fig9_xibar_auau7_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 7.7 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t142
+---
+data_file: fig9_xibar_auau7_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 7.7 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t143
+---
+data_file: fig9_xibar_auau7_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 7.7 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t144
+---
+data_file: fig9_xibar_auau7_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 7.7 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t145
+---
+data_file: fig9_xibar_auau7_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 7.7 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t146
+---
+data_file: fig9_xibar_auau7_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [7.7]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 7.7 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t147
+---
+data_file: fig9_xibar_auau11_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 11.5 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t148
+---
+data_file: fig9_xibar_auau11_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 11.5 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t149
+---
+data_file: fig9_xibar_auau11_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 11.5 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t150
+---
+data_file: fig9_xibar_auau11_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 11.5 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t151
+---
+data_file: fig9_xibar_auau11_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 11.5 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t152
+---
+data_file: fig9_xibar_auau11_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 11.5 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t153
+---
+data_file: fig9_xibar_auau11_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [11.5]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 11.5 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t154
+---
+data_file: fig9_xibar_auau19_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 19.6 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t155
+---
+data_file: fig9_xibar_auau19_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 19.6 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t156
+---
+data_file: fig9_xibar_auau19_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 19.6 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t157
+---
+data_file: fig9_xibar_auau19_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 19.6 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t158
+---
+data_file: fig9_xibar_auau19_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 19.6 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t159
+---
+data_file: fig9_xibar_auau19_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 19.6 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t160
+---
+data_file: fig9_xibar_auau19_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [19.6]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 19.6 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t161
+---
+data_file: fig9_xibar_auau27_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 27 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t162
+---
+data_file: fig9_xibar_auau27_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 27 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t163
+---
+data_file: fig9_xibar_auau27_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 27 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t164
+---
+data_file: fig9_xibar_auau27_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 27 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t165
+---
+data_file: fig9_xibar_auau27_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 27 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t166
+---
+data_file: fig9_xibar_auau27_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 27 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t167
+---
+data_file: fig9_xibar_auau27_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [27]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 27 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t168
+---
+data_file: fig9_xibar_auau39_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 39 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t169
+---
+data_file: fig9_xibar_auau39_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 39 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t170
+---
+data_file: fig9_xibar_auau39_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 39 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t171
+---
+data_file: fig9_xibar_auau39_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 39 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t172
+---
+data_file: fig9_xibar_auau39_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 39 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t173
+---
+data_file: fig9_xibar_auau39_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 39 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t174
+---
+data_file: fig9_xibar_auau39_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ pT spectrum]
+- name: cmenergies
+  values: [39]
+location: Figure 9
+name: AntiXi+ pT spectrum, Au+Au 39 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t175
+---
+data_file: fig13_k0s_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S <mT>-m0]
+- name: cmenergies
+  values: [7.7]
+location: Figure 13
+name: K0S <mT>-m0, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t176
+---
+data_file: fig13_lambda_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda <mT>-m0]
+- name: cmenergies
+  values: [7.7]
+location: Figure 13
+name: Lambda <mT>-m0, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t177
+---
+data_file: fig13_lambdabar_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda <mT>-m0]
+- name: cmenergies
+  values: [7.7]
+location: Figure 13
+name: AntiLambda <mT>-m0, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t178
+---
+data_file: fig13_k0s_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S <mT>-m0]
+- name: cmenergies
+  values: [11.5]
+location: Figure 13
+name: K0S <mT>-m0, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t179
+---
+data_file: fig13_lambda_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda <mT>-m0]
+- name: cmenergies
+  values: [11.5]
+location: Figure 13
+name: Lambda <mT>-m0, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t180
+---
+data_file: fig13_lambdabar_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda <mT>-m0]
+- name: cmenergies
+  values: [11.5]
+location: Figure 13
+name: AntiLambda <mT>-m0, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t181
+---
+data_file: fig13_k0s_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S <mT>-m0]
+- name: cmenergies
+  values: [19.6]
+location: Figure 13
+name: K0S <mT>-m0, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t182
+---
+data_file: fig13_lambda_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda <mT>-m0]
+- name: cmenergies
+  values: [19.6]
+location: Figure 13
+name: Lambda <mT>-m0, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t183
+---
+data_file: fig13_lambdabar_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda <mT>-m0]
+- name: cmenergies
+  values: [19.6]
+location: Figure 13
+name: AntiLambda <mT>-m0, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t184
+---
+data_file: fig13_k0s_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S <mT>-m0]
+- name: cmenergies
+  values: [27]
+location: Figure 13
+name: K0S <mT>-m0, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t185
+---
+data_file: fig13_lambda_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda <mT>-m0]
+- name: cmenergies
+  values: [27]
+location: Figure 13
+name: Lambda <mT>-m0, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t186
+---
+data_file: fig13_lambdabar_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda <mT>-m0]
+- name: cmenergies
+  values: [27]
+location: Figure 13
+name: AntiLambda <mT>-m0, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t187
+---
+data_file: fig13_k0s_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S <mT>-m0]
+- name: cmenergies
+  values: [39]
+location: Figure 13
+name: K0S <mT>-m0, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t188
+---
+data_file: fig13_lambda_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda <mT>-m0]
+- name: cmenergies
+  values: [39]
+location: Figure 13
+name: Lambda <mT>-m0, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t189
+---
+data_file: fig13_lambdabar_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda <mT>-m0]
+- name: cmenergies
+  values: [39]
+location: Figure 13
+name: AntiLambda <mT>-m0, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t190
+---
+data_file: fig14_xi_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- <mT>-m0]
+- name: cmenergies
+  values: [7.7]
+location: Figure 14
+name: Xi- <mT>-m0, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t191
+---
+data_file: fig14_xibar_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ <mT>-m0]
+- name: cmenergies
+  values: [7.7]
+location: Figure 14
+name: AntiXi+ <mT>-m0, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t192
+---
+data_file: fig14_xi_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- <mT>-m0]
+- name: cmenergies
+  values: [11.5]
+location: Figure 14
+name: Xi- <mT>-m0, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t193
+---
+data_file: fig14_xibar_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ <mT>-m0]
+- name: cmenergies
+  values: [11.5]
+location: Figure 14
+name: AntiXi+ <mT>-m0, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t194
+---
+data_file: fig14_xi_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- <mT>-m0]
+- name: cmenergies
+  values: [19.6]
+location: Figure 14
+name: Xi- <mT>-m0, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t195
+---
+data_file: fig14_xibar_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ <mT>-m0]
+- name: cmenergies
+  values: [19.6]
+location: Figure 14
+name: AntiXi+ <mT>-m0, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t196
+---
+data_file: fig14_xi_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- <mT>-m0]
+- name: cmenergies
+  values: [27]
+location: Figure 14
+name: Xi- <mT>-m0, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t197
+---
+data_file: fig14_xibar_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ <mT>-m0]
+- name: cmenergies
+  values: [27]
+location: Figure 14
+name: AntiXi+ <mT>-m0, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t198
+---
+data_file: fig14_xi_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- <mT>-m0]
+- name: cmenergies
+  values: [39]
+location: Figure 14
+name: Xi- <mT>-m0, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t199
+---
+data_file: fig14_xibar_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ <mT>-m0]
+- name: cmenergies
+  values: [39]
+location: Figure 14
+name: AntiXi+ <mT>-m0, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t200
+---
+data_file: fig15_phi_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Phi <mT>-m0]
+- name: cmenergies
+  values: [7.7]
+location: Figure 15
+name: Phi <mT>-m0, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t201
+---
+data_file: fig15_omega_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Omega- <mT>-m0]
+- name: cmenergies
+  values: [7.7]
+location: Figure 15
+name: Omega- <mT>-m0, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t202
+---
+data_file: fig15_omegabar_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+ <mT>-m0]
+- name: cmenergies
+  values: [7.7]
+location: Figure 15
+name: AntiOmega+ <mT>-m0, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t203
+---
+data_file: fig15_phi_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Phi <mT>-m0]
+- name: cmenergies
+  values: [11.5]
+location: Figure 15
+name: Phi <mT>-m0, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t204
+---
+data_file: fig15_omega_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Omega- <mT>-m0]
+- name: cmenergies
+  values: [11.5]
+location: Figure 15
+name: Omega- <mT>-m0, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t205
+---
+data_file: fig15_omegabar_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+ <mT>-m0]
+- name: cmenergies
+  values: [11.5]
+location: Figure 15
+name: AntiOmega+ <mT>-m0, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t206
+---
+data_file: fig15_phi_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Phi <mT>-m0]
+- name: cmenergies
+  values: [19.6]
+location: Figure 15
+name: Phi <mT>-m0, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t207
+---
+data_file: fig15_omega_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Omega- <mT>-m0]
+- name: cmenergies
+  values: [19.6]
+location: Figure 15
+name: Omega- <mT>-m0, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t208
+---
+data_file: fig15_omegabar_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+ <mT>-m0]
+- name: cmenergies
+  values: [19.6]
+location: Figure 15
+name: AntiOmega+ <mT>-m0, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t209
+---
+data_file: fig15_phi_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Phi <mT>-m0]
+- name: cmenergies
+  values: [27]
+location: Figure 15
+name: Phi <mT>-m0, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t210
+---
+data_file: fig15_omega_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Omega- <mT>-m0]
+- name: cmenergies
+  values: [27]
+location: Figure 15
+name: Omega- <mT>-m0, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t211
+---
+data_file: fig15_omegabar_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+ <mT>-m0]
+- name: cmenergies
+  values: [27]
+location: Figure 15
+name: AntiOmega+ <mT>-m0, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t212
+---
+data_file: fig15_phi_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Phi <mT>-m0]
+- name: cmenergies
+  values: [39]
+location: Figure 15
+name: Phi <mT>-m0, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t213
+---
+data_file: fig15_omega_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Omega- <mT>-m0]
+- name: cmenergies
+  values: [39]
+location: Figure 15
+name: Omega- <mT>-m0, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t214
+---
+data_file: fig15_omegabar_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+ <mT>-m0]
+- name: cmenergies
+  values: [39]
+location: Figure 15
+name: AntiOmega+ <mT>-m0, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t215
+---
+data_file: fig17_k0s_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S dN/dy]
+- name: cmenergies
+  values: [7.7]
+location: Figure 17
+name: K0S dN/dy, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t216
+---
+data_file: fig17_lambda_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda dN/dy]
+- name: cmenergies
+  values: [7.7]
+location: Figure 17
+name: Lambda dN/dy, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t217
+---
+data_file: fig17_lambdabar_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda dN/dy]
+- name: cmenergies
+  values: [7.7]
+location: Figure 17
+name: AntiLambda dN/dy, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t218
+---
+data_file: fig17_xi_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- dN/dy]
+- name: cmenergies
+  values: [7.7]
+location: Figure 17
+name: Xi- dN/dy, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t219
+---
+data_file: fig17_xibar_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ dN/dy]
+- name: cmenergies
+  values: [7.7]
+location: Figure 17
+name: AntiXi+ dN/dy, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t220
+---
+data_file: fig17_phi_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Phi dN/dy]
+- name: cmenergies
+  values: [7.7]
+location: Figure 17
+name: Phi dN/dy, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t221
+---
+data_file: fig17_omega_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Omega- dN/dy]
+- name: cmenergies
+  values: [7.7]
+location: Figure 17
+name: Omega- dN/dy, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t222
+---
+data_file: fig17_omegabar_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+ dN/dy]
+- name: cmenergies
+  values: [7.7]
+location: Figure 17
+name: AntiOmega+ dN/dy, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t223
+---
+data_file: fig17_k0s_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S dN/dy]
+- name: cmenergies
+  values: [11.5]
+location: Figure 17
+name: K0S dN/dy, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t224
+---
+data_file: fig17_lambda_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda dN/dy]
+- name: cmenergies
+  values: [11.5]
+location: Figure 17
+name: Lambda dN/dy, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t225
+---
+data_file: fig17_lambdabar_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda dN/dy]
+- name: cmenergies
+  values: [11.5]
+location: Figure 17
+name: AntiLambda dN/dy, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t226
+---
+data_file: fig17_xi_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- dN/dy]
+- name: cmenergies
+  values: [11.5]
+location: Figure 17
+name: Xi- dN/dy, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t227
+---
+data_file: fig17_xibar_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ dN/dy]
+- name: cmenergies
+  values: [11.5]
+location: Figure 17
+name: AntiXi+ dN/dy, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t228
+---
+data_file: fig17_phi_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Phi dN/dy]
+- name: cmenergies
+  values: [11.5]
+location: Figure 17
+name: Phi dN/dy, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t229
+---
+data_file: fig17_omega_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Omega- dN/dy]
+- name: cmenergies
+  values: [11.5]
+location: Figure 17
+name: Omega- dN/dy, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t230
+---
+data_file: fig17_omegabar_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+ dN/dy]
+- name: cmenergies
+  values: [11.5]
+location: Figure 17
+name: AntiOmega+ dN/dy, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t231
+---
+data_file: fig17_k0s_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S dN/dy]
+- name: cmenergies
+  values: [19.6]
+location: Figure 17
+name: K0S dN/dy, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t232
+---
+data_file: fig17_lambda_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda dN/dy]
+- name: cmenergies
+  values: [19.6]
+location: Figure 17
+name: Lambda dN/dy, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t233
+---
+data_file: fig17_lambdabar_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda dN/dy]
+- name: cmenergies
+  values: [19.6]
+location: Figure 17
+name: AntiLambda dN/dy, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t234
+---
+data_file: fig17_xi_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- dN/dy]
+- name: cmenergies
+  values: [19.6]
+location: Figure 17
+name: Xi- dN/dy, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t235
+---
+data_file: fig17_xibar_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ dN/dy]
+- name: cmenergies
+  values: [19.6]
+location: Figure 17
+name: AntiXi+ dN/dy, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t236
+---
+data_file: fig17_phi_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Phi dN/dy]
+- name: cmenergies
+  values: [19.6]
+location: Figure 17
+name: Phi dN/dy, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t237
+---
+data_file: fig17_omega_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Omega- dN/dy]
+- name: cmenergies
+  values: [19.6]
+location: Figure 17
+name: Omega- dN/dy, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t238
+---
+data_file: fig17_omegabar_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+ dN/dy]
+- name: cmenergies
+  values: [19.6]
+location: Figure 17
+name: AntiOmega+ dN/dy, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t239
+---
+data_file: fig17_k0s_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S dN/dy]
+- name: cmenergies
+  values: [27]
+location: Figure 17
+name: K0S dN/dy, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t240
+---
+data_file: fig17_lambda_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda dN/dy]
+- name: cmenergies
+  values: [27]
+location: Figure 17
+name: Lambda dN/dy, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t241
+---
+data_file: fig17_lambdabar_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda dN/dy]
+- name: cmenergies
+  values: [27]
+location: Figure 17
+name: AntiLambda dN/dy, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t242
+---
+data_file: fig17_xi_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- dN/dy]
+- name: cmenergies
+  values: [27]
+location: Figure 17
+name: Xi- dN/dy, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t243
+---
+data_file: fig17_xibar_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ dN/dy]
+- name: cmenergies
+  values: [27]
+location: Figure 17
+name: AntiXi+ dN/dy, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t244
+---
+data_file: fig17_phi_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Phi dN/dy]
+- name: cmenergies
+  values: [27]
+location: Figure 17
+name: Phi dN/dy, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t245
+---
+data_file: fig17_omega_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Omega- dN/dy]
+- name: cmenergies
+  values: [27]
+location: Figure 17
+name: Omega- dN/dy, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t246
+---
+data_file: fig17_omegabar_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+ dN/dy]
+- name: cmenergies
+  values: [27]
+location: Figure 17
+name: AntiOmega+ dN/dy, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t247
+---
+data_file: fig17_k0s_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [K0S dN/dy]
+- name: cmenergies
+  values: [39]
+location: Figure 17
+name: K0S dN/dy, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t248
+---
+data_file: fig17_lambda_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Lambda dN/dy]
+- name: cmenergies
+  values: [39]
+location: Figure 17
+name: Lambda dN/dy, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t249
+---
+data_file: fig17_lambdabar_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda dN/dy]
+- name: cmenergies
+  values: [39]
+location: Figure 17
+name: AntiLambda dN/dy, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t250
+---
+data_file: fig17_xi_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Xi- dN/dy]
+- name: cmenergies
+  values: [39]
+location: Figure 17
+name: Xi- dN/dy, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t251
+---
+data_file: fig17_xibar_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+ dN/dy]
+- name: cmenergies
+  values: [39]
+location: Figure 17
+name: AntiXi+ dN/dy, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t252
+---
+data_file: fig17_phi_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Phi dN/dy]
+- name: cmenergies
+  values: [39]
+location: Figure 17
+name: Phi dN/dy, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t253
+---
+data_file: fig17_omega_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Omega- dN/dy]
+- name: cmenergies
+  values: [39]
+location: Figure 17
+name: Omega- dN/dy, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t254
+---
+data_file: fig17_omegabar_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+ dN/dy]
+- name: cmenergies
+  values: [39]
+location: Figure 17
+name: AntiOmega+ dN/dy, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t255
+---
+data_file: fig20_lambarlam_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/Lambda]
+- name: cmenergies
+  values: [7.7]
+location: Figure 20
+name: AntiLambda/Lambda, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t256
+---
+data_file: fig20_xibarxi_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+/Xi-]
+- name: cmenergies
+  values: [7.7]
+location: Figure 20
+name: AntiXi+/Xi-, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t257
+---
+data_file: fig20_ombarom_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+/Omega-]
+- name: cmenergies
+  values: [7.7]
+location: Figure 20
+name: AntiOmega+/Omega-, Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t258
+---
+data_file: fig20_lambarlam_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/Lambda]
+- name: cmenergies
+  values: [11.5]
+location: Figure 20
+name: AntiLambda/Lambda, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t259
+---
+data_file: fig20_xibarxi_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+/Xi-]
+- name: cmenergies
+  values: [11.5]
+location: Figure 20
+name: AntiXi+/Xi-, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t260
+---
+data_file: fig20_ombarom_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+/Omega-]
+- name: cmenergies
+  values: [11.5]
+location: Figure 20
+name: AntiOmega+/Omega-, Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t261
+---
+data_file: fig20_lambarlam_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/Lambda]
+- name: cmenergies
+  values: [19.6]
+location: Figure 20
+name: AntiLambda/Lambda, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t262
+---
+data_file: fig20_xibarxi_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+/Xi-]
+- name: cmenergies
+  values: [19.6]
+location: Figure 20
+name: AntiXi+/Xi-, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t263
+---
+data_file: fig20_ombarom_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+/Omega-]
+- name: cmenergies
+  values: [19.6]
+location: Figure 20
+name: AntiOmega+/Omega-, Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t264
+---
+data_file: fig20_lambarlam_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/Lambda]
+- name: cmenergies
+  values: [27]
+location: Figure 20
+name: AntiLambda/Lambda, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t265
+---
+data_file: fig20_xibarxi_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+/Xi-]
+- name: cmenergies
+  values: [27]
+location: Figure 20
+name: AntiXi+/Xi-, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t266
+---
+data_file: fig20_ombarom_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+/Omega-]
+- name: cmenergies
+  values: [27]
+location: Figure 20
+name: AntiOmega+/Omega-, Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t267
+---
+data_file: fig20_lambarlam_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/Lambda]
+- name: cmenergies
+  values: [39]
+location: Figure 20
+name: AntiLambda/Lambda, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t268
+---
+data_file: fig20_xibarxi_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiXi+/Xi-]
+- name: cmenergies
+  values: [39]
+location: Figure 20
+name: AntiXi+/Xi-, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t269
+---
+data_file: fig20_ombarom_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiOmega+/Omega-]
+- name: cmenergies
+  values: [39]
+location: Figure 20
+name: AntiOmega+/Omega-, Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t270
+---
+data_file: fig21_auau7_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/Lambda]
+- name: cmenergies
+  values: [7.7]
+location: Figure 21
+name: AntiLambda/Lambda, Au+Au 7.7 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t271
+---
+data_file: fig21_auau7_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/Lambda]
+- name: cmenergies
+  values: [7.7]
+location: Figure 21
+name: AntiLambda/Lambda, Au+Au 7.7 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t272
+---
+data_file: fig21_auau7_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/Lambda]
+- name: cmenergies
+  values: [7.7]
+location: Figure 21
+name: AntiLambda/Lambda, Au+Au 7.7 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t273
+---
+data_file: fig21_auau7_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/Lambda]
+- name: cmenergies
+  values: [7.7]
+location: Figure 21
+name: AntiLambda/Lambda, Au+Au 7.7 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t274
+---
+data_file: fig22_auau39_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Normalized AntiLambda/Lambda]
+- name: cmenergies
+  values: [39]
+location: Figure 22
+name: Normalized AntiLambda/Lambda, Au+Au 39 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t275
+---
+data_file: fig22_auau27_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Normalized AntiLambda/Lambda]
+- name: cmenergies
+  values: [27]
+location: Figure 22
+name: Normalized AntiLambda/Lambda, Au+Au 27 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t276
+---
+data_file: fig22_auau19_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Normalized AntiLambda/Lambda]
+- name: cmenergies
+  values: [19.6]
+location: Figure 22
+name: Normalized AntiLambda/Lambda, Au+Au 19.6 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t277
+---
+data_file: fig22_auau11_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Normalized AntiLambda/Lambda]
+- name: cmenergies
+  values: [11.5]
+location: Figure 22
+name: Normalized AntiLambda/Lambda, Au+Au 11.5 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t278
+---
+data_file: fig22_auau7_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Normalized AntiLambda/Lambda]
+- name: cmenergies
+  values: [7.7]
+location: Figure 22
+name: Normalized AntiLambda/Lambda, Au+Au 7.7 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t279
+---
+data_file: fig26_auau_muST_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [mu_S/T]
+location: Figure 26
+name: mu_S/T, Au+Au, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t280
+---
+data_file: fig26_auau_muBT_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [mu_B/T]
+location: Figure 26
+name: mu_B/T, Au+Au, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t281
+---
+data_file: fig28_k0s_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [7.7]
+location: Figure 28
+name: K0S Rcp(0-5%/40-60%), Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t282
+---
+data_file: fig28_lambda_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [7.7]
+location: Figure 28
+name: Lambda Rcp(0-5%/40-60%), Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t283
+---
+data_file: fig28_xi_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [7.7]
+location: Figure 28
+name: Xi-+AntiXi+ Rcp(0-5%/40-60%), Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t284
+---
+data_file: fig28_phi_auau7.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [7.7]
+location: Figure 28
+name: Phi Rcp(0-10%/40-60%), Au+Au 7.7 GeV
+table_doi: 10.17182/hepdata.94313.v1/t285
+---
+data_file: fig28_k0s_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [11.5]
+location: Figure 28
+name: K0S Rcp(0-5%/40-60%), Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t286
+---
+data_file: fig28_lambda_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [11.5]
+location: Figure 28
+name: Lambda Rcp(0-5%/40-60%), Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t287
+---
+data_file: fig28_xi_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [11.5]
+location: Figure 28
+name: Xi-+AntiXi+ Rcp(0-5%/40-60%), Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t288
+---
+data_file: fig28_phi_auau11.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [11.5]
+location: Figure 28
+name: Phi Rcp(0-10%/40-60%), Au+Au 11.5 GeV
+table_doi: 10.17182/hepdata.94313.v1/t289
+---
+data_file: fig28_k0s_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [19.6]
+location: Figure 28
+name: K0S Rcp(0-5%/40-60%), Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t290
+---
+data_file: fig28_lambda_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [19.6]
+location: Figure 28
+name: Lambda Rcp(0-5%/40-60%), Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t291
+---
+data_file: fig28_xi_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [19.6]
+location: Figure 28
+name: Xi-+AntiXi+ Rcp(0-5%/40-60%), Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t292
+---
+data_file: fig28_omega_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [19.6]
+location: Figure 28
+name: Omega-+AntiOmega+ Rcp(0-10%/40-60%), Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t293
+---
+data_file: fig28_phi_auau19.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [19.6]
+location: Figure 28
+name: Phi Rcp(0-10%/40-60%), Au+Au 19.6 GeV
+table_doi: 10.17182/hepdata.94313.v1/t294
+---
+data_file: fig28_k0s_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [27]
+location: Figure 28
+name: K0S Rcp(0-5%/40-60%), Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t295
+---
+data_file: fig28_lambda_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [27]
+location: Figure 28
+name: Lambda+AntiLambda Rcp(0-5%/40-60%), Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t296
+---
+data_file: fig28_xi_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [27]
+location: Figure 28
+name: Xi-+AntiXi+ Rcp(0-5%/40-60%), Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t297
+---
+data_file: fig28_omega_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [27]
+location: Figure 28
+name: Omega-+AntiOmega+ Rcp(0-10%/40-60%), Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t298
+---
+data_file: fig28_phi_auau27.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [27]
+location: Figure 28
+name: Phi Rcp(0-10%/40-60%), Au+Au 27 GeV
+table_doi: 10.17182/hepdata.94313.v1/t299
+---
+data_file: fig28_k0s_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [39]
+location: Figure 28
+name: K0S Rcp(0-5%/40-60%), Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t300
+---
+data_file: fig28_lambda_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [39]
+location: Figure 28
+name: Lambda+AntiLambda Rcp(0-5%/40-60%), Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t301
+---
+data_file: fig28_xi_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [39]
+location: Figure 28
+name: Xi-+AntiXi+ Rcp(0-5%/40-60%), Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t302
+---
+data_file: fig28_omega_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [39]
+location: Figure 28
+name: Omega-+AntiOmega+ Rcp(0-10%/40-60%), Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t303
+---
+data_file: fig28_phi_auau39.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [Rcp]
+- name: cmenergies
+  values: [39]
+location: Figure 28
+name: Phi Rcp(0-10%/40-60%), Au+Au 39 GeV
+table_doi: 10.17182/hepdata.94313.v1/t304
+---
+data_file: fig29_auau7_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [7.7]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 7.7 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t305
+---
+data_file: fig29_auau7_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [7.7]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 7.7 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t306
+---
+data_file: fig29_auau7_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [7.7]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 7.7 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t307
+---
+data_file: fig29_auau7_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [7.7]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 7.7 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t308
+---
+data_file: fig29_auau7_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [7.7]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 7.7 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t309
+---
+data_file: fig29_auau7_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [7.7]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 7.7 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t310
+---
+data_file: fig29_auau7_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [7.7]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 7.7 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t311
+---
+data_file: fig29_auau11_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [11.5]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 11.5 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t312
+---
+data_file: fig29_auau11_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [11.5]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 11.5 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t313
+---
+data_file: fig29_auau11_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [11.5]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 11.5 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t314
+---
+data_file: fig29_auau11_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [11.5]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 11.5 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t315
+---
+data_file: fig29_auau11_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [11.5]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 11.5 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t316
+---
+data_file: fig29_auau11_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [11.5]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 11.5 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t317
+---
+data_file: fig29_auau11_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [11.5]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 11.5 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t318
+---
+data_file: fig29_auau19_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [19.6]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 19.6 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t319
+---
+data_file: fig29_auau19_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [19.6]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 19.6 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t320
+---
+data_file: fig29_auau19_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [19.6]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 19.6 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t321
+---
+data_file: fig29_auau19_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [19.6]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 19.6 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t322
+---
+data_file: fig29_auau19_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [19.6]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 19.6 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t323
+---
+data_file: fig29_auau19_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [19.6]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 19.6 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t324
+---
+data_file: fig29_auau19_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [19.6]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 19.6 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t325
+---
+data_file: fig29_auau27_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [27]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 27 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t326
+---
+data_file: fig29_auau27_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [27]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 27 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t327
+---
+data_file: fig29_auau27_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [27]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 27 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t328
+---
+data_file: fig29_auau27_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [27]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 27 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t329
+---
+data_file: fig29_auau27_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [27]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 27 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t330
+---
+data_file: fig29_auau27_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [27]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 27 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t331
+---
+data_file: fig29_auau27_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [27]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 27 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t332
+---
+data_file: fig29_auau39_cent0.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [39]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 39 GeV, 60-80%
+table_doi: 10.17182/hepdata.94313.v1/t333
+---
+data_file: fig29_auau39_cent1.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [39]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 39 GeV, 40-60%
+table_doi: 10.17182/hepdata.94313.v1/t334
+---
+data_file: fig29_auau39_cent2.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [39]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 39 GeV, 30-40%
+table_doi: 10.17182/hepdata.94313.v1/t335
+---
+data_file: fig29_auau39_cent3.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [39]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 39 GeV, 20-30%
+table_doi: 10.17182/hepdata.94313.v1/t336
+---
+data_file: fig29_auau39_cent4.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [39]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 39 GeV, 10-20%
+table_doi: 10.17182/hepdata.94313.v1/t337
+---
+data_file: fig29_auau39_cent5.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [39]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 39 GeV, 5-10%
+table_doi: 10.17182/hepdata.94313.v1/t338
+---
+data_file: fig29_auau39_cent6.yaml
+description: Data from STAR beam energy scan (Phase I) at RHIC, for mid-rapidity (|y|<0.5)
+keywords:
+- name: reactions
+  values: [Au+Au]
+- name: observables
+  values: [AntiLambda/K0S]
+- name: cmenergies
+  values: [39]
+location: Figure 29
+name: AntiLambda/K0S, Au+Au 39 GeV, 0-5%
+table_doi: 10.17182/hepdata.94313.v1/t339

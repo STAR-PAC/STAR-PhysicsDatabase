@@ -1,0 +1,43 @@
+dependent_variables:
+- header: {name: Bbar/B}
+  qualifiers:
+  - {name: particles, value: AntiXi+/Xi-}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.012}
+    - {label: sys, symerror: 0.017}
+    value: 0.54
+  - errors:
+    - {label: stat, symerror: 0.006}
+    - {label: sys, symerror: 0.016}
+    value: 0.508
+  - errors:
+    - {label: stat, symerror: 0.005}
+    - {label: sys, symerror: 0.014}
+    value: 0.452
+  - errors:
+    - {label: stat, symerror: 0.004}
+    - {label: sys, symerror: 0.014}
+    value: 0.432
+  - errors:
+    - {label: stat, symerror: 0.004}
+    - {label: sys, symerror: 0.013}
+    value: 0.408
+  - errors:
+    - {label: stat, symerror: 0.005}
+    - {label: sys, symerror: 0.012}
+    value: 0.391
+  - errors:
+    - {label: stat, symerror: 0.005}
+    - {label: sys, symerror: 0.012}
+    value: 0.381
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.5}
+  - {value: 61.2}
+  - {value: 114.0}
+  - {value: 165.5}
+  - {value: 233.6}
+  - {value: 299.3}
+  - {value: 343.3}

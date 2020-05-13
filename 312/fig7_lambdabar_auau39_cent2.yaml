@@ -1,0 +1,88 @@
+dependent_variables:
+- header: {name: d^2N/(2*pi*Nevt*pT*dy*dpT), units: c^2/GeV^2}
+  qualifiers:
+  - {name: Centrality, value: 30-40%}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0053}
+    - {label: sys, symerror: 0.0184}
+    value: 0.3314
+  - errors:
+    - {label: stat, symerror: 0.00249}
+    - {label: sys, symerror: 0.00932}
+    value: 0.2373
+  - errors:
+    - {label: stat, symerror: 0.00152}
+    - {label: sys, symerror: 0.00617}
+    value: 0.16717
+  - errors:
+    - {label: stat, symerror: 0.00093}
+    - {label: sys, symerror: 0.00502}
+    value: 0.10654
+  - errors:
+    - {label: stat, symerror: 0.00059}
+    - {label: sys, symerror: 0.0036}
+    value: 0.06689
+  - errors:
+    - {label: stat, symerror: 0.00034}
+    - {label: sys, symerror: 0.00141}
+    value: 0.0375
+  - errors:
+    - {label: stat, symerror: 0.000198}
+    - {label: sys, symerror: 0.000992}
+    value: 0.020473
+  - errors:
+    - {label: stat, symerror: 0.00011}
+    - {label: sys, symerror: 0.000581}
+    value: 0.010679
+  - errors:
+    - {label: stat, symerror: 4.6e-05}
+    - {label: sys, symerror: 0.000256}
+    value: 0.005033
+  - errors:
+    - {label: stat, symerror: 2.0e-05}
+    - {label: sys, symerror: 0.000124}
+    value: 0.001833
+  - errors:
+    - {label: stat, symerror: 7.0e-06}
+    - {label: sys, symerror: 3.0e-05}
+    value: 0.0005809
+  - errors:
+    - {label: stat, symerror: 2.87e-06}
+    - {label: sys, symerror: 8.38e-06}
+    value: 0.00015365
+  - errors:
+    - {label: stat, symerror: 1.08e-06}
+    - {label: sys, symerror: 2.18e-06}
+    value: 3.755e-05
+  - errors:
+    - {label: stat, symerror: 4.43e-07}
+    - {label: sys, symerror: 4.24e-07}
+    value: 7.697e-06
+  - errors:
+    - {label: stat, symerror: 1.52e-07}
+    - {label: sys, symerror: 8.0e-08}
+    value: 1.174e-06
+  - errors:
+    - {label: stat, symerror: 4.94e-08}
+    - {label: sys, symerror: 9.5e-09}
+    value: 1.102e-07
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {high: 0.6, low: 0.4, value: 0.5011}
+  - {high: 0.8, low: 0.6, value: 0.6992}
+  - {high: 1.0, low: 0.8, value: 0.8979}
+  - {high: 1.2, low: 1.0, value: 1.097}
+  - {high: 1.4, low: 1.2, value: 1.2963}
+  - {high: 1.6, low: 1.4, value: 1.4958}
+  - {high: 1.8, low: 1.6, value: 1.6954}
+  - {high: 2.0, low: 1.8, value: 1.895}
+  - {high: 2.3, low: 2.0, value: 2.1373}
+  - {high: 2.6, low: 2.3, value: 2.4373}
+  - {high: 3.0, low: 2.6, value: 2.7777}
+  - {high: 3.4, low: 3.0, value: 3.178}
+  - {high: 3.9, low: 3.4, value: 3.6168}
+  - {high: 4.4, low: 3.9, value: 4.1178}
+  - {high: 5.0, low: 4.4, value: 4.6557}
+  - {high: 6.0, low: 5.0, value: 5.3873}

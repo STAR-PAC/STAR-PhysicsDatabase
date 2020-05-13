@@ -1,0 +1,56 @@
+dependent_variables:
+- header: {name: Rcp}
+  qualifiers:
+  - {name: particles, value: Phi}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.054}
+    value: 0.581
+  - errors:
+    - {label: stat, symerror: 0.039}
+    value: 0.686
+  - errors:
+    - {label: stat, symerror: 0.027}
+    value: 0.655
+  - errors:
+    - {label: stat, symerror: 0.017}
+    value: 0.724
+  - errors:
+    - {label: stat, symerror: 0.025}
+    value: 0.8
+  - errors:
+    - {label: stat, symerror: 0.019}
+    value: 0.899
+  - errors:
+    - {label: stat, symerror: 0.034}
+    value: 1.09
+  - errors:
+    - {label: stat, symerror: 0.067}
+    value: 1.08
+  - errors:
+    - {label: stat, symerror: 0.063}
+    value: 0.927
+  - errors:
+    - {label: stat, symerror: 0.094}
+    value: 0.833
+  - errors:
+    - {label: stat, symerror: 0.13}
+    value: 0.83
+  - errors:
+    - {label: stat, symerror: 0.33}
+    value: 0.82
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {value: 0.4467}
+  - {value: 0.5497}
+  - {value: 0.6559}
+  - {value: 0.8049}
+  - {value: 0.9502}
+  - {value: 1.1477}
+  - {value: 1.4892}
+  - {value: 1.8419}
+  - {value: 2.2245}
+  - {value: 2.7221}
+  - {value: 3.3865}
+  - {value: 4.3813}

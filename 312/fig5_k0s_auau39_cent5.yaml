@@ -1,0 +1,93 @@
+dependent_variables:
+- header: {name: d^2N/(2*pi*Nevt*pT*dy*dpT), units: c^2/GeV^2}
+  qualifiers:
+  - {name: Centrality, value: 5-10%}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.112}
+    - {label: sys, symerror: 0.883}
+    value: 11.593
+  - errors:
+    - {label: stat, symerror: 0.045}
+    - {label: sys, symerror: 0.398}
+    value: 7.676
+  - errors:
+    - {label: stat, symerror: 0.02}
+    - {label: sys, symerror: 0.237}
+    value: 4.243
+  - errors:
+    - {label: stat, symerror: 0.01}
+    - {label: sys, symerror: 0.115}
+    value: 2.177
+  - errors:
+    - {label: stat, symerror: 0.005}
+    - {label: sys, symerror: 0.0459}
+    value: 1.0576
+  - errors:
+    - {label: stat, symerror: 0.0026}
+    - {label: sys, symerror: 0.0246}
+    value: 0.5011
+  - errors:
+    - {label: stat, symerror: 0.0014}
+    - {label: sys, symerror: 0.0122}
+    value: 0.2419
+  - errors:
+    - {label: stat, symerror: 0.00077}
+    - {label: sys, symerror: 0.00683}
+    value: 0.11493
+  - errors:
+    - {label: stat, symerror: 0.00043}
+    - {label: sys, symerror: 0.00238}
+    value: 0.05587
+  - errors:
+    - {label: stat, symerror: 0.00018}
+    - {label: sys, symerror: 0.00112}
+    value: 0.02341
+  - errors:
+    - {label: stat, symerror: 8.3e-05}
+    - {label: sys, symerror: 0.000564}
+    value: 0.008219
+  - errors:
+    - {label: stat, symerror: 3.0e-05}
+    - {label: sys, symerror: 0.000151}
+    value: 0.002513
+  - errors:
+    - {label: stat, symerror: 1.31e-05}
+    - {label: sys, symerror: 4.82e-05}
+    value: 0.0007529
+  - errors:
+    - {label: stat, symerror: 5.2e-06}
+    - {label: sys, symerror: 1.26e-05}
+    value: 0.0001882
+  - errors:
+    - {label: stat, symerror: 2.29e-06}
+    - {label: sys, symerror: 3.2e-06}
+    value: 4.488e-05
+  - errors:
+    - {label: stat, symerror: 9.25e-07}
+    - {label: sys, symerror: 9.13e-07}
+    value: 1.162e-05
+  - errors:
+    - {label: stat, symerror: 2.81e-07}
+    - {label: sys, symerror: 1.08e-07}
+    value: 1.276e-06
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {high: 0.4, low: 0.2, value: 0.3006}
+  - {high: 0.6, low: 0.4, value: 0.4968}
+  - {high: 0.8, low: 0.6, value: 0.6953}
+  - {high: 1.0, low: 0.8, value: 0.8945}
+  - {high: 1.2, low: 1.0, value: 1.0942}
+  - {high: 1.4, low: 1.2, value: 1.294}
+  - {high: 1.6, low: 1.4, value: 1.4939}
+  - {high: 1.8, low: 1.6, value: 1.694}
+  - {high: 2.0, low: 1.8, value: 1.894}
+  - {high: 2.3, low: 2.0, value: 2.1365}
+  - {high: 2.6, low: 2.3, value: 2.4367}
+  - {high: 3.0, low: 2.6, value: 2.7774}
+  - {high: 3.4, low: 3.0, value: 3.1785}
+  - {high: 3.9, low: 3.4, value: 3.6184}
+  - {high: 4.4, low: 3.9, value: 4.1201}
+  - {high: 5.0, low: 4.4, value: 4.6596}
+  - {high: 6.0, low: 5.0, value: 5.3993}

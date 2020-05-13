@@ -1,0 +1,28 @@
+dependent_variables:
+- header: {name: <mT>-m0, units: GeV^2/c^2}
+  qualifiers:
+  - {name: particles, value: Omega-}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.0154}
+    - {label: sys, symerror: 0.0061}
+    value: 0.3102
+  - errors:
+    - {label: stat, symerror: 0.0093}
+    - {label: sys, symerror: 0.0104}
+    value: 0.3593
+  - errors:
+    - {label: stat, symerror: 0.011}
+    - {label: sys, symerror: 0.023}
+    value: 0.335
+  - errors:
+    - {label: stat, symerror: 0.011}
+    - {label: sys, symerror: 0.02}
+    value: 0.368
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 61.2}
+  - {value: 139.6}
+  - {value: 233.6}
+  - {value: 319.3}

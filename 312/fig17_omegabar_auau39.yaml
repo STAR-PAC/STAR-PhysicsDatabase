@@ -1,0 +1,33 @@
+dependent_variables:
+- header: {name: dN/dy}
+  qualifiers:
+  - {name: particles, value: AntiOmega+}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.00017}
+    - {label: sys, symerror: 0.0001}
+    value: 0.00175
+  - errors:
+    - {label: stat, symerror: 0.00038}
+    - {label: sys, symerror: 0.00051}
+    value: 0.01013
+  - errors:
+    - {label: stat, symerror: 0.0009}
+    - {label: sys, symerror: 0.0024}
+    value: 0.0427
+  - errors:
+    - {label: stat, symerror: 0.0025}
+    - {label: sys, symerror: 0.0061}
+    value: 0.0875
+  - errors:
+    - {label: stat, symerror: 0.004}
+    - {label: sys, symerror: 0.012}
+    value: 0.139
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.0}
+  - {value: 59.2}
+  - {value: 137.0}
+  - {value: 229.8}
+  - {value: 317.3}

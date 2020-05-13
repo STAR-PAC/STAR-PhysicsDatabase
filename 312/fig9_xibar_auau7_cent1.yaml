@@ -1,0 +1,33 @@
+dependent_variables:
+- header: {name: d^2N/(2*pi*Nevt*pT*dy*dpT), units: c^2/GeV^2}
+  qualifiers:
+  - {name: Centrality, value: 40-60%}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.000194}
+    - {label: sys, symerror: 6.8e-05}
+    value: 0.001002
+  - errors:
+    - {label: stat, symerror: 5.74e-05}
+    - {label: sys, symerror: 3.51e-05}
+    value: 0.0004689
+  - errors:
+    - {label: stat, symerror: 1.81e-05}
+    - {label: sys, symerror: 7.4e-06}
+    value: 0.0001085
+  - errors:
+    - {label: stat, symerror: 5.85e-06}
+    - {label: sys, symerror: 1.29e-06}
+    value: 1.555e-05
+  - errors:
+    - {label: stat, symerror: 2.5e-06}
+    - {label: sys, symerror: 4.7e-07}
+    value: 6.61e-06
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {high: 1.0, low: 0.6, value: 0.7903}
+  - {high: 1.4, low: 1.0, value: 1.1823}
+  - {high: 1.8, low: 1.4, value: 1.5777}
+  - {high: 2.2, low: 1.8, value: 1.9749}
+  - {high: 2.6, low: 2.2, value: 2.3729}

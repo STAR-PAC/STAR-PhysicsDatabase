@@ -1,0 +1,83 @@
+dependent_variables:
+- header: {name: Rcp}
+  qualifiers:
+  - {name: particles, value: K0S}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.014}
+    - {label: sys, symerror: 0.032}
+    value: 0.637
+  - errors:
+    - {label: stat, symerror: 0.01}
+    - {label: sys, symerror: 0.021}
+    value: 0.734
+  - errors:
+    - {label: stat, symerror: 0.009}
+    - {label: sys, symerror: 0.025}
+    value: 0.82
+  - errors:
+    - {label: stat, symerror: 0.01}
+    - {label: sys, symerror: 0.018}
+    value: 0.885
+  - errors:
+    - {label: stat, symerror: 0.011}
+    - {label: sys, symerror: 0.03}
+    value: 0.956
+  - errors:
+    - {label: stat, symerror: 0.012}
+    - {label: sys, symerror: 0.02}
+    value: 0.984
+  - errors:
+    - {label: stat, symerror: 0.015}
+    - {label: sys, symerror: 0.027}
+    value: 1.031
+  - errors:
+    - {label: stat, symerror: 0.017}
+    - {label: sys, symerror: 0.016}
+    value: 0.989
+  - errors:
+    - {label: stat, symerror: 0.02}
+    - {label: sys, symerror: 0.035}
+    value: 1.032
+  - errors:
+    - {label: stat, symerror: 0.021}
+    - {label: sys, symerror: 0.048}
+    value: 1.063
+  - errors:
+    - {label: stat, symerror: 0.029}
+    - {label: sys, symerror: 0.044}
+    value: 1.032
+  - errors:
+    - {label: stat, symerror: 0.039}
+    - {label: sys, symerror: 0.031}
+    value: 1.0
+  - errors:
+    - {label: stat, symerror: 0.075}
+    - {label: sys, symerror: 0.031}
+    value: 1.013
+  - errors:
+    - {label: stat, symerror: 0.12}
+    - {label: sys, symerror: 0.03}
+    value: 0.93
+  - errors:
+    - {label: stat, symerror: 0.18}
+    - {label: sys, symerror: 0.02}
+    value: 0.63
+independent_variables:
+- header: {name: pT, units: GeV/c}
+  values:
+  - {value: 0.3002}
+  - {value: 0.4963}
+  - {value: 0.6947}
+  - {value: 0.894}
+  - {value: 1.0937}
+  - {value: 1.2935}
+  - {value: 1.4935}
+  - {value: 1.6936}
+  - {value: 1.8936}
+  - {value: 2.1359}
+  - {value: 2.4356}
+  - {value: 2.7752}
+  - {value: 3.1757}
+  - {value: 3.6132}
+  - {value: 4.1142}

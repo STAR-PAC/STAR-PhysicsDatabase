@@ -1,0 +1,43 @@
+dependent_variables:
+- header: {name: dN/dy}
+  qualifiers:
+  - {name: particles, value: K0S}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.006}
+    - {label: sys, symerror: 0.024}
+    value: 0.786
+  - errors:
+    - {label: stat, symerror: 0.016}
+    - {label: sys, symerror: 0.093}
+    value: 3.052
+  - errors:
+    - {label: stat, symerror: 0.03}
+    - {label: sys, symerror: 0.16}
+    value: 6.38
+  - errors:
+    - {label: stat, symerror: 0.04}
+    - {label: sys, symerror: 0.23}
+    value: 9.73
+  - errors:
+    - {label: stat, symerror: 0.05}
+    - {label: sys, symerror: 0.36}
+    value: 14.48
+  - errors:
+    - {label: stat, symerror: 0.08}
+    - {label: sys, symerror: 0.57}
+    value: 19.19
+  - errors:
+    - {label: stat, symerror: 0.09}
+    - {label: sys, symerror: 0.7}
+    value: 23.24
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.5}
+  - {value: 61.2}
+  - {value: 114.0}
+  - {value: 165.5}
+  - {value: 233.6}
+  - {value: 299.3}
+  - {value: 343.3}
