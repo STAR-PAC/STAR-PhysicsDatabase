@@ -29,7 +29,6 @@ cat <<EOT >> $outfile
 
 EOT
 
-
 files=`ls $dir`
 for file in $files; do
     isyaml=`echo $file | grep -c "yaml"`
