@@ -1,0 +1,214 @@
+dependent_variables:
+- header:
+    name: DSIG/DYRAP
+    units: NB
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P PI+ PI- P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.17936
+    - asymerror:
+        minus: -0.15288
+        plus: 0.1724
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.22624
+        plus: 0.24762
+      label: syst. (experimental)
+    value: 2.7009
+  - errors:
+    - label: stat.
+      symerror: 0.45332
+    - asymerror:
+        minus: -0.90724
+        plus: 1.0231
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -1.4269
+        plus: 1.582
+      label: syst. (experimental)
+    value: 16.028
+  - errors:
+    - label: stat.
+      symerror: 0.59779
+    - asymerror:
+        minus: -1.6861
+        plus: 1.9014
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -2.5446
+        plus: 2.8284
+      label: syst. (experimental)
+    value: 29.788
+  - errors:
+    - label: stat.
+      symerror: 0.69729
+    - asymerror:
+        minus: -2.3256
+        plus: 2.6224
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.3192
+        plus: 3.661
+      label: syst. (experimental)
+    value: 41.085
+  - errors:
+    - label: stat.
+      symerror: 0.79814
+    - asymerror:
+        minus: -2.8894
+        plus: 3.2582
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.9366
+        plus: 4.3156
+      label: syst. (experimental)
+    value: 51.045
+  - errors:
+    - label: stat.
+      symerror: 0.85547
+    - asymerror:
+        minus: -3.4091
+        plus: 3.8443
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -4.5911
+        plus: 5.0184
+      label: syst. (experimental)
+    value: 60.228
+  - errors:
+    - label: stat.
+      symerror: 0.89472
+    - asymerror:
+        minus: -3.7306
+        plus: 4.2069
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -4.9744
+        plus: 5.4481
+      label: syst. (experimental)
+    value: 65.908
+  - errors:
+    - label: stat.
+      symerror: 0.89053
+    - asymerror:
+        minus: -3.7245
+        plus: 4.2
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -4.8816
+        plus: 5.3436
+      label: syst. (experimental)
+    value: 65.8
+  - errors:
+    - label: stat.
+      symerror: 0.88086
+    - asymerror:
+        minus: -3.4811
+        plus: 3.9254
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -4.4799
+        plus: 4.8818
+      label: syst. (experimental)
+    value: 61.499
+  - errors:
+    - label: stat.
+      symerror: 0.77877
+    - asymerror:
+        minus: -2.8969
+        plus: 3.2667
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.6662
+        plus: 4.0159
+      label: syst. (experimental)
+    value: 51.179
+  - errors:
+    - label: stat.
+      symerror: 0.70085
+    - asymerror:
+        minus: -2.3894
+        plus: 2.6944
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -2.9789
+        plus: 3.2611
+      label: syst. (experimental)
+    value: 42.212
+  - errors:
+    - label: stat.
+      symerror: 0.58852
+    - asymerror:
+        minus: -1.6722
+        plus: 1.8857
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -2.041
+        plus: 2.2371
+      label: syst. (experimental)
+    value: 29.542
+  - errors:
+    - label: stat.
+      symerror: 0.43998
+    - asymerror:
+        minus: -0.92356
+        plus: 1.0415
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -1.1463
+        plus: 1.2614
+      label: syst. (experimental)
+    value: 16.316
+  - errors:
+    - label: stat.
+      symerror: 0.19137
+    - asymerror:
+        minus: -0.13948
+        plus: 0.15729
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.18235
+        plus: 0.20044
+      label: syst. (experimental)
+    value: 2.4642
+independent_variables:
+- header:
+    name: YRAP(PI+PI-)
+  values:
+  - high: -0.6
+    low: -0.7
+  - high: -0.5
+    low: -0.6
+  - high: -0.4
+    low: -0.5
+  - high: -0.3
+    low: -0.4
+  - high: -0.2
+    low: -0.3
+  - high: -0.1
+    low: -0.2
+  - high: 0.0
+    low: -0.1
+  - high: 0.1
+    low: 0.0
+  - high: 0.2
+    low: 0.1
+  - high: 0.3
+    low: 0.2
+  - high: 0.4
+    low: 0.3
+  - high: 0.5
+    low: 0.4
+  - high: 0.6
+    low: 0.5
+  - high: 0.7
+    low: 0.6

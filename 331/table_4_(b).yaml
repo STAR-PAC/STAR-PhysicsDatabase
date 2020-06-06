@@ -1,0 +1,74 @@
+dependent_variables:
+- header:
+    name: SIG/SIG
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(980) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 1.5353
+    - asymerror:
+        minus: -0.20177
+        plus: 0.2013
+      label: syst.
+    - asymerror:
+        minus: -0.18866
+        plus: 2.3757
+      label: model.
+    value: 7.4148
+- header:
+    name: SIG/SIG
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F2(1270) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.068624
+    - asymerror:
+        minus: -0.0090172
+        plus: 0.010784
+      label: syst.
+    - asymerror:
+        minus: -0.04712
+        plus: 0.024809
+      label: model.
+    value: 0.27207
+- header:
+    name: SIG/SIG
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(1500) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 8.5922
+    - asymerror:
+        minus: -0.73982
+        plus: 0.71348
+      label: syst.
+    - asymerror:
+        minus: -3.5758
+        plus: 2.3213
+      label: model.
+    value: 12.259
+independent_variables: []

@@ -1,0 +1,103 @@
+dependent_variables:
+- header:
+    name: DSIG/D|T1+T2|
+    units: NB/GEV**2
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P PI+ PI- P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.27915
+    - asymerror:
+        minus: -0.23781
+        plus: 0.26817
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.23262
+        plus: 0.2486
+      label: syst. (experimental)
+    value: 4.2013
+  - errors:
+    - label: stat.
+      symerror: 0.52694
+    - asymerror:
+        minus: -0.82596
+        plus: 0.9314
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.79522
+        plus: 0.84613
+      label: syst. (experimental)
+    value: 14.592
+  - errors:
+    - label: stat.
+      symerror: 0.55822
+    - asymerror:
+        minus: -0.85062
+        plus: 0.9592
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.96391
+        plus: 1.0291
+      label: syst. (experimental)
+    value: 15.028
+  - errors:
+    - label: stat.
+      symerror: 0.52476
+    - asymerror:
+        minus: -0.60415
+        plus: 0.68128
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.97287
+        plus: 1.073
+      label: syst. (experimental)
+    value: 10.673
+  - errors:
+    - label: stat.
+      symerror: 0.2902
+    - asymerror:
+        minus: -0.22932
+        plus: 0.2586
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.50909
+        plus: 0.6076
+      label: syst. (experimental)
+    value: 4.0514
+  - errors:
+    - label: stat.
+      symerror: 0.09737
+    - asymerror:
+        minus: -0.017603
+        plus: 0.019851
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.059216
+        plus: 0.075021
+      label: syst. (experimental)
+    value: 0.311
+independent_variables:
+- header:
+    name: '|T1+T2|'
+    units: GEV**2
+  values:
+  - high: 0.12
+    low: 0.08
+  - high: 0.16
+    low: 0.12
+  - high: 0.2
+    low: 0.16
+  - high: 0.24
+    low: 0.2
+  - high: 0.3
+    low: 0.24
+  - high: 0.38
+    low: 0.3

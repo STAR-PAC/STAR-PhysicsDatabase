@@ -1,0 +1,103 @@
+dependent_variables:
+- header:
+    name: DSIG/DM
+    units: PB/GEV
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P P PBAR P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 15.148
+    - asymerror:
+        minus: -1.7438
+        plus: 1.9664
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.2333
+        plus: 3.5676
+      label: syst. (experimental)
+    value: 30.807
+  - errors:
+    - label: stat.
+      symerror: 23.714
+    - asymerror:
+        minus: -5.5707
+        plus: 6.2818
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -11.194
+        plus: 11.879
+      label: syst. (experimental)
+    value: 98.415
+  - errors:
+    - label: stat.
+      symerror: 20.88
+    - asymerror:
+        minus: -3.3479
+        plus: 3.7753
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -8.6647
+        plus: 8.9901
+      label: syst. (experimental)
+    value: 59.147
+  - errors:
+    - label: stat.
+      symerror: 14.664
+    - asymerror:
+        minus: -2.0364
+        plus: 2.2963
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.9491
+        plus: 4.4262
+      label: syst. (experimental)
+    value: 35.976
+  - errors:
+    - label: stat.
+      symerror: 6.6651
+    - asymerror:
+        minus: -0.73845
+        plus: 0.83272
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -1.4324
+        plus: 1.5847
+      label: syst. (experimental)
+    value: 13.046
+  - errors:
+    - label: stat.
+      symerror: 6.4154
+    - asymerror:
+        minus: -0.50234
+        plus: 0.56647
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -2.0471
+        plus: 2.2361
+      label: syst. (experimental)
+    value: 8.8747
+independent_variables:
+- header:
+    name: M(PPBAR)
+    units: GEV
+  values:
+  - high: 2.2
+    low: 2.0
+  - high: 2.4
+    low: 2.2
+  - high: 2.6
+    low: 2.4
+  - high: 2.8
+    low: 2.6
+  - high: 3.0
+    low: 2.8
+  - high: 3.2
+    low: 3.0

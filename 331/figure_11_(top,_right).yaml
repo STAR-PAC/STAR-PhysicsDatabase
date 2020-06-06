@@ -1,0 +1,103 @@
+dependent_variables:
+- header:
+    name: DSIG/DDPHI
+    units: PB/DEG
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P P PBAR P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.16864
+    - asymerror:
+        minus: -0.028691
+        plus: 0.032354
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.064402
+        plus: 0.068502
+      label: syst. (experimental)
+    value: 0.50688
+  - errors:
+    - label: stat.
+      symerror: 0.14995
+    - asymerror:
+        minus: -0.019945
+        plus: 0.022491
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.038612
+        plus: 0.041292
+      label: syst. (experimental)
+    value: 0.35237
+  - errors:
+    - label: stat.
+      symerror: 0.023495
+    - asymerror:
+        minus: -0.00026205
+        plus: 0.0002955
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.0039879
+        plus: 0.003995
+      label: syst. (experimental)
+    value: 0.0046295
+  - errors:
+    - label: stat.
+      symerror: 0.060126
+    - asymerror:
+        minus: -0.0095228
+        plus: 0.010738
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.016277
+        plus: 0.01751
+      label: syst. (experimental)
+    value: 0.16824
+  - errors:
+    - label: stat.
+      symerror: 0.17741
+    - asymerror:
+        minus: -0.030154
+        plus: 0.034003
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.088196
+        plus: 0.092075
+      label: syst. (experimental)
+    value: 0.53272
+  - errors:
+    - label: stat.
+      symerror: 0.20468
+    - asymerror:
+        minus: -0.036088
+        plus: 0.040695
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.068842
+        plus: 0.073895
+      label: syst. (experimental)
+    value: 0.63755
+independent_variables:
+- header:
+    name: DPHI
+    units: DEG
+  values:
+  - high: 20.0
+    low: 0.0
+  - high: 40.0
+    low: 20.0
+  - high: 90.0
+    low: 40.0
+  - high: 140.0
+    low: 90.0
+  - high: 160.0
+    low: 140.0
+  - high: 180.0
+    low: 160.0

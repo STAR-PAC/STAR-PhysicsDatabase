@@ -1,0 +1,89 @@
+dependent_variables:
+- header:
+    name: SLOPE
+    units: GEV**-2
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P PI+ PI- P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.28131
+    - asymerror:
+        minus: -0.61299
+        plus: 0.85704
+      label: syst.
+    value: 8.875
+  - errors:
+    - label: stat.
+      symerror: 0.65654
+    - asymerror:
+        minus: -0.66275
+        plus: 0.63976
+      label: syst.
+    value: 10.072
+  - errors:
+    - label: stat.
+      symerror: 1.1869
+    - asymerror:
+        minus: -0.7194
+        plus: 0.68941
+      label: syst.
+    value: 8.3301
+  - errors:
+    - label: stat.
+      symerror: 0.46383
+    - asymerror:
+        minus: -0.90444
+        plus: 0.5212
+      label: syst.
+    value: 14.069
+  - errors:
+    - label: stat.
+      symerror: 0.40187
+    - asymerror:
+        minus: -0.68027
+        plus: 0.66296
+      label: syst.
+    value: 4.4632
+  - errors:
+    - label: stat.
+      symerror: 0.96535
+    - asymerror:
+        minus: -0.72337
+        plus: 0.69382
+      label: syst.
+    value: 5.0019
+independent_variables:
+- header:
+    name: DPHI
+    units: DEG
+  values:
+  - high: 45.0
+    low: 0.0
+  - high: 45.0
+    low: 0.0
+  - high: 45.0
+    low: 0.0
+  - high: 180.0
+    low: 135.0
+  - high: 180.0
+    low: 135.0
+  - high: 180.0
+    low: 135.0
+- header:
+    name: M(PI+PI-)
+    units: GEV
+  values:
+  - value: 0.6 < M < 1.0
+  - value: 1.0 < M < 1.5
+  - value: M > 1.5
+  - value: 0.6 < M < 1.0
+  - value: 1.0 < M < 1.5
+  - value: M > 1.5

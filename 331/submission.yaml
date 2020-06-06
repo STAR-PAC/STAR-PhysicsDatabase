@@ -1,0 +1,1864 @@
+---
+additional_resources:
+- description: Webpage with all figures
+  location: https://drupal.star.bnl.gov/STAR/publications/measurement-central-exclusive-production-charged-particle-pairs-proton-proton-collision
+- description: arXiv
+  location: https://arxiv.org/abs/2004.11078
+comment: We report on the measurement of the Central Exclusive Production of charged
+  particle pairs $h^{+}h^{-}$ ($h = \pi$, $K$, $p$) with the STAR detector at RHIC
+  in proton-proton collisions at $\sqrt{s} = 200$ GeV. The charged particle pairs
+  produced in the reaction $pp \to  p^{\prime}+h^{+}h^{-}+p^{\prime}$ are reconstructed
+  from the tracks in the central detector and identified using the specific energy
+  loss and the time of flight method, while the forward-scattered protons are measured
+  in the Roman Pot system. Exclusivity of the event is guaranteed by requiring the
+  transverse momentum balance of all four final-state particles. Differential cross
+  sections are measured as functions of observables related to the central hadronic
+  final state and to the forward-scattered protons. They are measured in a fiducial
+  region corresponding to the acceptance of the STAR detector and determined by the
+  central particles' transverse momenta and pseudorapidities as well as by the forward-scattered
+  protons' momenta. This fiducial region roughly corresponds to the square of the
+  four-momentum transfers at the proton vertices in the range $0.04~\mathrm{GeV}^2
+  < -t_1 , -t_2 < 0.2~\mathrm{GeV}^2$, invariant masses of the charged particle pairs
+  up to a few GeV and pseudorapidities of the centrally-produced hadrons in the range
+  $|\eta|<0.7$.The measured cross sections are compared to phenomenological predictions
+  based on the Double Pomeron Exchange (DPE) model. Structures observed in the mass
+  spectra of $\pi^{+}\pi^{-}$ and $K^{+}K^{-}$ pairs are consistent with the DPE model,
+  while angular distributions of pions suggest a dominant spin-0 contribution to $\pi^{+}\pi^{-}$
+  production.For $\pi^+\pi^-$ production, the fiducial cross section is extrapolated
+  to the Lorentz-invariant region, which allows decomposition of the invariant mass
+  spectrum into continuum and resonant contributions. The extrapolated cross section
+  is well described by the continuum production and at least three resonances, the
+  $f_0(980)$, $f_2(1270)$ and $f_0(1500)$, with a possible small contribution from
+  the $f_0(1370)$.Fits to the extrapolated differential cross section as a function
+  of $t_1$ and $t_2$ enable extraction of the exponential slope parameters in several
+  bins of the invariant mass of $\pi^+\pi^-$ pairs. These parameters are sensitive
+  to the size of the interaction region.
+data_license:
+  description: The content can be shared and adapted but you must             give
+    appropriate credit and cannot restrict access to others.
+  name: cc-by-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+record_ids:
+- id: 1792394
+  type: inspire
+---
+additional_resources:
+- description: Image file
+  location: Fig8.png
+- description: Thumbnail image file
+  location: thumb_Fig8.png
+data_file: figure_8.yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the invariant mass of the pair.\n\nSystematic uncertainties assigned\
+  \ to data points are strongly correlated between bins and should be treated as allowed\
+  \ collective variation of all data points. There are two components of the total\
+  \ systematic uncertainty. The systematic uncertainty related to the experimental\
+  \ tools and analysis method is labeled \"syst. (experimental)\". The systematic\
+  \ uncertainty related to the integrated luminosity (fully correlated between all\
+  \ data points) is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n\
+  \ * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\
+  \t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\\
+  mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\\
+  mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 8
+name: Figure 8
+---
+additional_resources:
+- description: Image file
+  location: Fig9_L.png
+- description: Thumbnail image file
+  location: thumb_Fig9_L.png
+data_file: figure_9_(left).yaml
+description: "Differential fiducial cross section for CEP of $K^+K^-$ pairs as a function\
+  \ of the invariant mass of the pair.\n\nSystematic uncertainties assigned to data\
+  \ points are strongly correlated between bins and should be treated as allowed collective\
+  \ variation of all data points. There are two components of the total systematic\
+  \ uncertainty. The systematic uncertainty related to the experimental tools and\
+  \ analysis method is labeled \"syst. (experimental)\". The systematic uncertainty\
+  \ related to the integrated luminosity (fully correlated between all data points)\
+  \ is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n * central\
+  \ state $K^+$, $K^-$\n\t- $p_{\\mathrm{T}} > 0.3~\\mathrm{GeV}$\n\t- $min(p_{\\\
+  mathrm{T}}(K^+), p_{\\mathrm{T}}(K^-)) < 0.7~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n\
+  \ * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\
+  \t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2\
+  \ + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P K+ K- P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+  - Strange production
+location: Data from Figure 9 (left)
+name: Figure 9 (left)
+---
+additional_resources:
+- description: Image file
+  location: Fig9_R.png
+- description: Thumbnail image file
+  location: thumb_Fig9_R.png
+data_file: figure_9_(right).yaml
+description: "Differential fiducial cross section for CEP of $p\\bar{p}$ pairs as\
+  \ a function of the invariant mass of the pair.\n\nSystematic uncertainties assigned\
+  \ to data points are strongly correlated between bins and should be treated as allowed\
+  \ collective variation of all data points. There are two components of the total\
+  \ systematic uncertainty. The systematic uncertainty related to the experimental\
+  \ tools and analysis method is labeled \"syst. (experimental)\". The systematic\
+  \ uncertainty related to the integrated luminosity (fully correlated between all\
+  \ data points) is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n\
+  \ * central state $p$, $\\bar{p}$\n\t- $p_{\\mathrm{T}} > 0.4~\\mathrm{GeV}$\n\t\
+  - $min(p_{\\mathrm{T}}(p), p_{\\mathrm{T}}(\\bar{p})) < 1.1~\\mathrm{GeV}$\n\t-\
+  \ $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\\
+  mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\\
+  mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P P PBAR P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 9 (right)
+name: Figure 9 (right)
+---
+additional_resources:
+- description: Image file
+  location: Fig10_L.png
+- description: Thumbnail image file
+  location: thumb_Fig10_L.png
+data_file: figure_10_(left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the rapidity of the pair.\n\nSystematic uncertainties assigned\
+  \ to data points are strongly correlated between bins and should be treated as allowed\
+  \ collective variation of all data points. There are two components of the total\
+  \ systematic uncertainty. The systematic uncertainty related to the experimental\
+  \ tools and analysis method is labeled \"syst. (experimental)\". The systematic\
+  \ uncertainty related to the integrated luminosity (fully correlated between all\
+  \ data points) is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n\
+  \ * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\
+  \t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\\
+  mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\\
+  mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DYRAP
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 10 (left)
+name: Figure 10 (left)
+---
+additional_resources:
+- description: Image file
+  location: Fig10_M.png
+- description: Thumbnail image file
+  location: thumb_Fig10_M.png
+data_file: figure_10_(middle).yaml
+description: "Differential fiducial cross section for CEP of $K^+K^-$ pairs as a function\
+  \ of the rapidity of the pair.\n\nSystematic uncertainties assigned to data points\
+  \ are strongly correlated between bins and should be treated as allowed collective\
+  \ variation of all data points. There are two components of the total systematic\
+  \ uncertainty. The systematic uncertainty related to the experimental tools and\
+  \ analysis method is labeled \"syst. (experimental)\". The systematic uncertainty\
+  \ related to the integrated luminosity (fully correlated between all data points)\
+  \ is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n * central\
+  \ state $K^+$, $K^-$\n\t- $p_{\\mathrm{T}} > 0.3~\\mathrm{GeV}$\n\t- $min(p_{\\\
+  mathrm{T}}(K^+), p_{\\mathrm{T}}(K^-)) < 0.7~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n\
+  \ * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\
+  \t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2\
+  \ + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P K+ K- P
+- name: observables
+  values:
+  - DSIG/DYRAP
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+  - Strange production
+location: Data from Figure 10 (middle)
+name: Figure 10 (middle)
+---
+additional_resources:
+- description: Image file
+  location: Fig10_R.png
+- description: Thumbnail image file
+  location: thumb_Fig10_R.png
+data_file: figure_10_(right).yaml
+description: "Differential fiducial cross section for CEP of $p\\bar{p}$ pairs as\
+  \ a function of the rapidity of the pair.\n\nSystematic uncertainties assigned to\
+  \ data points are strongly correlated between bins and should be treated as allowed\
+  \ collective variation of all data points. There are two components of the total\
+  \ systematic uncertainty. The systematic uncertainty related to the experimental\
+  \ tools and analysis method is labeled \"syst. (experimental)\". The systematic\
+  \ uncertainty related to the integrated luminosity (fully correlated between all\
+  \ data points) is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n\
+  \ * central state $p$, $\\bar{p}$\n\t- $p_{\\mathrm{T}} > 0.4~\\mathrm{GeV}$\n\t\
+  - $min(p_{\\mathrm{T}}(p), p_{\\mathrm{T}}(\\bar{p})) < 1.1~\\mathrm{GeV}$\n\t-\
+  \ $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\\
+  mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\\
+  mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P P PBAR P
+- name: observables
+  values:
+  - DSIG/DYRAP
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 10 (right)
+name: Figure 10 (right)
+---
+additional_resources:
+- description: Image file
+  location: Fig11_T_L.png
+- description: Thumbnail image file
+  location: thumb_Fig11_T_L.png
+data_file: figure_11_(top,_left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the difference of azimuthal angles of the forward scattered protons.\n\
+  \nSystematic uncertainties assigned to data points are strongly correlated between\
+  \ bins and should be treated as allowed collective variation of all data points.\
+  \ There are two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DDPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 11 (top, left)
+name: Figure 11 (top, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig11_T_M.png
+- description: Thumbnail image file
+  location: thumb_Fig11_T_M.png
+data_file: figure_11_(top,_middle).yaml
+description: "Differential fiducial cross section for CEP of $K^+K^-$ pairs as a function\
+  \ of the difference of azimuthal angles of the forward scattered protons.\n\nSystematic\
+  \ uncertainties assigned to data points are strongly correlated between bins and\
+  \ should be treated as allowed collective variation of all data points. There are\
+  \ two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $K^+$, $K^-$\n\t- $p_{\\mathrm{T}} > 0.3~\\mathrm{GeV}$\n\
+  \t- $min(p_{\\mathrm{T}}(K^+), p_{\\mathrm{T}}(K^-)) < 0.7~\\mathrm{GeV}$\n\t- $|\\\
+  eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\
+  \t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2\
+  \ + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P K+ K- P
+- name: observables
+  values:
+  - DSIG/DDPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+  - Strange production
+location: Data from Figure 11 (top, middle)
+name: Figure 11 (top, middle)
+---
+additional_resources:
+- description: Image file
+  location: Fig11_T_R.png
+- description: Thumbnail image file
+  location: thumb_Fig11_T_R.png
+data_file: figure_11_(top,_right).yaml
+description: "Differential fiducial cross section for CEP of $p\\bar{p}$ pairs as\
+  \ a function of the difference of azimuthal angles of the forward scattered protons.\n\
+  \nSystematic uncertainties assigned to data points are strongly correlated between\
+  \ bins and should be treated as allowed collective variation of all data points.\
+  \ There are two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $p$, $\\bar{p}$\n\t- $p_{\\mathrm{T}} > 0.4~\\mathrm{GeV}$\n\
+  \t- $min(p_{\\mathrm{T}}(p), p_{\\mathrm{T}}(\\bar{p})) < 1.1~\\mathrm{GeV}$\n\t\
+  - $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\\
+  mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\\
+  mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P P PBAR P
+- name: observables
+  values:
+  - DSIG/DDPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 11 (top, right)
+name: Figure 11 (top, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig11_B_L.png
+- description: Thumbnail image file
+  location: thumb_Fig11_B_L.png
+data_file: figure_11_(bottom,_left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the sum of the squares of the four-momenta losses in the proton\
+  \ vertices.\n\nSystematic uncertainties assigned to data points are strongly correlated\
+  \ between bins and should be treated as allowed collective variation of all data\
+  \ points. There are two components of the total systematic uncertainty. The systematic\
+  \ uncertainty related to the experimental tools and analysis method is labeled \"\
+  syst. (experimental)\". The systematic uncertainty related to the integrated luminosity\
+  \ (fully correlated between all data points) is labeled \"syst. (luminosity)\".\n\
+  \nFiducial region definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}}\
+  \ > 0.2~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons\
+  \ $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\\
+  mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/D|T1+T2|
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 11 (bottom, left)
+name: Figure 11 (bottom, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig11_B_M.png
+- description: Thumbnail image file
+  location: thumb_Fig11_B_M.png
+data_file: figure_11_(bottom,_middle).yaml
+description: "Differential fiducial cross section for CEP of $K^+K^-$ pairs as a function\
+  \ of the sum of the squares of the four-momenta losses in the proton vertices.\n\
+  \nSystematic uncertainties assigned to data points are strongly correlated between\
+  \ bins and should be treated as allowed collective variation of all data points.\
+  \ There are two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $K^+$, $K^-$\n\t- $p_{\\mathrm{T}} > 0.3~\\mathrm{GeV}$\n\
+  \t- $min(p_{\\mathrm{T}}(K^+), p_{\\mathrm{T}}(K^-)) < 0.7~\\mathrm{GeV}$\n\t- $|\\\
+  eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\
+  \t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2\
+  \ + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P K+ K- P
+- name: observables
+  values:
+  - DSIG/D|T1+T2|
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+  - Strange production
+location: Data from Figure 11 (bottom, middle)
+name: Figure 11 (bottom, middle)
+---
+additional_resources:
+- description: Image file
+  location: Fig11_B_R.png
+- description: Thumbnail image file
+  location: thumb_Fig11_B_R.png
+data_file: figure_11_(bottom,_right).yaml
+description: "Differential fiducial cross section for CEP of $p\\bar{p}$ pairs as\
+  \ a function of the sum of the squares of the four-momenta losses in the proton\
+  \ vertices.\n\nSystematic uncertainties assigned to data points are strongly correlated\
+  \ between bins and should be treated as allowed collective variation of all data\
+  \ points. There are two components of the total systematic uncertainty. The systematic\
+  \ uncertainty related to the experimental tools and analysis method is labeled \"\
+  syst. (experimental)\". The systematic uncertainty related to the integrated luminosity\
+  \ (fully correlated between all data points) is labeled \"syst. (luminosity)\".\n\
+  \nFiducial region definition:\n * central state $p$, $\\bar{p}$\n\t- $p_{\\mathrm{T}}\
+  \ > 0.4~\\mathrm{GeV}$\n\t- $min(p_{\\mathrm{T}}(p), p_{\\mathrm{T}}(\\bar{p}))\
+  \ < 1.1~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons\
+  \ $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\\
+  mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P P PBAR P
+- name: observables
+  values:
+  - DSIG/D|T1+T2|
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 11 (bottom, right)
+name: Figure 11 (bottom, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig12_T_L.png
+- description: Thumbnail image file
+  location: thumb_Fig12_T_L.png
+data_file: figure_12_(top,_left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the invariant mass of the pair, for events with $\\Delta\\varphi\
+  \ < 90$ degrees.\n\nSystematic uncertainties assigned to data points are strongly\
+  \ correlated between bins and should be treated as allowed collective variation\
+  \ of all data points. There are two components of the total systematic uncertainty.\
+  \ The systematic uncertainty related to the experimental tools and analysis method\
+  \ is labeled \"syst. (experimental)\". The systematic uncertainty related to the\
+  \ integrated luminosity (fully correlated between all data points) is labeled \"\
+  syst. (luminosity)\".\n\nFiducial region definition:\n * central state $\\pi^+$,\
+  \ $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact\
+  \ forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\\
+  mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2\
+  \ < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $\\Delta\\varphi < 90$ degrees\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 12 (top, left)
+name: Figure 12 (top, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig12_T_R.png
+- description: Thumbnail image file
+  location: thumb_Fig12_T_R.png
+data_file: figure_12_(top,_right).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the invariant mass of the pair, for events with $\\Delta\\varphi\
+  \ > 90$ degrees.\n\nSystematic uncertainties assigned to data points are strongly\
+  \ correlated between bins and should be treated as allowed collective variation\
+  \ of all data points. There are two components of the total systematic uncertainty.\
+  \ The systematic uncertainty related to the experimental tools and analysis method\
+  \ is labeled \"syst. (experimental)\". The systematic uncertainty related to the\
+  \ integrated luminosity (fully correlated between all data points) is labeled \"\
+  syst. (luminosity)\".\n\nFiducial region definition:\n * central state $\\pi^+$,\
+  \ $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact\
+  \ forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\\
+  mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2\
+  \ < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $\\Delta\\varphi > 90$ degrees\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 12 (top, right)
+name: Figure 12 (top, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig12_M_L.png
+- description: Thumbnail image file
+  location: thumb_Fig12_M_L.png
+data_file: figure_12_(middle,_left).yaml
+description: "Differential fiducial cross section for CEP of $K^+K^-$ pairs as a function\
+  \ of the invariant mass of the pair, for events with $\\Delta\\varphi < 90$ degrees.\n\
+  \nSystematic uncertainties assigned to data points are strongly correlated between\
+  \ bins and should be treated as allowed collective variation of all data points.\
+  \ There are two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $K^+$, $K^-$\n\t- $p_{\\mathrm{T}} > 0.3~\\mathrm{GeV}$\n\
+  \t- $min(p_{\\mathrm{T}}(K^+), p_{\\mathrm{T}}(K^-)) < 0.7~\\mathrm{GeV}$\n\t- $|\\\
+  eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\
+  \t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2\
+  \ + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $\\Delta\\varphi < 90$\
+  \ degrees\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P K+ K- P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+  - Strange production
+location: Data from Figure 12 (middle, left)
+name: Figure 12 (middle, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig12_M_R.png
+- description: Thumbnail image file
+  location: thumb_Fig12_M_R.png
+data_file: figure_12_(middle,_right).yaml
+description: "Differential fiducial cross section for CEP of $K^+K^-$ pairs as a function\
+  \ of the invariant mass of the pair, for events with $\\Delta\\varphi > 90$ degrees.\n\
+  \nSystematic uncertainties assigned to data points are strongly correlated between\
+  \ bins and should be treated as allowed collective variation of all data points.\
+  \ There are two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $K^+$, $K^-$\n\t- $p_{\\mathrm{T}} > 0.3~\\mathrm{GeV}$\n\
+  \t- $min(p_{\\mathrm{T}}(K^+), p_{\\mathrm{T}}(K^-)) < 0.7~\\mathrm{GeV}$\n\t- $|\\\
+  eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\
+  \t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2\
+  \ + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $\\Delta\\varphi > 90$\
+  \ degrees\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P K+ K- P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+  - Strange production
+location: Data from Figure 12 (middle, right)
+name: Figure 12 (middle, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig12_B_L.png
+- description: Thumbnail image file
+  location: thumb_Fig12_B_L.png
+data_file: figure_12_(bottom,_left).yaml
+description: "Differential fiducial cross section for CEP of $p\\bar{p}$ pairs as\
+  \ a function of the invariant mass of the pair, for events with $\\Delta\\varphi\
+  \ < 90$ degrees.\n\nSystematic uncertainties assigned to data points are strongly\
+  \ correlated between bins and should be treated as allowed collective variation\
+  \ of all data points. There are two components of the total systematic uncertainty.\
+  \ The systematic uncertainty related to the experimental tools and analysis method\
+  \ is labeled \"syst. (experimental)\". The systematic uncertainty related to the\
+  \ integrated luminosity (fully correlated between all data points) is labeled \"\
+  syst. (luminosity)\".\n\nFiducial region definition:\n * central state $p$, $\\\
+  bar{p}$\n\t- $p_{\\mathrm{T}} > 0.4~\\mathrm{GeV}$\n\t- $min(p_{\\mathrm{T}}(p),\
+  \ p_{\\mathrm{T}}(\\bar{p})) < 1.1~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact\
+  \ forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\\
+  mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2\
+  \ < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $\\Delta\\varphi < 90$ degrees\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P P PBAR P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 12 (bottom, left)
+name: Figure 12 (bottom, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig12_B_R.png
+- description: Thumbnail image file
+  location: thumb_Fig12_B_R.png
+data_file: figure_12_(bottom,_right).yaml
+description: "Differential fiducial cross section for CEP of $p\\bar{p}$ pairs as\
+  \ a function of the invariant mass of the pair, for events with $\\Delta\\varphi\
+  \ > 90$ degrees.\n\nSystematic uncertainties assigned to data points are strongly\
+  \ correlated between bins and should be treated as allowed collective variation\
+  \ of all data points. There are two components of the total systematic uncertainty.\
+  \ The systematic uncertainty related to the experimental tools and analysis method\
+  \ is labeled \"syst. (experimental)\". The systematic uncertainty related to the\
+  \ integrated luminosity (fully correlated between all data points) is labeled \"\
+  syst. (luminosity)\".\n\nFiducial region definition:\n * central state $p$, $\\\
+  bar{p}$\n\t- $p_{\\mathrm{T}} > 0.4~\\mathrm{GeV}$\n\t- $min(p_{\\mathrm{T}}(p),\
+  \ p_{\\mathrm{T}}(\\bar{p})) < 1.1~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact\
+  \ forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\\
+  mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2\
+  \ < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $\\Delta\\varphi > 90$ degrees\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P P PBAR P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 12 (bottom, right)
+name: Figure 12 (bottom, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig13_L.png
+- description: Thumbnail image file
+  location: thumb_Fig13_L.png
+data_file: figure_13_(left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the invariant mass of the pair, for events with $\\Delta\\varphi\
+  \ < 90$ degrees and $\\Delta p'_{\\mathrm{T}} < 0.12~\\mathrm{GeV}$.\n\nSystematic\
+  \ uncertainties assigned to data points are strongly correlated between bins and\
+  \ should be treated as allowed collective variation of all data points. There are\
+  \ two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\
+  \t- $\\Delta\\varphi < 90$ degrees\n\t- $\\Delta p'_{\\mathrm{T}} < 0.12~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 13 (left)
+name: Figure 13 (left)
+---
+additional_resources:
+- description: Image file
+  location: Fig13_R.png
+- description: Thumbnail image file
+  location: thumb_Fig13_R.png
+data_file: figure_13_(right).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the invariant mass of the pair, for events with $\\Delta\\varphi\
+  \ < 90$ degrees and $\\Delta p'_{\\mathrm{T}} > 0.12~\\mathrm{GeV}$.\n\nSystematic\
+  \ uncertainties assigned to data points are strongly correlated between bins and\
+  \ should be treated as allowed collective variation of all data points. There are\
+  \ two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\
+  \t- $\\Delta\\varphi < 90$ degrees\n\t- $\\Delta p'_{\\mathrm{T}} > 0.12~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DM
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 13 (right)
+name: Figure 13 (right)
+---
+additional_resources:
+- description: Image file
+  location: Fig14_T_L.png
+- description: Thumbnail image file
+  location: thumb_Fig14_T_L.png
+data_file: figure_14_(top,_left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the $\\cos{\\theta^{CS}}$ of the positive charge pion in the\
+  \ Collins-Soper reference frame.\n\nSystematic uncertainties assigned to data points\
+  \ are strongly correlated between bins and should be treated as allowed collective\
+  \ variation of all data points. There are two components of the total systematic\
+  \ uncertainty. The systematic uncertainty related to the experimental tools and\
+  \ analysis method is labeled \"syst. (experimental)\". The systematic uncertainty\
+  \ related to the integrated luminosity (fully correlated between all data points)\
+  \ is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n * central\
+  \ state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\t- $|\\\
+  eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\
+  \t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2\
+  \ + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DCOSTHETA
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 14 (top, left)
+name: Figure 14 (top, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig14_T_M.png
+- description: Thumbnail image file
+  location: thumb_Fig14_T_M.png
+data_file: figure_14_(top,_middle).yaml
+description: "Differential fiducial cross section for CEP of $K^+K^-$ pairs as a function\
+  \ of the $\\cos{\\theta^{CS}}$ of the positive charge kaon in the Collins-Soper\
+  \ reference frame.\n\nSystematic uncertainties assigned to data points are strongly\
+  \ correlated between bins and should be treated as allowed collective variation\
+  \ of all data points. There are two components of the total systematic uncertainty.\
+  \ The systematic uncertainty related to the experimental tools and analysis method\
+  \ is labeled \"syst. (experimental)\". The systematic uncertainty related to the\
+  \ integrated luminosity (fully correlated between all data points) is labeled \"\
+  syst. (luminosity)\".\n\nFiducial region definition:\n * central state $K^+$, $K^-$\n\
+  \t- $p_{\\mathrm{T}} > 0.3~\\mathrm{GeV}$\n\t- $min(p_{\\mathrm{T}}(K^+), p_{\\\
+  mathrm{T}}(K^-)) < 0.7~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered\
+  \ beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}|\
+  \ < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P K+ K- P
+- name: observables
+  values:
+  - DSIG/DCOSTHETA
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+  - Strange production
+location: Data from Figure 14 (top, middle)
+name: Figure 14 (top, middle)
+---
+additional_resources:
+- description: Image file
+  location: Fig14_T_R.png
+- description: Thumbnail image file
+  location: thumb_Fig14_T_R.png
+data_file: figure_14_(top,_right).yaml
+description: "Differential fiducial cross section for CEP of $p\\bar{p}$ pairs as\
+  \ a function of the $\\cos{\\theta^{CS}}$ of the central state proton in the Collins-Soper\
+  \ reference frame.\n\nSystematic uncertainties assigned to data points are strongly\
+  \ correlated between bins and should be treated as allowed collective variation\
+  \ of all data points. There are two components of the total systematic uncertainty.\
+  \ The systematic uncertainty related to the experimental tools and analysis method\
+  \ is labeled \"syst. (experimental)\". The systematic uncertainty related to the\
+  \ integrated luminosity (fully correlated between all data points) is labeled \"\
+  syst. (luminosity)\".\n\nFiducial region definition:\n * central state $p$, $\\\
+  bar{p}$\n\t- $p_{\\mathrm{T}} > 0.4~\\mathrm{GeV}$\n\t- $min(p_{\\mathrm{T}}(p),\
+  \ p_{\\mathrm{T}}(\\bar{p})) < 1.1~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact\
+  \ forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\\
+  mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2\
+  \ < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P P PBAR P
+- name: observables
+  values:
+  - DSIG/DCOSTHETA
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 14 (top, right)
+name: Figure 14 (top, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig14_B_L.png
+- description: Thumbnail image file
+  location: thumb_Fig14_B_L.png
+data_file: figure_14_(bottom,_left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the $\\phi^{CS}$ of the positive charge pion in the Collins-Soper\
+  \ reference frame.\n\nSystematic uncertainties assigned to data points are strongly\
+  \ correlated between bins and should be treated as allowed collective variation\
+  \ of all data points. There are two components of the total systematic uncertainty.\
+  \ The systematic uncertainty related to the experimental tools and analysis method\
+  \ is labeled \"syst. (experimental)\". The systematic uncertainty related to the\
+  \ integrated luminosity (fully correlated between all data points) is labeled \"\
+  syst. (luminosity)\".\n\nFiducial region definition:\n * central state $\\pi^+$,\
+  \ $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact\
+  \ forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\\
+  mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2\
+  \ < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 14 (bottom, left)
+name: Figure 14 (bottom, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig14_B_M.png
+- description: Thumbnail image file
+  location: thumb_Fig14_B_M.png
+data_file: figure_14_(bottom,_middle).yaml
+description: "Differential fiducial cross section for CEP of $K^+K^-$ pairs as a function\
+  \ of the $\\phi^{CS}$ of the positive charge kaon in the Collins-Soper reference\
+  \ frame.\n\nSystematic uncertainties assigned to data points are strongly correlated\
+  \ between bins and should be treated as allowed collective variation of all data\
+  \ points. There are two components of the total systematic uncertainty. The systematic\
+  \ uncertainty related to the experimental tools and analysis method is labeled \"\
+  syst. (experimental)\". The systematic uncertainty related to the integrated luminosity\
+  \ (fully correlated between all data points) is labeled \"syst. (luminosity)\".\n\
+  \nFiducial region definition:\n * central state $K^+$, $K^-$\n\t- $p_{\\mathrm{T}}\
+  \ > 0.3~\\mathrm{GeV}$\n\t- $min(p_{\\mathrm{T}}(K^+), p_{\\mathrm{T}}(K^-)) < 0.7~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P K+ K- P
+- name: observables
+  values:
+  - DSIG/DPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+  - Strange production
+location: Data from Figure 14 (bottom, middle)
+name: Figure 14 (bottom, middle)
+---
+additional_resources:
+- description: Image file
+  location: Fig14_B_R.png
+- description: Thumbnail image file
+  location: thumb_Fig14_B_R.png
+data_file: figure_14_(bottom,_right).yaml
+description: "Differential fiducial cross section for CEP of $p\\bar{p}$ pairs as\
+  \ a function of the $\\phi^{CS}$ of the central state proton in the Collins-Soper\
+  \ reference frame.\n\nSystematic uncertainties assigned to data points are strongly\
+  \ correlated between bins and should be treated as allowed collective variation\
+  \ of all data points. There are two components of the total systematic uncertainty.\
+  \ The systematic uncertainty related to the experimental tools and analysis method\
+  \ is labeled \"syst. (experimental)\". The systematic uncertainty related to the\
+  \ integrated luminosity (fully correlated between all data points) is labeled \"\
+  syst. (luminosity)\".\n\nFiducial region definition:\n * central state $p$, $\\\
+  bar{p}$\n\t- $p_{\\mathrm{T}} > 0.4~\\mathrm{GeV}$\n\t- $min(p_{\\mathrm{T}}(p),\
+  \ p_{\\mathrm{T}}(\\bar{p})) < 1.1~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact\
+  \ forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\\
+  mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2\
+  \ < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P P PBAR P
+- name: observables
+  values:
+  - DSIG/DPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 14 (bottom, right)
+name: Figure 14 (bottom, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig15_T_L.png
+- description: Thumbnail image file
+  location: thumb_Fig15_T_L.png
+data_file: figure_15_(top,_left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the rapidity of the pair, for invariant masses $m(\\pi^+\\pi^-)\
+  \ < 1~\\mathrm{GeV}$.\n\nSystematic uncertainties assigned to data points are strongly\
+  \ correlated between bins and should be treated as allowed collective variation\
+  \ of all data points. There are two components of the total systematic uncertainty.\
+  \ The systematic uncertainty related to the experimental tools and analysis method\
+  \ is labeled \"syst. (experimental)\". The systematic uncertainty related to the\
+  \ integrated luminosity (fully correlated between all data points) is labeled \"\
+  syst. (luminosity)\".\n\nFiducial region definition:\n * central state $\\pi^+$,\
+  \ $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact\
+  \ forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\\
+  mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2\
+  \ < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $m(\\pi^+\\pi^-) < 1~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DYRAP
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 15 (top, left)
+name: Figure 15 (top, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig15_T_M.png
+- description: Thumbnail image file
+  location: thumb_Fig15_T_M.png
+data_file: figure_15_(top,_middle).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the difference of azimuthal angles of the forward scattered protons,\
+  \ for invariant masses $m(\\pi^+\\pi^-) < 1~\\mathrm{GeV}$.\n\nSystematic uncertainties\
+  \ assigned to data points are strongly correlated between bins and should be treated\
+  \ as allowed collective variation of all data points. There are two components of\
+  \ the total systematic uncertainty. The systematic uncertainty related to the experimental\
+  \ tools and analysis method is labeled \"syst. (experimental)\". The systematic\
+  \ uncertainty related to the integrated luminosity (fully correlated between all\
+  \ data points) is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n\
+  \ * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\
+  \t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\\
+  mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\\
+  mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $m(\\pi^+\\\
+  pi^-) < 1~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DDPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 15 (top, middle)
+name: Figure 15 (top, middle)
+---
+additional_resources:
+- description: Image file
+  location: Fig15_T_R.png
+- description: Thumbnail image file
+  location: thumb_Fig15_T_R.png
+data_file: figure_15_(top,_right).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the sum of the squares of the four-momenta losses in the proton\
+  \ vertices, for invariant masses $m(\\pi^+\\pi^-) < 1~\\mathrm{GeV}$.\n\nSystematic\
+  \ uncertainties assigned to data points are strongly correlated between bins and\
+  \ should be treated as allowed collective variation of all data points. There are\
+  \ two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\
+  \t- $m(\\pi^+\\pi^-) < 1~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/D|T1+T2|
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 15 (top, right)
+name: Figure 15 (top, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig15_M_L.png
+- description: Thumbnail image file
+  location: thumb_Fig15_M_L.png
+data_file: figure_15_(middle,_left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the rapidity of the pair, for invariant masses $1 \\mathrm{GeV}\
+  \ < m(\\pi^+\\pi^-) < 1.5~\\mathrm{GeV}$.\n\nSystematic uncertainties assigned to\
+  \ data points are strongly correlated between bins and should be treated as allowed\
+  \ collective variation of all data points. There are two components of the total\
+  \ systematic uncertainty. The systematic uncertainty related to the experimental\
+  \ tools and analysis method is labeled \"syst. (experimental)\". The systematic\
+  \ uncertainty related to the integrated luminosity (fully correlated between all\
+  \ data points) is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n\
+  \ * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\
+  \t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\\
+  mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\\
+  mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $1 \\mathrm{GeV}\
+  \ < m(\\pi^+\\pi^-) < 1.5~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DYRAP
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 15 (middle, left)
+name: Figure 15 (middle, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig15_M_M.png
+- description: Thumbnail image file
+  location: thumb_Fig15_M_M.png
+data_file: figure_15_(middle,_middle).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the difference of azimuthal angles of the forward scattered protons,\
+  \ for invariant masses $1 \\mathrm{GeV} < m(\\pi^+\\pi^-) < 1.5~\\mathrm{GeV}$.\n\
+  \nSystematic uncertainties assigned to data points are strongly correlated between\
+  \ bins and should be treated as allowed collective variation of all data points.\
+  \ There are two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\
+  \t- $1 \\mathrm{GeV} < m(\\pi^+\\pi^-) < 1.5~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DDPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 15 (middle, middle)
+name: Figure 15 (middle, middle)
+---
+additional_resources:
+- description: Image file
+  location: Fig15_M_R.png
+- description: Thumbnail image file
+  location: thumb_Fig15_M_R.png
+data_file: figure_15_(middle,_right).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the sum of the squares of the four-momenta losses in the proton\
+  \ vertices, for invariant masses $1 \\mathrm{GeV} < m(\\pi^+\\pi^-) < 1.5~\\mathrm{GeV}$.\n\
+  \nSystematic uncertainties assigned to data points are strongly correlated between\
+  \ bins and should be treated as allowed collective variation of all data points.\
+  \ There are two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\
+  \t- $1 \\mathrm{GeV} < m(\\pi^+\\pi^-) < 1.5~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/D|T1+T2|
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 15 (middle, right)
+name: Figure 15 (middle, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig15_B_L.png
+- description: Thumbnail image file
+  location: thumb_Fig15_B_L.png
+data_file: figure_15_(bottom,_left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the rapidity of the pair, for invariant masses $m(\\pi^+\\pi^-)\
+  \ > 1.5~\\mathrm{GeV}$.\n\nSystematic uncertainties assigned to data points are\
+  \ strongly correlated between bins and should be treated as allowed collective variation\
+  \ of all data points. There are two components of the total systematic uncertainty.\
+  \ The systematic uncertainty related to the experimental tools and analysis method\
+  \ is labeled \"syst. (experimental)\". The systematic uncertainty related to the\
+  \ integrated luminosity (fully correlated between all data points) is labeled \"\
+  syst. (luminosity)\".\n\nFiducial region definition:\n * central state $\\pi^+$,\
+  \ $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact\
+  \ forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\\
+  mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2\
+  \ < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $m(\\pi^+\\pi^-) > 1.5~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DYRAP
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 15 (bottom, left)
+name: Figure 15 (bottom, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig15_B_M.png
+- description: Thumbnail image file
+  location: thumb_Fig15_B_M.png
+data_file: figure_15_(bottom,_middle).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the difference of azimuthal angles of the forward scattered protons,\
+  \ for invariant masses $m(\\pi^+\\pi^-) > 1.5~\\mathrm{GeV}$.\n\nSystematic uncertainties\
+  \ assigned to data points are strongly correlated between bins and should be treated\
+  \ as allowed collective variation of all data points. There are two components of\
+  \ the total systematic uncertainty. The systematic uncertainty related to the experimental\
+  \ tools and analysis method is labeled \"syst. (experimental)\". The systematic\
+  \ uncertainty related to the integrated luminosity (fully correlated between all\
+  \ data points) is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n\
+  \ * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\
+  \t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\\
+  mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\\
+  mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $m(\\pi^+\\\
+  pi^-) > 1.5~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DDPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 15 (bottom, middle)
+name: Figure 15 (bottom, middle)
+---
+additional_resources:
+- description: Image file
+  location: Fig15_B_R.png
+- description: Thumbnail image file
+  location: thumb_Fig15_B_R.png
+data_file: figure_15_(bottom,_right).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the sum of the squares of the four-momenta losses in the proton\
+  \ vertices, for invariant masses $m(\\pi^+\\pi^-) > 1.5~\\mathrm{GeV}$.\n\nSystematic\
+  \ uncertainties assigned to data points are strongly correlated between bins and\
+  \ should be treated as allowed collective variation of all data points. There are\
+  \ two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\
+  \t- $m(\\pi^+\\pi^-) > 1.5~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/D|T1+T2|
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 15 (bottom, right)
+name: Figure 15 (bottom, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig16_T_L.png
+- description: Thumbnail image file
+  location: thumb_Fig16_T_L.png
+data_file: figure_16_(top,_left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the $\\cos{\\theta^{CS}}$ of the positive charge pion in the\
+  \ Collins-Soper reference frame, for invariant masses $m(\\pi^+\\pi^-) < 1~\\mathrm{GeV}$.\n\
+  \nSystematic uncertainties assigned to data points are strongly correlated between\
+  \ bins and should be treated as allowed collective variation of all data points.\
+  \ There are two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\
+  \t- $m(\\pi^+\\pi^-) < 1~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DCOSTHETA
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 16 (top, left)
+name: Figure 16 (top, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig16_T_M.png
+- description: Thumbnail image file
+  location: thumb_Fig16_T_M.png
+data_file: figure_16_(top,_middle).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the $\\cos{\\theta^{CS}}$ of the positive charge pion in the\
+  \ Collins-Soper reference frame, for invariant masses $1 \\mathrm{GeV} < m(\\pi^+\\\
+  pi^-) < 1.5~\\mathrm{GeV}$.\n\nSystematic uncertainties assigned to data points\
+  \ are strongly correlated between bins and should be treated as allowed collective\
+  \ variation of all data points. There are two components of the total systematic\
+  \ uncertainty. The systematic uncertainty related to the experimental tools and\
+  \ analysis method is labeled \"syst. (experimental)\". The systematic uncertainty\
+  \ related to the integrated luminosity (fully correlated between all data points)\
+  \ is labeled \"syst. (luminosity)\".\n\nFiducial region definition:\n * central\
+  \ state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\mathrm{GeV}$\n\t- $|\\\
+  eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\
+  \t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2\
+  \ + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\t- $1 \\mathrm{GeV} < m(\\\
+  pi^+\\pi^-) < 1.5~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DCOSTHETA
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 16 (top, middle)
+name: Figure 16 (top, middle)
+---
+additional_resources:
+- description: Image file
+  location: Fig16_T_R.png
+- description: Thumbnail image file
+  location: thumb_Fig16_T_R.png
+data_file: figure_16_(top,_right).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the $\\cos{\\theta^{CS}}$ of the positive charge pion in the\
+  \ Collins-Soper reference frame, for invariant masses $m(\\pi^+\\pi^-) > 1.5~\\\
+  mathrm{GeV}$.\n\nSystematic uncertainties assigned to data points are strongly correlated\
+  \ between bins and should be treated as allowed collective variation of all data\
+  \ points. There are two components of the total systematic uncertainty. The systematic\
+  \ uncertainty related to the experimental tools and analysis method is labeled \"\
+  syst. (experimental)\". The systematic uncertainty related to the integrated luminosity\
+  \ (fully correlated between all data points) is labeled \"syst. (luminosity)\".\n\
+  \nFiducial region definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}}\
+  \ > 0.2~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons\
+  \ $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\\
+  mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n *\
+  \ additional cuts\n\t- $m(\\pi^+\\pi^-) > 1.5~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DCOSTHETA
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 16 (top, right)
+name: Figure 16 (top, right)
+---
+additional_resources:
+- description: Image file
+  location: Fig16_B_L.png
+- description: Thumbnail image file
+  location: thumb_Fig16_B_L.png
+data_file: figure_16_(bottom,_left).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the $\\phi^{CS}$ of the positive charge pion in the Collins-Soper\
+  \ reference frame, for invariant masses $m(\\pi^+\\pi^-) < 1~\\mathrm{GeV}$.\n\n\
+  Systematic uncertainties assigned to data points are strongly correlated between\
+  \ bins and should be treated as allowed collective variation of all data points.\
+  \ There are two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\
+  \t- $m(\\pi^+\\pi^-) < 1~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 16 (bottom, left)
+name: Figure 16 (bottom, left)
+---
+additional_resources:
+- description: Image file
+  location: Fig16_B_M.png
+- description: Thumbnail image file
+  location: thumb_Fig16_B_M.png
+data_file: figure_16_(bottom,_middle).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the $\\phi^{CS}$ of the positive charge pion in the Collins-Soper\
+  \ reference frame, for invariant masses $1 \\mathrm{GeV} < m(\\pi^+\\pi^-) < 1.5~\\\
+  mathrm{GeV}$.\n\nSystematic uncertainties assigned to data points are strongly correlated\
+  \ between bins and should be treated as allowed collective variation of all data\
+  \ points. There are two components of the total systematic uncertainty. The systematic\
+  \ uncertainty related to the experimental tools and analysis method is labeled \"\
+  syst. (experimental)\". The systematic uncertainty related to the integrated luminosity\
+  \ (fully correlated between all data points) is labeled \"syst. (luminosity)\".\n\
+  \nFiducial region definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}}\
+  \ > 0.2~\\mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons\
+  \ $p'$\n\t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\\
+  mathrm{GeV}$\n\t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n *\
+  \ additional cuts\n\t- $1 \\mathrm{GeV} < m(\\pi^+\\pi^-) < 1.5~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 16 (bottom, middle)
+name: Figure 16 (bottom, middle)
+---
+additional_resources:
+- description: Image file
+  location: Fig16_B_R.png
+- description: Thumbnail image file
+  location: thumb_Fig16_B_R.png
+data_file: figure_16_(bottom,_right).yaml
+description: "Differential fiducial cross section for CEP of $\\pi^+\\pi^-$ pairs\
+  \ as a function of the $\\phi^{CS}$ of the positive charge pion in the Collins-Soper\
+  \ reference frame, for invariant masses $m(\\pi^+\\pi^-) > 1.5~\\mathrm{GeV}$.\n\
+  \nSystematic uncertainties assigned to data points are strongly correlated between\
+  \ bins and should be treated as allowed collective variation of all data points.\
+  \ There are two components of the total systematic uncertainty. The systematic uncertainty\
+  \ related to the experimental tools and analysis method is labeled \"syst. (experimental)\"\
+  . The systematic uncertainty related to the integrated luminosity (fully correlated\
+  \ between all data points) is labeled \"syst. (luminosity)\".\n\nFiducial region\
+  \ definition:\n * central state $\\pi^+$, $\\pi^-$\n\t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$\n\t- $|\\eta| < 0.7$\n * intact forward-scattered beam protons $p'$\n\
+  \t- $p_x > -0.2~\\mathrm{GeV}$\n\t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\
+  \t- $(p_x+0.3~\\mathrm{GeV})^2 + p_y^2 < 0.25~\\mathrm{GeV}^2$\n * additional cuts\n\
+  \t- $m(\\pi^+\\pi^-) > 1.5~\\mathrm{GeV}$\n"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - DSIG/DPHI
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Single Differential Cross Section
+location: Data from Figure 16 (bottom, right)
+name: Figure 16 (bottom, right)
+---
+data_file: table_2.yaml
+description: "Integrated fiducial cross sections with statistical and systematic uncertainties\
+  \ for CEP of $\\pi^+\\pi^-$, $K^+K^-$ and $p\\bar{p}$ pairs in two ranges of azimuthal\
+  \ angle difference, $\\Delta\\varphi$, between the two forward-scattered protons.\n\
+  \nFiducial region definition:\n\n * central state\n\n \t- $p_{\\mathrm{T}} > 0.2~\\\
+  mathrm{GeV}$ ($\\pi^+$, $\\pi^-$)\n\n \t- $p_{\\mathrm{T}} > 0.3~\\mathrm{GeV}$,\
+  \   $min(p_{\\mathrm{T}}^+, p_{\\mathrm{T}}^-) < 0.7~\\mathrm{GeV}$ ($K^+$, $K^-$)\n\
+  \n \t- $p_{\\mathrm{T}} > 0.4~\\mathrm{GeV}$,   $min(p_{\\mathrm{T}}^+, p_{\\mathrm{T}}^-)\
+  \ < 1.1~\\mathrm{GeV}$ ($p$, $\\bar{p}$)\n\n \t- $|\\eta| < 0.7$ (all species)\n\
+  \n * intact forward-scattered beam protons $p'$\n\n \t- $p_x > -0.2~\\mathrm{GeV}$\n\
+  \n \t- $0.2~\\mathrm{GeV} < |p_{y}| < 0.4~\\mathrm{GeV}$\n\n \t- $(p_x+0.3~\\mathrm{GeV})^2\
+  \ + p_y^2 < 0.25~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+  - P P --> P K+ K- P
+  - P P --> P P PBAR P
+- name: observables
+  values:
+  - SIG
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Integrated Cross Section
+location: Data from Table 2
+name: Table 2
+---
+additional_resources:
+- description: Image file
+  location: RatioAndInterference_PiPiInvMass_Fit.png
+- description: Thumbnail image file
+  location: thumb_RatioAndInterference_PiPiInvMass_Fit.png
+data_file: table_3_(a).yaml
+description: "Results of the fit to extrapolated $d\\sigma/dm(\\pi^+\\pi^-)$ in two\
+  \ ranges of azimuthal angle difference $\\Delta\\varphi$ between forward-scattered\
+  \ protons.\n\nThe fit describes the cross-section extrapolated to Lorentz-invariant\
+  \ phase-space defined below:\n\t- $|y(\\pi^+\\pi^-)| < 0.4$\n\t- $0.05~\\mathrm{GeV}^2\
+  \ < -t_1, -t_2 < 0.16~\\mathrm{GeV}^2$\n\nThe experimental systematic uncertainties\
+  \ \"(syst.)\" are calculated as the quadratic sum of the differences between the\
+  \ nominal fit result and the result of the fit to $d\\sigma/dm(\\pi^+\\pi^-)$ with\
+  \ each systematic effect. The uncertainties related to the extrapolation \"(model.)\"\
+  \ are quoted as the largest deviation from the nominal fit result."
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+  - P P --> P F0(980) <PI+ PI-> P
+  - P P --> P F2(1270) <PI+ PI-> P
+  - P P --> P F0(1500) <PI+ PI-> P
+- name: observables
+  values:
+  - AMP
+  - SLOPE
+  - SIG
+  - PHASE
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Integrated Cross Section
+location: Data from Table 3 (A)
+name: Table 3 (A)
+---
+additional_resources:
+- description: Image file
+  location: RatioAndInterference_PiPiInvMass_Fit.png
+- description: Thumbnail image file
+  location: thumb_RatioAndInterference_PiPiInvMass_Fit.png
+data_file: table_3_(b).yaml
+description: "Results of the fit to extrapolated $d\\sigma/dm(\\pi^+\\pi^-)$ in two\
+  \ ranges of azimuthal angle difference $\\Delta\\varphi$ between forward-scattered\
+  \ protons.\n\nThe fit describes the cross-section extrapolated to Lorentz-invariant\
+  \ phase-space defined below:\n\t- $|y(\\pi^+\\pi^-)| < 0.4$\n\t- $0.05~\\mathrm{GeV}^2\
+  \ < -t_1, -t_2 < 0.16~\\mathrm{GeV}^2$\n\nThe experimental systematic uncertainties\
+  \ \"(syst.)\" are calculated as the quadratic sum of the differences between the\
+  \ nominal fit result and the result of the fit to $d\\sigma/dm(\\pi^+\\pi^-)$ with\
+  \ each systematic effect. The uncertainties related to the extrapolation \"(model.)\"\
+  \ are quoted as the largest deviation from the nominal fit result."
+keywords:
+- name: reactions
+  values:
+  - P P --> P F0(980) <PI+ PI-> P
+  - P P --> P F0(1500) <PI+ PI-> P
+- name: observables
+  values:
+  - M
+  - WIDTH
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Integrated Cross Section
+location: Data from Table 3 (B)
+name: Table 3 (B)
+---
+data_file: table_4_(a).yaml
+description: "Ratios of integrated cross sections of resonance production to cross\
+  \ sections for f2(1270) production, in the pi+pi- channel.\n\nThe results are obtained\
+  \ for the Lorentz-invariant phase-space defined below:\n\t- $|y(\\pi^+\\pi^-)| <\
+  \ 0.4$\n\t- $0.05~\\mathrm{GeV}^2 < -t_1, -t_2 < 0.16~\\mathrm{GeV}^2$\n\nThe experimental\
+  \ systematic uncertainties \"(syst.)\" are calculated as the quadratic sum of the\
+  \ differences between the nominal fit result and the result of the fit to $d\\sigma/dm(\\\
+  pi^+\\pi^-)$ with each systematic effect. The uncertainties related to the extrapolation\
+  \ \"(model.)\" are quoted as the largest deviation from the nominal fit result."
+keywords:
+- name: reactions
+  values:
+  - P P --> P F0(980) <PI+ PI-> P
+  - P P --> P F0(1500) <PI+ PI-> P
+- name: observables
+  values:
+  - SIG/SIG
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Integrated Cross Section
+location: Data from Table 4 (A)
+name: Table 4 (A)
+---
+data_file: table_4_(b).yaml
+description: "Ratios of integrated cross sections of resonance production in two ranges\
+  \ of $\\Delta\\varphi$, in the pi+pi- channel.\n\nThe results are obtained for the\
+  \ Lorentz-invariant phase-space defined below:\n\t- $|y(\\pi^+\\pi^-)| < 0.4$\n\t\
+  - $0.05~\\mathrm{GeV}^2 < -t_1, -t_2 < 0.16~\\mathrm{GeV}^2$\n\nThe experimental\
+  \ systematic uncertainties \"(syst.)\" are calculated as the quadratic sum of the\
+  \ differences between the nominal fit result and the result of the fit to $d\\sigma/dm(\\\
+  pi^+\\pi^-)$ with each systematic effect. The uncertainties related to the extrapolation\
+  \ \"(model.)\" are quoted as the largest deviation from the nominal fit result."
+keywords:
+- name: reactions
+  values:
+  - P P --> P F0(980) <PI+ PI-> P
+  - P P --> P F2(1270) <PI+ PI-> P
+  - P P --> P F0(1500) <PI+ PI-> P
+- name: observables
+  values:
+  - SIG/SIG
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Cross Section
+  - Proton-Proton Scattering
+  - Integrated Cross Section
+location: Data from Table 4 (B)
+name: Table 4 (B)
+---
+data_file: table_5.yaml
+description: "Exponential slope of the $t$-distribution in three ranges of $m(\\pi^+\\\
+  pi^-)$ and two ranges of $\\Delta\\varphi$.\n\nThe results are obtained for the\
+  \ Lorentz-invariant phase-space defined below:\n\t- $|y(\\pi^+\\pi^-)| < 0.4$\n\t\
+  - $0.05~\\mathrm{GeV}^2 < -t_1, -t_2 < 0.16~\\mathrm{GeV}^2$"
+keywords:
+- name: reactions
+  values:
+  - P P --> P PI+ PI- P
+- name: observables
+  values:
+  - SLOPE
+- name: cmenergies
+  values:
+  - 200
+- name: phrases
+  values:
+  - Exclusive
+  - Diffractive
+  - Proton-Proton Scattering
+location: Data from Table 5
+name: Table 5

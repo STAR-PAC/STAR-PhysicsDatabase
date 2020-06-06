@@ -1,0 +1,97 @@
+dependent_variables:
+- header:
+    name: SIG
+    units: NB
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P PI+ PI- P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.2225
+    - asymerror:
+        minus: -4.1701
+        plus: 4.6279
+      label: syst.
+    value: 44.132
+  - errors:
+    - label: stat.
+      symerror: 0.16141
+    - asymerror:
+        minus: -1.8979
+        plus: 2.0967
+      label: syst.
+    value: 21.114
+- header:
+    name: SIG
+    units: NB
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P K+ K- P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.057284
+    - asymerror:
+        minus: -0.15178
+        plus: 0.17019
+      label: syst.
+    value: 1.0871
+  - errors:
+    - label: stat.
+      symerror: 0.041448
+    - asymerror:
+        minus: -0.083427
+        plus: 0.092338
+      label: syst.
+    value: 0.56569
+- header:
+    name: SIG
+    units: NB
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P P PBAR P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.0047049
+    - asymerror:
+        minus: -0.0027386
+        plus: 0.002889
+      label: syst.
+    value: 0.017423
+  - errors:
+    - label: stat.
+      symerror: 0.0062025
+    - asymerror:
+        minus: -0.004271
+        plus: 0.004576
+      label: syst.
+    value: 0.031818
+independent_variables:
+- header:
+    name: DPHI
+    units: DEG
+  values:
+  - high: 90.0
+    low: 0.0
+  - high: 180.0
+    low: 90.0

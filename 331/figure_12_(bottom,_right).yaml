@@ -1,0 +1,89 @@
+dependent_variables:
+- header:
+    name: DSIG/DM
+    units: PB/GEV
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P P PBAR P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 9.8134
+    - asymerror:
+        minus: -1.0872
+        plus: 1.226
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -1.9796
+        plus: 2.2804
+      label: syst. (experimental)
+    value: 19.208
+  - errors:
+    - label: stat.
+      symerror: 19.366
+    - asymerror:
+        minus: -4.46
+        plus: 5.0293
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -12.129
+        plus: 12.467
+      label: syst. (experimental)
+    value: 78.793
+  - errors:
+    - label: stat.
+      symerror: 15.927
+    - asymerror:
+        minus: -1.9082
+        plus: 2.1518
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -9.6576
+        plus: 9.8134
+      label: syst. (experimental)
+    value: 33.711
+  - errors:
+    - label: stat.
+      symerror: 11.378
+    - asymerror:
+        minus: -1.6347
+        plus: 1.8433
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.6465
+        plus: 4.0299
+      label: syst. (experimental)
+    value: 28.879
+  - errors:
+    - label: stat.
+      symerror: 4.8672
+    - asymerror:
+        minus: -0.38628
+        plus: 0.43559
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.66059
+        plus: 0.74484
+      label: syst. (experimental)
+    value: 6.8242
+independent_variables:
+- header:
+    name: M(PPBAR)
+    units: GEV
+  values:
+  - high: 2.2
+    low: 2.0
+  - high: 2.4
+    low: 2.2
+  - high: 2.6
+    low: 2.4
+  - high: 2.8
+    low: 2.6
+  - high: 3.0
+    low: 2.8

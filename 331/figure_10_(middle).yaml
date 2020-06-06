@@ -1,0 +1,130 @@
+dependent_variables:
+- header:
+    name: DSIG/DYRAP
+    units: NB
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P K+ K- P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.043492
+    - asymerror:
+        minus: -0.0073802
+        plus: 0.0083224
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.019573
+        plus: 0.022006
+      label: syst. (experimental)
+    value: 0.13038
+  - errors:
+    - label: stat.
+      symerror: 0.11802
+    - asymerror:
+        minus: -0.049904
+        plus: 0.056275
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.12582
+        plus: 0.14214
+      label: syst. (experimental)
+    value: 0.88164
+  - errors:
+    - label: stat.
+      symerror: 0.19464
+    - asymerror:
+        minus: -0.11655
+        plus: 0.13143
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.27023
+        plus: 0.30329
+      label: syst. (experimental)
+    value: 2.059
+  - errors:
+    - label: stat.
+      symerror: 0.25087
+    - asymerror:
+        minus: -0.15479
+        plus: 0.17455
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.36534
+        plus: 0.41043
+      label: syst. (experimental)
+    value: 2.7347
+  - errors:
+    - label: stat.
+      symerror: 0.23366
+    - asymerror:
+        minus: -0.13331
+        plus: 0.15033
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.30177
+        plus: 0.33398
+      label: syst. (experimental)
+    value: 2.3552
+  - errors:
+    - label: stat.
+      symerror: 0.18495
+    - asymerror:
+        minus: -0.10354
+        plus: 0.11676
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.23411
+        plus: 0.26151
+      label: syst. (experimental)
+    value: 1.8293
+  - errors:
+    - label: stat.
+      symerror: 0.11332
+    - asymerror:
+        minus: -0.04649
+        plus: 0.052425
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.095546
+        plus: 0.10361
+      label: syst. (experimental)
+    value: 0.82132
+  - errors:
+    - label: stat.
+      symerror: 0.060612
+    - asymerror:
+        minus: -0.011693
+        plus: 0.013186
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.025477
+        plus: 0.027741
+      label: syst. (experimental)
+    value: 0.20658
+independent_variables:
+- header:
+    name: YRAP(K+K-)
+  values:
+  - high: -0.45
+    low: -0.6
+  - high: -0.3
+    low: -0.45
+  - high: -0.15
+    low: -0.3
+  - high: 0.0
+    low: -0.15
+  - high: 0.15
+    low: 0.0
+  - high: 0.3
+    low: 0.15
+  - high: 0.45
+    low: 0.3
+  - high: 0.6
+    low: 0.45

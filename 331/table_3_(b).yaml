@@ -1,0 +1,102 @@
+dependent_variables:
+- header:
+    name: WIDTH
+    units: MEV
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(980) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 26.006
+    - asymerror:
+        minus: -2.9828
+        plus: 3.3634
+      label: syst.
+    - asymerror:
+        minus: -19.878
+        plus: 17.306
+      label: model.
+    value: 162.74
+- header:
+    name: WIDTH
+    units: MEV
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(1500) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 13.869
+    - asymerror:
+        minus: -1.8553
+        plus: 1.6962
+      label: syst.
+    - asymerror:
+        minus: -2.7831
+        plus: 3.7802
+      label: model.
+    value: 89.397
+- header:
+    name: M
+    units: MEV
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(980) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 6.7508
+    - asymerror:
+        minus: -1.1443
+        plus: 0.88558
+      label: syst.
+    - asymerror:
+        minus: -5.4831
+        plus: 4.1353
+      label: model.
+    value: 956.22
+- header:
+    name: M
+    units: MEV
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(1500) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 9.2056
+    - asymerror:
+        minus: -1.1655
+        plus: 1.1206
+      label: syst.
+    - asymerror:
+        minus: -2.2788
+        plus: 1.7085
+      label: model.
+    value: 1469.1
+independent_variables: []

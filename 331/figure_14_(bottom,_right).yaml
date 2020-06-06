@@ -1,0 +1,145 @@
+dependent_variables:
+- header:
+    name: DSIG/DPHI
+    units: PB/DEG
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P P PBAR P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.067318
+    - asymerror:
+        minus: -0.0085985
+        plus: 0.0096962
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.018021
+        plus: 0.019348
+      label: syst. (experimental)
+    value: 0.15191
+  - errors:
+    - label: stat.
+      symerror: 0.088539
+    - asymerror:
+        minus: -0.0091702
+        plus: 0.010341
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.021734
+        plus: 0.023409
+      label: syst. (experimental)
+    value: 0.16201
+  - errors:
+    - label: stat.
+      symerror: 0.046304
+    - asymerror:
+        minus: -0.0027104
+        plus: 0.0030564
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.027192
+        plus: 0.02723
+      label: syst. (experimental)
+    value: 0.047884
+  - errors:
+    - label: stat.
+      symerror: 0.050534
+    - asymerror:
+        minus: -0.0051342
+        plus: 0.0057897
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.017379
+        plus: 0.018341
+      label: syst. (experimental)
+    value: 0.090705
+  - errors:
+    - label: stat.
+      symerror: 0.052775
+    - asymerror:
+        minus: -0.0053719
+        plus: 0.0060576
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.0086056
+        plus: 0.0091759
+      label: syst. (experimental)
+    value: 0.094903
+  - errors:
+    - label: stat.
+      symerror: 0.059221
+    - asymerror:
+        minus: -0.0078699
+        plus: 0.0088745
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.015587
+        plus: 0.017327
+      label: syst. (experimental)
+    value: 0.13903
+  - errors:
+    - label: stat.
+      symerror: 0.073478
+    - asymerror:
+        minus: -0.011196
+        plus: 0.012625
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.017233
+        plus: 0.018584
+      label: syst. (experimental)
+    value: 0.19779
+  - errors:
+    - label: stat.
+      symerror: 0.068261
+    - asymerror:
+        minus: -0.011834
+        plus: 0.013345
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.020247
+        plus: 0.022281
+      label: syst. (experimental)
+    value: 0.20907
+  - errors:
+    - label: stat.
+      symerror: 0.065861
+    - asymerror:
+        minus: -0.0077958
+        plus: 0.008791
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.019824
+        plus: 0.020732
+      label: syst. (experimental)
+    value: 0.13773
+independent_variables:
+- header:
+    name: PHI(P)
+    units: DEG
+  values:
+  - high: -140.0
+    low: -180.0
+  - high: -100.0
+    low: -140.0
+  - high: -60.0
+    low: -100.0
+  - high: -20.0
+    low: -60.0
+  - high: 20.0
+    low: -20.0
+  - high: 60.0
+    low: 20.0
+  - high: 100.0
+    low: 60.0
+  - high: 140.0
+    low: 100.0
+  - high: 180.0
+    low: 140.0

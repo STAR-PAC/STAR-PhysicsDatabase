@@ -1,0 +1,102 @@
+dependent_variables:
+- header:
+    name: DSIG/DCOSTHETA
+    units: PB
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P P PBAR P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 6.2462
+    - asymerror:
+        minus: -0.40576
+        plus: 0.45756
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -1.781
+        plus: 1.8241
+      label: syst. (experimental)
+    value: 7.1684
+  - errors:
+    - label: stat.
+      symerror: 12.208
+    - asymerror:
+        minus: -0.91333
+        plus: 1.0299
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -2.6505
+        plus: 2.7603
+      label: syst. (experimental)
+    value: 16.135
+  - errors:
+    - label: stat.
+      symerror: 23.217
+    - asymerror:
+        minus: -4.8837
+        plus: 5.5072
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -9.4476
+        plus: 10.198
+      label: syst. (experimental)
+    value: 86.279
+  - errors:
+    - label: stat.
+      symerror: 16.128
+    - asymerror:
+        minus: -2.8795
+        plus: 3.2471
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -7.9415
+        plus: 8.2654
+      label: syst. (experimental)
+    value: 50.871
+  - errors:
+    - label: stat.
+      symerror: 15.171
+    - asymerror:
+        minus: -2.3469
+        plus: 2.6465
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.7911
+        plus: 4.1768
+      label: syst. (experimental)
+    value: 41.462
+  - errors:
+    - label: stat.
+      symerror: 17.04
+    - asymerror:
+        minus: -2.5082
+        plus: 2.8284
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -4.7232
+        plus: 5.0862
+      label: syst. (experimental)
+    value: 44.312
+independent_variables:
+- header:
+    name: COSTHETA(P)
+  values:
+  - high: -0.4
+    low: -0.6
+  - high: -0.2
+    low: -0.4
+  - high: 0.0
+    low: -0.2
+  - high: 0.2
+    low: 0.0
+  - high: 0.4
+    low: 0.2
+  - high: 0.6
+    low: 0.4

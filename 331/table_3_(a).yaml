@@ -1,0 +1,306 @@
+dependent_variables:
+- header:
+    name: SLOPE
+    units: GEV**-1
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P PI+ PI- P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.40785
+    - asymerror:
+        minus: -0.077443
+        plus: 0.094588
+      label: syst.
+    - asymerror:
+        minus: -0.92888
+        plus: 0.094383
+      label: model.
+    value: 6.352
+  - errors:
+    - label: stat.
+      symerror: 0.34855
+    - asymerror:
+        minus: -0.18207
+        plus: 0.1749
+      label: syst.
+    - asymerror:
+        minus: -1.1161
+        plus: 0.24593
+      label: model.
+    value: 4.7182
+- header:
+    name: AMP
+    units: SQRT(NB/GEV)
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P PI+ PI- P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 4.4814
+    - asymerror:
+        minus: -3.3921
+        plus: 4.0085
+      label: syst.
+    - asymerror:
+        minus: -12.342
+        plus: 0.67592
+      label: model.
+    value: 69.141
+  - errors:
+    - label: stat.
+      symerror: 2.4756
+    - asymerror:
+        minus: -2.8205
+        plus: 3.0265
+      label: syst.
+    - asymerror:
+        minus: -9.6064
+        plus: 1.7112
+      label: model.
+    value: 39.122
+- header:
+    name: SIG
+    units: NB
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(980) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 4.729
+    - asymerror:
+        minus: -4.145
+        plus: 4.6011
+      label: syst.
+    - asymerror:
+        minus: -4.403
+        plus: 2.656
+      label: model.
+    value: 43.334
+  - errors:
+    - label: stat.
+      symerror: 1.0284
+    - asymerror:
+        minus: -0.54127
+        plus: 0.59928
+      label: syst.
+    - asymerror:
+        minus: -1.717
+        plus: 0.26246
+      label: model.
+    value: 5.8443
+- header:
+    name: SIG
+    units: NB
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F2(1270) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 1.1434
+    - asymerror:
+        minus: -0.46634
+        plus: 0.56491
+      label: syst.
+    - asymerror:
+        minus: -2.0057
+        plus: 0.31539
+      label: model.
+    value: 4.8645
+  - errors:
+    - label: stat.
+      symerror: 1.6356
+    - asymerror:
+        minus: -1.6658
+        plus: 1.8621
+      label: syst.
+    - asymerror:
+        minus: -5.171
+        plus: 0.23952
+      label: model.
+    value: 17.88
+- header:
+    name: SIG
+    units: NB
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(1500) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.46185
+    - asymerror:
+        minus: -0.22517
+        plus: 0.24657
+      label: syst.
+    - asymerror:
+        minus: -0.69341
+        plus: 1.1471
+      label: model.
+    value: 2.2992
+  - errors:
+    - label: stat.
+      symerror: 0.12595
+    - asymerror:
+        minus: -0.022822
+        plus: 0.026248
+      label: syst.
+    - asymerror:
+        minus: -0.0079407
+        plus: 0.061402
+      label: model.
+    value: 0.18756
+- header:
+    name: PHASE
+    units: RAD
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(980) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.080908
+    - asymerror:
+        minus: -0.015198
+        plus: 0.012217
+      label: syst.
+    - asymerror:
+        minus: -0.062325
+        plus: 0.019045
+      label: model.
+    value: 0.65827
+  - errors:
+    - label: stat.
+      symerror: 0.099651
+    - asymerror:
+        minus: -0.0096955
+        plus: 0.0094921
+      label: syst.
+    - asymerror:
+        minus: -0.087625
+        plus: 0.01351
+      label: model.
+    value: 0.55931
+- header:
+    name: PHASE
+    units: RAD
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F2(1270) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.12289
+    - asymerror:
+        minus: -0.01271
+        plus: 0.013611
+      label: syst.
+    - asymerror:
+        minus: -0.11922
+        plus: 0.032667
+      label: model.
+    value: -1.8282
+  - errors:
+    - label: stat.
+      symerror: 0.052969
+    - asymerror:
+        minus: -0.031389
+        plus: 0.03315
+      label: syst.
+    - asymerror:
+        minus: -0.22599
+        plus: 0.059718
+      label: model.
+    value: -0.91685
+- header:
+    name: PHASE
+    units: RAD
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(1500) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.16652
+    - asymerror:
+        minus: -0.034809
+        plus: 0.036141
+      label: syst.
+    - asymerror:
+        minus: -0.14706
+        plus: 0.040082
+      label: model.
+    value: 0.16051
+  - errors:
+    - label: stat.
+      symerror: 0.31049
+    - asymerror:
+        minus: -0.0375
+        plus: 0.043328
+      label: syst.
+    - asymerror:
+        minus: -0.074431
+        plus: 0.04485
+      label: model.
+    value: 1.5898
+independent_variables:
+- header:
+    name: DPHI
+    units: DEG
+  values:
+  - high: 45.0
+    low: 0.0
+  - high: 180.0
+    low: 135.0

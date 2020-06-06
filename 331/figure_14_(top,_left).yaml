@@ -1,0 +1,368 @@
+dependent_variables:
+- header:
+    name: DSIG/DCOSTHETA
+    units: NB
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P PI+ PI- P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.40572
+    - asymerror:
+        minus: -0.6151
+        plus: 0.69362
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.93809
+        plus: 1.0411
+      label: syst. (experimental)
+    value: 10.867
+  - errors:
+    - label: stat.
+      symerror: 0.38653
+    - asymerror:
+        minus: -0.51255
+        plus: 0.57798
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.80524
+        plus: 0.89632
+      label: syst. (experimental)
+    value: 9.0551
+  - errors:
+    - label: stat.
+      symerror: 0.38706
+    - asymerror:
+        minus: -0.52677
+        plus: 0.59401
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.81652
+        plus: 0.91238
+      label: syst. (experimental)
+    value: 9.3062
+  - errors:
+    - label: stat.
+      symerror: 0.4011
+    - asymerror:
+        minus: -0.58156
+        plus: 0.6558
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.84307
+        plus: 0.9302
+      label: syst. (experimental)
+    value: 10.274
+  - errors:
+    - label: stat.
+      symerror: 0.48494
+    - asymerror:
+        minus: -0.69477
+        plus: 0.78346
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.98083
+        plus: 1.0875
+      label: syst. (experimental)
+    value: 12.274
+  - errors:
+    - label: stat.
+      symerror: 0.52921
+    - asymerror:
+        minus: -1.0877
+        plus: 1.2266
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -1.4799
+        plus: 1.6317
+      label: syst. (experimental)
+    value: 19.217
+  - errors:
+    - label: stat.
+      symerror: 0.637
+    - asymerror:
+        minus: -1.6297
+        plus: 1.8378
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -2.1387
+        plus: 2.3413
+      label: syst. (experimental)
+    value: 28.792
+  - errors:
+    - label: stat.
+      symerror: 0.76862
+    - asymerror:
+        minus: -2.1076
+        plus: 2.3766
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -2.7336
+        plus: 2.9894
+      label: syst. (experimental)
+    value: 37.234
+  - errors:
+    - label: stat.
+      symerror: 0.79997
+    - asymerror:
+        minus: -2.5314
+        plus: 2.8546
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.1977
+        plus: 3.4937
+      label: syst. (experimental)
+    value: 44.722
+  - errors:
+    - label: stat.
+      symerror: 0.85817
+    - asymerror:
+        minus: -3.0038
+        plus: 3.3873
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.789
+        plus: 4.1439
+      label: syst. (experimental)
+    value: 53.067
+  - errors:
+    - label: stat.
+      symerror: 0.91109
+    - asymerror:
+        minus: -3.4111
+        plus: 3.8466
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -4.2602
+        plus: 4.6448
+      label: syst. (experimental)
+    value: 60.263
+  - errors:
+    - label: stat.
+      symerror: 0.98577
+    - asymerror:
+        minus: -3.8921
+        plus: 4.3889
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -4.9088
+        plus: 5.3673
+      label: syst. (experimental)
+    value: 68.76
+  - errors:
+    - label: stat.
+      symerror: 1.0277
+    - asymerror:
+        minus: -4.1873
+        plus: 4.7219
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -5.2198
+        plus: 5.7061
+      label: syst. (experimental)
+    value: 73.976
+  - errors:
+    - label: stat.
+      symerror: 0.98113
+    - asymerror:
+        minus: -3.8797
+        plus: 4.375
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -4.8437
+        plus: 5.2952
+      label: syst. (experimental)
+    value: 68.542
+  - errors:
+    - label: stat.
+      symerror: 0.92524
+    - asymerror:
+        minus: -3.4809
+        plus: 3.9253
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -4.3324
+        plus: 4.7229
+      label: syst. (experimental)
+    value: 61.496
+  - errors:
+    - label: stat.
+      symerror: 0.87531
+    - asymerror:
+        minus: -3.0281
+        plus: 3.4147
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.849
+        plus: 4.2096
+      label: syst. (experimental)
+    value: 53.497
+  - errors:
+    - label: stat.
+      symerror: 0.80847
+    - asymerror:
+        minus: -2.6491
+        plus: 2.9873
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -3.3562
+        plus: 3.6697
+      label: syst. (experimental)
+    value: 46.801
+  - errors:
+    - label: stat.
+      symerror: 0.74728
+    - asymerror:
+        minus: -2.221
+        plus: 2.5046
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -2.8519
+        plus: 3.1394
+      label: syst. (experimental)
+    value: 39.238
+  - errors:
+    - label: stat.
+      symerror: 0.64707
+    - asymerror:
+        minus: -1.6839
+        plus: 1.8988
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -2.2476
+        plus: 2.4707
+      label: syst. (experimental)
+    value: 29.748
+  - errors:
+    - label: stat.
+      symerror: 0.58144
+    - asymerror:
+        minus: -1.2303
+        plus: 1.3874
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -1.6914
+        plus: 1.8648
+      label: syst. (experimental)
+    value: 21.736
+  - errors:
+    - label: stat.
+      symerror: 0.43532
+    - asymerror:
+        minus: -0.72334
+        plus: 0.81568
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -1.0502
+        plus: 1.1583
+      label: syst. (experimental)
+    value: 12.779
+  - errors:
+    - label: stat.
+      symerror: 0.40634
+    - asymerror:
+        minus: -0.62302
+        plus: 0.70256
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.90679
+        plus: 1.0036
+      label: syst. (experimental)
+    value: 11.007
+  - errors:
+    - label: stat.
+      symerror: 0.38619
+    - asymerror:
+        minus: -0.54444
+        plus: 0.61394
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -0.82058
+        plus: 0.90884
+      label: syst. (experimental)
+    value: 9.6184
+  - errors:
+    - label: stat.
+      symerror: 0.43524
+    - asymerror:
+        minus: -0.64734
+        plus: 0.72998
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -1.028
+        plus: 1.149
+      label: syst. (experimental)
+    value: 11.436
+  - errors:
+    - label: stat.
+      symerror: 0.42968
+    - asymerror:
+        minus: -0.67131
+        plus: 0.75701
+      label: syst. (luminosity)
+    - asymerror:
+        minus: -1.0535
+        plus: 1.1797
+      label: syst. (experimental)
+    value: 11.86
+independent_variables:
+- header:
+    name: COSTHETA(PI+)
+  values:
+  - high: -0.92
+    low: -1.0
+  - high: -0.84
+    low: -0.92
+  - high: -0.76
+    low: -0.84
+  - high: -0.68
+    low: -0.76
+  - high: -0.6
+    low: -0.68
+  - high: -0.52
+    low: -0.6
+  - high: -0.44
+    low: -0.52
+  - high: -0.36
+    low: -0.44
+  - high: -0.28
+    low: -0.36
+  - high: -0.2
+    low: -0.28
+  - high: -0.12
+    low: -0.2
+  - high: -0.04
+    low: -0.12
+  - high: 0.04
+    low: -0.04
+  - high: 0.12
+    low: 0.04
+  - high: 0.2
+    low: 0.12
+  - high: 0.28
+    low: 0.2
+  - high: 0.36
+    low: 0.28
+  - high: 0.44
+    low: 0.36
+  - high: 0.52
+    low: 0.44
+  - high: 0.6
+    low: 0.52
+  - high: 0.68
+    low: 0.6
+  - high: 0.76
+    low: 0.68
+  - high: 0.84
+    low: 0.76
+  - high: 0.92
+    low: 0.84
+  - high: 1.0
+    low: 0.92

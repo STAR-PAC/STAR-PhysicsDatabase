@@ -1,0 +1,82 @@
+dependent_variables:
+- header:
+    name: SIG(F0(980))/SIG(F2(1270))
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(980) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 2.3086
+    - asymerror:
+        minus: -0.44968
+        plus: 0.41476
+      label: syst.
+    - asymerror:
+        minus: -0.22989
+        plus: 7.179
+      label: model.
+    value: 8.9083
+  - errors:
+    - label: stat.
+      symerror: 0.064829
+    - asymerror:
+        minus: -0.0081499
+        plus: 0.0083878
+      label: syst.
+    - asymerror:
+        minus: -0.079555
+        plus: 0.13189
+      label: model.
+    value: 0.32687
+- header:
+    name: SIG(F0(1500))/SIG(F2(1270))
+  qualifiers:
+  - name: SQRT(S)
+    units: GeV
+    value: 200
+  - name: LUMINOSITY
+    units: $pb^{-1}$
+    value: 14.2
+  - name: RE
+    value: P P --> P F0(1500) <PI+ PI-> P
+  values:
+  - errors:
+    - label: stat.
+      symerror: 0.14614
+    - asymerror:
+        minus: -0.027175
+        plus: 0.025406
+      label: syst.
+    - asymerror:
+        minus: -0.052236
+        plus: 0.24032
+      label: model.
+    value: 0.47265
+  - errors:
+    - label: stat.
+      symerror: 0.0071093
+    - asymerror:
+        minus: -0.00060613
+        plus: 0.00063794
+      label: syst.
+    - asymerror:
+        minus: -0.0004541
+        plus: 0.0040624
+      label: model.
+    value: 0.01049
+independent_variables:
+- header:
+    name: DPHI
+    units: DEG
+  values:
+  - high: 45.0
+    low: 0.0
+  - high: 180.0
+    low: 135.0
