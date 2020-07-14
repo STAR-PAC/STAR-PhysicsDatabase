@@ -1,0 +1,117 @@
+dependent_variables:
+- header:
+    name: Transverse dNch/detadphi
+  values:
+  - errors:
+    - label: stat
+      symerror: 0.0005
+    - asymerror:
+        minus: -0.01
+        plus: 0.02
+      label: sys
+    value: 0.237
+  - errors:
+    - label: stat
+      symerror: 0.009
+    - asymerror:
+        minus: -0.01
+        plus: 0.01
+      label: sys
+    value: 0.303
+  - errors:
+    - label: stat
+      symerror: 0.02
+    - asymerror:
+        minus: -0.01
+        plus: 0.01
+      label: sys
+    value: 0.46
+  - errors:
+    - label: stat
+      symerror: 0.02
+    - asymerror:
+        minus: -0.02
+        plus: 0.02
+      label: sys
+    value: 0.44
+  - errors:
+    - label: stat
+      symerror: 0.003
+    - asymerror:
+        minus: -0.01
+        plus: 0.01
+      label: sys
+    value: 0.486
+  - errors:
+    - label: stat
+      symerror: 0.04
+    - asymerror:
+        minus: -0.04
+        plus: 0.04
+      label: sys
+    value: 0.61
+  - errors:
+    - label: stat
+      symerror: 0.003
+    - asymerror:
+        minus: -0.02
+        plus: 0.02
+      label: sys
+    value: 0.601
+  - errors:
+    - label: stat
+      symerror: 0.009
+    - asymerror:
+        minus: -0.02
+        plus: 0.02
+      label: sys
+    value: 0.723
+  - errors:
+    - label: stat
+      symerror: 0.004
+    - asymerror:
+        minus: -0.04
+        plus: 0.04
+      label: sys
+    value: 0.886
+  - errors:
+    - label: stat
+      symerror: 0.003
+    - asymerror:
+        minus: -0.03
+        plus: 0.03
+      label: sys
+    value: 0.876
+  - errors:
+    - label: stat
+      symerror: 0.002
+    - asymerror:
+        minus: -0.04
+        plus: 0.04
+      label: sys
+    value: 1.044
+  - errors:
+    - label: stat
+      symerror: 0.01
+    - asymerror:
+        minus: -0.006
+        plus: 0.006
+      label: sys
+    value: 1.06
+independent_variables:
+- header:
+    name: Center Of Mass Energy
+    units: GeV
+  values:
+  - value: 200.0
+  - value: 300.0
+  - value: 900.0
+  - value: 900.0
+  - value: 900.0
+  - value: 1800.0
+  - value: 1960.0
+  - value: 2760.0
+  - value: 7000.0
+  - value: 7000.0
+  - value: 7000.0
+  - value: 13000.0

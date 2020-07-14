@@ -1,0 +1,215 @@
+dependent_variables:
+- header:
+    name: Toward Region dNch/detadphi
+  values:
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.14
+        plus: 0.07
+      label: sys
+    value: 1.3975
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.2
+        plus: 0.07
+      label: sys
+    value: 1.4523
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.17
+        plus: 0.08
+      label: sys
+    value: 1.4934
+  - errors:
+    - label: stat
+      symerror: 0.0003
+    - asymerror:
+        minus: -0.13
+        plus: 0.09
+      label: sys
+    value: 1.5521
+  - errors:
+    - label: stat
+      symerror: 0.0005
+    - asymerror:
+        minus: -0.1
+        plus: 0.09
+      label: sys
+    value: 1.6046
+  - errors:
+    - label: stat
+      symerror: 0.0013
+    - asymerror:
+        minus: -0.07
+        plus: 0.1
+      label: sys
+    value: 1.673
+  - errors:
+    - label: stat
+      symerror: 0.0025
+    - asymerror:
+        minus: -0.08
+        plus: 0.1
+      label: sys
+    value: 1.708
+  - errors:
+    - label: stat
+      symerror: 0.011
+    - asymerror:
+        minus: -0.06
+        plus: 0.12
+      label: sys
+    value: 1.791
+- header:
+    name: Away Region dNch/detadphi
+  values:
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.07
+        plus: 0.08
+      label: sys
+    value: 0.9528
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.05
+        plus: 0.07
+      label: sys
+    value: 1.0236
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.06
+        plus: 0.06
+      label: sys
+    value: 1.1115
+  - errors:
+    - label: stat
+      symerror: 0.0003
+    - asymerror:
+        minus: -0.07
+        plus: 0.08
+      label: sys
+    value: 1.2143
+  - errors:
+    - label: stat
+      symerror: 0.0006
+    - asymerror:
+        minus: -0.07
+        plus: 0.09
+      label: sys
+    value: 1.3757
+  - errors:
+    - label: stat
+      symerror: 0.0014
+    - asymerror:
+        minus: -0.1
+        plus: 0.11
+      label: sys
+    value: 1.5811
+  - errors:
+    - label: stat
+      symerror: 0.0029
+    - asymerror:
+        minus: -0.1
+        plus: 0.09
+      label: sys
+    value: 1.793
+  - errors:
+    - label: stat
+      symerror: 0.012
+    - asymerror:
+        minus: -0.13
+        plus: 0.12
+      label: sys
+    value: 2.029
+- header:
+    name: Transverse Region dNch/detadphi
+  values:
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.06
+        plus: 0.06
+      label: sys
+    value: 0.7585
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    - asymerror:
+        minus: -0.07
+        plus: 0.04
+      label: sys
+    value: 0.7454
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.07
+        plus: 0.05
+      label: sys
+    value: 0.7195
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.05
+        plus: 0.05
+      label: sys
+    value: 0.6641
+  - errors:
+    - label: stat
+      symerror: 0.0003
+    - asymerror:
+        minus: -0.033
+        plus: 0.05
+      label: sys
+    value: 0.5665
+  - errors:
+    - label: stat
+      symerror: 0.0008
+    - asymerror:
+        minus: -0.034
+        plus: 0.04
+      label: sys
+    value: 0.5415
+  - errors:
+    - label: stat
+      symerror: 0.0015
+    - asymerror:
+        minus: -0.027
+        plus: 0.032
+      label: sys
+    value: 0.5205
+  - errors:
+    - label: stat
+      symerror: 0.006
+    - asymerror:
+        minus: -0.033
+        plus: 0.032
+      label: sys
+    value: 0.4944
+independent_variables:
+- header:
+    name: Transverse Momentum
+    units: GeV/c
+  values:
+  - value: 6.0
+  - value: 8.0
+  - value: 10.0
+  - value: 13.0
+  - value: 17.5
+  - value: 22.5
+  - value: 30.0
+  - value: 40.0

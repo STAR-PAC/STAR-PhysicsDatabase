@@ -1,0 +1,218 @@
+dependent_variables:
+- header:
+    name: Toward Region Mean Tranverse Momentum
+    units: GeV/c
+  values:
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    - asymerror:
+        minus: -0.21
+        plus: 0.06
+      label: sys
+    value: 0.9255
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    - asymerror:
+        minus: -0.17
+        plus: 0.06
+      label: sys
+    value: 0.9717
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    - asymerror:
+        minus: -0.13
+        plus: 0.05
+      label: sys
+    value: 1.0459
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.1
+        plus: 0.029
+      label: sys
+    value: 1.219
+  - errors:
+    - label: stat
+      symerror: 0.0004
+    - asymerror:
+        minus: -0.07
+        plus: 0.033
+      label: sys
+    value: 1.5092
+  - errors:
+    - label: stat
+      symerror: 0.0012
+    - asymerror:
+        minus: -0.09
+        plus: 0.07
+      label: sys
+    value: 1.8178
+  - errors:
+    - label: stat
+      symerror: 0.0031
+    - asymerror:
+        minus: -0.12
+        plus: 0.06
+      label: sys
+    value: 2.2176
+  - errors:
+    - label: stat
+      symerror: 0.014
+    - asymerror:
+        minus: -0.11
+        plus: 0.06
+      label: sys
+    value: 2.719
+- header:
+    name: Away Region Mean Tranverse Momentum
+    units: GeV/c
+  values:
+  - errors:
+    - label: stat
+      symerror: 6.0e-05
+    - asymerror:
+        minus: -0.027
+        plus: 0.04
+      label: sys
+    value: 0.66053
+  - errors:
+    - label: stat
+      symerror: 7.0e-05
+    - asymerror:
+        minus: -0.01
+        plus: 0.07
+      label: sys
+    value: 0.70928
+  - errors:
+    - label: stat
+      symerror: 9.0e-05
+    - asymerror:
+        minus: -0.0005
+        plus: 0.07
+      label: sys
+    value: 0.77804
+  - errors:
+    - label: stat
+      symerror: 0.001
+    - asymerror:
+        minus: -0.013
+        plus: 0.034
+      label: sys
+    value: 0.91
+  - errors:
+    - label: stat
+      symerror: 0.0004
+    - asymerror:
+        minus: -0.04
+        plus: 0.025
+      label: sys
+    value: 1.1538
+  - errors:
+    - label: stat
+      symerror: 0.001
+    - asymerror:
+        minus: -0.06
+        plus: 0.031
+      label: sys
+    value: 1.434
+  - errors:
+    - label: stat
+      symerror: 0.002
+    - asymerror:
+        minus: -0.06
+        plus: 0.027
+      label: sys
+    value: 1.775
+  - errors:
+    - label: stat
+      symerror: 0.012
+    - asymerror:
+        minus: -0.07
+        plus: 0.06
+      label: sys
+    value: 2.295
+- header:
+    name: Transverse Region Mean Tranverse Momentum
+    units: GeV/c
+  values:
+  - errors:
+    - label: stat
+      symerror: 6.0e-05
+    - asymerror:
+        minus: -0.009
+        plus: 0.013
+      label: sys
+    value: 0.57857
+  - errors:
+    - label: stat
+      symerror: 6.0e-05
+    - asymerror:
+        minus: -0.006
+        plus: 0.016
+      label: sys
+    value: 0.5871
+  - errors:
+    - label: stat
+      symerror: 8.0e-05
+    - asymerror:
+        minus: -0.0028
+        plus: 0.015
+      label: sys
+    value: 0.5949
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    - asymerror:
+        minus: -0.005
+        plus: 0.008
+      label: sys
+    value: 0.5991
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.0034
+        plus: 0.007
+      label: sys
+    value: 0.5961
+  - errors:
+    - label: stat
+      symerror: 0.0005
+    - asymerror:
+        minus: -0.002
+        plus: 0.005
+      label: sys
+    value: 0.5991
+  - errors:
+    - label: stat
+      symerror: 0.001
+    - asymerror:
+        minus: -0.013
+        plus: 0.011
+      label: sys
+    value: 0.634
+  - errors:
+    - label: stat
+      symerror: 0.005
+    - asymerror:
+        minus: -0.034
+        plus: 0.012
+      label: sys
+    value: 0.659
+independent_variables:
+- header:
+    name: Transverse Momentum
+    units: GeV/c
+  values:
+  - value: 6.0
+  - value: 8.0
+  - value: 10.0
+  - value: 13.0
+  - value: 17.5
+  - value: 22.5
+  - value: 30.0
+  - value: 40.0

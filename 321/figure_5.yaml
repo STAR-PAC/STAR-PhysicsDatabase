@@ -1,0 +1,150 @@
+dependent_variables:
+- header:
+    name: Transverse Region Mean Transverse Momentum for pT>0.2 GeV/c
+    units: GeV/c
+  values:
+  - errors:
+    - label: stat
+      symerror: 6.0e-05
+    - asymerror:
+        minus: -0.009
+        plus: 0.013
+      label: sys
+    value: 0.578
+  - errors:
+    - label: stat
+      symerror: 6.0e-05
+    - asymerror:
+        minus: -0.006
+        plus: 0.016
+      label: sys
+    value: 0.588
+  - errors:
+    - label: stat
+      symerror: 8.0e-05
+    - asymerror:
+        minus: -0.0028
+        plus: 0.015
+      label: sys
+    value: 0.595
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    - asymerror:
+        minus: -0.005
+        plus: 0.008
+      label: sys
+    value: 0.599
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    - asymerror:
+        minus: -0.0034
+        plus: 0.007
+      label: sys
+    value: 0.596
+  - errors:
+    - label: stat
+      symerror: 0.0005
+    - asymerror:
+        minus: -0.002
+        plus: 0.005
+      label: sys
+    value: 0.599
+  - errors:
+    - label: stat
+      symerror: 0.001
+    - asymerror:
+        minus: -0.013
+        plus: 0.011
+      label: sys
+    value: 0.634
+  - errors:
+    - label: stat
+      symerror: 0.005
+    - asymerror:
+        minus: -0.034
+        plus: 0.012
+      label: sys
+    value: 0.659
+- header:
+    name: Transverse Region Mean Transverse Momentum for pT>0.2 GeV/c
+    units: GeV/c
+  values:
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    - asymerror:
+        minus: -0.015
+        plus: 0.023
+      label: sys
+    value: 0.90981
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    - asymerror:
+        minus: -0.008
+        plus: 0.033
+      label: sys
+    value: 0.91634
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    - asymerror:
+        minus: -0.005
+        plus: 0.03
+      label: sys
+    value: 0.92589
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    - asymerror:
+        minus: -0.008
+        plus: 0.017
+      label: sys
+    value: 0.92511
+  - errors:
+    - label: stat
+      symerror: 0.0003
+    - asymerror:
+        minus: -0.008
+        plus: 0.007
+      label: sys
+    value: 0.94066
+  - errors:
+    - label: stat
+      symerror: 0.0009
+    - asymerror:
+        minus: -0.01
+        plus: 0.006
+      label: sys
+    value: 0.96251
+  - errors:
+    - label: stat
+      symerror: 0.0018
+    - asymerror:
+        minus: -0.015
+        plus: 0.017
+      label: sys
+    value: 0.99149
+  - errors:
+    - label: stat
+      symerror: 0.008
+    - asymerror:
+        minus: -0.04
+        plus: 0.019
+      label: sys
+    value: 1.0048
+independent_variables:
+- header:
+    name: Transverse Momentum
+    units: GeV/c
+  values:
+  - value: 6.0
+  - value: 8.0
+  - value: 10.0
+  - value: 13.0
+  - value: 17.5
+  - value: 22.5
+  - value: 30.0
+  - value: 40.0

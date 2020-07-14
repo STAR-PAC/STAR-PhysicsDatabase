@@ -1,0 +1,84 @@
+dependent_variables:
+- header:
+    name: 'Raw dNch/detadphi for TransMax Region '
+  values:
+  - errors:
+    - label: stat
+      symerror: 6.0e-05
+    value: 1.0935
+  - errors:
+    - label: stat
+      symerror: 6.0e-05
+    value: 1.0543
+  - errors:
+    - label: stat
+      symerror: 8.0e-05
+    value: 0.99542
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    value: 0.9393
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    value: 0.8917
+  - errors:
+    - label: stat
+      symerror: 0.0005
+    value: 0.8581
+  - errors:
+    - label: stat
+      symerror: 0.001
+    value: 0.818
+  - errors:
+    - label: stat
+      symerror: 0.005
+    value: 0.763
+- header:
+    name: Raw dNch/detadphi for TransMin Region
+  values:
+  - errors:
+    - label: stat
+      symerror: 6.0e-05
+    value: 0.44599
+  - errors:
+    - label: stat
+      symerror: 6.0e-05
+    value: 0.41796
+  - errors:
+    - label: stat
+      symerror: 8.0e-05
+    value: 0.38152
+  - errors:
+    - label: stat
+      symerror: 0.0001
+    value: 0.345
+  - errors:
+    - label: stat
+      symerror: 0.0002
+    value: 0.3114
+  - errors:
+    - label: stat
+      symerror: 0.0005
+    value: 0.289
+  - errors:
+    - label: stat
+      symerror: 0.001
+    value: 0.267
+  - errors:
+    - label: stat
+      symerror: 0.005
+    value: 0.255
+independent_variables:
+- header:
+    name: Transverse Momentum
+    units: GeV/c
+  values:
+  - value: 6.0
+  - value: 8.0
+  - value: 10.0
+  - value: 13.0
+  - value: 17.5
+  - value: 22.5
+  - value: 30.0
+  - value: 40.0
