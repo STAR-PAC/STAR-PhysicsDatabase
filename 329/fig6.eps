@@ -1,7 +1,7 @@
 %!PS-Adobe-3.0 EPSF-3.0
-%Produced by poppler pdftops version: 0.73.0 (http://poppler.freedesktop.org)
+%Produced by poppler pdftops version: 0.26.5 (http://poppler.freedesktop.org)
 %%Creator: TeX
-%%LanguageLevel: 3
+%%LanguageLevel: 2
 %%DocumentSuppliedResources: (atend)
 %%BoundingBox: 0 0 497 341
 %%HiResBoundingBox: 0 0 497 341
@@ -64,7 +64,6 @@
   /pdfStroke [0] def
   /pdfFillOP false def
   /pdfStrokeOP false def
-  /pdfOPM false def
   /pdfLastFill false def
   /pdfLastStroke false def
   /pdfTextMat [1 0 0 1 0 0] def
@@ -79,8 +78,6 @@
 } def
 /pdfEndPage { end } def
 % PDF color state
-/opm { dup /pdfOPM exch def
-      /setoverprintmode where{pop setoverprintmode}{pop}ifelse  } def
 /cs { /pdfFillXform exch def dup /pdfFillCS exch def
       setcolorspace } def
 /CS { /pdfStrokeXform exch def dup /pdfStrokeCS exch def
@@ -131,19 +128,6 @@
   end
   definefont pop
 } def
-/pdfMakeFont16L3 {
-  1 index /CIDFont resourcestatus {
-    pop pop 1 index /CIDFont findresource /CIDFontType known
-  } {
-    false
-  } ifelse
-  {
-    0 eq { /Identity-H } { /Identity-V } ifelse
-    exch 1 array astore composefont pop
-  } {
-    pdfMakeFont16
-  } ifelse
-} def
 % graphics state operators
 /q { gsave pdfDictSize dict begin } def
 /Q {
@@ -155,10 +139,6 @@
     } {
       pdfStrokeOP setoverprint
     } ifelse
-  } if
-  /pdfOPM where {
-    pop
-    pdfOPM /setoverprintmode where{pop setoverprintmode}{pop}ifelse 
   } if
 } def
 /cm { concat } def
@@ -310,24 +290,6 @@
     (%-EOD-) eq { exit } if } loop
 } def
 /pdfIm { image skipEOD } def
-/pdfMask {
-  /ReusableStreamDecode filter
-  skipEOD
-  /maskStream exch def
-} def
-/pdfMaskEnd { maskStream closefile } def
-/pdfMaskInit {
-  /maskArray exch def
-  /maskIdx 0 def
-} def
-/pdfMaskSrc {
-  maskIdx maskArray length lt {
-    maskArray maskIdx get
-    /maskIdx maskIdx 1 add def
-  } {
-    ()
-  } ifelse
-} def
 /pdfImM { fCol imagemask skipEOD } def
 /pr { 2 index 2 index 3 2 roll putinterval 4 add } def
 /pdfImClip {
@@ -478,47 +440,6 @@
 } def
 end
 %%EndResource
-/CIDInit /ProcSet findresource begin
-10 dict begin
-  begincmap
-  /CMapType 1 def
-  /CMapName /Identity-H def
-  /CIDSystemInfo 3 dict dup begin
-    /Registry (Adobe) def
-    /Ordering (Identity) def
-    /Supplement 0 def
-  end def
-  1 begincodespacerange
-    <0000> <ffff>
-  endcodespacerange
-  0 usefont
-  1 begincidrange
-    <0000> <ffff> 0
-  endcidrange
-  endcmap
-  currentdict CMapName exch /CMap defineresource pop
-end
-10 dict begin
-  begincmap
-  /CMapType 1 def
-  /CMapName /Identity-V def
-  /CIDSystemInfo 3 dict dup begin
-    /Registry (Adobe) def
-    /Ordering (Identity) def
-    /Supplement 0 def
-  end def
-  /WMode 1 def
-  1 begincodespacerange
-    <0000> <ffff>
-  endcodespacerange
-  0 usefont
-  1 begincidrange
-    <0000> <ffff> 0
-  endcidrange
-  endcmap
-  currentdict CMapName exch /CMap defineresource pop
-end
-end
 %%EndProlog
 %%BeginSetup
 xpdf begin
