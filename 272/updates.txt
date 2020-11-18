@@ -1,0 +1,34 @@
+Dear Takahito,
+
+   Thank you for careful checking this.
+   The data points on webpage are generated from Ji Xu who already left the field. He could make some mistakes when output those data points.
+
+    Please find the attached net-kaon distributions for 0-5% and 70-80% that I re-generated from TH1D file.
+    The npart value you got are right ones to use.
+
+Thank you
+Best Regards,
+Xiaofeng
+
+On 2020/11/4 1:49 PM, Takahito Todoroki wrote:
+Dear Xiaofeng,
+cc : PAC and HEPData shift coordinator,
+
+Could you please help to solve the issues shown below for the GPC232 net-kaon paper?
+https://drupal.star.bnl.gov/STAR/publications/collision-energy-dependence-moments-net-kaon-multiplicity-distributions-rhic <https://drupal.star.bnl.gov/STAR/publications/collision-energy-dependence-moments-net-kaon-multiplicity-distributions-rhic>
+
+Fig.1
+- Data points outside of the -20 ~ +20 range for central events are missing in the data tables although they are in the paper figure.
+- Data points in the data tables for 70-80% peripheral events look different from the points in the paper figure.
+- These two issues are the case for almost all the energies in this figure.
+
+Fig.7 - 10
+- Npart are missing in the data table. We salvaged those number in each energy from the following sources.
+Could you please confirm if those Npart numbers are OK to use in HEPData.
+-- Npart for 7.7 11.5 19.6 27 37 from https://urldefense.com/v3/__https://journals.aps.org/prc/pdf/10.1103/PhysRevC.96.044904__;!!P4SdNyxKAPE!QJj48NE2MRjBuH-PPnaRlouvLwgR6sdWHenShPLYwm83EhTeI56ChitO2Oiz$ <https://urldefense.com/v3/__https://journals.aps.org/prc/pdf/10.1103/PhysRevC.96.044904__;!!P4SdNyxKAPE!QJj48NE2MRjBuH-PPnaRlouvLwgR6sdWHenShPLYwm83EhTeI56ChitO2Oiz$ >
+-- Npart for 14.5 from https://urldefense.com/v3/__https://journals.aps.org/prc/pdf/10.1103/PhysRevC.101.024905__;!!P4SdNyxKAPE!QJj48NE2MRjBuH-PPnaRlouvLwgR6sdWHenShPLYwm83EhTeI56Chs0JCmmP$ -- Npart for 62.4 and 200  from https://www.star.bnl.gov/protected/common/common2010/centrality/ <https://www.star.bnl.gov/protected/common/common2010/centrality/>
+
+Your help will be very much appreciated!
+Best regards,
+Takahito
+
