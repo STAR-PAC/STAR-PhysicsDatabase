@@ -1038,7 +1038,7 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 		<cal:authorAffiliation organizationid="a59"/>
 	</cal:authorAffiliations>
 	<cal:authorids>
-		<cal:authorid source="INSPIRE">INSPIRE-00000000</cal:authorid>
+		<cal:authorid source="ORCID">0000-0002-3896-285X</cal:authorid>
 	</cal:authorids>
 </foaf:Person>
 
@@ -1122,7 +1122,7 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 		<cal:authorAffiliation organizationid="a82"/>
 	</cal:authorAffiliations>
 	<cal:authorids>
-		<cal:authorid source="INSPIRE">INSPIRE-00000000</cal:authorid>
+		<cal:authorid source="INSPIRE">INSPIRE-00558742</cal:authorid>
 	</cal:authorids>
 </foaf:Person>
 
@@ -1654,7 +1654,7 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 		<cal:authorAffiliation organizationid="a59"/>
 	</cal:authorAffiliations>
 	<cal:authorids>
-		<cal:authorid source="INSPIRE">INSPIRE-00000000</cal:authorid>
+		<cal:authorid source="ORCID">0000-0001-6776-7108</cal:authorid>
 	</cal:authorids>
 </foaf:Person>
 
@@ -1794,7 +1794,7 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 		<cal:authorAffiliation organizationid="a59"/>
 	</cal:authorAffiliations>
 	<cal:authorids>
-		<cal:authorid source="INSPIRE">INSPIRE-00000000</cal:authorid>
+		<cal:authorid source="ORCID">0000-0001-5861-6498</cal:authorid>
 	</cal:authorids>
 </foaf:Person>
 
@@ -2705,7 +2705,7 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 		<cal:authorAffiliation organizationid="a59"/>
 	</cal:authorAffiliations>
 	<cal:authorids>
-		<cal:authorid source="INSPIRE">INSPIRE-00000000</cal:authorid>
+		<cal:authorid source="ORCID">0000-0001-9904-852X</cal:authorid>
 	</cal:authorids>
 </foaf:Person>
 
@@ -5226,7 +5226,7 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 		<cal:authorAffiliation organizationid="a59"/>
 	</cal:authorAffiliations>
 	<cal:authorids>
-		<cal:authorid source="INSPIRE">INSPIRE-00000000</cal:authorid>
+		<cal:authorid source="ORCID">0000-0002-5840-2622</cal:authorid>
 	</cal:authorids>
 </foaf:Person>
 
