@@ -1267,6 +1267,20 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 </foaf:Person>
 
 <foaf:Person>
+        <foaf:name>C. Dilks</foaf:name>
+        <foaf:givenName>Christopher</foaf:givenName>
+        <foaf:familyName>Dilks</foaf:familyName>
+        <cal:authorNamePaper>C. Dilks</cal:authorNamePaper>
+        <cal:authorCollaboration collaborationid="star"/>
+        <cal:authorAffiliations>
+                <cal:authorAffiliation organizationid="a29"/>
+        </cal:authorAffiliations>
+        <cal:authorids>
+                <cal:authorid source="INSPIRE">INSPIRE-00539771</cal:authorid>
+        </cal:authorids>
+</foaf:Person>
+
+<foaf:Person>
 	<foaf:name>X. Dong</foaf:name>
 	<foaf:givenName>Xin</foaf:givenName>
 	<foaf:familyName>Dong</foaf:familyName>
@@ -1279,6 +1293,7 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 		<cal:authorid source="INSPIRE">INSPIRE-00048826</cal:authorid>
 	</cal:authorids>
 </foaf:Person>
+
 
 <foaf:Person>
 	<foaf:name>J.L. Drachenberg</foaf:name>
@@ -3239,6 +3254,20 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 	<cal:authorids>
 		<cal:authorid source="INSPIRE">INSPIRE-00146508</cal:authorid>
 	</cal:authorids>
+</foaf:Person>
+
+<foaf:Person>
+        <foaf:name>M.M. Mondal</foaf:name>
+        <foaf:givenName>Mriganka</foaf:givenName>
+        <foaf:familyName>Mondal</foaf:familyName>
+        <cal:authorNamePaper>M.M. Mondal</cal:authorNamePaper>
+        <cal:authorCollaboration collaborationid="star"/>
+        <cal:authorAffiliations>
+                <cal:authorAffiliation organizationid="a3"/>
+        </cal:authorAffiliations>
+        <cal:authorids>
+                <cal:authorid source="INSPIRE">INSPIRE-00182550</cal:authorid>
+        </cal:authorids>
 </foaf:Person>
 
 <foaf:Person>
