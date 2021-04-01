@@ -1,0 +1,25 @@
+========================================================
+Updated data using PDG2020 decay parameter, March 2021
+========================================================
+Figure 3
+Pz sine coefficients of Lambda+LambdaBar as a function of centrality in Au+Au collisions at sqrt(s_NN) = 200 GeV
+<cent>	centrality[%]	<Pz*sin(2phi-2Psi)>[%]	stat.uncert.	lower syst.uncert.	upper syst.uncert.
+5	0-10	-0.04837	0.02754	0.06091	0.06089
+15	10-20	0.00354	0.0198	0.01413	0.01413
+25	20-30	0.04134	0.01992	0.02721	0.02718
+35	30-40	0.10863	0.02399	0.01199	0.01141
+45	40-50	0.17841	0.03285	0.01383	0.01244
+55	50-60	0.33692	0.05415	0.09006	0.08934
+65	60-70	0.44224	0.11664	0.11347	0.11248
+75	70-80	0.56328	0.33639	0.41274	0.41229
+
+
+Figure 4
+Pz sine coefficients of Lambda+LambdaBar as a function of pT in Au+Au collisions at sqrt(s_NN) = 200 GeV
+pT[GeV/c]	<Pz*sin(2phi-2Psi)>[%]	stat.uncert.	lower syst.uncert.	upper syst.uncert.
+0.684832	0.01273	0.04573	0.07646	0.07646
+1.09356	0.12144	0.02565	0.01841	0.01828
+1.51136	0.16833	0.02357	0.01828	0.01802
+2.11617	0.14351	0.02834	0.01688	0.01668
+3.203	0.21606	0.07973	0.1333	0.13324
+
