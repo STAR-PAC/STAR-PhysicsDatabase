@@ -1,6 +1,12 @@
 ========================================================
 Updated data using PDG2020 decay parameter, March 2021
 ========================================================
+Figure 4
+global polarization at 200 GeV
+particle 	 P_H [%] 	 stat.uncert. 	 syst.uncert.low 	 syst.uncert.high
+Lambda			0.243	0.035	0.043	0.034
+AntiLambda		0.210	0.039	0.035	0.053
+
 Figure 5
 #Lambda
 centrality [%] 	 P_H [%] 	 stat.uncert. 	 syst.uncert.low 	 syst.uncert.high
