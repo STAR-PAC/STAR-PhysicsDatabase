@@ -6034,6 +6034,20 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 </foaf:Person>
 
 <foaf:Person>
+        <foaf:name>Y. Zhou</foaf:name>
+	<foaf:givenName>Yingjie</foaf:givenName>
+	<foaf:familyName>Zhou</foaf:familyName>
+	<cal:authorNamePaper>Y. Zhou</cal:authorNamePaper>
+	<cal:authorCollaboration collaborationid="star"/>
+	<cal:authorAffiliations>
+	        <cal:authorAffiliation organizationid="a48"/>
+	</cal:authorAffiliations>
+	<cal:authorids>
+	        <cal:authorid source="ORCID">0000-0002-0797-4954</cal:authorid>
+	</cal:authorids>
+</foaf:Person>
+
+<foaf:Person>
 	<foaf:name>X. Zhu</foaf:name>
 	<foaf:givenName>Xianglei</foaf:givenName>
 	<foaf:familyName>Zhu</foaf:familyName>
