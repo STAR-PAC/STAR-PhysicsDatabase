@@ -2924,6 +2924,20 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
 
 <foaf:Person>
 	<foaf:name>Y. Li</foaf:name>
+	<foaf:givenName>Yang</foaf:givenName>
+	<foaf:familyName>Li</foaf:familyName>
+	<cal:authorNamePaper>Y. Li</cal:authorNamePaper>
+	<cal:authorCollaboration collaborationid="star"/>
+	<cal:authorAffiliations>
+		<cal:authorAffiliation organizationid="a35"/>
+	</cal:authorAffiliations>
+	<cal:authorids>
+		<cal:authorid source="ORCID">0000-0002-4211-065X</cal:authorid>
+	</cal:authorids>
+</foaf:Person>
+
+<foaf:Person>
+	<foaf:name>Y. Li</foaf:name>
 	<foaf:givenName>Yuanjing</foaf:givenName>
 	<foaf:familyName>Li</foaf:familyName>
 	<cal:authorNamePaper>Y. Li</cal:authorNamePaper>
