@@ -768,7 +768,7 @@ xmlns:cal="http://www.slac.stanford.edu/spires/hepnames/authors_xml/">
         <cal:authorNamePaper>X. Bai</cal:authorNamePaper>
         <cal:authorCollaboration collaborationid="star"/>
         <cal:authorAffiliations>
-                <cal:authorAffiliation organizationid="a53"/>
+                <cal:authorAffiliation organizationid="a35"/>
         </cal:authorAffiliations>
         <cal:authorids>
                 <cal:authorid source="INSPIRE">INSPIRE-00653843</cal:authorid>
