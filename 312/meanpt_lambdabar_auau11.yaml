@@ -1,0 +1,43 @@
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.1}
+  - {value: 58.5}
+  - {value: 110.0}
+  - {value: 159.6}
+  - {value: 226.0}
+  - {value: 290.6}
+  - {value: 338.2}
+dependent_variables:
+- header: {name: <pT>, units: GeV/c}
+  qualifiers:
+  - {name: particles, value: AntiLambda}
+  values:
+  - value: 0.6517
+    errors:
+    - {symerror: 0.0049, label: stat}
+    - {symerror: 0.0069, label: sys}
+  - value: 0.7191
+    errors:
+    - {symerror: 0.0034, label: stat}
+    - {symerror: 0.0069, label: sys}
+  - value: 0.7903
+    errors:
+    - {symerror: 0.0038, label: stat}
+    - {symerror: 0.0099, label: sys}
+  - value: 0.8361
+    errors:
+    - {symerror: 0.0036, label: stat}
+    - {symerror: 0.0123, label: sys}
+  - value: 0.8830
+    errors:
+    - {symerror: 0.0035, label: stat}
+    - {symerror: 0.0115, label: sys}
+  - value: 0.9087
+    errors:
+    - {symerror: 0.0054, label: stat}
+    - {symerror: 0.0108, label: sys}
+  - value: 0.9160
+    errors:
+    - {symerror: 0.0051, label: stat}
+    - {symerror: 0.0120, label: sys}

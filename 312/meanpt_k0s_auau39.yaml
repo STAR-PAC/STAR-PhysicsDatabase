@@ -1,0 +1,43 @@
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 20.0}
+  - {value: 59.2}
+  - {value: 111.4}
+  - {value: 162.4}
+  - {value: 229.8}
+  - {value: 293.9}
+  - {value: 341.7}
+dependent_variables:
+- header: {name: <pT>, units: GeV/c}
+  qualifiers:
+  - {name: particles, value: K0S}
+  values:
+  - value: 0.5471
+    errors:
+    - {symerror: 0.0012, label: stat}
+    - {symerror: 0.0071, label: sys}
+  - value: 0.5830
+    errors:
+    - {symerror: 0.0009, label: stat}
+    - {symerror: 0.0043, label: sys}
+  - value: 0.6052
+    errors:
+    - {symerror: 0.0008, label: stat}
+    - {symerror: 0.0049, label: sys}
+  - value: 0.6206
+    errors:
+    - {symerror: 0.0007, label: stat}
+    - {symerror: 0.0041, label: sys}
+  - value: 0.6317
+    errors:
+    - {symerror: 0.0006, label: stat}
+    - {symerror: 0.0046, label: sys}
+  - value: 0.6381
+    errors:
+    - {symerror: 0.0008, label: stat}
+    - {symerror: 0.0067, label: sys}
+  - value: 0.6415
+    errors:
+    - {symerror: 0.0007, label: stat}
+    - {symerror: 0.0072, label: sys}

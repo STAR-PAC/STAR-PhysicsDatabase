@@ -1,0 +1,28 @@
+independent_variables:
+- header: {name: <Npart>}
+  values:
+  - {value: 57.7}
+  - {value: 133.3}
+  - {value: 224.9}
+  - {value: 313.7}
+dependent_variables:
+- header: {name: <pT>, units: GeV/c}
+  qualifiers:
+  - {name: particles, value: AntiOmega+}
+  values:
+  - value: 0.953
+    errors:
+    - {symerror: 0.044, label: stat}
+    - {symerror: 0.009, label: sys}
+  - value: 1.013
+    errors:
+    - {symerror: 0.023, label: stat}
+    - {symerror: 0.024, label: sys}
+  - value: 0.996
+    errors:
+    - {symerror: 0.025, label: stat}
+    - {symerror: 0.045, label: sys}
+  - value: 1.014
+    errors:
+    - {symerror: 0.023, label: stat}
+    - {symerror: 0.047, label: sys}
